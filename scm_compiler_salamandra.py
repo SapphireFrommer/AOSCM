@@ -2,6 +2,7 @@ import datetime
 from net import *
 from define_parameters import *
 
+############################# main #############################
 def main():
     scm = {}
     SCM_design(param,scm)
