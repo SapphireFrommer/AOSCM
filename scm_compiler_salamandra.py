@@ -1,5 +1,5 @@
 import datetime
-from net import *
+from salamandra import *
 from define_parameters import *
 
 ############################# main #############################
@@ -11,8 +11,9 @@ def main():
 ########################## SCM design ##########################
 def SCM_design(param, scm):
     ADDR_WIDTH = param['ADDR_WIDTH']
+    
     # define the TOP module
-    scm['TOP'] = Device(param['TOPLEVEL'])
+    scm['TOP'] = Component(param['TOPLEVEL'])
     TOP = scm['TOP']
     for pin in ['CLK', 'WE', 'RE']:
         TOP.add_pin(Input(pin))
@@ -20,23 +21,21 @@ def SCM_design(param, scm):
         for i in range(ADDR_WIDTH):
             TOP.add_pin(Input(pin+str([i])))
     
+    # crate pins [DIN[DATA_WIDTH-1:0], DOUT[DATA_WIDTH-1:0]]
     for i in range(param['DATA_WIDTH']):
             TOP.add_pin(Input('DIN'+str([i])))
-    for i in range(param['DATA_WIDTH']):
             TOP.add_pin(Output('DOUT'+str([i])))
 
     # define a bitslice    
-    scm['bitslice'] = Device('bitslice')
+    scm['bitslice'] = Component('bitslice')
     bitslice = scm['bitslice']
     bitslice.add_pin(Input('DIN'))
     bitslice.add_pin(Output('DOUT'))
 
-    for pin in ['WWL/DGWCLK', 'RWL']:
+    for pin in ['DGWCLK', 'RWL']:
         for i in range(2**ADDR_WIDTH):
             bitslice.add_pin(Input(pin+str([i])))
-            TOP.add_net(Net(pin+str([i])))
-        
-
+            TOP.add_net(Net(pin+str([i])))        
 
     # add the bitslices to TOP module
     for i in range(param['DATA_WIDTH']):
@@ -44,10 +43,10 @@ def SCM_design(param, scm):
         TOP.add_net(Net('DIN'+str([i])))
         TOP.add_net(Net('DOUT'+str([i])))
         
-        TOP.add_device(bitslice, 'bitslice'+str([i]))
+        TOP.add_component(bitslice, 'bitslice'+str([i]))
         TOP.connect('DIN'+str([i]), 'bitslice'+str([i])+'.DIN')
         TOP.connect('DOUT'+str([i]), 'bitslice'+str([i])+'.DOUT')
-        for pin in ['WWL/DGWCLK', 'RWL']:
+        for pin in ['DGWCLK', 'RWL']:
             for j in range(2**ADDR_WIDTH):
                 TOP.connect(pin+str([j]), 'bitslice'+str([i])+'.'+pin+str([j]))
             
