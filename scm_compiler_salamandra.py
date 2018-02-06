@@ -87,7 +87,6 @@ def main():
     for module in scm.values():
         for line in module.write_verilog():
             verilog_file.write(line)
-            print(line)   
     
     verilog_file.close()
 
