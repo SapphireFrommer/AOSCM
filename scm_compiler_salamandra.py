@@ -96,6 +96,19 @@ def SCM_design(param, scm):
     welltap_strip = scm['welltap_strip']
 
 
+    ##### define a rwlBuff_strip    
+    scm['rwlBuff_strip'] = Component('rwlBuff_strip')
+    rwlBuff_strip = scm['rwlBuff_strip']
+    for i in range(2**ADDR_WIDTH):
+        rwlBuff_strip.add_pin(Input('IN'+str([i])))
+        rwlBuff_strip.add_pin(Output('OUT'+str([i])))
+        rwlBuff_strip.add_net(Net('IN'+str([i])))
+        rwlBuff_strip.add_net(Net('OUT'+str([i])))
+        rwlBuff_strip.connect('IN'+str([i]), 'IN'+str([i]))
+        rwlBuff_strip.connect('OUT'+str([i]), 'OUT'+str([i]))
+        
+
+
     sc = standard_cell          # alias to standard_cell dict
     ##### define a welltap    
     welltap = standard_cell['well_tap']
@@ -128,16 +141,51 @@ def SCM_design(param, scm):
     for i in range(param['DATA_WIDTH']):
         if (i%8) == 0:
             TOP.add_component(welltap_strip, 'welltap_strip'+str([i//8]))
-        
+
+        # rwlBuff_strips (it's only a draft)
+        K_RWL = param['DATA_WIDTH']//4
+        if (i%K_RWL == 0) & (i != 0) & (i < param['DATA_WIDTH']/2):   # left side
+            TOP.add_component(rwlBuff_strip, 'rwlBuff_strip'+str([(i//K_RWL)-1]))
+            for row in range(2**ADDR_WIDTH):
+                TOP.add_net(Net('rwlBuffNet'+str([(i//K_RWL)-1])+str([row])))
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)-1])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)-1])+'.OUT'+str([row]))
+                TOP.add_net(Net('rwlBuffNet'+str([(i//K_RWL)])+str([row])))
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)-1])+'.IN'+str([row]))
+
+        if (i == param['DATA_WIDTH']/2):    # 2 middle
+            TOP.add_component(rwlBuff_strip, 'rwlBuff_strip'+str([(i//K_RWL)-1]))
+            TOP.add_component(rwlBuff_strip, 'rwlBuff_strip'+str([(i//K_RWL)]))
+            for row in range(2**ADDR_WIDTH):
+                TOP.add_net(Net('decoder_read_out'+str([row])))
+                
+                TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)-1])+'.IN'+str([row]))                
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)-1])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)-1])+'.OUT'+str([row]))
+
+
+                TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)])+'.IN'+str([row]))
+                TOP.add_net(Net('rwlBuffNet'+str([(i//K_RWL)])+str([row])))
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)])+'.OUT'+str([row]))
+
+
+        if (i%K_RWL == 0) & (i > param['DATA_WIDTH']/2):   # right side
+            TOP.add_component(rwlBuff_strip, 'rwlBuff_strip'+str([(i//K_RWL)]))
+            for row in range(2**ADDR_WIDTH):
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)-1])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)])+'.IN'+str([row]))
+                TOP.add_net(Net('rwlBuffNet'+str([(i//K_RWL)])+str([row])))
+                TOP.connect('rwlBuffNet'+str([(i//K_RWL)])+str([row]), 'rwlBuff_strip'+str([(i//K_RWL)])+'.OUT'+str([row]))
+            
+
+
+        # bitslices
         TOP.add_component(bitslice, 'bitslice'+str([i]))
         TOP.connect('DIN'+str([i]), 'bitslice'+str([i])+'.DIN')
         TOP.connect('DOUT'+str([i]), 'bitslice'+str([i])+'.DOUT')
         for pin in ['RWL']:
             for j in range(2**ADDR_WIDTH):
-                if i == 0:
-                    TOP.add_net(Net(pin+str([j])))
-                TOP.connect(pin+str([j]), 'bitslice'+str([i])+'.'+pin+str([j]))
-
+                #if i == 0:
+                    #TOP.add_net(Net(pin+str([j])))
+                #TOP.connect('rwlBuffNet'+str([i//param['DATA_WIDTH']])+str([j]), 'bitslice'+str([i])+'.'+pin+str([j]))
+                pass
         # DGWCLK net to bitslice connectivity
         if i < (param['DATA_WIDTH']/2):
             for j in range(2**ADDR_WIDTH):
@@ -164,6 +212,12 @@ def SCM_design(param, scm):
 
             TOP.add_component(row_decoder, 'write_decoder')
 
+
+
+    for col in range(param['DATA_WIDTH']):
+        for row in range(2**ADDR_WIDTH):
+            TOP.connect('rwlBuffNet'+str([col//K_RWL])+str([row]), 'bitslice'+str([col])+'.'+'RWL'+str([row]))
+            pass
 
     # add components to bitslice module
     bitslice.add_component(read_mux, 'read_mux')
@@ -249,6 +303,11 @@ def SCM_design(param, scm):
     for i in range(2**ADDR_WIDTH):
         welltap_strip.add_component(welltap, 'welltap'+str([i]))
 
+    # add components to rwlBuff_strip module
+    for i in range(2**ADDR_WIDTH):
+        rwlBuff_strip.add_component(buffer, 'rwlBuff'+str([i]))
+        for net in [('IN', standard_cell['buffer']['in']), ('OUT', standard_cell['buffer']['out'])]:
+            rwlBuff_strip.connect(net[0]+str([i]), 'rwlBuff'+str([i])+'.'+net[1])
 
 
 ###################### write verilog file ######################
