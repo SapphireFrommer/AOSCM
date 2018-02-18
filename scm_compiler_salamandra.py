@@ -3,17 +3,26 @@ from salamandra import *
 from define_parameters import *
 from standard_cell import *
 
-############################# main #############################
+################################################################
+###########################   main   ###########################
+################################################################
 def main():
     scm = {}
     SCM_design(param,scm)
     write_verilog_file(param,scm)
 
-########################## SCM design ##########################
+################################################################
+########################   SCM design   ########################
+################################################################
 def SCM_design(param, scm):
+    SCM_design_define_components(param, scm)        # define each component itself
+    SCM_design_components_instances(param, scm)     # add components, internal nets and connectivity to modules
+
+######################################################################################
+###############   define modules, pins and main nets & connectivity   ################
+######################################################################################
+def SCM_design_define_components(param, scm):
     ADDR_WIDTH = param['ADDR_WIDTH']
-    
-    ################# define modules, pins and main nets & connectivity ##################
     
     ##### define the TOP module
     scm['TOP'] = Component(param['TOPLEVEL'])
@@ -69,6 +78,9 @@ def SCM_design(param, scm):
     MidGap_DGWCLK.add_pin(Input('clk'))
     MidGap_DGWCLK.add_net(Net('clk'))
     MidGap_DGWCLK.connect('clk', 'clk')
+    MidGap_DGWCLK.add_pin(Input('SE'))
+    MidGap_DGWCLK.add_net(Net('SE'))
+    MidGap_DGWCLK.connect('SE', 'SE')
     for i in range(2**ADDR_WIDTH):
         MidGap_DGWCLK.add_pin(Input('E'+str([i])))
         MidGap_DGWCLK.add_net(Net('E'+str([i])))
@@ -108,36 +120,35 @@ def SCM_design(param, scm):
         rwlBuff_strip.connect('OUT'+str([i]), 'OUT'+str([i]))
         
 
+##############################################################################################
+###############   add components, internal nets and connectivity to modules   ################
+##############################################################################################
+def SCM_design_components_instances(param, scm):
 
-    sc = standard_cell          # alias to standard_cell dict
-    ##### define a welltap    
-    welltap = standard_cell['well_tap']
-
-    ##### define a MemoryLatch_reg
-    MemoryLatch_reg = standard_cell['latch']['component']
-
-    ##### define a GDIN_reg
-    GDIN_reg = standard_cell['flipflop']['component']
-
-    ##### define a NAND2    
-    NAND2 = standard_cell['NAND2']['component']
-
-    ##### define a NOR2    
-    NOR2 = standard_cell['NOR2']['component']
-
-    ##### define a inverter
-    INV_OUT_GATE = standard_cell['inverter']['component']
-
-    ##### define a buffer
-    buffer = standard_cell['buffer']['component']
-
-    ##### define a latch_clock_gate
-    latch_clock_gate = standard_cell['latch_clock_gate']['component']
+    SCM_design_components_instances_TOP(param, scm)
+    SCM_design_components_instances_bitslice(param, scm)
+    SCM_design_components_instances_read_mux(param, scm)
+    SCM_design_components_instances_MidGap_DGWCLK(param, scm)
+    SCM_design_components_instances_row_decoder(param, scm)
+    SCM_design_components_instances_welltap_strip(param, scm)
+    SCM_design_components_instances_rwlBuff_strip(param, scm)
 
 
-    ################# add components, internal nets and connectivity to modules ##################
+##########################################################
+# add components to TOP module
+##########################################################
+def SCM_design_components_instances_TOP(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    TOP = scm['TOP']
+    welltap_strip = scm['welltap_strip']
+    bitslice = scm['bitslice']
+    rwlBuff_strip = scm['rwlBuff_strip']
+    MidGap_DGWCLK = scm['MidGap_DGWCLK']
+    row_decoder = scm['row_decoder']
+    read_mux = scm['read_mux']
+    latch_clock_gate = sc['latch_clock_gate']['component']
 
-    # add components to TOP module
     for i in range(param['DATA_WIDTH']):
         if (i%8) == 0:
             TOP.add_component(welltap_strip, 'welltap_strip'+str([i//8]))
@@ -180,12 +191,7 @@ def SCM_design(param, scm):
         TOP.add_component(bitslice, 'bitslice'+str([i]))
         TOP.connect('DIN'+str([i]), 'bitslice'+str([i])+'.DIN')
         TOP.connect('DOUT'+str([i]), 'bitslice'+str([i])+'.DOUT')
-        for pin in ['RWL']:
-            for j in range(2**ADDR_WIDTH):
-                #if i == 0:
-                    #TOP.add_net(Net(pin+str([j])))
-                #TOP.connect('rwlBuffNet'+str([i//param['DATA_WIDTH']])+str([j]), 'bitslice'+str([i])+'.'+pin+str([j]))
-                pass
+
         # DGWCLK net to bitslice connectivity
         if i < (param['DATA_WIDTH']/2):
             for j in range(2**ADDR_WIDTH):
@@ -208,25 +214,57 @@ def SCM_design(param, scm):
                 else:
                     TOP.connect('DGWClkRightNet'+str([j]), 'MidGap_DGWCLK.DGWClkRightNet'+str([j]))
 
-            TOP.add_component(row_decoder, 'read_decoder')
+            TOP.add_component(row_decoder, 'read_decoder')                
 
             TOP.add_component(row_decoder, 'write_decoder')
 
 
-
-    for col in range(param['DATA_WIDTH']):
-        for row in range(2**ADDR_WIDTH):
+    # bitslices RWL connectivity
+    for row in range(2**ADDR_WIDTH):
+        for col in range(param['DATA_WIDTH']):
             TOP.connect('rwlBuffNet'+str([col//K_RWL])+str([row]), 'bitslice'+str([col])+'.'+'RWL'+str([row]))
-            pass
+        TOP.connect('decoder_read_out'+str([row]), 'read_decoder''.decoder_out'+str([row]))
+    
+    # first level clock gates
+    TOP.add_net(Net('SE'))
+    
+    for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
+        TOP.add_component(latch_clock_gate, gate)
+        TOP.connect('CLK', gate+'.CK')
+        TOP.connect('SE', gate+'.SE')
 
-    # add components to bitslice module
+    TOP.connect('WE', 'GDINCLK_gate.E')
+    TOP.connect('WE', 'GWCLK_gate.E')
+    TOP.connect('RE', 'GRCLK_gate.E')
+
+
+    TOP.add_net(Net('GDINCLK'))
+    TOP.add_net(Net('GWCLK'))
+    TOP.add_net(Net('GRCLK'))
+    TOP.connect('GDINCLK', 'GDINCLK_gate.ECK')
+    TOP.connect('GWCLK', 'GWCLK_gate.ECK')
+    TOP.connect('GRCLK', 'GRCLK_gate.ECK')
+
+
+##########################################################
+# add components to bitslice module
+##########################################################
+def SCM_design_components_instances_bitslice(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    bitslice = scm['bitslice']
+    read_mux = scm['read_mux']
+    MemoryLatch_reg = sc['latch']['component']
+    GDIN_reg = sc['flipflop']['component']
+
+
     bitslice.add_component(read_mux, 'read_mux')
     bitslice.connect('DOUT', 'read_mux.DOUT')
     bitslice.add_component(GDIN_reg, 'GDIN_reg')
-    bitslice.connect('DIN', 'GDIN_reg.'+standard_cell['flipflop']['in'])
+    bitslice.connect('DIN', 'GDIN_reg.'+sc['flipflop']['in'])
     bitslice.add_net(Net('GDIN'))
-    bitslice.connect('GDIN', 'GDIN_reg.'+standard_cell['flipflop']['out'])
-    bitslice.connect('clk', 'GDIN_reg.'+standard_cell['flipflop']['clk'])
+    bitslice.connect('GDIN', 'GDIN_reg.'+sc['flipflop']['out'])
+    bitslice.connect('clk', 'GDIN_reg.'+sc['flipflop']['clk'])
 
     for i in range(2**ADDR_WIDTH):
         bitslice.add_component(MemoryLatch_reg, 'MemoryLatch_reg'+str([i]))
@@ -240,7 +278,20 @@ def SCM_design(param, scm):
         for net in ['RWL', 'DGWCLK']:
             bitslice.connect(net+str([i]), net+str([i]))
 
-    # add components to read_mux module
+
+##########################################################
+# add components to read_mux module
+##########################################################
+def SCM_design_components_instances_read_mux(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    read_mux = scm['read_mux']
+    NAND2 = sc['NAND2']['component']
+    NOR2 = sc['NOR2']['component']
+    INV_OUT_GATE = sc['inverter']['component']
+    buffer = sc['buffer']['component']
+
+
     for level in range(1, ADDR_WIDTH+2):
 
         if level == 1:      # add and connect level_1 NAND2
@@ -281,36 +332,68 @@ def SCM_design(param, scm):
         for pin in [('w'+str([ADDR_WIDTH])+'[0]', sc['buffer']['in']), ('DOUT', sc['buffer']['out'])]:
             read_mux.connect(pin[0], 'buffer_out.'+pin[1])
 
-    # add components to MidGap_DGWCLK module
+
+##########################################################
+# add components to MidGap_DGWCLK module
+##########################################################
+def SCM_design_components_instances_MidGap_DGWCLK(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    MidGap_DGWCLK = scm['MidGap_DGWCLK']
+    buffer = sc['buffer']['component']
+    latch_clock_gate = sc['latch_clock_gate']['component']
+
     for i in range(2**ADDR_WIDTH):
         MidGap_DGWCLK.add_component(buffer, 'DGWClkLeftBuff'+str([i]))
         MidGap_DGWCLK.add_component(latch_clock_gate, 'DGWCLK_gate'+str([i]))
         MidGap_DGWCLK.add_component(buffer, 'DGWClkRightBuff'+str([i]))
         
         MidGap_DGWCLK.add_net(Net('ECK'+str([i])))
-        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWCLK_gate'+str([i])+'.ECK')
-        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkLeftBuff'+str([i])+'.A')
-        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkRightBuff'+str([i])+'.A')
+        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWCLK_gate'+str([i])+'.'+sc['latch_clock_gate']['out'])
+        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkLeftBuff'+str([i])+'.'+sc['buffer']['in'])
+        MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkRightBuff'+str([i])+'.'+sc['buffer']['in'])
         
-        MidGap_DGWCLK.connect('E'+str([i]), 'DGWCLK_gate'+str([i])+'.E')
-        MidGap_DGWCLK.connect('clk', 'DGWCLK_gate'+str([i])+'.CK')
+        MidGap_DGWCLK.connect('E'+str([i]), 'DGWCLK_gate'+str([i])+'.'+sc['latch_clock_gate']['E'])
+        MidGap_DGWCLK.connect('clk', 'DGWCLK_gate'+str([i])+'.'+sc['latch_clock_gate']['clk'])
         
         for net in ['DGWClkLeft', 'DGWClkRight']:
-            MidGap_DGWCLK.connect(net+'Net'+str([i]), net+'Buff'+str([i])+'.Y')
+            MidGap_DGWCLK.connect(net+'Net'+str([i]), net+'Buff'+str([i])+'.'+sc['buffer']['out'])
 
+##########################################################
+# add components to row_decoder module
+##########################################################
+def SCM_design_components_instances_row_decoder(param, scm):
+    pass
 
-    # add components to welltap_strip module
+##########################################################
+# add components to welltap_strip module
+##########################################################
+def SCM_design_components_instances_welltap_strip(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    welltap_strip = scm['welltap_strip']
+
     for i in range(2**ADDR_WIDTH):
-        welltap_strip.add_component(welltap, 'welltap'+str([i]))
+        welltap_strip.add_component(sc['well_tap'], 'welltap'+str([i]))
 
-    # add components to rwlBuff_strip module
+##########################################################
+# add components to rwlBuff_strip module
+##########################################################
+def SCM_design_components_instances_rwlBuff_strip(param, scm):
+    # aliases:
+    ADDR_WIDTH = param['ADDR_WIDTH']
+    rwlBuff_strip = scm['rwlBuff_strip']
+    buffer = sc['buffer']['component']
+
     for i in range(2**ADDR_WIDTH):
         rwlBuff_strip.add_component(buffer, 'rwlBuff'+str([i]))
-        for net in [('IN', standard_cell['buffer']['in']), ('OUT', standard_cell['buffer']['out'])]:
+        for net in [('IN', sc['buffer']['in']), ('OUT', sc['buffer']['out'])]:
             rwlBuff_strip.connect(net[0]+str([i]), 'rwlBuff'+str([i])+'.'+net[1])
 
 
-###################### write verilog file ######################
+################################################################
+####################   write verilog file   ####################
+################################################################
 def write_verilog_file(param,scm):
     verilog_file_name = "%s.post_py.v" %param['TOPLEVEL']
     tcl_file_name = '%s_cells_position.tcl' %param['TOPLEVEL']
@@ -331,7 +414,9 @@ def write_verilog_file(param,scm):
     
     verilog_file.close()
 
-##################### write header comment #####################
+################################################################
+###################   write header comment   ###################
+################################################################
 def header_comment(text, param, module_scm_text):
     text.append('/*\n')
     text.append('###############################################################\n')
