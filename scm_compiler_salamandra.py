@@ -10,6 +10,8 @@ def main():
     scm = {}
     SCM_design(param,scm)
     write_verilog_file(param,scm)
+    #write_tcl(param,scm)
+
 
 ################################################################
 ########################   SCM design   ########################
@@ -374,7 +376,7 @@ def SCM_design_components_instances_welltap_strip(param, scm):
     welltap_strip = scm['welltap_strip']
 
     for i in range(2**ADDR_WIDTH):
-        welltap_strip.add_component(sc['well_tap'], 'welltap'+str([i]))
+        welltap_strip.add_component(sc['well_tap']['component'], 'welltap'+str([i]))
 
 ##########################################################
 # add components to rwlBuff_strip module
@@ -396,7 +398,6 @@ def SCM_design_components_instances_rwlBuff_strip(param, scm):
 ################################################################
 def write_verilog_file(param,scm):
     verilog_file_name = "%s.post_py.v" %param['TOPLEVEL']
-    tcl_file_name = '%s_cells_position.tcl' %param['TOPLEVEL']
     
     header_comment_text = []
     module_scm_text = scm['TOP'].write_verilog()
@@ -432,6 +433,22 @@ def header_comment(text, param, module_scm_text):
     text.append('#\tmodule_scm_text:\t'+str(len(module_scm_text))+'\n')
     text.append('###############################################################\n')
     text.append('*/\n')    
+
+
+################################################################
+############   write tcl placement commands file   #############
+################################################################
+def write_tcl(param,scm):
+    tcl_file_name = '%s_cells_position.tcl' %param['TOPLEVEL']
+    
+    '''
+    for module in scm.values():
+        for line in module.write_tcl_placement_commands():
+            verilog_file.write(line)
+    '''
+    pass
+
+
 
 
 if __name__ == '__main__':
