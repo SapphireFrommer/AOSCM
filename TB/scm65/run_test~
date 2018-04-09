@@ -1,0 +1,2 @@
+#!/bin/tcsh
+qirun -f scm65_tb.f -debug -sv -nospecify

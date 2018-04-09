@@ -1,0 +1,9 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(21Mar2018:18:19:09):( irun -f rwlBuff_strip_tb.f -debug -nospecify )
+s2::(21Mar2018:18:20:13):( irun -f rwlBuff_strip_tb.f -debug -nospecify )
+s3::(21Mar2018:18:20:58):( irun -f rwlBuff_strip_tb.f -debug -nospecify )
+s4::(21Mar2018:18:21:13):( irun -f rwlBuff_strip_tb.f -debug -nospecify )
+s5::(21Mar2018:18:22:41):( irun -f rwlBuff_strip_tb.f -debug -nospecify )

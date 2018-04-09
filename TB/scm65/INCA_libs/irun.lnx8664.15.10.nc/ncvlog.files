@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/define.v
+/project/test_project/users/marinbh/ws/scm_compiler/TB/scm65/scm65_tb.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/scm65/scm65.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/bitslice/bitslice.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_3_8/Decoder_3_8.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_4_16/Decoder_4_16.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/row_decoder/row_decoder.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/rwlBuff_strip/rwlBuff_strip.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/welltap_strip/welltap_strip.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/MidGap_DGWCLK/MidGap_DGWCLK.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/read_mux/read_mux.v

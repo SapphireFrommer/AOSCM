@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-f
+read_mux_tb.f
+-debug
+-nospecify

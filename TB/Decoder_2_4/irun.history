@@ -1,0 +1,5 @@
+s1(25Mar2018:20:19:41):  irun -f Decoder_2_4_tb.f -debug -nospecify 
+s2(25Mar2018:20:21:42):  irun -f Decoder_2_4_tb.f -debug -nospecify 
+s3(25Mar2018:20:23:40):  irun -f Decoder_2_4_tb.f -debug -nospecify 
+s4(25Mar2018:21:31:57):  irun -f Decoder_2_4_tb.f -debug -nospecify 
+s5(25Mar2018:21:37:39):  irun -f Decoder_2_4_tb.f -debug -nospecify 

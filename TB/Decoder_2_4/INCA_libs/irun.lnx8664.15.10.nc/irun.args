@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-f
+Decoder_2_4_tb.f
+-debug
+-nospecify

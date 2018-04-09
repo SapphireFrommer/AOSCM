@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-f
+row_decoder_tb.f
+-debug
+-nospecify
