@@ -63,7 +63,7 @@ def SCM_design_define_components(param, scm):
     for pin in ['DGWClkLeftNet', 'DGWClkRightNet']:
         MidGap_DGWCLK.add_pinbus(Bus(Output, pin, 2**ADDR_WIDTH))
 
-    ##### define a Decoder_2_4    
+    ###### define a Decoder_2_4    
     scm['Decoder_2_4'] = Component('Decoder_2_4')
     Decoder_2_4 = scm['Decoder_2_4']
     Decoder_2_4.add_pinbus(Bus(Input, 'decoder_in', 2))
