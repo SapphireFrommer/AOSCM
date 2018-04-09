@@ -1,0 +1,27 @@
+
+
+module welltap_strip ();
+
+    //ports
+
+    //wires
+
+    //instances
+    WELLANTENNATIEPW2_A12TR welltap_0();
+    WELLANTENNATIEPW2_A12TR welltap_1();
+    WELLANTENNATIEPW2_A12TR welltap_10();
+    WELLANTENNATIEPW2_A12TR welltap_11();
+    WELLANTENNATIEPW2_A12TR welltap_12();
+    WELLANTENNATIEPW2_A12TR welltap_13();
+    WELLANTENNATIEPW2_A12TR welltap_14();
+    WELLANTENNATIEPW2_A12TR welltap_15();
+    WELLANTENNATIEPW2_A12TR welltap_2();
+    WELLANTENNATIEPW2_A12TR welltap_3();
+    WELLANTENNATIEPW2_A12TR welltap_4();
+    WELLANTENNATIEPW2_A12TR welltap_5();
+    WELLANTENNATIEPW2_A12TR welltap_6();
+    WELLANTENNATIEPW2_A12TR welltap_7();
+    WELLANTENNATIEPW2_A12TR welltap_8();
+    WELLANTENNATIEPW2_A12TR welltap_9();
+
+endmodule
