@@ -2,7 +2,7 @@
 param = {}
 param['TOPLEVEL'] = "scm65"
 param['DATA_WIDTH'] = 16
-param['ADDR_WIDTH'] = 2
+param['ADDR_WIDTH'] = 4
 
 param['technology'] = 'tsmc65'
 
