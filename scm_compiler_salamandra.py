@@ -1,8 +1,12 @@
-import os
+import sys, os
 import datetime
+sys.path.append(os.path.abspath('submodules/salamandra'))
 from salamandra import *
 from define_parameters import *
 from standard_cell import *
+
+
+
 
 ################################################################
 ###########################   main   ###########################
@@ -28,9 +32,9 @@ def SCM_design_define_components(param, scm):
     ADDR_WIDTH = param['ADDR_WIDTH']
     
     ##### define the TOP module
-    scm['TOP'] = Component(param['TOPLEVEL'])
+    scm['TOP'] = ComponentXY(param['TOPLEVEL'])
     TOP = scm['TOP']
-    for pin in ['CLK', 'WE', 'RE']:
+    for pin in ['CLK', 'WE', 'RE', 'SE']:
         TOP.add_pin(Input(pin))
     for pin in ['WADDR', 'RADDR']:
         TOP.add_pinbus(Bus(Input, pin, ADDR_WIDTH))
@@ -38,7 +42,7 @@ def SCM_design_define_components(param, scm):
     TOP.add_pinbus(Bus(Output, 'DOUT', param['DATA_WIDTH']))
 
     ##### define a bitslice    
-    scm['bitslice'] = Component('bitslice')
+    scm['bitslice'] = ComponentXY('bitslice')
     bitslice = scm['bitslice']
     bitslice.add_pin(Input('DIN'))
     bitslice.add_pin(Output('DOUT'))
@@ -48,14 +52,14 @@ def SCM_design_define_components(param, scm):
 
 
     ##### define a read_mux    
-    scm['read_mux'] = Component('read_mux')
+    scm['read_mux'] = ComponentXY('read_mux')
     read_mux = scm['read_mux']
     read_mux.add_pin(Output('DOUT'))
     for pin in ['MemoryLatch', 'RWL']:
         read_mux.add_pinbus(Bus(Input, pin, 2**ADDR_WIDTH))
     
     ##### define a MidGap_DGWCLK    
-    scm['MidGap_DGWCLK'] = Component('MidGap_DGWCLK')
+    scm['MidGap_DGWCLK'] = ComponentXY('MidGap_DGWCLK')
     MidGap_DGWCLK = scm['MidGap_DGWCLK']
     MidGap_DGWCLK.add_pin(Input('clk'))
     MidGap_DGWCLK.add_pin(Input('SE'))
@@ -64,36 +68,36 @@ def SCM_design_define_components(param, scm):
         MidGap_DGWCLK.add_pinbus(Bus(Output, pin, 2**ADDR_WIDTH))
 
     ###### define a Decoder_2_4    
-    scm['Decoder_2_4'] = Component('Decoder_2_4')
+    scm['Decoder_2_4'] = ComponentXY('Decoder_2_4')
     Decoder_2_4 = scm['Decoder_2_4']
     Decoder_2_4.add_pinbus(Bus(Input, 'decoder_in', 2))
     Decoder_2_4.add_pinbus(Bus(Output, 'decoder_out', 4))
 
     ##### define a Decoder_3_8 
-    scm['Decoder_3_8'] = Component('Decoder_3_8')
+    scm['Decoder_3_8'] = ComponentXY('Decoder_3_8')
     Decoder_3_8 = scm['Decoder_3_8']
     Decoder_3_8.add_pinbus(Bus(Input, 'decoder_in', 3))
     Decoder_3_8.add_pinbus(Bus(Output, 'decoder_out', 8))
    
     ##### define a Decoder_4_16    
-    scm['Decoder_4_16'] = Component('Decoder_4_16')
+    scm['Decoder_4_16'] = ComponentXY('Decoder_4_16')
     Decoder_4_16 = scm['Decoder_4_16']
     Decoder_4_16.add_pinbus(Bus(Input, 'decoder_in', 4))
     Decoder_4_16.add_pinbus(Bus(Output, 'decoder_out', 16))
     
     ##### define a row_decoder    
-    scm['row_decoder'] = Component('row_decoder')
+    scm['row_decoder'] = ComponentXY('row_decoder')
     row_decoder = scm['row_decoder']
     row_decoder.add_pinbus(Bus(Input, 'decoder_in', ADDR_WIDTH))
     row_decoder.add_pinbus(Bus(Output, 'decoder_out', 2**ADDR_WIDTH))
 
     ##### define a welltap_strip    
-    scm['welltap_strip'] = Component('welltap_strip')
+    scm['welltap_strip'] = ComponentXY('welltap_strip')
     welltap_strip = scm['welltap_strip']
 
 
     ##### define a rwlBuff_strip    
-    scm['rwlBuff_strip'] = Component('rwlBuff_strip')
+    scm['rwlBuff_strip'] = ComponentXY('rwlBuff_strip')
     rwlBuff_strip = scm['rwlBuff_strip']
     rwlBuff_strip.add_pinbus(Bus(Input, 'IN', 2**ADDR_WIDTH))
     rwlBuff_strip.add_pinbus(Bus(Output, 'OUT', 2**ADDR_WIDTH))
@@ -133,7 +137,6 @@ def SCM_design_components_instances_TOP(param, scm):
 
 
     # first level clock gates
-    TOP.add_net(Net('SE'))
     
     for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
         TOP.add_component(latch_clock_gate, gate)
@@ -210,6 +213,7 @@ def SCM_design_components_instances_TOP(param, scm):
         if i == ((param['DATA_WIDTH']/2)-1):    # MidGap
             TOP.add_component(MidGap_DGWCLK, 'MidGap_DGWCLK')
             TOP.connect('GWCLK', 'MidGap_DGWCLK.clk')
+            TOP.connect('SE', 'MidGap_DGWCLK.SE')
             for j in range(2**ADDR_WIDTH):
                 TOP.connect('DGWCLKLeftNet'+str([j]), 'MidGap_DGWCLK.DGWClkLeftNet'+str([j]))
                 TOP.connect('DGWClkRightNet'+str([j]), 'MidGap_DGWCLK.DGWClkRightNet'+str([j]))
@@ -244,7 +248,7 @@ def SCM_design_components_instances_bitslice(param, scm):
     GDIN_reg = sc['flipflop']['component']
     xcoord = 0.0
     ycoord = 0.0
-    bitslice.add_component(GDIN_reg, 'GDIN_reg',xcoord ,ycoord)
+    bitslice.add_component(GDIN_reg, 'GDIN_reg', xcoord , ycoord)
     bitslice.connect('DIN', 'GDIN_reg.'+sc['flipflop']['in'])
     bitslice.add_net(Net('GDIN'))
     bitslice.connect('GDIN', 'GDIN_reg.'+sc['flipflop']['out'])
@@ -277,21 +281,27 @@ def SCM_design_components_instances_read_mux(param, scm):
     INV_OUT_GATE = sc['inverter']['component']
     buffer = sc['buffer']['component']
 
+    xcoord = 0.0
+    ycoord = 0.0
 
     for level in range(1, ADDR_WIDTH+2):
 
         if level == 1:      # add and connect level_1 NAND2
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), 2**ADDR_WIDTH))
             for i in range(2**ADDR_WIDTH):
-                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i))
+                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                ycoord += sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('MemoryLatch', sc['NAND2']['in_1']), ('RWL', sc['NAND2']['in_2']), ('w'+str(level-1), sc['NAND2']['out'])]:
                     read_mux.connect(pin[0]+str([i]), 'level_'+str(level)+'_'+str(i)+'.'+pin[1])
 
         if level == 2:      # add and connect level_2 NAND2
+            xcoord += sc['NAND2']['width']
+            ycoord = 0.0
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>1))
             for i in range((2**ADDR_WIDTH)>>1):
-                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i))
+                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                ycoord += level*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
                     read_mux.connect(pin[0], 'level_'+str(level)+'_'+str(i)+'.'+pin[1])
@@ -346,6 +356,7 @@ def SCM_design_components_instances_MidGap_DGWCLK(param, scm):
         
         MidGap_DGWCLK.connect('E'+str([i]), 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['E'])
         MidGap_DGWCLK.connect('clk', 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['clk'])
+        MidGap_DGWCLK.connect('SE', 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['SE'])
         
         for net in ['DGWClkLeft', 'DGWClkRight']:
             MidGap_DGWCLK.connect(net+'Net'+str([i]), net+'Buff_'+str(i)+'.'+sc['buffer']['out'])
@@ -503,7 +514,11 @@ def SCM_design_components_instances_rwlBuff_strip(param, scm):
 ####################   write verilog file   ####################
 ################################################################
 def write_verilog_file(param,scm):
-    verilog_file_name = "%s.post_py.v" %param['TOPLEVEL']
+    export_folder = 'export'
+    if not os.path.exists(export_folder):
+        os.makedirs(export_folder)
+
+    verilog_file_name = export_folder + '/' + param['TOPLEVEL'] + '.post_py.v'
     
     header_comment_text = []
     module_scm_text = scm['TOP'].write_verilog()
@@ -571,15 +586,19 @@ def header_comment(text, param, module_scm_text):
 ############   write tcl placement commands file   #############
 ################################################################
 def write_tcl(param,scm):
-    tcl_file_name = '%s_cells_position.tcl' %param['TOPLEVEL']
+    export_folder = 'export'
+    if not os.path.exists(export_folder):
+        os.makedirs(export_folder)
+
+    tcl_file_name = export_folder + '/' + param['TOPLEVEL'] + '_cells_position.tcl'
     
     tcl_file=open(tcl_file_name,'w')
     
     #for module in scm.values():
     for module in [scm['TOP']]:
-        tcl_file.write('\n######'+str(module))
+        tcl_file.write('######' + str(module) + '\n')
         for line in module.write_tcl_placement_commands():
-            tcl_file.write(line)
+            tcl_file.write(line + '\n')
     
     tcl_file.close()
 
