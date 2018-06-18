@@ -1,5 +1,9 @@
 1335795660 /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/verilog/sc12_cln65lp_base_rvt.v
 1335795664 /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/verilog/sc12_cln65lp_base_rvt_udp.v
-1522002663 /project/test_project/users/marinbh/ws/scm_compiler/TB/row_decoder/row_decoder_tb.v
-1522003351 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v
-1522003351 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/row_decoder/row_decoder.v
+1528753331 /project/test_project/users/marinbh/ws/scm_compiler/TB/row_decoder/row_decoder_tb.v
+1528984280 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v
+1529323962 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/row_decoder/row_decoder.v
+1528992793 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_3_8/Decoder_3_8.v
+1529323962 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_2_4/PreDecoder_2_4.v
+1529323962 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_3_8/PreDecoder_3_8.v
+1529323962 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_4_16/PreDecoder_4_16.v

@@ -1,0 +1,71 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu May 10 18:05:35 2018                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v17.12-s095_1 (64bit) 11/09/2017 12:10 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 17.12-s095_1 NR171102-1913/17_12-UB (database version 2.30, 405.7.1) {superthreading v1.44}
+#@(#)CDS: AAE 17.12-s040 (64bit) 11/09/2017 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 17.12-s036_1 () Nov  2 2017 09:33:40 ( )
+#@(#)CDS: SYNTECH 17.12-s012_1 () Oct 31 2017 04:30:11 ( )
+#@(#)CDS: CPE v17.12-s076
+#@(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+getDrawView
+loadWorkspace -name Physical
+win
+setDesignMode -process 65
+setNanoRouteMode -quiet -routeWithViaInPin true
+set init_gnd_net gnd
+set init_pwr_net vdd
+set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+set init_verilog ../../export/scm65.post_py.v
+set init_mmmc_file ../scm65.mmmc
+suppressMessage ENCLF-200
+suppressMessage TECHLIB-436
+suppressMessage TECHLIB-302
+suppressMessage ENCLF-58
+suppressMessage LEFPARS-2001
+suppressMessage ENCTS-282
+set init_design_uniquify 1
+init_design
+floorPlan -site sc12_cln65lp -adjustToSite -s 280.6 43.2 0 0 0 0
+setDesignMode -process 65
+setNanoRouteMode -quiet -routeWithViaInPin true
+set init_gnd_net gnd
+set init_pwr_net vdd
+set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+set init_verilog ../../export/scm65.post_py.v
+set init_mmmc_file ../scm65.mmmc
+suppressMessage ENCLF-200
+suppressMessage TECHLIB-436
+suppressMessage TECHLIB-302
+suppressMessage ENCLF-58
+suppressMessage LEFPARS-2001
+suppressMessage ENCTS-282
+set init_design_uniquify 1
+init_design
+setNanoRouteMode -quiet -routeWithViaInPin true
+set init_gnd_net gnd
+set init_pwr_net vdd
+set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+set init_verilog ../../export/scm65.post_py.v
+set init_mmmc_file ../scm65.mmmc
+suppressMessage ENCLF-200
+suppressMessage TECHLIB-436
+suppressMessage TECHLIB-302
+suppressMessage ENCLF-58
+suppressMessage LEFPARS-2001
+suppressMessage ENCTS-282
+set init_design_uniquify 1
+init_design
+floorPlan -site sc12_cln65lp -adjustToSite -s 274.2 43.2 0 0 0 0
+placeInstance bitslice_37/read_mux/level_2_5 166.2 28.8
+fit
+floorPlan -site sc12_cln65lp -adjustToSite -s 274.2 43.2 0 0 0 0
+placeInstance bitslice_37/read_mux/level_2_5 166.2 28.8

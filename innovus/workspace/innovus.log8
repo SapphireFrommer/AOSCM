@@ -1,0 +1,703 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.12-s095_1, built Thu Nov 9 12:10:01 PST 2017
+Options:	
+Date:		Thu May 10 18:05:16 2018
+Host:		enicsw04 (x86_64 w/Linux 2.6.32-642.11.1.el6.x86_64) (6cores*24cpus*Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz 15360KB)
+OS:		CentOS release 6.8 (Final)
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+The soft stacksize limit is either up to the hard limit or larger than 0.2%RAM. No change is needed.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> setDesignMode -process 65
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 65nm process node.
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+#% Begin Load MMMC data ... (date=05/10 18:07:24, mem=461.6M)
+#% End Load MMMC data ... (date=05/10 18:07:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=461.7M, current mem=461.7M)
+tc_rc_corner bc_rc_corner wc_rc_corner
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef ...
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (EMS-42):	Message (IMPLF-200) has been suppressed from output.
+
+viaInitial starts at Thu May 10 18:07:24 2018
+viaInitial ends at Thu May 10 18:07:24 2018
+Loading view definition file from ../scm65.mmmc
+Reading wc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313034)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313028)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313385)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313379)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313736)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313730)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314087)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314081)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314438)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314432)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314789)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314783)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315140)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315134)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315491)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315485)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315842)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315836)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023019)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023013)
+Message <TECHLIB-1318> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+Reading bc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c.lib' ...
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c' 
+*** End library_loading (cpu=0.12min, real=0.13min, mem=51.7M, fe_cpu=0.55min, fe_real=2.27min, fe_mem=518.2M) ***
+#% Begin Load netlist data ... (date=05/10 18:07:32, mem=648.0M)
+*** Begin netlist parsing (mem=518.2M) ***
+Created 950 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text , for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text . for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text OUT for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text { for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text rwlBuff_strip for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text rwlBuff_strip_5 for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text . for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text IN for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text { for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Verilog file '../../export/scm65.post_py.v' has errors!  See above.
+
+*** Memory Usage v#1 (Current mem = 518.191M, initial mem = 167.637M) ***
+#% End Load netlist data ... (date=05/10 18:07:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=648.0M, current mem=524.6M)
+**ERROR: (IMPVL-902):	Failed to read netlist ../../export/scm65.post_py.v. See previous error messages for details.  Resolve the issues and reload the design.
+
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 280.6 43.2 0 0 0 0
+**ERROR: Design must be in memory before running "floorPlan"
+Design must be in memory before running "floorPlan"
+<CMD> setDesignMode -process 65
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 65nm process node.
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+#% Begin Load MMMC data ... (date=05/10 18:07:53, mem=527.7M)
+The existing analysis_view 'bc_analysis_view' has been replaced with new attributes.
+The existing analysis_view 'tc_analysis_view' has been replaced with new attributes.
+The existing analysis_view 'wc_analysis_view' has been replaced with new attributes.
+INFO: New setup and hold views overwrite old settings during design initialization
+#% End Load MMMC data ... (date=05/10 18:07:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=528.0M, current mem=528.0M)
+tc_rc_corner bc_rc_corner wc_rc_corner
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef ...
+**WARN: (IMPLF-119):	LAYER 'RVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'HVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'LVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M7' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA7' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M8' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA8' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M9' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-119) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_VV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_HH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_VH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_1_HX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_1_VX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2_XV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2_XH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_3_XX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2H_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2E_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2W_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2V_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2N_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2S_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3H_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3E_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3W_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3V_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3N_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-223) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-151):	The viaRule 'VIA1_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA2_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA3_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA4_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA5_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA6_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA7_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA8_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'RV_RULE' has been defined, the content will be skipped.
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef ...
+**WARN: (EMS-42):	Message (IMPLF-58) has been suppressed from output.
+**WARN: (IMPLF-61):	967 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-61' for more detail.
+Loading view definition file from ../scm65.mmmc
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.59min, fe_real=2.62min, fe_mem=516.2M) ***
+#% Begin Load netlist data ... (date=05/10 18:07:53, mem=508.1M)
+*** Begin netlist parsing (mem=516.2M) ***
+Created 0 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text , for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text . for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text OUT for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text { for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 286 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text rwlBuff_strip for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text rwlBuff_strip_5 for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text . for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text IN for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text { for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text 16'bxxxxxxxxxxxxxxxx for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text } for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**ERROR: (IMPVL-209):	In Verilog file '../../export/scm65.post_py.v', check line 287 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Verilog file '../../export/scm65.post_py.v' has errors!  See above.
+
+*** Memory Usage v#1 (Current mem = 516.176M, initial mem = 167.637M) ***
+#% End Load netlist data ... (date=05/10 18:07:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=515.9M, current mem=515.9M)
+**ERROR: (IMPVL-902):	Failed to read netlist ../../export/scm65.post_py.v. See previous error messages for details.  Resolve the issues and reload the design.
+
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+#% Begin Load MMMC data ... (date=05/10 18:08:41, mem=517.6M)
+The existing analysis_view 'bc_analysis_view' has been replaced with new attributes.
+The existing analysis_view 'tc_analysis_view' has been replaced with new attributes.
+The existing analysis_view 'wc_analysis_view' has been replaced with new attributes.
+INFO: New setup and hold views overwrite old settings during design initialization
+#% End Load MMMC data ... (date=05/10 18:08:41, total cpu=0:00:00.0, real=0:00:00.0, peak res=517.9M, current mem=517.9M)
+tc_rc_corner bc_rc_corner wc_rc_corner
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef ...
+**WARN: (IMPLF-119):	LAYER 'RVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'HVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'LVT' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M7' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA7' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M8' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'VIA8' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (IMPLF-119):	LAYER 'M9' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-119' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-119) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_VV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_HH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_VH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_1_HX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_1_VX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2_XV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2_XH' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_3_XX' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2H_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2E_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2W_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2V_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2N_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X2S_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3H_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3E_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3W_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3V_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_0_X3N_HV' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+Type 'man IMPLF-223' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-223) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-151):	The viaRule 'VIA1_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA2_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA3_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA4_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA5_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA6_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA7_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'VIA8_RULE' has been defined, the content will be skipped.
+**WARN: (IMPLF-151):	The viaRule 'RV_RULE' has been defined, the content will be skipped.
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef ...
+**WARN: (IMPLF-61):	967 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-61' for more detail.
+Loading view definition file from ../scm65.mmmc
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.65min, fe_real=3.42min, fe_mem=516.2M) ***
+#% Begin Load netlist data ... (date=05/10 18:08:41, mem=508.2M)
+*** Begin netlist parsing (mem=516.2M) ***
+Created 0 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+**WARN: (IMPVL-324):	Module Decoder_4_16 in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module welltap_strip in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module rwlBuff_strip in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module row_decoder in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module bitslice_odd in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module bitslice in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+**WARN: (IMPVL-324):	Module Decoder_3_8 in ../../export/scm65.post_py.v will overwrite the previous definition in the same file.
+Reading verilog netlist '../../export/scm65.post_py.v'
+
+*** Memory Usage v#1 (Current mem = 516.176M, initial mem = 167.637M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=516.2M) ***
+#% End Load netlist data ... (date=05/10 18:08:41, total cpu=0:00:00.0, real=0:00:00.0, peak res=517.9M, current mem=517.9M)
+Ignoring unreferenced cell rwlBuff_strip.
+Ignoring unreferenced cell row_decoder.
+Ignoring unreferenced cell bitslice_odd.
+Ignoring unreferenced cell bitslice.
+Warning: The top level cell is ambiguous.
+Setting top level cell to be welltap_strip.
+Hooked 1900 DB cells to tlib cells.
+6 empty module found.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell welltap_strip ...
+*** Netlist is unique.
+** info: there are 1928 modules.
+** info: there are 18 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 568.148M, initial mem = 167.637M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '../scm65.sdc' ...
+Current (total cpu=0:00:39.9, real=0:03:26, peak res=717.3M, current mem=717.3M)
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'CLK' (File ../scm65.sdc, Line 2).
+
+**ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'CLK' (File ../scm65.sdc, Line 2).
+
+**ERROR: (TCLCMD-1109):	Could not find source for create_clock command (File ../scm65.sdc, Line 2).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 10).
+
+**WARN: (TCLCMD-1149):	'remove_from_collection' command ignored implicit arguments in 'object_collection_or_list' as type of the base collection is unknown (File ../scm65.sdc, Line 10).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'clk' (File ../scm65.sdc, Line 10).
+
+**ERROR: (TCLCMD-917):	Cannot find 'clocks' that match 'clk' (File ../scm65.sdc, Line 10).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 11).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'clk' (File ../scm65.sdc, Line 11).
+
+**ERROR: (TCLCMD-917):	Cannot find 'clocks' that match 'clk' (File ../scm65.sdc, Line 11).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '0x4' (File ../scm65.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '0x5' (File ../scm65.sdc, Line 12).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_max_delay (File ../scm65.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 16).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '0x6' (File ../scm65.sdc, Line 16).
+
+**ERROR: (TCLCMD-917):	Cannot find 'ports' that match '' (File ../scm65.sdc, Line 16).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*' (File ../scm65.sdc, Line 24).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '0x8' (File ../scm65.sdc, Line 24).
+
+**ERROR: (TCLCMD-917):	Cannot find 'ports or nets' that match '' (File ../scm65.sdc, Line 24).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'DOUT*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'DOUT*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 31).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'DOUT*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-917):	Cannot find 'ports' that match 'DOUT*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 32).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*mux' (File ../scm65.sdc, Line 40).
+
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*mux' (File ../scm65.sdc, Line 40).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '' (File ../scm65.sdc, Line 40).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*CLK*_gate' (File ../scm65.sdc, Line 40).
+
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*CLK*_gate' (File ../scm65.sdc, Line 40).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '' (File ../scm65.sdc, Line 40).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*DGWClkRightNet*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkRightNet*' (File ../scm65.sdc, Line 50).
+
+Message <TCLCMD-513> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkLeftNet*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkNetToBuff*' (File ../scm65.sdc, Line 50).
+
+INFO (CTE): Reading of timing constraints file ../scm65.sdc completed, with 21 Warnings and 24 Errors.
+Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=717.3M, current mem=702.7M)
+Current (total cpu=0:00:40.0, real=0:03:26, peak res=717.3M, current mem=702.7M)
+Total number of combinational cells: 687
+Total number of sequential cells: 254
+Total number of tristate cells: 9
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFH_X0P8M_A12TR BUFH_X0P7M_A12TR BUFH_X11M_A12TR BUFH_X13M_A12TR BUFH_X16M_A12TR BUFH_X1M_A12TR BUFH_X1P2M_A12TR BUFH_X1P7M_A12TR BUFH_X1P4M_A12TR BUFH_X2M_A12TR BUFH_X3M_A12TR BUFH_X2P5M_A12TR BUFH_X3P5M_A12TR BUFH_X4M_A12TR BUFH_X5M_A12TR BUFH_X6M_A12TR BUFH_X7P5M_A12TR BUFH_X9M_A12TR BUF_X0P7B_A12TR BUF_X0P7M_A12TR BUF_X0P8M_A12TR BUF_X0P8B_A12TR BUF_X11M_A12TR BUF_X11B_A12TR BUF_X13M_A12TR BUF_X13B_A12TR BUF_X16B_A12TR BUF_X16M_A12TR BUF_X1M_A12TR BUF_X1B_A12TR BUF_X1P2B_A12TR BUF_X1P2M_A12TR BUF_X1P4B_A12TR BUF_X1P4M_A12TR BUF_X1P7B_A12TR BUF_X1P7M_A12TR BUF_X2M_A12TR BUF_X2B_A12TR BUF_X2P5B_A12TR BUF_X2P5M_A12TR BUF_X3M_A12TR BUF_X3B_A12TR BUF_X3P5M_A12TR BUF_X3P5B_A12TR BUF_X4B_A12TR BUF_X4M_A12TR BUF_X5M_A12TR BUF_X5B_A12TR BUF_X6M_A12TR BUF_X6B_A12TR BUF_X7P5M_A12TR BUF_X7P5B_A12TR BUF_X9B_A12TR BUF_X9M_A12TR DLY2_X2M_A12TR DLY2_X4M_A12TR
+Total number of usable buffers: 56
+List of unusable buffers: FRICG_X0P5B_A12TR FRICG_X0P6B_A12TR FRICG_X0P8B_A12TR FRICG_X0P7B_A12TR FRICG_X11B_A12TR FRICG_X13B_A12TR FRICG_X16B_A12TR FRICG_X1B_A12TR FRICG_X1P2B_A12TR FRICG_X1P4B_A12TR FRICG_X2B_A12TR FRICG_X1P7B_A12TR FRICG_X3B_A12TR FRICG_X2P5B_A12TR FRICG_X4B_A12TR FRICG_X3P5B_A12TR FRICG_X5B_A12TR FRICG_X6B_A12TR FRICG_X7P5B_A12TR FRICG_X9B_A12TR
+Total number of unusable buffers: 20
+List of usable inverters: INV_X0P5B_A12TR INV_X0P5M_A12TR INV_X0P6B_A12TR INV_X0P6M_A12TR INV_X0P7B_A12TR INV_X0P7M_A12TR INV_X0P8M_A12TR INV_X0P8B_A12TR INV_X11M_A12TR INV_X11B_A12TR INV_X13M_A12TR INV_X13B_A12TR INV_X16B_A12TR INV_X16M_A12TR INV_X1M_A12TR INV_X1B_A12TR INV_X1P2B_A12TR INV_X1P2M_A12TR INV_X1P4B_A12TR INV_X1P4M_A12TR INV_X1P7B_A12TR INV_X1P7M_A12TR INV_X2M_A12TR INV_X2B_A12TR INV_X2P5B_A12TR INV_X2P5M_A12TR INV_X3M_A12TR INV_X3B_A12TR INV_X3P5B_A12TR INV_X3P5M_A12TR INV_X4M_A12TR INV_X4B_A12TR INV_X5M_A12TR INV_X5B_A12TR INV_X6M_A12TR INV_X6B_A12TR INV_X7P5M_A12TR INV_X7P5B_A12TR INV_X9M_A12TR INV_X9B_A12TR
+Total number of usable inverters: 40
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY2_X1M_A12TR DLY2_X0P5M_A12TR DLY4_X0P5M_A12TR DLY4_X1M_A12TR DLY4_X2M_A12TR DLY4_X4M_A12TR
+Total number of identified usable delay cells: 6
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPSYC-2):	Timing information is not defined for cell WELLANTENNATIEPW2_A12TR; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+Type 'man IMPSYC-2' for more detail.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+**WARN: (EMS-42):	Message (IMPEXT-6202) has been suppressed from output.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcworst.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcbest.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: wc_analysis_view
+    RC-Corner Name        : wc_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+ 
+ Analysis View: bc_analysis_view
+    RC-Corner Name        : bc_rc_corner
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+The lower process node is set using setDesignMode and the technology file for tQuantus extraction specified. Therefore, the default value for PostRoute extraction mode's effortLevel(-effortLeveloption of the setExtractRCMode) changed from 'low' to 'medium'.
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 274.2 43.2 0 0 0 0
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> placeInstance bitslice_37/read_mux/level_2_5 166.2 28.8
+**ERROR: (IMPSYC-281):	Instance bitslice_37/read_mux/level_2_5 cannot be found.
+
+<CMD> fit
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 274.2 43.2 0 0 0 0
+<CMD> placeInstance bitslice_37/read_mux/level_2_5 166.2 28.8
+**ERROR: (IMPSYC-281):	Instance bitslice_37/read_mux/level_2_5 cannot be found.
+
+
+*** Memory Usage v#1 (Current mem = 834.469M, initial mem = 167.637M) ***
+*** Message Summary: 96 warning(s), 1432 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:42.4, real=0:03:44, mem=834.5M) ---

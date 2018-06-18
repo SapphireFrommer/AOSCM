@@ -1,0 +1,2 @@
+#!/bin/tcsh
+qirun -f PreDecoder_2_4_tb.f -debug -nospecify

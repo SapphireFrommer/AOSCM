@@ -3,5 +3,7 @@
 // Do not modify this file
 //
 /project/test_project/users/marinbh/ws/scm_compiler/TB/row_decoder/row_decoder_tb.v
-/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_2_4/PreDecoder_2_4.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_3_8/PreDecoder_3_8.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/PreDecoder_4_16/PreDecoder_4_16.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/row_decoder/row_decoder.v

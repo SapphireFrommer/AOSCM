@@ -20,7 +20,7 @@ module tb_scm65;
 
 
 //------ TB wires and registers ------// 
-    reg CLK,RE,WE;
+    reg CLK,RE,WE,SE;
     reg [`ADDR_WIDTH-1:0] WADDR;
     reg [`ADDR_WIDTH-1:0] RADDR;
     reg [`ADDR_WIDTH-1:0] RADDR_old;
@@ -33,7 +33,7 @@ module tb_scm65;
     integer fo,row,R_W,error,correct;
 
 //------ Memory instantiation --------//
-    scm65 MEM (CLK, DIN, DOUT, RADDR, RE, WADDR, WE);
+    scm65 MEM (CLK, DIN, DOUT, RADDR, RE, SE, WADDR, WE);
 
 
 //------ Output file --------//
@@ -56,6 +56,7 @@ module tb_scm65;
             correct = 0;
             row = 0;
             CLK = 0;
+            SE=0;
             WADDR = `ADDR_WIDTH'b0;
             //DIN [31:0]	=$urandom_range(2**(`DATA_WIDTH/2)-1,0);
             //DIN [63:32]	=$urandom_range(2**(`DATA_WIDTH/2)-1,0);
@@ -111,7 +112,6 @@ module tb_scm65;
                         end // R_W == 1
 
                 //------ Now read random addresses --------//  
-                    RADDR_old = RADDR;               
                     if (R_W == 0) 
                         begin
                             RADDR = $urandom_range(2**(`ADDR_WIDTH)-1,0);
@@ -146,6 +146,7 @@ module tb_scm65;
                     if (RE == 1 ) 
                         begin
                             #(0.9*`TCLK)
+                            RADDR_old = RADDR;               
                             if (TBArray[RADDR_old] != DOUT)
                                 begin
                                     $fwrite(fo, "ERROR!!!\t\t\t TBArray value is=%h\t DOUT value is=%h\t of RADDR = %d\t time is %d\n",TBArray[RADDR_old],DOUT,RADDR_old, $time);

@@ -1,0 +1,111 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+
+############# MMMC Hierarchy ###################################################################
+#                                                                                              #
+#   Setup Analysis View |                   |--> Constraint Corner --> SDC File                #
+#                       |--> Analysis View  |                                                  #
+#    Hold Analysis View |                   |                 |--> Library Set --> LIB File    #
+#                                           |--> Delay Corner |                                #
+#                                                             |--> RC Corner --> QRCTech File  #
+################################################################################################
+
+# Constraint Modes #
+# ---------------- #
+create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+
+# RC Corners #
+# ---------- #
+suppressMessage ENCEXT-6202 ; # In addition to the technology file, capacitance table file is specified for all RC corners.
+
+create_rc_corner \
+	-name bc_rc_corner \
+	-cap_table $tech_files(CAPTABLE_BC) \
+	-T $tech_files(TEMPERATURE_BC) \
+	 -qx_tech_file $tech_files(QRCTECH_FILE_BC)
+
+create_rc_corner \
+	-name tc_rc_corner \
+	-cap_table $tech_files(CAPTABLE_TC) \
+	-T $tech_files(TEMPERATURE_TC) \
+	 -qx_tech_file $tech_files(QRCTECH_FILE_TC)
+
+create_rc_corner \
+	-name wc_rc_corner \
+	-cap_table $tech_files(CAPTABLE_WC) \
+	-T $tech_files(TEMPERATURE_WC) \
+	 -qx_tech_file $tech_files(QRCTECH_FILE_WC)
+
+# Library Sets #
+# ------------ #
+create_library_set \
+	-name bc_libset \
+	-timing [list \
+			$tech_files(STANDARD_CELLS_RVT_BC_LIB) \
+
+		] 
+		#	$tech_files(SRAM64X32_BC_LIB) \
+		#	$tech_files(IO_BC_LIB) \
+
+create_library_set \
+	-name tc_libset \
+	-timing [list \
+			$tech_files(STANDARD_CELLS_RVT_TC_LIB) \
+		] 
+
+    	#	$tech_files(SRAM64X32_TC_LIB) \
+		#	$tech_files(IO_TC_LIB) \
+
+create_library_set \
+	-name wc_libset \
+	-timing [list \
+			$tech_files(STANDARD_CELLS_RVT_WC_LIB) \
+		] 
+
+		#	$tech_files(SRAM64X32_WC_LIB) \
+		#	$tech_files(IO_WC_LIB) \
+
+
+# Delay Corners #
+# ------------- #
+create_delay_corner \
+	-name bc_dly_corner \
+	-library_set bc_libset \
+	-rc_corner bc_rc_corner
+
+create_delay_corner \
+	-name tc_dly_corner \
+	-library_set tc_libset \
+	-rc_corner tc_rc_corner
+
+create_delay_corner \
+	-name wc_dly_corner \
+	-library_set wc_libset \
+	-rc_corner wc_rc_corner
+
+# Analysis Views #
+# -------------- #
+create_analysis_view \
+	-name bc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner bc_dly_corner
+
+create_analysis_view \
+	-name tc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner tc_dly_corner
+
+create_analysis_view \
+	-name wc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner wc_dly_corner
+
+# Selected Analysis Views #
+# ----------------------- #
+set_analysis_view \
+	-setup $design(selected_setup_analysis_views) \
+	-hold $design(selected_hold_analysis_views) 
+
+

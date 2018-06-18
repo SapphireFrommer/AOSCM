@@ -1,11 +1,12 @@
 irun(64): 15.10-s014: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
-TOOL:	irun(64)	15.10-s014: Started on Apr 09, 2018 at 16:42:41 IDT
+TOOL:	irun(64)	15.10-s014: Started on Jun 12, 2018 at 19:32:05 IDT
 irun
 	-f scm65_tb.f
 		../../verilog_modules/define.v
 		scm65_tb.v
 		../../verilog_modules/scm65/scm65.v
 		../../verilog_modules/bitslice/bitslice.v
+		../../verilog_modules/bitslice_odd/bitslice_odd.v
 		../../verilog_modules/Decoder_2_4/Decoder_2_4.v
 		../../verilog_modules/Decoder_3_8/Decoder_3_8.v
 		../../verilog_modules/Decoder_4_16/Decoder_4_16.v
@@ -20,6 +21,90 @@ irun
 	-debug
 	-sv
 	-nospecify
+Recompiling... reason: file '/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v' is newer than expected.
+	expected: Tue Jun 12 19:20:44 2018
+	actual:   Tue Jun 12 19:32:00 2018
+file: ../../verilog_modules/define.v
+file: scm65_tb.v
+            std::randomize(DIN);	
+                          |
+ncvlog: *W,FUNTSK (scm65_tb.v,63|26): function called as a task without void'().
+                    std::randomize(DIN);
+                                  |
+ncvlog: *W,FUNTSK (scm65_tb.v,76|34): function called as a task without void'().
+                            std::randomize(DIN);
+                                          |
+ncvlog: *W,FUNTSK (scm65_tb.v,94|42): function called as a task without void'().
+	module worklib.tb_scm65:v
+		errors: 0, warnings: 3
+file: ../../verilog_modules/scm65/scm65.v
+	module worklib.scm65:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/bitslice/bitslice.v
+	module worklib.bitslice:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/bitslice_odd/bitslice_odd.v
+	module worklib.bitslice_odd:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/Decoder_2_4/Decoder_2_4.v
+	module worklib.Decoder_2_4:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/Decoder_3_8/Decoder_3_8.v
+	module worklib.Decoder_3_8:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/row_decoder/row_decoder.v
+	module worklib.row_decoder:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/rwlBuff_strip/rwlBuff_strip.v
+	module worklib.rwlBuff_strip:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/welltap_strip/welltap_strip.v
+	module worklib.welltap_strip:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/MidGap_DGWCLK/MidGap_DGWCLK.v
+	module worklib.MidGap_DGWCLK:v
+		errors: 0, warnings: 0
+file: ../../verilog_modules/read_mux/read_mux.v
+	module worklib.read_mux:v
+		errors: 0, warnings: 0
+		Caching library 'sc12_cln65lp_base_rvt' ....... Done
+		Caching library 'worklib' ....... Done
+		Caching library 'sc12_cln65lp_base_rvt_udp' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_scm65
+		Decoder_4_16
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.bitslice:v <0x31e6b642>
+			streams:   0, words:     0
+		worklib.bitslice_odd:v <0x39ebd41c>
+			streams:   0, words:     0
+		worklib.row_decoder:v <0x513ad5a8>
+			streams:   0, words:     0
+		worklib.scm65:v <0x7bac35f5>
+			streams:   2, words:   424
+		worklib.tb_scm65:v <0x5e101ac6>
+			streams:  14, words: 16631
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:               2028      21
+		UDPs:                   563       2
+		Primitives:            2440       6
+		Registers:              577      19
+		Scalar wires:          3517       -
+		Expanded wires:          26       3
+		Vectored wires:           4       -
+		Always blocks:            3       3
+		Initial blocks:           3       3
+		Cont. assignments:        0       4
+		Pseudo assignments:       9       9
+		Timing checks:         3006       -
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.tb_scm65:v
 SVSEED default: 1
 ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 
@@ -29,34 +114,14 @@ ncsim>
 ncsim> source /opt/cadence/INCISIV/151/tools/inca/files/ncsimrc
 ncsim> database -open waves -into waves.shm -default
 Created default SHM database waves
-ncsim> probe -create -shm tb_scm65.CLK tb_scm65.DIN tb_scm65.DOUT tb_scm65.RADDR tb_scm65.RADDR_old tb_scm65.RE tb_scm65.R_W tb_scm65.TBArray tb_scm65.WADDR tb_scm65.WE tb_scm65.correct tb_scm65.error tb_scm65.fo tb_scm65.row
+ncsim> probe -create -shm tb_scm65.CLK tb_scm65.DIN tb_scm65.DOUT tb_scm65.RADDR tb_scm65.RADDR_old tb_scm65.RE tb_scm65.R_W tb_scm65.SE tb_scm65.TBArray tb_scm65.WADDR tb_scm65.WE tb_scm65.correct tb_scm65.error tb_scm65.fo tb_scm65.row
 Created probe 1
-ncsim> reset
-SVSEED default: 1
-ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-Loaded snapshot worklib.tb_scm65:v
 ncsim> run
 stop -create -name Randomize -randomize
 Created stop Randomize
 
 Simulation complete via $finish(1) at time 3010 NS + 0
-./scm65_tb.v:174             $finish;			
-ncsim> probe -create -shm tb_scm65.MEM.CLK tb_scm65.MEM.DGWCLKLeftNet tb_scm65.MEM.DGWClkRightNet tb_scm65.MEM.DIN tb_scm65.MEM.DOUT tb_scm65.MEM.GDINCLK tb_scm65.MEM.GRCLK tb_scm65.MEM.GWCLK tb_scm65.MEM.RADDR tb_scm65.MEM.RE tb_scm65.MEM.SE tb_scm65.MEM.WADDR tb_scm65.MEM.WE tb_scm65.MEM.decoder_read_out tb_scm65.MEM.decoder_write_out tb_scm65.MEM.rwlBuffNet_0 tb_scm65.MEM.rwlBuffNet_1 tb_scm65.MEM.rwlBuffNet_2 tb_scm65.MEM.rwlBuffNet_3
-Created probe 2
-ncsim> reset
-SVSEED default: 1
-ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-Loaded snapshot worklib.tb_scm65:v
-ncsim> run
-Simulation complete via $finish(1) at time 3010 NS + 0
-./scm65_tb.v:174             $finish;			
-ncsim> probe -create -shm tb_scm65.MEM.bitslice_1.DGWCLK tb_scm65.MEM.bitslice_1.DIN tb_scm65.MEM.bitslice_1.DOUT tb_scm65.MEM.bitslice_1.GDIN tb_scm65.MEM.bitslice_1.MemoryLatch tb_scm65.MEM.bitslice_1.RWL tb_scm65.MEM.bitslice_1.clk
-Created probe 3
-ncsim> reset
-SVSEED default: 1
-ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-Loaded snapshot worklib.tb_scm65:v
-ncsim> run
-Simulation complete via $finish(1) at time 3010 NS + 0
-./scm65_tb.v:174             $finish;			
-ncsim> 
+./scm65_tb.v:175             $finish;			
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.10-s014: Exiting on Jun 12, 2018 at 19:35:17 IDT  (total: 00:03:12)

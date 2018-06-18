@@ -9,6 +9,7 @@
 scm65_tb.v
 ../../verilog_modules/scm65/scm65.v
 ../../verilog_modules/bitslice/bitslice.v
+../../verilog_modules/bitslice_odd/bitslice_odd.v
 ../../verilog_modules/Decoder_2_4/Decoder_2_4.v
 ../../verilog_modules/Decoder_3_8/Decoder_3_8.v
 ../../verilog_modules/Decoder_4_16/Decoder_4_16.v

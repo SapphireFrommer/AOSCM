@@ -6,6 +6,7 @@
 /project/test_project/users/marinbh/ws/scm_compiler/TB/scm65/scm65_tb.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/scm65/scm65.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/bitslice/bitslice.v
+/project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/bitslice_odd/bitslice_odd.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_2_4/Decoder_2_4.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_3_8/Decoder_3_8.v
 /project/test_project/users/marinbh/ws/scm_compiler/verilog_modules/Decoder_4_16/Decoder_4_16.v

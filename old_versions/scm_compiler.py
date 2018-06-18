@@ -105,7 +105,7 @@ def write_module_scm(text, param , cell):
     text.append("\n\tinput CLK, WE, RE;")
     text.append("\n\tinput [%d:0] WADDR, RADDR;" %(ADDR_WIDTH-1))
     text.append("\n\tinput [%d:0] DIN;" %(DATA_WIDTH-1))
-    text.append("\n\toutput [%d:0] DOUT;" %(DATA_WIDTH))
+    text.append("\n\toutput [%d:0] DOUT;" %(DATA_WIDTH-1))
     text.append("\n\twire CLK, WE, RE;")
     text.append("\n\twire [%d:0] WADDR, RADDR;" %(ADDR_WIDTH-1))
     text.append("\n\twire [%d:0] DIN;" %(DATA_WIDTH-1))

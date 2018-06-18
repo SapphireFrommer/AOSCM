@@ -1,0 +1,67 @@
+# Hierarchy
+set design(FULLCHIP_OR_MACRO) "MACRO"
+set design(IO_MODULE) "pads"
+set design(CLK_PORT) "CLK"
+set design(CLK_PERIOD) 10.0
+set design(CLK_NAME) "clk"
+
+
+# Constraints
+set design(INPUT_DELAY) [expr $design(CLK_PERIOD)/4.0]
+set design(OUTPUT_DELAY) [expr $design(CLK_PERIOD)/4.0]
+
+set design(CLOCK_MAX_TRANSITION) 0.100
+set design(CLOCK_MAX_FANOUT) 20
+set design(CLOCK_MAX_CAPACITANCE) 0.100
+
+# Paths
+set design(workdir) $env(PWD)
+set design(inputs_dir) "$env(PWD)/../../inputs"
+set design(sourcecode_dir) "$env(PWD)/../../sourcecode"
+set design(scripts_dir) "$env(PWD)/../../scripts"
+set design(export_dir) "$env(PWD)/../../export"
+set design(reports_dir) "$env(PWD)/../../reports"
+set design(synthesis_reports) "$env(PWD)/../../reports/synthesis"
+set design(functional_sdc) "../${TOPLEVEL}.sdc"
+set design(postsyn_netlist) "$design(inputs_dir)/${TOPLEVEL}.postsyn.v"
+set design(postroute_netlist) "$design(export_dir)/innovus/${TOPLEVEL}.final.v"
+set design(postroute_sdf) "$design(export_dir)/${TOPLEVEL}.final.sdf"
+set design(mmmc_view_file) "$design(inputs_dir)/${TOPLEVEL}.mmmc"
+set design(io_file) "$design(inputs_dir)/${TOPLEVEL}.io"
+set design(clock_tree_spec) "$design(inputs_dir)/${TOPLEVEL}.ccopt"
+set design(selected_setup_analysis_views) "wc_analysis_view"
+set design(selected_hold_analysis_views) "bc_analysis_view"
+set design(digital_gnd) "gnd"
+set design(digital_vdd) "vdd"
+set design(io_gnd) "" ; # "gnd"
+set design(io_vdd) "" ; # "vddio"
+set design(additional_power_nets) ""
+set design(additional_ground_nets) ""
+
+
+
+# floorplan
+set design(floorplan_ratio) 0.9
+set design(floorplan_utilization) 0.5
+set design(floorplan_space_to_core) "5 5 5 5" ; # Note that this should be passed as four arguments and not a list,
+						# Therefore, use the expand list {*} operator!
+
+set design(core_ring_nets) "$design(digital_gnd) $design(digital_vdd)"
+set design(core_ring_width) 1
+set design(core_ring_spacing) 0.16
+set design(core_ring_layers) "bottom M1 top M1 right M2 left M2"
+set design(core_ring_nets) "$design(digital_gnd) $design(digital_vdd)"
+
+set design(well_tap_interval) 10
+set design(well_tap_offset) 3
+set design(well_tap_prefix) "WELLTAP"
+set design(end_cap_prefix) "ENDCAP"
+
+set design(M2_stripes_width) 1.0
+set design(M2_stripes_spacing) 0.16
+set design(M2_stripes_interval) 50.0
+set design(M2_stripes_from_left) 5.0
+set design(M2_stripe_nets) "$design(digital_gnd) $design(digital_vdd)"
+
+
+
