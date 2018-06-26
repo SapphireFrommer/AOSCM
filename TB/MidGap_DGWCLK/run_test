@@ -1,0 +1,2 @@
+#!/bin/tcsh
+qirun -f MidGap_DGWCLK_tb.f -debug -nospecify

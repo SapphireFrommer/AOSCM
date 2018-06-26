@@ -1,0 +1,2 @@
+#!/bin/tcsh
+qirun -f row_decoder_tb.f -debug -nospecify

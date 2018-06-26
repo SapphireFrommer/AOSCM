@@ -1,0 +1,2 @@
+#!/bin/tcsh
+qirun -f rwlBuff_stripe_tb.f -debug -nospecify
