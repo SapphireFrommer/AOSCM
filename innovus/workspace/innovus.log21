@@ -1,0 +1,1062 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.12-s095_1, built Thu Nov 9 12:10:01 PST 2017
+Options:	
+Date:		Wed Jun 20 18:22:36 2018
+Host:		enicsw04 (x86_64 w/Linux 2.6.32-642.11.1.el6.x86_64) (6cores*24cpus*Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz 15360KB)
+OS:		CentOS release 6.8 (Final)
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+The soft stacksize limit is either up to the hard limit or larger than 0.2%RAM. No change is needed.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> setDesignMode -process 65
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 65nm process node.
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+#% Begin Load MMMC data ... (date=06/20 18:23:07, mem=475.3M)
+#% End Load MMMC data ... (date=06/20 18:23:08, total cpu=0:00:00.0, real=0:00:01.0, peak res=475.5M, current mem=475.5M)
+tc_rc_corner bc_rc_corner wc_rc_corner
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef ...
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (EMS-42):	Message (IMPLF-200) has been suppressed from output.
+
+viaInitial starts at Wed Jun 20 18:23:08 2018
+viaInitial ends at Wed Jun 20 18:23:08 2018
+Loading view definition file from ../scm65.mmmc
+Reading wc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313034)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313028)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313385)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313379)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313736)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313730)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314087)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314081)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314438)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314432)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314789)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314783)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315140)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315134)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315491)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315485)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315842)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315836)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023019)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023013)
+Message <TECHLIB-1318> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+Reading bc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c.lib' ...
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c' 
+*** End library_loading (cpu=0.13min, real=0.15min, mem=47.6M, fe_cpu=0.44min, fe_real=0.68min, fe_mem=523.2M) ***
+#% Begin Load netlist data ... (date=06/20 18:23:17, mem=662.1M)
+*** Begin netlist parsing (mem=523.2M) ***
+Created 950 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist '../../export/scm65.post_py.v'
+
+*** Memory Usage v#1 (Current mem = 523.215M, initial mem = 167.637M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=523.2M) ***
+#% End Load netlist data ... (date=06/20 18:23:17, total cpu=0:00:00.0, real=0:00:00.0, peak res=662.1M, current mem=540.8M)
+Ignoring unreferenced cell PreDecoder_4_16.
+Ignoring unreferenced cell PreDecoder_3_8.
+Warning: The top level cell is ambiguous.
+Setting top level cell to be scm65.
+Hooked 1900 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell scm65 ...
+*** Netlist is NOT unique.
+** info: there are 1928 modules.
+** info: there are 1009 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 581.938M, initial mem = 167.637M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '../scm65.sdc' ...
+Current (total cpu=0:00:28.8, real=0:00:44.0, peak res=729.8M, current mem=729.8M)
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 31).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 32).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*DGWClkLeftNet*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkLeftNet*' (File ../scm65.sdc, Line 50).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*DGWClkNetToBuff*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkNetToBuff*' (File ../scm65.sdc, Line 50).
+
+INFO (CTE): Reading of timing constraints file ../scm65.sdc completed, with 4 Warnings and 8 Errors.
+Ending "Constraint file reading stats" (total cpu=0:00:00.8, real=0:00:01.0, peak res=734.0M, current mem=734.0M)
+Current (total cpu=0:00:29.5, real=0:00:45.0, peak res=734.0M, current mem=734.0M)
+Total number of combinational cells: 687
+Total number of sequential cells: 254
+Total number of tristate cells: 9
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFH_X0P8M_A12TR BUFH_X0P7M_A12TR BUFH_X11M_A12TR BUFH_X13M_A12TR BUFH_X16M_A12TR BUFH_X1M_A12TR BUFH_X1P2M_A12TR BUFH_X1P7M_A12TR BUFH_X1P4M_A12TR BUFH_X2M_A12TR BUFH_X3M_A12TR BUFH_X2P5M_A12TR BUFH_X3P5M_A12TR BUFH_X4M_A12TR BUFH_X5M_A12TR BUFH_X6M_A12TR BUFH_X7P5M_A12TR BUFH_X9M_A12TR BUF_X0P7B_A12TR BUF_X0P7M_A12TR BUF_X0P8M_A12TR BUF_X0P8B_A12TR BUF_X11M_A12TR BUF_X11B_A12TR BUF_X13M_A12TR BUF_X13B_A12TR BUF_X16B_A12TR BUF_X16M_A12TR BUF_X1M_A12TR BUF_X1B_A12TR BUF_X1P2B_A12TR BUF_X1P2M_A12TR BUF_X1P4B_A12TR BUF_X1P4M_A12TR BUF_X1P7B_A12TR BUF_X1P7M_A12TR BUF_X2M_A12TR BUF_X2B_A12TR BUF_X2P5B_A12TR BUF_X2P5M_A12TR BUF_X3M_A12TR BUF_X3B_A12TR BUF_X3P5M_A12TR BUF_X3P5B_A12TR BUF_X4B_A12TR BUF_X4M_A12TR BUF_X5M_A12TR BUF_X5B_A12TR BUF_X6M_A12TR BUF_X6B_A12TR BUF_X7P5M_A12TR BUF_X7P5B_A12TR BUF_X9B_A12TR BUF_X9M_A12TR DLY2_X2M_A12TR DLY2_X4M_A12TR
+Total number of usable buffers: 56
+List of unusable buffers: FRICG_X0P5B_A12TR FRICG_X0P6B_A12TR FRICG_X0P8B_A12TR FRICG_X0P7B_A12TR FRICG_X11B_A12TR FRICG_X13B_A12TR FRICG_X16B_A12TR FRICG_X1B_A12TR FRICG_X1P2B_A12TR FRICG_X1P4B_A12TR FRICG_X2B_A12TR FRICG_X1P7B_A12TR FRICG_X3B_A12TR FRICG_X2P5B_A12TR FRICG_X4B_A12TR FRICG_X3P5B_A12TR FRICG_X5B_A12TR FRICG_X6B_A12TR FRICG_X7P5B_A12TR FRICG_X9B_A12TR
+Total number of unusable buffers: 20
+List of usable inverters: INV_X0P5B_A12TR INV_X0P5M_A12TR INV_X0P6B_A12TR INV_X0P6M_A12TR INV_X0P7B_A12TR INV_X0P7M_A12TR INV_X0P8M_A12TR INV_X0P8B_A12TR INV_X11M_A12TR INV_X11B_A12TR INV_X13M_A12TR INV_X13B_A12TR INV_X16B_A12TR INV_X16M_A12TR INV_X1M_A12TR INV_X1B_A12TR INV_X1P2B_A12TR INV_X1P2M_A12TR INV_X1P4B_A12TR INV_X1P4M_A12TR INV_X1P7B_A12TR INV_X1P7M_A12TR INV_X2M_A12TR INV_X2B_A12TR INV_X2P5B_A12TR INV_X2P5M_A12TR INV_X3M_A12TR INV_X3B_A12TR INV_X3P5B_A12TR INV_X3P5M_A12TR INV_X4M_A12TR INV_X4B_A12TR INV_X5M_A12TR INV_X5B_A12TR INV_X6M_A12TR INV_X6B_A12TR INV_X7P5M_A12TR INV_X7P5B_A12TR INV_X9M_A12TR INV_X9B_A12TR
+Total number of usable inverters: 40
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY2_X1M_A12TR DLY2_X0P5M_A12TR DLY4_X0P5M_A12TR DLY4_X1M_A12TR DLY4_X2M_A12TR DLY4_X4M_A12TR
+Total number of identified usable delay cells: 6
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPSYC-2):	Timing information is not defined for cell WELLANTENNATIEPW2_A12TR; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+Type 'man IMPSYC-2' for more detail.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+**WARN: (EMS-42):	Message (IMPEXT-6202) has been suppressed from output.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcworst.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcbest.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: wc_analysis_view
+    RC-Corner Name        : wc_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+ 
+ Analysis View: bc_analysis_view
+    RC-Corner Name        : bc_rc_corner
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+The lower process node is set using setDesignMode and the technology file for tQuantus extraction specified. Therefore, the default value for PostRoute extraction mode's effortLevel(-effortLeveloption of the setExtractRCMode) changed from 'low' to 'medium'.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYC-2             1  Timing information is not defined for ce...
+WARNING   TCLCMD-513           4  The software could not find a matching o...
+ERROR     TCLCMD-917           4  Cannot find '%s' that match '%s'         
+ERROR     TCLCMD-1170          2  Invalid path description specified for c...
+ERROR     TCLNL-305            2  %s: empty list of pins passed            
+ERROR     TECHLIB-1318        20  All the table values in the '%s' group a...
+*** Message Summary: 5 warning(s), 28 error(s)
+
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+AAE DB initialization (MEM=819.766 CPU=0:00:00.1 REAL=0:00:00.0) 
+
+*summary: 64 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:01.6) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.16825 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: scm65
+# Design Mode: 65nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1041.2)
+Total number of fetched objects 938
+End delay calculation. (MEM=1087.34 CPU=0:00:00.7 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=989.973 CPU=0:00:02.1 REAL=0:00:02.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting "NanoPlace(TM) placement v#10 (mem=975.8M)" ...
+total jobs 15836
+multi thread init TemplateIndex for each ta. thread num 1
+Wait...
+*** Build Buffered Sizing Timing Model (Used Compact Buffer Set) ...(cpu=0:00:03.0 mem=979.8M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:04.4 mem=1009.8M) ***
+No user setting net weight.
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=945 (0 fixed + 945 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=918 #term=2679 #term/net=2.92, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=44
+stdCell: 945 single + 0 double + 0 multi
+Total standard cell length = 1.2718 (mm), area = 0.0031 (mm^2)
+Estimated cell power/ground rail width = 0.300 um
+Average module density = 0.649.
+Density for the design = 0.649.
+       = stdcell_area 6359 sites (3052 um^2) / alloc_area 9800 sites (4704 um^2).
+Pin Density = 0.2734.
+            = total # of pins 2679 / total area 9800.
+Identified 54 spare or floating instances, with no clusters.
+=== lastAutoLevel = 6 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1056.3M
+Iteration  2: Total net bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              Est.  stn bbox = 0.000e+00 (0.00e+00 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1056.3M
+Iteration  3: Total net bbox = 8.770e+00 (4.79e+00 3.98e+00)
+              Est.  stn bbox = 1.088e+01 (5.91e+00 4.97e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1056.3M
+Active setup views:
+    wc_analysis_view
+Iteration  4: Total net bbox = 4.058e+03 (1.68e+03 2.38e+03)
+              Est.  stn bbox = 5.300e+03 (2.26e+03 3.04e+03)
+              cpu = 0:00:00.3 real = 0:00:00.0 mem = 1056.3M
+Iteration  5: Total net bbox = 5.458e+03 (2.54e+03 2.92e+03)
+              Est.  stn bbox = 7.114e+03 (3.41e+03 3.70e+03)
+              cpu = 0:00:00.3 real = 0:00:01.0 mem = 1056.3M
+Iteration  6: Total net bbox = 5.857e+03 (2.75e+03 3.11e+03)
+              Est.  stn bbox = 7.741e+03 (3.72e+03 4.02e+03)
+              cpu = 0:00:00.5 real = 0:00:00.0 mem = 1057.3M
+Iteration  7: Total net bbox = 6.573e+03 (3.02e+03 3.55e+03)
+              Est.  stn bbox = 8.489e+03 (3.99e+03 4.49e+03)
+              cpu = 0:00:00.4 real = 0:00:00.0 mem = 1057.3M
+Iteration  8: Total net bbox = 6.577e+03 (3.08e+03 3.50e+03)
+              Est.  stn bbox = 8.339e+03 (4.03e+03 4.31e+03)
+              cpu = 0:00:00.4 real = 0:00:01.0 mem = 1057.3M
+Iteration  9: Total net bbox = 9.801e+03 (4.79e+03 5.01e+03)
+              Est.  stn bbox = 1.175e+04 (5.82e+03 5.93e+03)
+              cpu = 0:00:00.9 real = 0:00:01.0 mem = 1057.3M
+Iteration 10: Total net bbox = 9.801e+03 (4.79e+03 5.01e+03)
+              Est.  stn bbox = 1.175e+04 (5.82e+03 5.93e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1057.3M
+Iteration 11: Total net bbox = 9.801e+03 (4.79e+03 5.01e+03)
+              Est.  stn bbox = 1.175e+04 (5.82e+03 5.93e+03)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1057.3M
+*** cost = 9.801e+03 (4.79e+03 5.01e+03) (cpu for global=0:00:02.9) real=0:00:04.0***
+Info: 50 clock gating cells identified, 18 (on average) moved 36/2
+Solver runtime cpu: 0:00:02.6 real: 0:00:02.5
+Core Placement runtime cpu: 0:00:02.7 real: 0:00:04.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:46.7 mem=1057.3M) ***
+Total net bbox length = 9.801e+03 (4.793e+03 5.008e+03) (ext = 2.640e+03)
+Density distribution unevenness ratio = 4.397%
+Move report: Detail placement moves 945 insts, mean move: 1.65 um, max move: 26.44 um
+	Max move on inst (GWCLK_gate): (34.73, 35.16) --> (38.00, 12.00)
+	Runtime: CPU: 0:00:00.3 REAL: 0:00:00.0 MEM: 1057.3MB
+Summary Report:
+Instances move: 945 (out of 945 movable)
+Instances flipped: 0
+Mean displacement: 1.65 um
+Max displacement: 26.44 um (Instance: GWCLK_gate) (34.727, 35.163) -> (38, 12)
+	Length: 17 sites, height: 1 rows, site name: sc12_cln65lp, cell type: PREICG_X0P5B_A12TR
+Total net bbox length = 9.293e+03 (4.420e+03 4.873e+03) (ext = 2.574e+03)
+Runtime: CPU: 0:00:00.3 REAL: 0:00:00.0 MEM: 1057.3MB
+*** Finished refinePlace (0:00:47.0 mem=1057.3M) ***
+*** End of Placement (cpu=0:00:08.3, real=0:00:09.0, mem=1057.3M) ***
+default core: bins with density >  0.75 = 11.1 % ( 1 / 9 )
+Density distribution unevenness ratio = 4.124%
+*** Free Virtual Timing Model ...(mem=1057.3M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=0 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=885  numIgnoredNets=0
+[NR-eGR] There are 51 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 885 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=360  L2=400  L3=400  L4=400  L5=400  L6=400  L7=400  L8=1600  L9=1600  L10=10000
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 885 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 8.157600e+03um
+[NR-eGR] 
+[NR-eGR] Congestion Analysis Layer By layer: (blocked Gcells are excluded) 
+[NR-eGR]                OverCon            
+[NR-eGR]                 #Gcell     %Gcell
+[NR-eGR] Layer              (0)    OverCon 
+[NR-eGR] ------------------------------------
+[NR-eGR] Layer1       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer2       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer3       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer4       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer5       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer6       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer7       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer8       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer9       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer10       0( 0.00%)   ( 0.00%) 
+[NR-eGR] ------------------------------------
+[NR-eGR] Total        0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(M1)(F) length: 0.000000e+00um, number of vias: 2602
+[NR-eGR] Layer2(M2)(V) length: 4.767780e+03um, number of vias: 3548
+[NR-eGR] Layer3(M3)(H) length: 3.714400e+03um, number of vias: 12
+[NR-eGR] Layer4(M4)(V) length: 6.060000e+01um, number of vias: 0
+[NR-eGR] Layer5(M5)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer6(M6)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer7(M7)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer8(M8)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer9(M9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(AP)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.542780e+03um, number of vias: 6162
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 1.959400e+03um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:00.1, real=0:00:01.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0:13, real = 0: 0:16, mem = 915.2M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+<CMD> checkPlace
+Begin checking placement ... (start mem=915.2M, init mem=915.2M)
+*info: Placed = 945           
+*info: Unplaced = 0           
+Placement Density:64.89%(3052/4704)
+Placement Density (including fixed std cells):64.89%(3052/4704)
+Finished checkPlace (cpu: total=0:00:00.1, vio checks=0:00:00.0; mem=915.2M)
+<CMD> setLayerPreference allM1 -isSelectable 0
+<CMD> setLayerPreference allM2Cont -isSelectable 0
+<CMD> setLayerPreference allM2 -isSelectable 0
+<CMD> setLayerPreference allM3Cont -isSelectable 0
+<CMD> setLayerPreference allM3 -isSelectable 0
+<CMD> setLayerPreference allM4Cont -isSelectable 0
+<CMD> setLayerPreference allM4 -isSelectable 0
+<CMD> setLayerPreference allM5Cont -isSelectable 0
+<CMD> setLayerPreference allM5 -isSelectable 0
+<CMD> setLayerPreference allM6Cont -isSelectable 0
+<CMD> setLayerPreference allM6 -isSelectable 0
+<CMD> setLayerPreference allM7Cont -isSelectable 0
+<CMD> setLayerPreference allM7 -isSelectable 0
+<CMD> setLayerPreference allM8Cont -isSelectable 0
+<CMD> setLayerPreference allM8 -isSelectable 0
+<CMD> setLayerPreference allM9Cont -isSelectable 0
+<CMD> setLayerPreference allM9 -isSelectable 0
+<CMD> setLayerPreference allM10Cont -isSelectable 0
+<CMD> setLayerPreference allM10 -isSelectable 0
+<CMD> setLayerPreference allM1 -isSelectable 1
+<CMD> setLayerPreference allM2Cont -isSelectable 1
+<CMD> setLayerPreference allM2 -isSelectable 1
+<CMD> setLayerPreference allM3Cont -isSelectable 1
+<CMD> setLayerPreference allM3 -isSelectable 1
+<CMD> setLayerPreference allM4Cont -isSelectable 1
+<CMD> setLayerPreference allM4 -isSelectable 1
+<CMD> setLayerPreference allM5Cont -isSelectable 1
+<CMD> setLayerPreference allM5 -isSelectable 1
+<CMD> setLayerPreference allM6Cont -isSelectable 1
+<CMD> setLayerPreference allM6 -isSelectable 1
+<CMD> setLayerPreference allM7Cont -isSelectable 1
+<CMD> setLayerPreference allM7 -isSelectable 1
+<CMD> setLayerPreference allM8Cont -isSelectable 1
+<CMD> setLayerPreference allM8 -isSelectable 1
+<CMD> setLayerPreference allM9Cont -isSelectable 1
+<CMD> setLayerPreference allM9 -isSelectable 1
+<CMD> setLayerPreference allM10Cont -isSelectable 1
+<CMD> setLayerPreference allM10 -isSelectable 1
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> fit
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 79.8 43.2 0 0 0 0
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_13 71.4 36.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_11 71.4 31.2
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_14 71.4 38.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_2 71.4 9.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_8 71.4 24.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_3 71.4 12.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_7 71.4 21.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_5 71.4 16.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_1 71.4 7.2
+<CMD> placeInstance bitslice_14/GDIN_reg 71.4 0.0 -placed
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_9 71.4 26.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_10 71.4 28.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_12 71.4 33.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_0 71.4 4.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_4 71.4 14.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_15 71.4 40.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_6 71.4 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_5 74.6 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_4 74.6 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_3 73.8 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_0 73.8 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_2 74.6 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_3_0 74.6 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_1 74.6 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_3_3 74.6 36.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_2 74.6 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_0 74.6 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_7 74.6 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_2_0 74.6 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_11 73.8 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_15 73.8 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_1 74.6 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_3 74.6 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_10 73.8 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_13 73.8 36.0
+<CMD> placeInstance bitslice_14/read_mux/inv_out 74.6 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_5 73.8 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_7 73.8 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_12 73.8 33.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_9 73.8 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_1_1 73.8 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_4 73.8 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_5_0 74.6 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_8 73.8 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_2 73.8 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_6 73.8 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_14 73.8 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_1 74.6 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_6 74.6 33.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_0 75.4 4.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_14 75.4 38.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_2 75.4 9.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_8 75.4 24.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_3 75.4 12.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_7 75.4 21.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_6 75.4 19.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_5 75.4 16.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_1 75.4 7.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_13 75.4 36.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_9 75.4 26.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_10 75.4 28.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_12 75.4 33.6
+<CMD> placeInstance bitslice_15/GDIN_reg 75.0 2.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_4 75.4 14.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_15 75.4 40.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_11 75.4 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_5 78.6 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_4 78.6 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_3 77.8 12.0
+<CMD> placeInstance bitslice_15/read_mux/inv_out 78.6 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_3_2 78.6 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_0 77.8 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_1 78.6 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_2 77.8 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_2_2 78.6 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_9 77.8 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_7 78.6 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_0 78.6 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_11 77.8 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_13 77.8 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_1 78.6 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_3 78.6 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_10 77.8 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_15 77.8 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_5 77.8 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_7 77.8 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_3_0 78.6 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_4_0 78.6 12.0
+<CMD> placeInstance bitslice_15/read_mux/level_5_0 78.6 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_1 77.8 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_4 77.8 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_12 77.8 33.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_8 77.8 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_3 78.6 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_6 77.8 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_14 77.8 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_4_1 78.6 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_6 78.6 33.6
+<CMD> placeInstance welltap_strip_2/welltap_4 79.4 9.6
+<CMD> placeInstance welltap_strip_2/welltap_0 79.4 0.0
+<CMD> placeInstance welltap_strip_2/welltap_2 79.4 4.8
+<CMD> placeInstance welltap_strip_2/welltap_7 79.4 16.8
+<CMD> placeInstance welltap_strip_2/welltap_10 79.4 24.0
+<CMD> placeInstance welltap_strip_2/welltap_13 79.4 31.2
+<CMD> placeInstance welltap_strip_2/welltap_1 79.4 2.4
+<CMD> placeInstance welltap_strip_2/welltap_16 79.4 38.4
+<CMD> placeInstance welltap_strip_2/welltap_11 79.4 26.4
+<CMD> placeInstance welltap_strip_2/welltap_9 79.4 21.6
+<CMD> placeInstance welltap_strip_2/welltap_6 79.4 14.4
+<CMD> placeInstance welltap_strip_2/welltap_12 79.4 28.8
+<CMD> placeInstance welltap_strip_2/welltap_15 79.4 36.0
+<CMD> placeInstance welltap_strip_2/welltap_5 79.4 12.0
+<CMD> placeInstance welltap_strip_2/welltap_3 79.4 7.2
+<CMD> placeInstance welltap_strip_2/welltap_14 79.4 33.6
+<CMD> placeInstance welltap_strip_2/welltap_8 79.4 19.2
+<CMD> placeInstance welltap_strip_2/welltap_17 79.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_13 63.4 36.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_11 63.4 31.2
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_14 63.4 38.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_2 63.4 9.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_8 63.4 24.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_3 63.4 12.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_7 63.4 21.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_5 63.4 16.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_1 63.4 7.2
+<CMD> placeInstance bitslice_12/GDIN_reg 63.4 0.0 -placed
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_9 63.4 26.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_10 63.4 28.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_12 63.4 33.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_0 63.4 4.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_4 63.4 14.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_15 63.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_6 63.4 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_5 66.6 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_4 66.6 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_3 65.8 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_0 65.8 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_2 66.6 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_3_0 66.6 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_1 66.6 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_3_3 66.6 36.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_2 66.6 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_0 66.6 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_7 66.6 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_2_0 66.6 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_11 65.8 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_15 65.8 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_1 66.6 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_3 66.6 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_10 65.8 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_13 65.8 36.0
+<CMD> placeInstance bitslice_12/read_mux/inv_out 66.6 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_5 65.8 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_7 65.8 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_12 65.8 33.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_9 65.8 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_1_1 65.8 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_4 65.8 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_5_0 66.6 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_8 65.8 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_2 65.8 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_6 65.8 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_14 65.8 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_1 66.6 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_6 66.6 33.6
+<CMD> placeInstance rwlBuff_strip_1/rwlBuff_2 34.0 9.6
+**ERROR: (IMPSYC-281):	Instance rwlBuff_strip_1/rwlBuff_2 cannot be found.
+
+<CMD> selectInst bitslice_2/MemoryLatch_reg_11
+<CMD> refinePlace
+*** Starting refinePlace (0:00:54.7 mem=920.2M) ***
+Density distribution unevenness ratio = 0.000%
+Move report: Detail placement moves 736 insts, mean move: 14.91 um, max move: 64.00 um
+	Max move on inst (welltap_strip_1/welltap_1): (20.40, 64.80) --> (29.20, 9.60)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 920.2MB
+Summary Report:
+Instances move: 736 (out of 782 movable)
+Instances flipped: 0
+Mean displacement: 14.91 um
+Max displacement: 64.00 um (Instance: welltap_strip_1/welltap_1) (20.4, 64.8) -> (29.2, 9.6)
+	Length: 2 sites, height: 1 rows, site name: sc12_cln65lp, cell type: WELLANTENNATIEPW2_A12TR
+	Violation at original loc: Region/Fence Violation
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 920.2MB
+*** Finished refinePlace (0:00:54.7 mem=920.2M) ***
+Density distribution unevenness ratio = 5.111%
+<CMD> deselectAll
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 79.8 43.2 0 0 0 0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_13 71.4 36.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_11 71.4 31.2
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_14 71.4 38.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_2 71.4 9.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_8 71.4 24.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_3 71.4 12.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_7 71.4 21.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_5 71.4 16.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_1 71.4 7.2
+<CMD> placeInstance bitslice_14/GDIN_reg 71.4 0.0 -placed
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_9 71.4 26.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_10 71.4 28.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_12 71.4 33.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_0 71.4 4.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_4 71.4 14.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_15 71.4 40.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_6 71.4 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_5 74.6 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_4 74.6 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_3 73.8 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_0 73.8 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_2 74.6 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_3_0 74.6 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_1 74.6 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_3_3 74.6 36.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_2 74.6 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_0 74.6 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_7 74.6 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_2_0 74.6 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_11 73.8 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_15 73.8 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_1 74.6 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_3 74.6 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_10 73.8 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_13 73.8 36.0
+<CMD> placeInstance bitslice_14/read_mux/inv_out 74.6 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_5 73.8 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_7 73.8 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_12 73.8 33.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_9 73.8 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_1_1 73.8 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_4 73.8 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_5_0 74.6 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_8 73.8 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_2 73.8 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_6 73.8 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_14 73.8 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_1 74.6 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_6 74.6 33.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_0 75.4 4.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_14 75.4 38.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_2 75.4 9.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_8 75.4 24.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_3 75.4 12.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_7 75.4 21.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_6 75.4 19.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_5 75.4 16.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_1 75.4 7.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_13 75.4 36.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_9 75.4 26.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_10 75.4 28.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_12 75.4 33.6
+<CMD> placeInstance bitslice_15/GDIN_reg 75.0 2.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_4 75.4 14.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_15 75.4 40.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_11 75.4 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_5 78.6 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_4 78.6 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_3 77.8 12.0
+<CMD> placeInstance bitslice_15/read_mux/inv_out 78.6 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_3_2 78.6 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_0 77.8 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_1 78.6 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_2 77.8 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_2_2 78.6 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_9 77.8 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_7 78.6 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_0 78.6 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_11 77.8 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_13 77.8 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_1 78.6 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_3 78.6 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_10 77.8 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_15 77.8 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_5 77.8 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_7 77.8 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_3_0 78.6 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_4_0 78.6 12.0
+<CMD> placeInstance bitslice_15/read_mux/level_5_0 78.6 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_1 77.8 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_4 77.8 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_12 77.8 33.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_8 77.8 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_3 78.6 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_6 77.8 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_14 77.8 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_4_1 78.6 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_6 78.6 33.6
+<CMD> placeInstance welltap_strip_2/welltap_4 79.4 9.6
+<CMD> placeInstance welltap_strip_2/welltap_0 79.4 0.0
+<CMD> placeInstance welltap_strip_2/welltap_2 79.4 4.8
+<CMD> placeInstance welltap_strip_2/welltap_7 79.4 16.8
+<CMD> placeInstance welltap_strip_2/welltap_10 79.4 24.0
+<CMD> placeInstance welltap_strip_2/welltap_13 79.4 31.2
+<CMD> placeInstance welltap_strip_2/welltap_1 79.4 2.4
+<CMD> placeInstance welltap_strip_2/welltap_16 79.4 38.4
+<CMD> placeInstance welltap_strip_2/welltap_11 79.4 26.4
+<CMD> placeInstance welltap_strip_2/welltap_9 79.4 21.6
+<CMD> placeInstance welltap_strip_2/welltap_6 79.4 14.4
+<CMD> placeInstance welltap_strip_2/welltap_12 79.4 28.8
+<CMD> placeInstance welltap_strip_2/welltap_15 79.4 36.0
+<CMD> placeInstance welltap_strip_2/welltap_5 79.4 12.0
+<CMD> placeInstance welltap_strip_2/welltap_3 79.4 7.2
+<CMD> placeInstance welltap_strip_2/welltap_14 79.4 33.6
+<CMD> placeInstance welltap_strip_2/welltap_8 79.4 19.2
+<CMD> placeInstance welltap_strip_2/welltap_17 79.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_13 63.4 36.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_11 63.4 31.2
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_14 63.4 38.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_2 63.4 9.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_8 63.4 24.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_3 63.4 12.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_7 63.4 21.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_5 63.4 16.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_1 63.4 7.2
+<CMD> placeInstance bitslice_12/GDIN_reg 63.4 0.0 -placed
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_9 63.4 26.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_10 63.4 28.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_12 63.4 33.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_0 63.4 4.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_4 63.4 14.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_15 63.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_6 63.4 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_5 66.6 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_4 66.6 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_3 65.8 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_0 65.8 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_2 66.6 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_3_0 66.6 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_1 66.6 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_3_3 66.6 36.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_2 66.6 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_0 66.6 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_7 66.6 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_2_0 66.6 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_11 65.8 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_15 65.8 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_1 66.6 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_3 66.6 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_10 65.8 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_13 65.8 36.0
+<CMD> placeInstance bitslice_12/read_mux/inv_out 66.6 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_5 65.8 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_7 65.8 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_12 65.8 33.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_9 65.8 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_1_1 65.8 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_4 65.8 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_5_0 66.6 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_8 65.8 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_2 65.8 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_6 65.8 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_14 65.8 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_1 66.6 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_6 66.6 33.6
+<CMD> placeInstance rwlBuff_strip_1/rwlBuff_2 34.0 9.6
+**ERROR: (IMPSYC-281):	Instance rwlBuff_strip_1/rwlBuff_2 cannot be found.
+
+<CMD> checkPlace
+Begin checking placement ... (start mem=920.2M, init mem=920.2M)
+Overlapping with other instance:	2
+*info: Placed = 945            (Fixed = 163)
+*info: Unplaced = 0           
+Placement Density:86.65%(2565/2960)
+Placement Density (including fixed std cells):88.54%(3052/3447)
+Finished checkPlace (cpu: total=0:00:00.0, vio checks=0:00:00.0; mem=920.2M)
+**WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+<CMD> deleteAllFPObjects
+There is no pin guide defined.
+**WARN: (IMPFP-6001):	NO matching routing blockage found. Nothing deleted. 
+There is no pin blockage which matches the wildcard name [*].
+<CMD> floorPlan -site sc12_cln65lp -adjustToSite -s 79.8 43.2 0 0 0 0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_13 71.4 36.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_11 71.4 31.2
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_14 71.4 38.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_2 71.4 9.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_8 71.4 24.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_3 71.4 12.0
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_7 71.4 21.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_5 71.4 16.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_1 71.4 7.2
+<CMD> placeInstance bitslice_14/GDIN_reg 71.4 0.0 -placed
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_9 71.4 26.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_10 71.4 28.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_12 71.4 33.6
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_0 71.4 4.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_4 71.4 14.4
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_15 71.4 40.8
+<CMD> placeInstance bitslice_14/MemoryLatch_reg_6 71.4 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_5 74.6 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_4 74.6 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_3 73.8 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_0 73.8 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_2 74.6 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_3_0 74.6 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_1 74.6 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_3_3 74.6 36.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_2 74.6 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_0 74.6 12.0
+<CMD> placeInstance bitslice_14/read_mux/level_2_7 74.6 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_2_0 74.6 4.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_11 73.8 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_15 73.8 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_3_1 74.6 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_2_3 74.6 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_10 73.8 28.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_13 73.8 36.0
+<CMD> placeInstance bitslice_14/read_mux/inv_out 74.6 40.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_5 73.8 16.8
+<CMD> placeInstance bitslice_14/read_mux/level_1_7 73.8 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_12 73.8 33.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_9 73.8 26.4
+<CMD> placeInstance bitslice_14/read_mux/level_1_1 73.8 7.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_4 73.8 14.4
+<CMD> placeInstance bitslice_14/read_mux/level_5_0 74.6 21.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_8 73.8 24.0
+<CMD> placeInstance bitslice_14/read_mux/level_1_2 73.8 9.6
+<CMD> placeInstance bitslice_14/read_mux/level_1_6 73.8 19.2
+<CMD> placeInstance bitslice_14/read_mux/level_1_14 73.8 38.4
+<CMD> placeInstance bitslice_14/read_mux/level_4_1 74.6 31.2
+<CMD> placeInstance bitslice_14/read_mux/level_2_6 74.6 33.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_0 75.4 4.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_14 75.4 38.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_2 75.4 9.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_8 75.4 24.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_3 75.4 12.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_7 75.4 21.6
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_6 75.4 19.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_5 75.4 16.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_1 75.4 7.2
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_13 75.4 36.0
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_9 75.4 26.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_10 75.4 28.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_12 75.4 33.6
+<CMD> placeInstance bitslice_15/GDIN_reg 75.0 2.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_4 75.4 14.4
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_15 75.4 40.8
+<CMD> placeInstance bitslice_15/MemoryLatch_reg_11 75.4 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_5 78.6 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_4 78.6 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_3 77.8 12.0
+<CMD> placeInstance bitslice_15/read_mux/inv_out 78.6 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_3_2 78.6 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_0 77.8 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_1 78.6 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_2 77.8 9.6
+<CMD> placeInstance bitslice_15/read_mux/level_2_2 78.6 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_9 77.8 26.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_7 78.6 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_2_0 78.6 4.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_11 77.8 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_13 77.8 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_1 78.6 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_2_3 78.6 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_10 77.8 28.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_15 77.8 40.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_5 77.8 16.8
+<CMD> placeInstance bitslice_15/read_mux/level_1_7 77.8 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_3_0 78.6 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_4_0 78.6 12.0
+<CMD> placeInstance bitslice_15/read_mux/level_5_0 78.6 21.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_1 77.8 7.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_4 77.8 14.4
+<CMD> placeInstance bitslice_15/read_mux/level_1_12 77.8 33.6
+<CMD> placeInstance bitslice_15/read_mux/level_1_8 77.8 24.0
+<CMD> placeInstance bitslice_15/read_mux/level_3_3 78.6 36.0
+<CMD> placeInstance bitslice_15/read_mux/level_1_6 77.8 19.2
+<CMD> placeInstance bitslice_15/read_mux/level_1_14 77.8 38.4
+<CMD> placeInstance bitslice_15/read_mux/level_4_1 78.6 31.2
+<CMD> placeInstance bitslice_15/read_mux/level_2_6 78.6 33.6
+<CMD> placeInstance welltap_strip_2/welltap_4 79.4 9.6
+<CMD> placeInstance welltap_strip_2/welltap_0 79.4 0.0
+<CMD> placeInstance welltap_strip_2/welltap_2 79.4 4.8
+<CMD> placeInstance welltap_strip_2/welltap_7 79.4 16.8
+<CMD> placeInstance welltap_strip_2/welltap_10 79.4 24.0
+<CMD> placeInstance welltap_strip_2/welltap_13 79.4 31.2
+<CMD> placeInstance welltap_strip_2/welltap_1 79.4 2.4
+<CMD> placeInstance welltap_strip_2/welltap_16 79.4 38.4
+<CMD> placeInstance welltap_strip_2/welltap_11 79.4 26.4
+<CMD> placeInstance welltap_strip_2/welltap_9 79.4 21.6
+<CMD> placeInstance welltap_strip_2/welltap_6 79.4 14.4
+<CMD> placeInstance welltap_strip_2/welltap_12 79.4 28.8
+<CMD> placeInstance welltap_strip_2/welltap_15 79.4 36.0
+<CMD> placeInstance welltap_strip_2/welltap_5 79.4 12.0
+<CMD> placeInstance welltap_strip_2/welltap_3 79.4 7.2
+<CMD> placeInstance welltap_strip_2/welltap_14 79.4 33.6
+<CMD> placeInstance welltap_strip_2/welltap_8 79.4 19.2
+<CMD> placeInstance welltap_strip_2/welltap_17 79.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_13 63.4 36.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_11 63.4 31.2
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_14 63.4 38.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_2 63.4 9.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_8 63.4 24.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_3 63.4 12.0
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_7 63.4 21.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_5 63.4 16.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_1 63.4 7.2
+<CMD> placeInstance bitslice_12/GDIN_reg 63.4 0.0 -placed
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_9 63.4 26.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_10 63.4 28.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_12 63.4 33.6
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_0 63.4 4.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_4 63.4 14.4
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_15 63.4 40.8
+<CMD> placeInstance bitslice_12/MemoryLatch_reg_6 63.4 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_5 66.6 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_4 66.6 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_3 65.8 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_0 65.8 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_2 66.6 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_3_0 66.6 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_1 66.6 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_3_3 66.6 36.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_2 66.6 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_0 66.6 12.0
+<CMD> placeInstance bitslice_12/read_mux/level_2_7 66.6 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_2_0 66.6 4.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_11 65.8 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_15 65.8 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_3_1 66.6 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_2_3 66.6 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_10 65.8 28.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_13 65.8 36.0
+<CMD> placeInstance bitslice_12/read_mux/inv_out 66.6 40.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_5 65.8 16.8
+<CMD> placeInstance bitslice_12/read_mux/level_1_7 65.8 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_12 65.8 33.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_9 65.8 26.4
+<CMD> placeInstance bitslice_12/read_mux/level_1_1 65.8 7.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_4 65.8 14.4
+<CMD> placeInstance bitslice_12/read_mux/level_5_0 66.6 21.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_8 65.8 24.0
+<CMD> placeInstance bitslice_12/read_mux/level_1_2 65.8 9.6
+<CMD> placeInstance bitslice_12/read_mux/level_1_6 65.8 19.2
+<CMD> placeInstance bitslice_12/read_mux/level_1_14 65.8 38.4
+<CMD> placeInstance bitslice_12/read_mux/level_4_1 66.6 31.2
+<CMD> placeInstance bitslice_12/read_mux/level_2_6 66.6 33.6
+<CMD> placeInstance rwlBuff_strip_1/rwlBuff_2 34.0 9.6
+**ERROR: (IMPSYC-281):	Instance rwlBuff_strip_1/rwlBuff_2 cannot be found.
+
+<CMD> init_design
+**WARN: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+<CMD> setDesignMode -process 65
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'medium'.
+Updating process node dependent CCOpt properties for the 65nm process node.
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+**WARN: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+*** Message Summary: 1 warning(s), 0 error(s)
+
+
+*** Memory Usage v#1 (Current mem = 913.160M, initial mem = 167.637M) ***
+*** Message Summary: 12 warning(s), 31 error(s)
+
+--- Ending "Innovus" (totcpu=0:01:33, real=0:11:01, mem=913.2M) ---

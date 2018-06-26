@@ -1,0 +1,703 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.12-s095_1, built Thu Nov 9 12:10:01 PST 2017
+Options:	
+Date:		Sun Jun 24 13:21:35 2018
+Host:		enicsw02 (x86_64 w/Linux 2.6.32-642.11.1.el6.x86_64) (6cores*24cpus*Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz 15360KB)
+OS:		CentOS release 6.8 (Final)
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+The soft stacksize limit is either up to the hard limit or larger than 0.2%RAM. No change is needed.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+invalid command name "runtype"
+invalid command name "pnr"
+<CMD> setDesignMode -process 65
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 65nm process node.
+<CMD> setNanoRouteMode -quiet -routeWithViaInPin true
+<CMD> set init_gnd_net gnd
+<CMD> set init_pwr_net vdd
+<CMD> set init_lef_file {/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef}
+<CMD> set init_verilog ../../export/scm65.post_py.v
+<CMD> set init_mmmc_file ../scm65.mmmc
+<CMD> suppressMessage ENCLF-200
+<CMD> suppressMessage TECHLIB-436
+<CMD> suppressMessage TECHLIB-302
+<CMD> suppressMessage ENCLF-58
+<CMD> suppressMessage LEFPARS-2001
+<CMD> suppressMessage ENCTS-282
+<CMD> set init_design_uniquify 1
+<CMD> init_design
+#% Begin Load MMMC data ... (date=06/24 13:26:21, mem=426.1M)
+#% End Load MMMC data ... (date=06/24 13:26:22, total cpu=0:00:00.0, real=0:00:01.0, peak res=426.2M, current mem=426.2M)
+tc_rc_corner bc_rc_corner wc_rc_corner
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/arm_tech/r2p0/lef/1p9m_6x2z/sc12_tech.lef ...
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lef/sc12_cln65lp_base_rvt.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (EMS-42):	Message (IMPLF-200) has been suppressed from output.
+
+viaInitial starts at Sun Jun 24 13:26:22 2018
+viaInitial ends at Sun Jun 24 13:26:23 2018
+Loading view definition file from ../scm65.mmmc
+Reading wc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313034)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313028)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313385)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313379)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313736)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 313730)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314087)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314081)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314438)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314432)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314789)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 314783)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315140)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315134)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315491)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315485)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315842)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 315836)
+**ERROR: (TECHLIB-1318):	All the table values in the 'rise_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023019)
+**ERROR: (TECHLIB-1318):	All the table values in the 'fall_transition' group are within '0.000010' of each other. (File /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib, Line 1023013)
+Message <TECHLIB-1318> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+Reading bc_libset timing library '/data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc12_base_rvt/r0p0/lib/sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c.lib' ...
+Read 950 cells in library 'sc12_cln65lp_base_rvt_ff_typical_min_1p32v_m40c' 
+*** End library_loading (cpu=0.12min, real=0.13min, mem=55.5M, fe_cpu=0.72min, fe_real=4.93min, fe_mem=522.2M) ***
+#% Begin Load netlist data ... (date=06/24 13:26:31, mem=608.4M)
+*** Begin netlist parsing (mem=522.2M) ***
+Created 950 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist '../../export/scm65.post_py.v'
+
+*** Memory Usage v#1 (Current mem = 522.176M, initial mem = 167.637M) ***
+*** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=522.2M) ***
+#% End Load netlist data ... (date=06/24 13:26:31, total cpu=0:00:00.1, real=0:00:00.0, peak res=608.4M, current mem=491.6M)
+Ignoring unreferenced cell PreDecoder_3_8.
+Warning: The top level cell is ambiguous.
+Setting top level cell to be scm65.
+Hooked 1900 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell scm65 ...
+*** Netlist is NOT unique.
+** info: there are 1928 modules.
+** info: there are 53909 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 617.898M, initial mem = 167.637M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '../scm65.sdc' ...
+Current (total cpu=0:00:45.6, real=0:04:59, peak res=755.0M, current mem=755.0M)
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 31).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 31).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match 'MemoryLatch_reg*/Q*' (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLNL-305):	set_multicycle_path: empty list of pins passed (File ../scm65.sdc, Line 32).
+
+**ERROR: (TCLCMD-1170):	Invalid path description specified for command set_multicycle_path (File ../scm65.sdc, Line 32).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*DGWClkLeftNet*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkLeftNet*' (File ../scm65.sdc, Line 50).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern '*DGWClkNetToBuff*' (File ../scm65.sdc, Line 50).
+
+**ERROR: (TCLCMD-917):	Cannot find 'instances, nets, modules, or cells' that match '*DGWClkNetToBuff*' (File ../scm65.sdc, Line 50).
+
+INFO (CTE): Reading of timing constraints file ../scm65.sdc completed, with 4 Warnings and 8 Errors.
+Ending "Constraint file reading stats" (total cpu=0:00:00.8, real=0:00:01.0, peak res=763.2M, current mem=763.2M)
+Current (total cpu=0:00:46.5, real=0:05:00, peak res=763.2M, current mem=763.2M)
+Total number of combinational cells: 687
+Total number of sequential cells: 254
+Total number of tristate cells: 9
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFH_X0P8M_A12TR BUFH_X0P7M_A12TR BUFH_X11M_A12TR BUFH_X13M_A12TR BUFH_X16M_A12TR BUFH_X1M_A12TR BUFH_X1P2M_A12TR BUFH_X1P7M_A12TR BUFH_X1P4M_A12TR BUFH_X2M_A12TR BUFH_X3M_A12TR BUFH_X2P5M_A12TR BUFH_X3P5M_A12TR BUFH_X4M_A12TR BUFH_X5M_A12TR BUFH_X6M_A12TR BUFH_X7P5M_A12TR BUFH_X9M_A12TR BUF_X0P7B_A12TR BUF_X0P7M_A12TR BUF_X0P8M_A12TR BUF_X0P8B_A12TR BUF_X11M_A12TR BUF_X11B_A12TR BUF_X13M_A12TR BUF_X13B_A12TR BUF_X16B_A12TR BUF_X16M_A12TR BUF_X1M_A12TR BUF_X1B_A12TR BUF_X1P2B_A12TR BUF_X1P2M_A12TR BUF_X1P4B_A12TR BUF_X1P4M_A12TR BUF_X1P7B_A12TR BUF_X1P7M_A12TR BUF_X2M_A12TR BUF_X2B_A12TR BUF_X2P5B_A12TR BUF_X2P5M_A12TR BUF_X3M_A12TR BUF_X3B_A12TR BUF_X3P5M_A12TR BUF_X3P5B_A12TR BUF_X4B_A12TR BUF_X4M_A12TR BUF_X5M_A12TR BUF_X5B_A12TR BUF_X6M_A12TR BUF_X6B_A12TR BUF_X7P5M_A12TR BUF_X7P5B_A12TR BUF_X9B_A12TR BUF_X9M_A12TR DLY2_X2M_A12TR DLY2_X4M_A12TR
+Total number of usable buffers: 56
+List of unusable buffers: FRICG_X0P5B_A12TR FRICG_X0P6B_A12TR FRICG_X0P8B_A12TR FRICG_X0P7B_A12TR FRICG_X11B_A12TR FRICG_X13B_A12TR FRICG_X16B_A12TR FRICG_X1B_A12TR FRICG_X1P2B_A12TR FRICG_X1P4B_A12TR FRICG_X2B_A12TR FRICG_X1P7B_A12TR FRICG_X3B_A12TR FRICG_X2P5B_A12TR FRICG_X4B_A12TR FRICG_X3P5B_A12TR FRICG_X5B_A12TR FRICG_X6B_A12TR FRICG_X7P5B_A12TR FRICG_X9B_A12TR
+Total number of unusable buffers: 20
+List of usable inverters: INV_X0P5B_A12TR INV_X0P5M_A12TR INV_X0P6B_A12TR INV_X0P6M_A12TR INV_X0P7B_A12TR INV_X0P7M_A12TR INV_X0P8M_A12TR INV_X0P8B_A12TR INV_X11M_A12TR INV_X11B_A12TR INV_X13M_A12TR INV_X13B_A12TR INV_X16B_A12TR INV_X16M_A12TR INV_X1M_A12TR INV_X1B_A12TR INV_X1P2B_A12TR INV_X1P2M_A12TR INV_X1P4B_A12TR INV_X1P4M_A12TR INV_X1P7B_A12TR INV_X1P7M_A12TR INV_X2M_A12TR INV_X2B_A12TR INV_X2P5B_A12TR INV_X2P5M_A12TR INV_X3M_A12TR INV_X3B_A12TR INV_X3P5B_A12TR INV_X3P5M_A12TR INV_X4M_A12TR INV_X4B_A12TR INV_X5M_A12TR INV_X5B_A12TR INV_X6M_A12TR INV_X6B_A12TR INV_X7P5M_A12TR INV_X7P5B_A12TR INV_X9M_A12TR INV_X9B_A12TR
+Total number of usable inverters: 40
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY2_X1M_A12TR DLY2_X0P5M_A12TR DLY4_X0P5M_A12TR DLY4_X1M_A12TR DLY4_X2M_A12TR DLY4_X4M_A12TR
+Total number of identified usable delay cells: 6
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPSYC-2):	Timing information is not defined for cell WELLANTENNATIEPW2_A12TR; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+Type 'man IMPSYC-2' for more detail.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+**WARN: (EMS-42):	Message (IMPEXT-6202) has been suppressed from output.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcworst.
+Reading Capacitance Table File /data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl ...
+Cap table was created using Encounter 08.10-s372_1.
+Process name: cln65lp_1p09m+alrdl_rcbest.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: wc_analysis_view
+    RC-Corner Name        : wc_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcworst.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+ 
+ Analysis View: bc_analysis_view
+    RC-Corner Name        : bc_rc_corner
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : '/data/tsmc/65LP//dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/cadence_captable/1p9m_6x2z/rcbest.captbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/data/tsmc/65LP//pdk/Assura/lvs_rcx/qrcTechFile'
+The lower process node is set using setDesignMode and the technology file for tQuantus extraction specified. Therefore, the default value for PostRoute extraction mode's effortLevel(-effortLeveloption of the setExtractRCMode) changed from 'low' to 'medium'.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSYC-2             1  Timing information is not defined for ce...
+WARNING   TCLCMD-513           4  The software could not find a matching o...
+ERROR     TCLCMD-917           4  Cannot find '%s' that match '%s'         
+ERROR     TCLCMD-1170          2  Invalid path description specified for c...
+ERROR     TCLNL-305            2  %s: empty list of pins passed            
+ERROR     TECHLIB-1318        20  All the table values in the '%s' group a...
+*** Message Summary: 5 warning(s), 28 error(s)
+
+<CMD> place_design
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+AAE DB initialization (MEM=1016.35 CPU=0:00:00.1 REAL=0:00:00.0) 
+
+*summary: 1024 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:03.6) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.6828 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: scm65
+# Design Mode: 65nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1256.38)
+Total number of fetched objects 50906
+End delay calculation. (MEM=1330.7 CPU=0:00:07.6 REAL=0:00:08.0)
+End delay calculation (fullDC). (MEM=1233.32 CPU=0:00:10.1 REAL=0:00:11.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting "NanoPlace(TM) placement v#10 (mem=1218.6M)" ...
+total jobs 15836
+multi thread init TemplateIndex for each ta. thread num 1
+Wait...
+*** Build Buffered Sizing Timing Model (Used Compact Buffer Set) ...(cpu=0:00:02.6 mem=1239.6M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:04.0 mem=1268.6M) ***
+No user setting net weight.
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+Scan chains were not defined.
+#std cell=52885 (0 fixed + 52885 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=50646 #term=152079 #term/net=3.00, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=148
+stdCell: 52885 single + 0 double + 0 multi
+Total standard cell length = 69.1150 (mm), area = 0.1659 (mm^2)
+Estimated cell power/ground rail width = 0.300 um
+Average module density = 0.684.
+Density for the design = 0.684.
+       = stdcell_area 345575 sites (165876 um^2) / alloc_area 505325 sites (242556 um^2).
+Pin Density = 0.3010.
+            = total # of pins 152079 / total area 505325.
+Identified 2322 spare or floating instances, with no clusters.
+=== lastAutoLevel = 9 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 4.899e-08 (1.94e-08 2.96e-08)
+              Est.  stn bbox = 4.935e-08 (1.95e-08 2.98e-08)
+              cpu = 0:00:00.1 real = 0:00:01.0 mem = 1370.2M
+Iteration  2: Total net bbox = 4.899e-08 (1.94e-08 2.96e-08)
+              Est.  stn bbox = 4.935e-08 (1.95e-08 2.98e-08)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1371.2M
+Iteration  3: Total net bbox = 1.746e+03 (8.38e+02 9.08e+02)
+              Est.  stn bbox = 2.580e+03 (1.21e+03 1.37e+03)
+              cpu = 0:00:02.3 real = 0:00:02.0 mem = 1376.7M
+Active setup views:
+    wc_analysis_view
+Iteration  4: Total net bbox = 3.319e+05 (1.01e+05 2.31e+05)
+              Est.  stn bbox = 5.041e+05 (1.84e+05 3.20e+05)
+              cpu = 0:00:10.2 real = 0:00:10.0 mem = 1376.7M
+Iteration  5: Total net bbox = 3.333e+05 (1.32e+05 2.01e+05)
+              Est.  stn bbox = 5.198e+05 (2.20e+05 3.00e+05)
+              cpu = 0:00:13.8 real = 0:00:14.0 mem = 1376.7M
+Iteration  6: Total net bbox = 4.092e+05 (1.82e+05 2.27e+05)
+              Est.  stn bbox = 6.399e+05 (2.83e+05 3.57e+05)
+              cpu = 0:00:16.3 real = 0:00:17.0 mem = 1387.1M
+Iteration  7: Total net bbox = 5.027e+05 (2.46e+05 2.56e+05)
+              Est.  stn bbox = 7.372e+05 (3.50e+05 3.88e+05)
+              cpu = 0:00:02.2 real = 0:00:02.0 mem = 1423.7M
+Iteration  8: Total net bbox = 5.027e+05 (2.46e+05 2.56e+05)
+              Est.  stn bbox = 7.372e+05 (3.50e+05 3.88e+05)
+              cpu = 0:00:38.2 real = 0:00:38.0 mem = 1423.7M
+Iteration  9: Total net bbox = 5.266e+05 (2.56e+05 2.70e+05)
+              Est.  stn bbox = 7.939e+05 (3.79e+05 4.15e+05)
+              cpu = 0:00:30.9 real = 0:00:31.0 mem = 1423.7M
+Iteration 10: Total net bbox = 5.266e+05 (2.56e+05 2.70e+05)
+              Est.  stn bbox = 7.939e+05 (3.79e+05 4.15e+05)
+              cpu = 0:00:20.3 real = 0:00:20.0 mem = 1423.7M
+Iteration 11: Total net bbox = 5.567e+05 (2.72e+05 2.85e+05)
+              Est.  stn bbox = 8.366e+05 (4.04e+05 4.33e+05)
+              cpu = 0:00:25.2 real = 0:00:25.0 mem = 1423.7M
+Iteration 12: Total net bbox = 5.567e+05 (2.72e+05 2.85e+05)
+              Est.  stn bbox = 8.366e+05 (4.04e+05 4.33e+05)
+              cpu = 0:00:20.2 real = 0:00:21.0 mem = 1423.7M
+Iteration 13: Total net bbox = 5.977e+05 (2.89e+05 3.09e+05)
+              Est.  stn bbox = 8.734e+05 (4.19e+05 4.55e+05)
+              cpu = 0:00:29.1 real = 0:00:29.0 mem = 1423.7M
+Iteration 14: Total net bbox = 5.977e+05 (2.89e+05 3.09e+05)
+              Est.  stn bbox = 8.734e+05 (4.19e+05 4.55e+05)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1423.7M
+Iteration 15: Total net bbox = 5.977e+05 (2.89e+05 3.09e+05)
+              Est.  stn bbox = 8.734e+05 (4.19e+05 4.55e+05)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1423.7M
+*** cost = 5.977e+05 (2.89e+05 3.09e+05) (cpu for global=0:03:39) real=0:03:40***
+Info: 770 clock gating cells identified, 258 (on average) moved 1806/7
+Solver runtime cpu: 0:02:02 real: 0:02:01
+Core Placement runtime cpu: 0:02:07 real: 0:02:10
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:05:34 mem=1423.7M) ***
+Total net bbox length = 5.977e+05 (2.891e+05 3.086e+05) (ext = 7.057e+04)
+Density distribution unevenness ratio = 2.516%
+Move report: Detail placement moves 52884 insts, mean move: 1.46 um, max move: 44.45 um
+	Max move on inst (read_decoder/PostDec_41): (365.54, 380.91) --> (358.80, 343.20)
+	Runtime: CPU: 0:00:23.4 REAL: 0:00:24.0 MEM: 1404.8MB
+Summary Report:
+Instances move: 52884 (out of 52885 movable)
+Instances flipped: 1
+Mean displacement: 1.46 um
+Max displacement: 44.45 um (Instance: read_decoder/PostDec_41) (365.538, 380.913) -> (358.8, 343.2)
+	Length: 6 sites, height: 1 rows, site name: sc12_cln65lp, cell type: NOR3_X1A_A12TR
+Total net bbox length = 5.750e+05 (2.629e+05 3.121e+05) (ext = 7.030e+04)
+Runtime: CPU: 0:00:23.5 REAL: 0:00:24.0 MEM: 1404.8MB
+*** Finished refinePlace (0:05:58 mem=1404.8M) ***
+*** End of Placement (cpu=0:04:23, real=0:04:24, mem=1404.8M) ***
+default core: bins with density >  0.75 = 1.81 % ( 8 / 441 )
+Density distribution unevenness ratio = 2.477%
+*** Free Virtual Timing Model ...(mem=1404.8M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=0 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=50517  numIgnoredNets=0
+[NR-eGR] There are 771 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 50517 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=360  L2=400  L3=400  L4=400  L5=400  L6=400  L7=400  L8=1600  L9=1600  L10=10000
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 50517 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 6.985344e+05um
+[NR-eGR] 
+[NR-eGR] Congestion Analysis Layer By layer: (blocked Gcells are excluded) 
+[NR-eGR]                OverCon            
+[NR-eGR]                 #Gcell     %Gcell
+[NR-eGR] Layer              (0)    OverCon 
+[NR-eGR] ------------------------------------
+[NR-eGR] Layer1       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer2       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer3       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer4       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer5       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer6       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer7       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer8       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer9       0( 0.00%)   ( 0.00%) 
+[NR-eGR] Layer10       0( 0.00%)   ( 0.00%) 
+[NR-eGR] ------------------------------------
+[NR-eGR] Total        0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Layer1(M1)(F) length: 0.000000e+00um, number of vias: 151802
+[NR-eGR] Layer2(M2)(V) length: 3.194006e+05um, number of vias: 202275
+[NR-eGR] Layer3(M3)(H) length: 3.181058e+05um, number of vias: 2431
+[NR-eGR] Layer4(M4)(V) length: 6.801111e+04um, number of vias: 438
+[NR-eGR] Layer5(M5)(H) length: 1.716520e+04um, number of vias: 18
+[NR-eGR] Layer6(M6)(V) length: 1.877800e+03um, number of vias: 0
+[NR-eGR] Layer7(M7)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer8(M8)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer9(M9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(AP)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 7.245605e+05um, number of vias: 356964
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total clock nets wire length: 1.097738e+05um 
+[NR-eGR] --------------------------------------------------------------------------
+End of congRepair (cpu=0:00:01.6, real=0:00:02.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 5: 1, real = 0: 5: 3, mem = 1242.1M **
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+*** Message Summary: 2 warning(s), 0 error(s)
+
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> fit
+<CMD> selectInst bitslice_59/MemoryLatch_reg_191
+<CMD> deselectAll
+<CMD> selectInst bitslice_59/MemoryLatch_reg_191
+<CMD> deselectAll
+<CMD> selectInst bitslice_59/MemoryLatch_reg_191
+<CMD> deselectAll
+<CMD> panPage 0 -1
+<CMD> selectInst bitslice_51/MemoryLatch_reg_187
+<CMD> deselectAll
+<CMD> selectInst bitslice_51/MemoryLatch_reg_187
+<CMD> deselectAll
+<CMD> selectInst bitslice_51/MemoryLatch_reg_187
+<CMD> deleteSelectedFromFPlan
+<CMD> deselectAll
+<CMD> selectInst bitslice_51/MemoryLatch_reg_186
+<CMD> uiSetTool move
+<CMD> setObjFPlanBox Instance bitslice_51/MemoryLatch_reg_186 97.6175 383.81 100.0175 386.21
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference allM2Cont -isVisible 1
+<CMD> setLayerPreference allM2 -isVisible 1
+<CMD> setLayerPreference allM3Cont -isVisible 1
+<CMD> setLayerPreference allM3 -isVisible 1
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM4 -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM6 -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM7 -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM8 -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM9 -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+<CMD> setLayerPreference allM10 -isVisible 1
+<CMD> setObjFPlanBox Instance bitslice_51/MemoryLatch_reg_186 92.1195 384.0185 94.5195 386.4185
+<CMD> setObjFPlanBox Instance bitslice_51/MemoryLatch_reg_186 92.218 384.045 94.618 386.445
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> setObjFPlanBox Instance bitslice_51/MemoryLatch_reg_186 92.571 383.0955 94.971 385.4955
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference allM2Cont -isVisible 1
+<CMD> setLayerPreference allM2 -isVisible 1
+<CMD> setLayerPreference allM3Cont -isVisible 1
+<CMD> setLayerPreference allM3 -isVisible 1
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM4 -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM6 -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM7 -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM8 -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM9 -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+<CMD> setLayerPreference allM10 -isVisible 1
+<CMD> deselectAll
+<CMD> selectInst bitslice_59/MemoryLatch_reg_186
+<CMD> setObjFPlanBox Instance bitslice_59/MemoryLatch_reg_186 95.809 386.237 98.209 388.637
+<CMD> deselectAll
+<CMD> selectInst bitslice_51/MemoryLatch_reg_186
+<CMD> uiSetTool select
+<CMD> deselectAll
+<CMD> selectInst bitslice_51/MemoryLatch_reg_186
+<CMD> deselectAll
+<CMD> refinePlace
+*** Starting refinePlace (0:08:24 mem=1386.3M) ***
+Density distribution unevenness ratio = 2.474%
+Move report: Detail placement moves 3 insts, mean move: 1.07 um, max move: 2.40 um
+	Max move on inst (welltap_stripe_5/welltap_231): (97.80, 386.40) --> (95.40, 386.40)
+	Runtime: CPU: 0:00:01.4 REAL: 0:00:02.0 MEM: 1395.2MB
+Summary Report:
+Instances move: 3 (out of 52884 movable)
+Instances flipped: 0
+Mean displacement: 1.07 um
+Max displacement: 2.40 um (Instance: welltap_stripe_5/welltap_231) (97.8, 386.4) -> (95.4, 386.4)
+	Length: 2 sites, height: 1 rows, site name: sc12_cln65lp, cell type: WELLANTENNATIEPW2_A12TR
+Runtime: CPU: 0:00:01.6 REAL: 0:00:02.0 MEM: 1395.2MB
+*** Finished refinePlace (0:08:25 mem=1395.2M) ***
+Density distribution unevenness ratio = 2.474%
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference allM2Cont -isVisible 1
+<CMD> setLayerPreference allM2 -isVisible 1
+<CMD> setLayerPreference allM3Cont -isVisible 1
+<CMD> setLayerPreference allM3 -isVisible 1
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM4 -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM6 -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM7 -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM8 -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM9 -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+<CMD> setLayerPreference allM10 -isVisible 1
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference allM2Cont -isVisible 1
+<CMD> setLayerPreference allM2 -isVisible 1
+<CMD> setLayerPreference allM3Cont -isVisible 1
+<CMD> setLayerPreference allM3 -isVisible 1
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM4 -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM6 -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM7 -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM8 -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM9 -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+<CMD> setLayerPreference allM10 -isVisible 1
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> setLayerPreference allM1 -isVisible 1
+<CMD> setLayerPreference allM2Cont -isVisible 1
+<CMD> setLayerPreference allM2 -isVisible 1
+<CMD> setLayerPreference allM3Cont -isVisible 1
+<CMD> setLayerPreference allM3 -isVisible 1
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM4 -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM5 -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM6 -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM7 -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM8 -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM9 -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+<CMD> setLayerPreference allM10 -isVisible 1
+<CMD> setLayerPreference allM1 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM3 -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 0
+<CMD> setLayerPreference allM4 -isVisible 0
+<CMD> setLayerPreference allM5Cont -isVisible 0
+<CMD> setLayerPreference allM5 -isVisible 0
+<CMD> setLayerPreference allM6Cont -isVisible 0
+<CMD> setLayerPreference allM6 -isVisible 0
+<CMD> setLayerPreference allM7Cont -isVisible 0
+<CMD> setLayerPreference allM7 -isVisible 0
+<CMD> setLayerPreference allM8Cont -isVisible 0
+<CMD> setLayerPreference allM8 -isVisible 0
+<CMD> setLayerPreference allM9Cont -isVisible 0
+<CMD> setLayerPreference allM9 -isVisible 0
+<CMD> setLayerPreference allM10Cont -isVisible 0
+<CMD> setLayerPreference allM10 -isVisible 0
+<CMD> checkPlace
+Begin checking placement ... (start mem=1395.2M, init mem=1395.2M)
+*info: Placed = 52884         
+*info: Unplaced = 1           
+Placement Density:68.39%(165876/242556)
+Placement Density (including fixed std cells):68.39%(165876/242556)
+Finished checkPlace (cpu: total=0:00:00.7, vio checks=0:00:00.5; mem=1395.2M)
+<CMD> panPage 0 -1
+<CMD> panPage 0 1
+<CMD> panPage 0 -1
+<CMD> panPage 0 1
+<CMD> selectInst welltap_stripe_1/welltap_246
+<CMD> panPage 0 -1
+<CMD> deselectAll
+
+*** Memory Usage v#1 (Current mem = 1380.785M, initial mem = 167.637M) ***
+*** Message Summary: 7 warning(s), 28 error(s)
+
+--- Ending "Innovus" (totcpu=0:08:39, real=0:47:52, mem=1380.8M) ---
