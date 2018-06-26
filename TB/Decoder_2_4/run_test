@@ -1,2 +1,0 @@
-#!/bin/tcsh
-qirun -f Decoder_2_4_tb.f -debug -nospecify
