@@ -1,2 +1,0 @@
-#!/bin/tcsh
-qirun -f read_mux_tb.f -debug -nospecify
