@@ -1,9 +1,0 @@
-s1(25Mar2018:20:19:41):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s2(25Mar2018:20:21:42):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s3(25Mar2018:20:23:40):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s4(25Mar2018:21:31:57):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s5(25Mar2018:21:37:39):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s6(24Apr2018:19:22:23):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s7(24Apr2018:19:35:20):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s8(06Jun2018:17:32:29):  irun -f Decoder_2_4_tb.f -debug -nospecify 
-s9(14Jun2018:19:27:07):  irun -f PreDecoder_2_4_tb.f -debug -nospecify 

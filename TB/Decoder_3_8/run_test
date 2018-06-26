@@ -1,2 +1,0 @@
-#!/bin/tcsh
-qirun -f Decoder_3_8_tb.f -debug -nospecify

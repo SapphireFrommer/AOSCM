@@ -1,2 +1,0 @@
-#!/bin/tcsh
-qirun -f rwlBuff_strip_tb.f -debug -nospecify
