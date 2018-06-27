@@ -90,15 +90,15 @@ def SCM_design_define_components(param, scm):
     row_decoder.add_pinbus(Bus(Input, 'decoder_in', ADDR_WIDTH))
     row_decoder.add_pinbus(Bus(Output, 'decoder_out', 2**ADDR_WIDTH))
 
-    ##### define a welltap_strip    
-    scm['welltap_strip'] = ComponentXY('welltap_strip')
-    welltap_strip = scm['welltap_strip']
+    ##### define a welltap_stripe    
+    scm['welltap_stripe'] = ComponentXY('welltap_stripe')
+    welltap_stripe = scm['welltap_stripe']
 
-    ##### define a rwlBuff_strip    
-    scm['rwlBuff_strip'] = ComponentXY('rwlBuff_strip')
-    rwlBuff_strip = scm['rwlBuff_strip']
-    rwlBuff_strip.add_pinbus(Bus(Input, 'IN', 2**ADDR_WIDTH))
-    rwlBuff_strip.add_pinbus(Bus(Output, 'OUT', 2**ADDR_WIDTH))
+    ##### define a rwlBuff_stripe    
+    scm['rwlBuff_stripe'] = ComponentXY('rwlBuff_stripe')
+    rwlBuff_stripe = scm['rwlBuff_stripe']
+    rwlBuff_stripe.add_pinbus(Bus(Input, 'IN', 2**ADDR_WIDTH))
+    rwlBuff_stripe.add_pinbus(Bus(Output, 'OUT', 2**ADDR_WIDTH))
         
 
 ##############################################################################################
@@ -123,10 +123,10 @@ def SCM_design_components_instances_TOP(param, scm):
 	# aliases:
 	ADDR_WIDTH = param['ADDR_WIDTH']
 	TOP = scm['TOP']
-	welltap_strip = scm['welltap_strip']
+	welltap_stripe = scm['welltap_stripe']
 	bitslice = scm['bitslice']
 	bitslice_odd = scm['bitslice_odd']	
-	rwlBuff_strip = scm['rwlBuff_strip']
+	rwlBuff_stripe = scm['rwlBuff_stripe']
 	MidGap_DGWCLK = scm['MidGap_DGWCLK']
 	row_decoder = scm['row_decoder']
 	read_mux = scm['read_mux']
@@ -141,17 +141,17 @@ def SCM_design_components_instances_TOP(param, scm):
 	for i in range(param['DATA_WIDTH']):
 		ycoord = 0.0
 		if (i%param['WELLTAP']) == 0:
-			TOP.add_component(welltap_strip, 'welltap_strip_'+str(i//8), xcoord, ycoord)
+			TOP.add_component(welltap_stripe, 'welltap_stripe_'+str(i//8), xcoord, ycoord)
 			xcoord += sc['well_tap']['width']
 		# rwlBuff_strips
 		K_RWL = param['DATA_WIDTH']//param['RWL_NUM']	# how many rwl buffer will be
 		ycoord += sc['site']
 		if (i%K_RWL == 0) & (i != 0) & (i < param['DATA_WIDTH']/2):   # left side
-			TOP.add_component(rwlBuff_strip, 'rwlBuff_strip_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']
 
 		if (i == param['DATA_WIDTH']//2):    # MidGap - 2 middle
-			TOP.add_component(rwlBuff_strip, 'rwlBuff_strip_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']
 
 
@@ -161,7 +161,11 @@ def SCM_design_components_instances_TOP(param, scm):
 				pin = 'RADDR'+str([index])
 				TOP.set_pin_position(pin, xcoord+0.2+(0.4*index), ycoord, 'BOTTOM', 2)
 			
-			read_decoder_width = 0.8
+			if	ADDR_WIDTH==4 or ADDR_WIDTH==5 or ADDR_WIDTH==8:
+				read_decoder_width = sc['NOR2']['width']
+			else:
+				read_decoder_width = sc['NOR3']['width']
+				
 			xcoord += read_decoder_width
 
 			t_xcoord = sc['buffer']['width']
@@ -193,19 +197,27 @@ def SCM_design_components_instances_TOP(param, scm):
 			for index in range(ADDR_WIDTH):
 				pin = 'WADDR'+str([index])
 				TOP.set_pin_position(pin, xcoord+0.2+(0.4*index), ycoord, 'BOTTOM', 2)
-			write_decoder_width = 0.8
+
+			if	ADDR_WIDTH==4 or ADDR_WIDTH==5 or ADDR_WIDTH==8:
+				write_decoder_width = sc['NOR2']['width']
+			else:
+				write_decoder_width = sc['NOR3']['width']
+				
 			xcoord += write_decoder_width
 
 			ycoord += sc['site']
-			TOP.add_component(rwlBuff_strip, 'rwlBuff_strip_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']	
 					
 		if (i%K_RWL == 0) & (i > param['DATA_WIDTH']/2):   # right side
-			TOP.add_component(rwlBuff_strip, 'rwlBuff_strip_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']	
 
-
-		t_xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
+		if (ADDR_WIDTH%2)==0:
+			t_xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
+		else:
+			t_xcoord = (sc['latch']['width']+sc['buffer']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
+		
 		ycoord = 0.0
 		pin = 'DIN'+str([i])
 		if (i%2) == 0:
@@ -226,7 +238,7 @@ def SCM_design_components_instances_TOP(param, scm):
 
 	# last welltap strip:
 	ycoord = 0.0
-	TOP.add_component(welltap_strip, 'welltap_strip_'+str((param['DATA_WIDTH']//8)), xcoord, ycoord)
+	TOP.add_component(welltap_stripe, 'welltap_stripe_'+str((param['DATA_WIDTH']//8)), xcoord, ycoord)
 				
 	#########################################################
 	#		connectivity									#
@@ -263,25 +275,25 @@ def SCM_design_components_instances_TOP(param, scm):
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)-1), 2**ADDR_WIDTH))
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_strip_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_strip_'+str((i//K_RWL)-1)+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.IN'+str([row]))
 
 		if (i == param['DATA_WIDTH']/2):    # 2 middle
 			TOP.add_netbus(Bus(Net, 'decoder_read_out', 2**ADDR_WIDTH))
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):       
-				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_strip_'+str((i//K_RWL)-1)+'.IN'+str([row]))                
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_strip_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
+				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.IN'+str([row]))                
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
 
-				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_strip_'+str((i//K_RWL))+'.IN'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_strip_'+str((i//K_RWL))+'.OUT'+str([row]))
+				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.OUT'+str([row]))
 
 
 		if (i%K_RWL == 0) & (i > param['DATA_WIDTH']/2):   # right side
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_strip_'+str((i//K_RWL))+'.IN'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_strip_'+str((i//K_RWL))+'.OUT'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.OUT'+str([row]))
             
 
 
@@ -337,7 +349,7 @@ def SCM_design_components_instances_bitslice(param, scm):
 	GDIN_reg = sc['flipflop']['component']
 	xcoord = 0.0
 	ycoord = 0.0
-	bitslice.add_component(GDIN_reg, 'GDIN_reg', xcoord, ycoord)
+	bitslice.add_component(GDIN_reg, 'GDIN_reg', xcoord, ycoord, 1)
 	bitslice.connect('DIN', 'GDIN_reg.'+sc['flipflop']['in'])
 	bitslice.add_net(Net('GDIN'))
 	bitslice.connect('GDIN', 'GDIN_reg.'+sc['flipflop']['out'])
@@ -536,7 +548,7 @@ def SCM_design_components_instances_row_decoder(param, scm):
 	elif (ADDR_WIDTH == 7):
 		PreDec_list = [2,2,3]
 	elif (ADDR_WIDTH == 8):
-		PreDec_list = [4,4]		
+		PreDec_list = [4,2,2]		
 	
 	NUM_PREDECS = len(PreDec_list)
 	Num_PreDec_out_wires = 0
@@ -547,7 +559,7 @@ def SCM_design_components_instances_row_decoder(param, scm):
 	ycoord = 0.0
 	
 	for i in range(NUM_PREDECS):
-		ycoord += i*sc['site']
+		ycoord = i*sc['site']
 		t_xcoord = sc['buffer']['width']
 		row_decoder.add_component(scm['PreDecoder_'+str(PreDec_list[i])+'_'+str(2**(PreDec_list[i]))], 'PreDec_'+str(i), xcoord-t_xcoord, ycoord)	# creates the PreDecoders instances
 	
@@ -567,179 +579,57 @@ def SCM_design_components_instances_row_decoder(param, scm):
 		row_decoder.add_component(sc['NOR'+str(NUM_PREDECS)]['component'], 'PostDec_%02d'%(row), xcoord, ycoord)
 		ycoord += sc['site']
 		row_decoder.connect('decoder_out'+str([row]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['out'])
-
 	
 	NUM_LOWER_BITS = 0
+	NUM_LOWER_BITS_OUT = 0	
 	NUM_CURRENT_BITS = 0
 	for predec_num in range(NUM_PREDECS):
 		NUM_LOWER_BITS += NUM_CURRENT_BITS				#---> increases the count of how many bits were in the last iteration
 		NUM_CURRENT_BITS = PreDec_list[predec_num]			#---> can be passed in a list
 		for row in range(2**ADDR_WIDTH):
-			if NUM_LOWER_BITS ==0:
+			if NUM_LOWER_BITS == 0:
 				WHICH_PREDEC_OUT = ((row >> NUM_LOWER_BITS) % (2**NUM_CURRENT_BITS))
+				print('if')
 			else:
-				WHICH_PREDEC_OUT = ((row >> NUM_LOWER_BITS) % (2**NUM_CURRENT_BITS))+(2**NUM_LOWER_BITS)					
+				WHICH_PREDEC_OUT = (((row >> NUM_LOWER_BITS) % (2**NUM_CURRENT_BITS))+((NUM_LOWER_BITS_OUT)))				
+				print('else')
 			row_decoder.connect('PreDec_out'+str([WHICH_PREDEC_OUT]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['in_'+str(predec_num+1)])
 			print(WHICH_PREDEC_OUT,row)
-	
-	"""
-	if (ADDR_WIDTH == 4):
-		##########  for PreDecoder_4_16 (predec = 2 x 2_4)   #############
-		###############################################################
-	
-		########  Pre Decoder  ########
-		row_decoder.add_netbus(Bus(Net, 'PreDec_out', 8))
-		xcoord = 0.0
-		ycoord = 0.0
-		for i in range(2):
-			ycoord += i*sc['site']
-			t_xcoord = sc['buffer']['width']
-			row_decoder.add_component(PreDecoder_2_4, 'PreDec_'+str(i), xcoord-t_xcoord, ycoord)
-			#xcoord += 4.4
-
-		for i in range(2):
-			for j in range(2):
-				if i==0:
-					row_decoder.connect('decoder_in'+str([j]), 'PreDec_'+str(i)+'.decoder_in'+str([j]))
-				else:
-					row_decoder.connect('decoder_in'+str([j+2]), 'PreDec_'+str(i)+'.decoder_in'+str([j]))            
-			for j in range(4):
-				if i==0:
-					row_decoder.connect('PreDec_out'+str([j]), 'PreDec_'+str(i)+'.decoder_out'+str([j]))
-				else:
-					row_decoder.connect('PreDec_out'+str([j+4]), 'PreDec_'+str(i)+'.decoder_out'+str([j]))
- 
-		########  Post Decoder  ########
-		#row_decoder.add_netbus(Bus(Net, 'nand_out', 16)) 
-		#for i in range(16):
-		    #row_decoder.add_component(INV, 'INV_out_'+str(i))
-		    #row_decoder.connect('decoder_out'+str([i]), 'INV_out_'+str(i)+'.' + sc['inverter']['out'])
-		    #row_decoder.connect('nand_out'+str([i]), 'INV_out_'+str(i)+'.' + sc['inverter']['in'])
-
-		xcoord = 0.0
-		ycoord = 0.0
-		ycoord += 2*sc['site']
+		print('===========  End of connecting PreDec: '+str(predec_num)+'  ============')
+		NUM_LOWER_BITS_OUT += 2**NUM_CURRENT_BITS
 		
-		for row in range(16):
-			row_decoder.add_component(NOR2, 'PostDec_'+str(row), xcoord, ycoord)
-			ycoord += sc['site']
-			row_decoder.connect('decoder_out'+str([row]), 'PostDec_'+str(row)+'.' + sc['NOR2']['out'])
 
-		for row in range(16):
-			if (row>=0)&(row<4):
-				row_decoder.connect('PreDec_out'+str([4]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=4)&(row<8):
-				row_decoder.connect('PreDec_out'+str([5]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=8)&(row<12):
-				row_decoder.connect('PreDec_out'+str([6]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=12)&(row<16):
-				row_decoder.connect('PreDec_out'+str([7]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-
-			if (row%4)==0:
-				row_decoder.connect('PreDec_out'+str([0]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==1:
-				row_decoder.connect('PreDec_out'+str([1]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==2:
-				row_decoder.connect('PreDec_out'+str([2]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==3:
-				row_decoder.connect('PreDec_out'+str([3]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-
-	elif (ADDR_WIDTH==5):
-		#########  for Decoder_5_32 (predec = 2_4 + 3_8)   ############
-		###############################################################
-	
-		########  Pre Decoder  ########
-		row_decoder.add_netbus(Bus(Net, 'PreDec_out', 12))
-		xcoord = 0.0
-		ycoord = 0.0
-
-		t_xcoord = sc['buffer']['width']
-		row_decoder.add_component(PreDecoder_2_4, 'PreDec_'+str(0), xcoord-t_xcoord, ycoord)
-		ycoord += sc['site']		
-		row_decoder.add_component(PreDecoder_3_8, 'PreDec_'+str(1), xcoord-t_xcoord, ycoord)
-
-		for i in range(5):
-			if i<2:
-				row_decoder.connect('decoder_in'+str([i]), 'PreDec_'+str(0)+'.decoder_in'+str([i]))
-			else:
-				row_decoder.connect('decoder_in'+str([i]), 'PreDec_'+str(1)+'.decoder_in'+str([i-2]))
-				 
-		for i in range(12):
-			if i<4:
-				row_decoder.connect('PreDec_out'+str([i]), 'PreDec_'+str(0)+'.decoder_out'+str([i]))
-			else:
-				row_decoder.connect('PreDec_out'+str([i]), 'PreDec_'+str(1)+'.decoder_out'+str([i-4]))
- 
-		########  Post Decoder  ########
-		xcoord = 0.0
-		ycoord = 0.0
-		ycoord += 2*sc['site']
-
-		for row in range(32):
-			row_decoder.add_component(NOR2, 'PostDec_'+str(row), xcoord, ycoord)
-			ycoord += sc['site']
-			row_decoder.connect('decoder_out'+str([row]), 'PostDec_'+str(row)+'.' + sc['NOR2']['out'])
-
-		for row in range(32):
-			if (row>=0)&(row<4):
-				row_decoder.connect('PreDec_out'+str([4]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=4)&(row<8):
-				row_decoder.connect('PreDec_out'+str([5]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=8)&(row<12):
-				row_decoder.connect('PreDec_out'+str([6]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=12)&(row<16):
-				row_decoder.connect('PreDec_out'+str([7]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=16)&(row<20):
-				row_decoder.connect('PreDec_out'+str([8]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=20)&(row<24):
-				row_decoder.connect('PreDec_out'+str([9]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=24)&(row<28):
-				row_decoder.connect('PreDec_out'+str([10]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-			elif (row>=28)&(row<32):
-				row_decoder.connect('PreDec_out'+str([11]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_1'])
-
-			if (row%4)==0:
-				row_decoder.connect('PreDec_out'+str([0]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==1:
-				row_decoder.connect('PreDec_out'+str([1]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==2:
-				row_decoder.connect('PreDec_out'+str([2]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-			elif (row%4)==3:
-				row_decoder.connect('PreDec_out'+str([3]), 'PostDec_'+str(row)+'.' + sc['NOR2']['in_2'])
-
-
-	"""
 
 ##########################################################
-# add components to welltap_strip module
+# add components to welltap_stripe module
 ##########################################################
 def SCM_design_components_instances_welltap_strip(param, scm):
     # aliases:
 	ADDR_WIDTH = param['ADDR_WIDTH']
-	welltap_strip = scm['welltap_strip']
+	welltap_stripe = scm['welltap_stripe']
 	xcoord = 0.0
 	ycoord = 0.0
 
 	for i in range((2**ADDR_WIDTH)+2):
-		welltap_strip.add_component(sc['well_tap']['component'], 'welltap_'+str(i), xcoord, ycoord)
+		welltap_stripe.add_component(sc['well_tap']['component'], 'welltap_'+str(i), xcoord, ycoord)
 		ycoord += sc['site']
 
 ##########################################################
-# add components to rwlBuff_strip module
+# add components to rwlBuff_stripe module
 ##########################################################
 def SCM_design_components_instances_rwlBuff_strip(param, scm):
     # aliases:
 	ADDR_WIDTH = param['ADDR_WIDTH']
-	rwlBuff_strip = scm['rwlBuff_strip']
+	rwlBuff_stripe = scm['rwlBuff_stripe']
 	buffer = sc['buffer']['component']
 	xcoord = 0.0
 	ycoord = 0.0
 
 	for i in range(2**ADDR_WIDTH):
-		rwlBuff_strip.add_component(buffer, 'rwlBuff_'+str(i), xcoord, ycoord)
+		rwlBuff_stripe.add_component(buffer, 'rwlBuff_'+str(i), xcoord, ycoord)
 		ycoord += sc['site']		
 		for net in [('IN', sc['buffer']['in']), ('OUT', sc['buffer']['out'])]:
-			rwlBuff_strip.connect(net[0]+str([i]), 'rwlBuff_'+str(i)+'.'+net[1])
+			rwlBuff_stripe.connect(net[0]+str([i]), 'rwlBuff_'+str(i)+'.'+net[1])
 
 
 ################################################################
