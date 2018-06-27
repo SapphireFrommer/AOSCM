@@ -22,7 +22,9 @@ set init_lef_file [list \
 			$tech_files(TECHNOLOGY_LEF) \
 			$tech_files(STANDARD_CELLS_RVT_LEF) \
 		  ]
-set init_verilog ../../export/scm65.post_py.v
+
+set init_verilog ../../export/${TOPLEVEL}.post_py.v
+
 set init_mmmc_file ../${TOPLEVEL}.mmmc
 
 if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
@@ -36,10 +38,13 @@ foreach msg $tech_files(STANDARD_CELL_SUPPRESS_MESSAGES) {
 set init_design_uniquify 1
 
 init_design
+suspend
 
 
 
-source ../../export/scm65_cells_position.tcl
+source ../../export/${TOPLEVEL}_cells_position.tcl
+
+
 
 sroute -connect { corePin }  -nets { vdd gnd } -layerChangeRange { M1(1) AP(8) } \
     -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } \
