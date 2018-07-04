@@ -1,0 +1,3 @@
+#!/bin/tcsh
+#qirun -f scm65_tb.f -gui -debug -sv -nospecify
+qirun -f scm65_tb.backannotation.f -gui -debug -sv -input simCommands.tcl +sdf_verbose -sdfstats sdfStatus.txt

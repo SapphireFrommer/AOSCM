@@ -23,10 +23,11 @@ set design(export_dir) "$env(PWD)/../../export"
 set design(reports_dir) "$env(PWD)/../../reports"
 set design(synthesis_reports) "$env(PWD)/../../reports/synthesis"
 set design(functional_sdc) "../${TOPLEVEL}.sdc"
-set design(postsyn_netlist) "$design(inputs_dir)/${TOPLEVEL}.postsyn.v"
-set design(postroute_netlist) "$design(export_dir)/innovus/${TOPLEVEL}.final.v"
+#set design(postsyn_netlist) "$design(inputs_dir)/${TOPLEVEL}.postsyn.v"
+set design(postroute_netlist) "$design(export_dir)/${TOPLEVEL}.post_route.v"
+set design(backannotation_netlist) "$design(export_dir)/${TOPLEVEL}.backannotation.v"
 set design(postroute_sdf) "$design(export_dir)/${TOPLEVEL}.final.sdf"
-set design(mmmc_view_file) "$design(inputs_dir)/${TOPLEVEL}.mmmc"
+set design(mmmc_view_file) "$env(PWD)/../${TOPLEVEL}.mmmc"
 set design(io_file) "$design(inputs_dir)/${TOPLEVEL}.io"
 set design(clock_tree_spec) "$design(inputs_dir)/${TOPLEVEL}.ccopt"
 set design(selected_setup_analysis_views) "wc_analysis_view"
@@ -38,7 +39,9 @@ set design(io_vdd) "" ; # "vddio"
 set design(additional_power_nets) ""
 set design(additional_ground_nets) ""
 
-
+# Salamandra outputs
+set design(salamandra_netlist) "$design(export_dir)/${TOPLEVEL}.post_py.v"
+set design(salamandra_tcl) "$design(export_dir)/${TOPLEVEL}_cells_position.tcl"
 
 # floorplan
 set design(floorplan_ratio) 0.9
@@ -63,5 +66,11 @@ set design(M2_stripes_interval) 50.0
 set design(M2_stripes_from_left) 5.0
 set design(M2_stripe_nets) "$design(digital_gnd) $design(digital_vdd)"
 
+# Backannotation and power reporting
+set design(backannotation_export_path) "$env(PWD)/../../export"
+set design(power_analysis_view) "wc_analysis_view"
 
+# The scope is the hierarchy/name of the instantiation of the TOPLEVEL
+#    in the gatelevel simulation
+set design(backannotation_scope) "MEM"
 

@@ -23,9 +23,9 @@ set init_lef_file [list \
 			$tech_files(STANDARD_CELLS_RVT_LEF) \
 		  ]
 
-set init_verilog ../../export/${TOPLEVEL}.post_py.v
+set init_verilog $design(salamandra_netlist)
 
-set init_mmmc_file ../${TOPLEVEL}.mmmc
+set init_mmmc_file $design(mmmc_view_file)
 
 if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
 	set init_io_file $design(io_file)
@@ -42,11 +42,12 @@ suspend
 
 
 
-source ../../export/${TOPLEVEL}_cells_position.tcl
+source $design(salamandra_tcl)
 
 
 
-sroute -connect { corePin }  -nets { vdd gnd } -layerChangeRange { M1(1) AP(8) } \
+sroute -connect { corePin }  -nets { $design(digital_vdd) $design(digital_gnd) } \
+    -layerChangeRange { M1(1) AP(8) } \
     -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } \
     -allowJogging 1 -crossoverViaLayerRange { M1(1) AP(8) } -allowLayerChange 1 \
     -targetViaLayerRange { M1(1) AP(8) }
@@ -78,11 +79,31 @@ loadWorkspace -name Physical
 win
 fit
 
+# place
+# CTS
+routeDesign
+
+
+
+
+saveDesign $design(export_dir)/${TOPLEVEL}.post_route.enc -relativePath
+write_sdf  -precision 4 -min_period_edges posedge -recompute_parallel_arcs \
+    -no_escape $design(export_dir)/${TOPLEVEL}.sdf ;       #check for the -view_typ
+saveNetlist  $design(export_dir)/${TOPLEVEL}.post_route.v
+# This one generally works with modelsim SDF backannotation
+saveNetlist $design(backannotation_netlist) -excludeLeafCell
+
+#redirect summaryFile.txt "source ../innovus/scripts/createRelevantReports.tcl"
+reportWire -detail $design(reports_dir)/reportWireLength.post_route.txt
+verifyGeometry -report $design(reports_dir)/verifyGeometry.post_route.txt
+verifyConnectivity -report $design(reports_dir)/verifyConnectivity.post_route.txt
+
+
 #####################
 # lef and lib
 #####################
 verifyProcessAntenna 
-lefOut $design(export_dir)/innovus/$TOPLEVEL.lef
-# do_extract_model -chek $design(export_dir)/innovus/$TOPLEVEL.lib
+# lefOut $design(export_dir)/$TOPLEVEL.lef
+# do_extract_model -chek $design(export_dir)/$TOPLEVEL.lib
 
 exit
