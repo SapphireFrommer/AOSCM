@@ -6,26 +6,41 @@
 set tb_name tb_scm65
 set dut_name MEM
 set tcf_scope "$tb_name.$dut_name"
+#set tcf_scope "$tb_name"
 simvision set tcf_scope "$tb_name.$dut_name"
+#simvision set tcf_scope "$tb_name"
 set tcf_file_write "../../export/write.tcf"
 set tcf_file_read  "../../export/read.tcf"
-set run_time_write 2000
-set run_time_read  2000
+set vcd_file  "../../export/$tb_name.vcd"
+set period 10
+set number_of_writes 116
+set number_of_reads 100
+set run_time_write [expr 1+$number_of_writes * $period]
+set run_time_read  [expr $number_of_reads * $period]
+set total_run_time [expr $run_time_write + $run_time_read]
 
  set w [simvision waveform new]
- simvision scope set $tcf_scope
- simvision waveform add -using "Waveform 1" -signals $tcf_scope
- run -time 1
+ #simvision scope set $tcf_scope
+ simvision scope set $tb_name
+ simvision waveform add -using "Waveform 1" -signals $tcf_scope -depth 2
+ database -open $vcd_file -vcd  
+ probe  -create $dut_name -vcd -depth 9 -all -database $vcd_file
+ simvision simcontrol run -time 1
  
  # Write Procedure
- dumptcf -output $tcf_file_write -scope $tcf_scope -overwrite
- run -time $run_time_write ; # the simulation will run until 2000ns
+  #     dumptcf [-dumpwireasnet] [-flatformat] [-inctoggle] [-internal]
+  #               [-output filename] [-overwrite] [-scope scope_identifier] [-verbose]  #    -flatformat  -- makes flat output rather than hierarchical
+ dumptcf -output $tcf_file_write -scope $tcf_scope -overwrite -verbose
+ run -time $run_time_write ; # the simulation will run until 1160ns
  dumptcf -end
- dumptcf -output $tcf_file_read -scope $tcf_scope -overwrite
 
  # Read Procedure
- run -time $run_time_read ; # the simulation will run until 4000ns
+ dumptcf -output $tcf_file_read -scope $tcf_scope -overwrite -verbose
+ run -time $run_time_read ; # the simulation will run until 2160ns
  dumptcf -end
- #simvision simcontrol run -time 4010 ; # the simulation will run until 1000ns
- #simvision database export -all -format vcd -name simvisionTcl.vcd -overwrite
+ #probe -save $vcd_file
+# reset
+# probe -create $dut_name -vcd -depth 2 -all -save $vcd_file
+# simvision simcontrol run -time $total_run_time ; # the simulation will run until 2160ns
+# simvision database export -all -format vcd -name $vcd_file -depth 5 -overwrite
  simvision exit
