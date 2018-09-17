@@ -1,0 +1,9 @@
+*.pyc
+*.swp
+*.log
+*.history
+*.simvision/
+export
+innovus/workspace
+reports
+verilog_modules/

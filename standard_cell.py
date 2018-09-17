@@ -3,6 +3,8 @@ import sys, os
 from salamandra import *
 from define_parameters import *
 
+TRACKS = 12
+
 sc = {}     # standard_cell
 
 if param['technology'] == 'tsmc65':
@@ -10,7 +12,7 @@ if param['technology'] == 'tsmc65':
 	#sc['site'] = 1
 
 	sc['latch'] = {}
-	sc['latch']['component'] = ComponentXY('LATQ_X1M_A12TR')
+	sc['latch']['component'] = ComponentXY('LATQ_X1M_A'+str(TRACKS)+'TR')
 	sc['latch']['in'] = 'D'
 	sc['latch']['component'].add_pin(Input(sc['latch']['in']))
 	sc['latch']['clk'] = 'G'     
@@ -21,7 +23,7 @@ if param['technology'] == 'tsmc65':
 	sc['latch']['component'].set_component_dimensions(sc['latch']['width'], sc['site'])
 
 	sc['flipflop'] = {}
-	sc['flipflop']['component'] = ComponentXY('DFFQ_X2M_A12TR')
+	sc['flipflop']['component'] = ComponentXY('DFFQ_X2M_A'+str(TRACKS)+'TR')
 	sc['flipflop']['in'] = 'D'
 	sc['flipflop']['component'].add_pin(Input(sc['flipflop']['in'])) 
 	sc['flipflop']['clk'] = 'CK'
@@ -32,7 +34,7 @@ if param['technology'] == 'tsmc65':
 	sc['flipflop']['component'].set_component_dimensions(sc['flipflop']['width'], sc['site'])
     
 	sc['buffer'] = {}
-	sc['buffer']['component'] = ComponentXY('BUFH_X3M_A12TR')
+	sc['buffer']['component'] = ComponentXY('BUFH_X3M_A'+str(TRACKS)+'TR')
 	sc['buffer']['in'] = 'A'
 	sc['buffer']['component'].add_pin(Input(sc['buffer']['in']))    
 	sc['buffer']['out'] = 'Y'
@@ -41,7 +43,7 @@ if param['technology'] == 'tsmc65':
 	sc['buffer']['component'].set_component_dimensions(sc['buffer']['width'], sc['site'])
 
 	sc['inverter'] = {}
-	sc['inverter']['component'] = ComponentXY('INV_X1B_A12TR')
+	sc['inverter']['component'] = ComponentXY('INV_X1B_A'+str(TRACKS)+'TR')
 	sc['inverter']['in'] = 'A'
 	sc['inverter']['component'].add_pin(Input(sc['inverter']['in']))
 	sc['inverter']['out'] = 'Y'
@@ -50,7 +52,7 @@ if param['technology'] == 'tsmc65':
 	sc['inverter']['component'].set_component_dimensions(sc['inverter']['width'], sc['site'])
 
 	sc['NAND2'] = {}
-	sc['NAND2']['component'] = ComponentXY('NAND2_X1A_A12TR')
+	sc['NAND2']['component'] = ComponentXY('NAND2_X1A_A'+str(TRACKS)+'TR')
 	sc['NAND2']['in_1'] = 'A'
 	sc['NAND2']['component'].add_pin(Input(sc['NAND2']['in_1']))  
 	sc['NAND2']['in_2'] = 'B'
@@ -61,7 +63,7 @@ if param['technology'] == 'tsmc65':
 	sc['NAND2']['component'].set_component_dimensions(sc['NAND2']['width'], sc['site'])
 
 	sc['NAND3'] = {}
-	sc['NAND3']['component'] = ComponentXY('NAND3_X1A_A12TR')
+	sc['NAND3']['component'] = ComponentXY('NAND3_X1A_A'+str(TRACKS)+'TR')
 	sc['NAND3']['in_1'] = 'A'
 	sc['NAND3']['component'].add_pin(Input(sc['NAND3']['in_1']))  
 	sc['NAND3']['in_2'] = 'B'
@@ -74,7 +76,7 @@ if param['technology'] == 'tsmc65':
 	sc['NAND3']['component'].set_component_dimensions(sc['NAND3']['width'], sc['site'])
 
 	sc['NAND4'] = {}
-	sc['NAND4']['component'] = ComponentXY('NAND4_X1A_A12TR')
+	sc['NAND4']['component'] = ComponentXY('NAND4_X1A_A'+str(TRACKS)+'TR')
 	sc['NAND4']['in_1'] = 'A'
 	sc['NAND4']['component'].add_pin(Input(sc['NAND4']['in_1']))  
 	sc['NAND4']['in_2'] = 'B'
@@ -89,7 +91,7 @@ if param['technology'] == 'tsmc65':
 	sc['NAND4']['component'].set_component_dimensions(sc['NAND4']['width'], sc['site'])
 
 	sc['NOR2'] = {}
-	sc['NOR2']['component'] = ComponentXY('NOR2_X1A_A12TR')
+	sc['NOR2']['component'] = ComponentXY('NOR2_X1A_A'+str(TRACKS)+'TR')
 	sc['NOR2']['in_1'] = 'A'
 	sc['NOR2']['component'].add_pin(Input(sc['NOR2']['in_1']))    
 	sc['NOR2']['in_2'] = 'B'
@@ -100,7 +102,7 @@ if param['technology'] == 'tsmc65':
 	sc['NOR2']['component'].set_component_dimensions(sc['NOR2']['width'], sc['site'])
 
 	sc['NOR3'] = {}
-	sc['NOR3']['component'] = ComponentXY('NOR3_X1A_A12TR')
+	sc['NOR3']['component'] = ComponentXY('NOR3_X1A_A'+str(TRACKS)+'TR')
 	sc['NOR3']['in_1'] = 'A'
 	sc['NOR3']['component'].add_pin(Input(sc['NOR3']['in_1']))    
 	sc['NOR3']['in_2'] = 'B'
@@ -111,14 +113,14 @@ if param['technology'] == 'tsmc65':
 	sc['NOR3']['component'].add_pin(Output(sc['NOR3']['out']))    
 	sc['NOR3']['width'] = 1.2
 	sc['NOR3']['component'].set_component_dimensions(sc['NOR3']['width'], sc['site'])	
-   
+  	 
 	sc['well_tap'] = {}
-	sc['well_tap']['component'] = ComponentXY('WELLANTENNATIEPW2_A12TR')
+	sc['well_tap']['component'] = ComponentXY('WELLANTENNATIEPW2_A'+str(TRACKS)+'TR')
 	sc['well_tap']['width'] = 0.4
 	sc['well_tap']['component'].set_component_dimensions(sc['well_tap']['width'], sc['site'])
 
 	sc['latch_clock_gate'] = {}
-	sc['latch_clock_gate']['component'] = ComponentXY('PREICG_X0P5B_A12TR')
+	sc['latch_clock_gate']['component'] = ComponentXY('PREICG_X0P5B_A'+str(TRACKS)+'TR')
 	sc['latch_clock_gate']['clk'] = 'CK'
 	sc['latch_clock_gate']['component'].add_pin(Input(sc['latch_clock_gate']['clk']))    
 	sc['latch_clock_gate']['E'] = 'E'

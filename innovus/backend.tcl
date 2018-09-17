@@ -38,15 +38,16 @@ foreach msg $tech_files(STANDARD_CELL_SUPPRESS_MESSAGES) {
 set init_design_uniquify 1
 
 init_design
-suspend
 
-
-
+#To speed up the pin assign:
+setPinAssignMode -pinEditInBatch true  
 source $design(salamandra_tcl)
+setPinAssignMode -pinEditInBatch false
+
+#suspend
 
 
-
-sroute -connect { corePin }  -nets { $design(digital_vdd) $design(digital_gnd) } \
+sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
     -layerChangeRange { M1(1) AP(8) } \
     -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } \
     -allowJogging 1 -crossoverViaLayerRange { M1(1) AP(8) } -allowLayerChange 1 \
@@ -103,7 +104,9 @@ verifyConnectivity -report $design(reports_dir)/verifyConnectivity.post_route.tx
 # lef and lib
 #####################
 verifyProcessAntenna 
-# lefOut $design(export_dir)/$TOPLEVEL.lef
+# lefOut $design(export_dir)/$TOPLEVEL.lef		#need to replace by: write_lef_abstract command.
 # do_extract_model -chek $design(export_dir)/$TOPLEVEL.lib
 
 exit
+
+# freeDesign # to delete the whole design at innovus 17.1

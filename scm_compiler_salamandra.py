@@ -22,8 +22,12 @@ def main():
 ########################   SCM design   ########################
 ################################################################
 def SCM_design(param, scm):
-    SCM_design_define_components(param, scm)        # define each component itself
-    SCM_design_components_instances(param, scm)     # add components, internal nets and connectivity to modules
+	SCM_design_define_components(param, scm)        # define each component itself
+	SCM_design_components_instances(param, scm)     # add components, internal nets and connectivity to modules
+	#scm['TOP'].uniq()
+	for module in sorted(scm['TOP'].get_subcomponents_dict().keys()):
+		print(module +'\t->\t'+ str(scm['TOP'].get_subcomponents_dict()[module]))
+	#print(scm['TOP'].get_subcomponents_dict())
 
 ######################################################################################
 ###############   define modules, pins and main nets & connectivity   ################
@@ -132,6 +136,11 @@ def SCM_design_components_instances_TOP(param, scm):
 	read_mux = scm['read_mux']
 	latch_clock_gate = sc['latch_clock_gate']['component']
 
+	# instances names:
+	bitslice_name = 'bitslice_%0'+str(len(str(param['DATA_WIDTH'])))+'d'
+	rwlBuff_stripe_name = 'rwlBuff_stripe_%0'+str(len(str(param['DATA_WIDTH']//param['RWL_NUM'])))+'d'
+	welltap_stripe_name = 'welltap_stripe_%0'+str(len(str(param['DATA_WIDTH']//param['WELLTAP'])))+'d'
+
 	#########################################################
 	#		components										#
 	#########################################################
@@ -141,17 +150,17 @@ def SCM_design_components_instances_TOP(param, scm):
 	for i in range(param['DATA_WIDTH']):
 		ycoord = 0.0
 		if (i%param['WELLTAP']) == 0:
-			TOP.add_component(welltap_stripe, 'welltap_stripe_'+str(i//8), xcoord, ycoord)
+			TOP.add_component(welltap_stripe, welltap_stripe_name%(i//param['WELLTAP']), xcoord, ycoord)
 			xcoord += sc['well_tap']['width']
 		# rwlBuff_strips
 		K_RWL = param['DATA_WIDTH']//param['RWL_NUM']	# how many rwl buffer will be
 		ycoord += sc['site']
 		if (i%K_RWL == 0) & (i != 0) & (i < param['DATA_WIDTH']/2):   # left side
-			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)-1), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']
 
 		if (i == param['DATA_WIDTH']//2):    # MidGap - 2 middle
-			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)-1), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)-1), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']
 
 
@@ -169,7 +178,9 @@ def SCM_design_components_instances_TOP(param, scm):
 			xcoord += read_decoder_width
 
 			t_xcoord = sc['buffer']['width']
-			for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
+
+			#for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
+			for gate in ['GDINCLK_gate', 'GWCLK_gate']:
 				TOP.add_component(latch_clock_gate, gate, xcoord+t_xcoord , ycoord)
 				ycoord += sc['site']
 				#xcoord += sc['latch_clock_gate']['width']
@@ -206,11 +217,11 @@ def SCM_design_components_instances_TOP(param, scm):
 			xcoord += write_decoder_width
 
 			ycoord += sc['site']
-			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']	
 					
 		if (i%K_RWL == 0) & (i > param['DATA_WIDTH']/2):   # right side
-			TOP.add_component(rwlBuff_stripe, 'rwlBuff_stripe_'+str((i//K_RWL)), xcoord, ycoord+sc['site'])
+			TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']	
 
 		if (ADDR_WIDTH%2)==0:
@@ -220,11 +231,11 @@ def SCM_design_components_instances_TOP(param, scm):
 		
 		ycoord = 0.0
 		pin = 'DIN'+str([i])
-		if (i%2) == 0:
-			TOP.add_component(bitslice, 'bitslice_'+str(i), xcoord, ycoord)
+		if (i%2) == 0:	
+			TOP.add_component(bitslice, bitslice_name%(i), xcoord, ycoord)
 			TOP.set_pin_position(pin, xcoord+3.5, ycoord, 'BOTTOM', 2)
 		else:
-			TOP.add_component(bitslice_odd, 'bitslice_'+str(i), xcoord, ycoord)
+			TOP.add_component(bitslice_odd, bitslice_name%(i), xcoord, ycoord)
 			TOP.set_pin_position(pin, xcoord+3.1, ycoord, 'BOTTOM', 2)
 			
 		pin = 'DOUT'+str([i])
@@ -238,7 +249,7 @@ def SCM_design_components_instances_TOP(param, scm):
 
 	# last welltap strip:
 	ycoord = 0.0
-	TOP.add_component(welltap_stripe, 'welltap_stripe_'+str((param['DATA_WIDTH']//8)), xcoord, ycoord)
+	TOP.add_component(welltap_stripe, welltap_stripe_name%((param['DATA_WIDTH']//param['WELLTAP'])+1), xcoord, ycoord)
 				
 	#########################################################
 	#		connectivity									#
@@ -247,22 +258,23 @@ def SCM_design_components_instances_TOP(param, scm):
 	
 
 	# first level clock gates
-    
-	for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
+
+	#for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:    
+	for gate in ['GDINCLK_gate', 'GWCLK_gate']:
 		TOP.connect('CLK', gate+'.CK')
 		TOP.connect('SE', gate+'.SE')
 
 	TOP.connect('WE', 'GDINCLK_gate.E')
 	TOP.connect('WE', 'GWCLK_gate.E')
-	TOP.connect('RE', 'GRCLK_gate.E')
+	#TOP.connect('RE', 'GRCLK_gate.E')
 
 
 	TOP.add_net(Net('GDINCLK'))
 	TOP.add_net(Net('GWCLK'))
-	TOP.add_net(Net('GRCLK'))
+	#TOP.add_net(Net('GRCLK'))
 	TOP.connect('GDINCLK', 'GDINCLK_gate.ECK')
 	TOP.connect('GWCLK', 'GWCLK_gate.ECK')
-	TOP.connect('GRCLK', 'GRCLK_gate.ECK')
+	#TOP.connect('GRCLK', 'GRCLK_gate.ECK')
 
 	TOP.add_netbus(Bus(Net, 'decoder_write_out', 2**ADDR_WIDTH))
 
@@ -270,37 +282,37 @@ def SCM_design_components_instances_TOP(param, scm):
 
 	for i in range(param['DATA_WIDTH']):	
         # rwlBuff_strips (it's only a draft)
-		K_RWL = param['DATA_WIDTH']//4
 		if (i%K_RWL == 0) & (i != 0) & (i < param['DATA_WIDTH']/2):   # left side
-			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)-1), 2**ADDR_WIDTH))
+			if (i==K_RWL):
+				TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)-1), 2**ADDR_WIDTH))
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), rwlBuff_stripe_name%((i//K_RWL)-1)+'.OUT'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), rwlBuff_stripe_name%((i//K_RWL)-1)+'.IN'+str([row]))
 
 		if (i == param['DATA_WIDTH']/2):    # 2 middle
 			TOP.add_netbus(Bus(Net, 'decoder_read_out', 2**ADDR_WIDTH))
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):       
-				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.IN'+str([row]))                
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL)-1)+'.OUT'+str([row]))
+				TOP.connect('decoder_read_out'+str([row]), rwlBuff_stripe_name%((i//K_RWL)-1)+'.IN'+str([row]))                
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), rwlBuff_stripe_name%((i//K_RWL)-1)+'.OUT'+str([row]))
 
-				TOP.connect('decoder_read_out'+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.IN'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.OUT'+str([row]))
+				TOP.connect('decoder_read_out'+str([row]), rwlBuff_stripe_name%((i//K_RWL))+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), rwlBuff_stripe_name%((i//K_RWL))+'.OUT'+str([row]))
 
 
 		if (i%K_RWL == 0) & (i > param['DATA_WIDTH']/2):   # right side
 			TOP.add_netbus(Bus(Net, 'rwlBuffNet_'+str((i//K_RWL)), 2**ADDR_WIDTH))
 			for row in range(2**ADDR_WIDTH):
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.IN'+str([row]))
-				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), 'rwlBuff_stripe_'+str((i//K_RWL))+'.OUT'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL)-1)+str([row]), rwlBuff_stripe_name%((i//K_RWL))+'.IN'+str([row]))
+				TOP.connect('rwlBuffNet_'+str((i//K_RWL))+str([row]), rwlBuff_stripe_name%((i//K_RWL))+'.OUT'+str([row]))
             
 
 
         # bitslices
-		TOP.connect('DIN'+str([i]), 'bitslice_'+str(i)+'.DIN')
-		TOP.connect('DOUT'+str([i]), 'bitslice_'+str(i)+'.DOUT')
-		TOP.connect('GDINCLK', 'bitslice_'+str(i)+'.clk')
+		TOP.connect('DIN'+str([i]), bitslice_name%(i)+'.DIN')
+		TOP.connect('DOUT'+str([i]), bitslice_name%(i)+'.DOUT')
+		TOP.connect('GDINCLK', bitslice_name%(i)+'.clk')
 
         # DGWCLK net to bitslice connectivity
 		if i < (param['DATA_WIDTH']/2):
@@ -308,10 +320,10 @@ def SCM_design_components_instances_TOP(param, scm):
 				TOP.add_netbus(Bus(Net, 'DGWCLKLeftNet', 2**ADDR_WIDTH))
 				TOP.add_netbus(Bus(Net, 'DGWClkRightNet', 2**ADDR_WIDTH))
 			for j in range(2**ADDR_WIDTH):
-				TOP.connect('DGWCLKLeftNet'+str([j]), 'bitslice_'+str(i)+'.DGWCLK'+str([j]))
+				TOP.connect('DGWCLKLeftNet'+str([j]), bitslice_name%(i)+'.DGWCLK'+str([j]))
 		else:
 			for j in range(2**ADDR_WIDTH):
-				TOP.connect('DGWClkRightNet'+str([j]), 'bitslice_'+str(i)+'.DGWCLK'+str([j]))
+				TOP.connect('DGWClkRightNet'+str([j]), bitslice_name%(i)+'.DGWCLK'+str([j]))
 
 		if i == ((param['DATA_WIDTH']/2)-1):    # MidGap
 			TOP.connect('GWCLK', 'MidGap_DGWCLK.clk')
@@ -328,7 +340,7 @@ def SCM_design_components_instances_TOP(param, scm):
 	# bitslices RWL connectivity
 	for row in range(2**ADDR_WIDTH):
 		for col in range(param['DATA_WIDTH']):
-			TOP.connect('rwlBuffNet_'+str(col//K_RWL)+str([row]), 'bitslice_'+str(col)+'.'+'RWL'+str([row]))
+			TOP.connect('rwlBuffNet_'+str(col//K_RWL)+str([row]), bitslice_name%(col)+'.'+'RWL'+str([row]))
 		TOP.connect('decoder_read_out'+str([row]), 'read_decoder''.decoder_out'+str([row]))
 		TOP.connect('decoder_write_out'+str([row]), 'write_decoder''.decoder_out'+str([row]))
 
@@ -347,9 +359,14 @@ def SCM_design_components_instances_bitslice(param, scm):
 	read_mux = scm['read_mux']
 	MemoryLatch_reg = sc['latch']['component']
 	GDIN_reg = sc['flipflop']['component']
+
+	# instances names:
+	MemoryLatch_reg_name = 'MemoryLatch_reg_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
+
 	xcoord = 0.0
 	ycoord = 0.0
-	bitslice.add_component(GDIN_reg, 'GDIN_reg', xcoord, ycoord, 1)
+
+	bitslice.add_component(GDIN_reg, 'GDIN_reg', xcoord, ycoord)
 	bitslice.connect('DIN', 'GDIN_reg.'+sc['flipflop']['in'])
 	bitslice.add_net(Net('GDIN'))
 	bitslice.connect('GDIN', 'GDIN_reg.'+sc['flipflop']['out'])
@@ -362,13 +379,13 @@ def SCM_design_components_instances_bitslice(param, scm):
 	bitslice.add_netbus(Bus(Net, 'MemoryLatch', 2**ADDR_WIDTH))
 	xcoord = 0.0
 	for i in range(2**ADDR_WIDTH):	
-		bitslice.add_component(MemoryLatch_reg, 'MemoryLatch_reg_'+str(i), xcoord, ycoord)
+		bitslice.add_component(MemoryLatch_reg, MemoryLatch_reg_name%(i), xcoord, ycoord)
 		ycoord += sc['site']
 		#for net in ['MemoryLatch']:
 			#bitslice.add_net(Net(net+str([i])))
-		bitslice.connect('GDIN', 'MemoryLatch_reg_'+str(i)+'.'+sc['latch']['in'])         
+		bitslice.connect('GDIN', MemoryLatch_reg_name%(i)+'.'+sc['latch']['in'])         
 		for net in [('MemoryLatch',sc['latch']['out']), ('DGWCLK', sc['latch']['clk'])]:
-			bitslice.connect(net[0]+str([i]), 'MemoryLatch_reg_'+str(i)+'.'+net[1]) #conectivty to MemoryLatch_reg
+			bitslice.connect(net[0]+str([i]), MemoryLatch_reg_name%(i)+'.'+net[1]) #conectivty to MemoryLatch_reg
 		for net in ['MemoryLatch', 'RWL']:
 			bitslice.connect(net+str([i]), 'read_mux.'+net+str([i]))    #conectivty to read_mux
     
@@ -388,11 +405,18 @@ def SCM_design_components_instances_read_mux(param, scm):
     INV_OUT_GATE = sc['inverter']['component']
     buffer = sc['buffer']['component']
 
+    # instances names:
+    level_first_name = 'level_%0'+str(len(str(ADDR_WIDTH+1)))+'d'
+
     xcoord = 0.0
     ycoord = 0.0
 
     for level in range(1, ADDR_WIDTH+2):
+        # instances names:
+        level_second_name = '_%0'+str(len(str((2**ADDR_WIDTH)>>(level-1))))+'d'	
+			
         ycoord = 0.0
+
         if (level != 1):
             initial_Offset = ((2**(level-2))-1)     # is used to figure out what the first row for this level is
             gap_Between_Gates = (2**(level-1))      # is how many rows between gates at this level
@@ -401,39 +425,39 @@ def SCM_design_components_instances_read_mux(param, scm):
         if level == 1:      # add and connect level_1 NAND2
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), 2**ADDR_WIDTH))
             for i in range(2**ADDR_WIDTH):
-                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('MemoryLatch', sc['NAND2']['in_1']), ('RWL', sc['NAND2']['in_2']), ('w'+str(level-1), sc['NAND2']['out'])]:
-                    read_mux.connect(pin[0]+str([i]), 'level_'+str(level)+'_'+str(i)+'.'+pin[1])
+                    read_mux.connect(pin[0]+str([i]), level_first_name%(level)+level_second_name%(i)+'.'+pin[1])
 
         if level == 2:      # add and connect level_2 NAND2
             xcoord += sc['NAND2']['width']
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>1))
             for i in range((2**ADDR_WIDTH)>>1):
-                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
-                    read_mux.connect(pin[0], 'level_'+str(level)+'_'+str(i)+'.'+pin[1])
+                    read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])
 
         if (level%2) & (level != 1):        # add and connect levels 3,5,7..... -> in odd levels there are NOR2 gates
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>(level-1)))   
             for i in range((2**ADDR_WIDTH)>>(level-1)):
-                read_mux.add_component(NOR2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                read_mux.add_component(NOR2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']            
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('w'+str(level-2)+str([2*i]), sc['NOR2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NOR2']['in_2']), ('w'+str(level-1)+str([i]), sc['NOR2']['out'])]:
-                    read_mux.connect(pin[0], 'level_'+str(level)+'_'+str(i)+'.'+pin[1])            
+                    read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])            
 
         if (level%2 == 0) & (level != 2):       # add and connect levels 4,6,8..... -> in even levels there are NAND2 gates
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>(level-1)))
             for i in range((2**ADDR_WIDTH)>>(level-1)):
-                read_mux.add_component(NAND2, 'level_'+str(level)+'_'+str(i), xcoord, ycoord)
+                read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
-                    read_mux.connect(pin[0], 'level_'+str(level)+'_'+str(i)+'.'+pin[1])     
+                    read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])     
     
     # last inverter or buffer
     level += 1
@@ -460,6 +484,12 @@ def SCM_design_components_instances_MidGap_DGWCLK(param, scm):
 	MidGap_DGWCLK = scm['MidGap_DGWCLK']
 	buffer = sc['buffer']['component']
 	latch_clock_gate = sc['latch_clock_gate']['component']
+
+	# instances names:
+	DGWClkLeftBuff_name = 'DGWClkLeftBuff_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
+	DGWClkRightBuff_name = 'DGWClkRightBuff_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
+	DGWCLK_gate_name = 'DGWCLK_gate_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
+	Buff_name = 'Buff_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
     
 	xcoord = 0.0
 	ycoord = 0.0
@@ -470,21 +500,21 @@ def SCM_design_components_instances_MidGap_DGWCLK(param, scm):
 	
 	MidGap_DGWCLK.add_netbus(Bus(Net, 'ECK', 2**ADDR_WIDTH))
 	for i in range(2**ADDR_WIDTH):
-		MidGap_DGWCLK.add_component(buffer, 'DGWClkLeftBuff_'+str(i), xcoord_LeftBuff, ycoord)
-		MidGap_DGWCLK.add_component(latch_clock_gate, 'DGWCLK_gate_'+str(i), xcoord_DGWCLK_gate, ycoord)
-		MidGap_DGWCLK.add_component(buffer, 'DGWClkRightBuff_'+str(i), xcoord_RightBuff, ycoord)
+		MidGap_DGWCLK.add_component(buffer, DGWClkLeftBuff_name%(i), xcoord_LeftBuff, ycoord)
+		MidGap_DGWCLK.add_component(latch_clock_gate, DGWCLK_gate_name%(i), xcoord_DGWCLK_gate, ycoord)
+		MidGap_DGWCLK.add_component(buffer, DGWClkRightBuff_name%(i), xcoord_RightBuff, ycoord)
 		ycoord += sc['site']
         
-		MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['out'])
-		MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkLeftBuff_'+str(i)+'.'+sc['buffer']['in'])
-		MidGap_DGWCLK.connect('ECK'+str([i]), 'DGWClkRightBuff_'+str(i)+'.'+sc['buffer']['in'])
+		MidGap_DGWCLK.connect('ECK'+str([i]), DGWCLK_gate_name%(i)+'.'+sc['latch_clock_gate']['out'])
+		MidGap_DGWCLK.connect('ECK'+str([i]), DGWClkLeftBuff_name%(i)+'.'+sc['buffer']['in'])
+		MidGap_DGWCLK.connect('ECK'+str([i]), DGWClkRightBuff_name%(i)+'.'+sc['buffer']['in'])
 		
-		MidGap_DGWCLK.connect('E'+str([i]), 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['E'])
-		MidGap_DGWCLK.connect('clk', 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['clk'])
-		MidGap_DGWCLK.connect('SE', 'DGWCLK_gate_'+str(i)+'.'+sc['latch_clock_gate']['SE'])
+		MidGap_DGWCLK.connect('E'+str([i]), DGWCLK_gate_name%(i)+'.'+sc['latch_clock_gate']['E'])
+		MidGap_DGWCLK.connect('clk', DGWCLK_gate_name%(i)+'.'+sc['latch_clock_gate']['clk'])
+		MidGap_DGWCLK.connect('SE', DGWCLK_gate_name%(i)+'.'+sc['latch_clock_gate']['SE'])
         
 		for net in ['DGWClkLeft', 'DGWClkRight']:
-			MidGap_DGWCLK.connect(net+'Net'+str([i]), net+'Buff_'+str(i)+'.'+sc['buffer']['out'])
+			MidGap_DGWCLK.connect(net+'Net'+str([i]), net+Buff_name%(i)+'.'+sc['buffer']['out'])
 
 
 
@@ -575,6 +605,7 @@ def SCM_design_components_instances_row_decoder(param, scm):
 
 	##################       Post Decoder       ##################
 	##############################################################
+	ycoord += sc['site']
 	for row in range(2**ADDR_WIDTH):
 		row_decoder.add_component(sc['NOR'+str(NUM_PREDECS)]['component'], 'PostDec_%02d'%(row), xcoord, ycoord)
 		ycoord += sc['site']
@@ -610,8 +641,10 @@ def SCM_design_components_instances_welltap_strip(param, scm):
 	xcoord = 0.0
 	ycoord = 0.0
 
+	welltap_name = 'welltap_%0'+str(len(str(2**ADDR_WIDTH+2)))+'d'
+
 	for i in range((2**ADDR_WIDTH)+2):
-		welltap_stripe.add_component(sc['well_tap']['component'], 'welltap_'+str(i), xcoord, ycoord)
+		welltap_stripe.add_component(sc['well_tap']['component'], welltap_name%(i), xcoord, ycoord)
 		ycoord += sc['site']
 
 ##########################################################
@@ -622,14 +655,18 @@ def SCM_design_components_instances_rwlBuff_strip(param, scm):
 	ADDR_WIDTH = param['ADDR_WIDTH']
 	rwlBuff_stripe = scm['rwlBuff_stripe']
 	buffer = sc['buffer']['component']
+
+	# instances names:
+	rwlBuff_name = 'rwlBuff_%0'+str(len(str(2**ADDR_WIDTH)))+'d'
+	
 	xcoord = 0.0
 	ycoord = 0.0
 
 	for i in range(2**ADDR_WIDTH):
-		rwlBuff_stripe.add_component(buffer, 'rwlBuff_'+str(i), xcoord, ycoord)
+		rwlBuff_stripe.add_component(buffer, rwlBuff_name%(i), xcoord, ycoord)
 		ycoord += sc['site']		
 		for net in [('IN', sc['buffer']['in']), ('OUT', sc['buffer']['out'])]:
-			rwlBuff_stripe.connect(net[0]+str([i]), 'rwlBuff_'+str(i)+'.'+net[1])
+			rwlBuff_stripe.connect(net[0]+str([i]), rwlBuff_name%(i)+'.'+net[1])
 
 
 ################################################################
@@ -651,8 +688,13 @@ def write_verilog_file(param,scm):
 
     for line in header_comment_text:
         verilog_file.write(line)
-    
+
+
+    #for line in scm['TOP'].write_verilog():
+    #        verilog_file.write(line+"\n")
+    #for module in sorted(scm['TOP'].get_subcomponents_dict().keys()):
     for module in scm.values():
+        #for line in scm['TOP'].get_subcomponents_dict()[module].write_verilog():
         for line in module.write_verilog():
             verilog_file.write(line+"\n")
     
@@ -726,6 +768,11 @@ def write_tcl(param,scm):
 		tcl_file.write('\n\n\n')
 		for line in module.write_pin_tcl_placement_commands():	# pin placement
 			tcl_file.write(line + '\n')
+		tcl_file.write('\n\n\n')
+
+		for line in module.write_addStripe_tcl_commands():	# addStripe commands
+			tcl_file.write(line + '\n')
+		
 
 	
 

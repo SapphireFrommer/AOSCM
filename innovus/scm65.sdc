@@ -28,8 +28,8 @@ set_load $tech_files(SDC_LOAD_VALUE)  [all_outputs]
 #set_dont_touch [get_designs pads]
 
 
-set_multicycle_path -setup -through [get_pins MemoryLatch_reg*/Q*] -to [get_ports DOUT*] 2
-set_multicycle_path -hold -through [get_pins MemoryLatch_reg*/Q*] -to [get_ports DOUT*] 1
+set_multicycle_path -setup -through [get_pins */MemoryLatch_reg*/Q*] -to [get_ports DOUT*] 2
+set_multicycle_path -hold -through [get_pins */MemoryLatch_reg*/Q*] -to [get_ports DOUT*] 1
 
 # Dont touch instantiated cells
 set dont_touch_modules [list \
@@ -41,9 +41,9 @@ foreach module $dont_touch_modules {
 
 if {$runtype == "pnr"} {
     set dont_touch_nets [list \
-        *DGWClkRightNet* \
-        *DGWClkLeftNet* \
-        *DGWClkNetToBuff* ]
+        */*DGWClkRightNet* \
+        */*DGWClkLeftNet* ]
+#        */*DGWClkNetToBuff* ]
     foreach net $dont_touch_nets {
         set_dont_touch $net
     }
