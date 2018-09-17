@@ -1,6 +1,6 @@
 ../../verilog_modules/define.v
 
-bitslice_tb.v
+../../TB/bitslice/bitslice_tb.v
 ../../verilog_modules/read_mux/read_mux.v
 ../../verilog_modules/bitslice/bitslice.v
 

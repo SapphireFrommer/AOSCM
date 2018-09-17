@@ -1,2 +1,2 @@
 #!/bin/tcsh
-qirun -f scm65_tb.f -gui -debug -sv -nospecify
+qirun -f ../../TB/scm65/scm65_tb.f -gui -debug -sv -nospecify

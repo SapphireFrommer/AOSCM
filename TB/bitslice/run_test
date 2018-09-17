@@ -1,2 +1,2 @@
 #!/bin/tcsh
-qirun -f bitslice_tb.f -debug -nospecify
+qirun -f ../../TB/bitslice/bitslice_tb.f -debug -nospecify

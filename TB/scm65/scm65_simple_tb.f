@@ -1,6 +1,6 @@
 ../../verilog_modules/define.v
 
-scm65_simple_tb.v
+../../TB/scm65/scm65_simple_tb.v
 
 
 ../../verilog_modules/scm65/scm65.v
