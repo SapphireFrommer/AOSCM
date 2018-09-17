@@ -11,6 +11,8 @@
 `define FINAL_READING_TIME (`WRITING_TIME+1000)
 `define SIMULATION_TIME (`FINAL_READING_TIME+1000)
 
+`define SDF_FILE "../../export/scm65.sdf"
+`define SDF_SCOPE MEM
 
 `ifdef GATE_LEVEL 
     `include "../../export/synthesis/scm65.postsyn.v"
