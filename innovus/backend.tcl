@@ -1,6 +1,7 @@
 set runtype "pnr"
 set TOPLEVEL "scm65"
 set debugState 1
+set ScriptDir "../../innovus"
 
 ############################################
 # Init Design
@@ -8,9 +9,9 @@ set debugState 1
 setDesignMode -process 65
 
 # Set up specific defines for this run
-source ../${TOPLEVEL}.defines
+source ${ScriptDir}/${TOPLEVEL}.defines
 # Set up the "paths" and "tech_files" variables to describe the installation information
-source ../libraries.tcl
+source ${ScriptDir}/libraries.tcl
 
 # Defined in ARM SC user scripts
 setNanoRouteMode -quiet -routeWithViaInPin true

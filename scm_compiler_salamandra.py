@@ -3,20 +3,31 @@ import datetime
 sys.path.append(os.path.abspath('submodules/salamandra'))
 from salamandra import *
 from define_parameters import *
+
+from standard_cell_from_tech import *
+
 from standard_cell import *
-
-
 
 
 ################################################################
 ###########################   main   ###########################
 ################################################################
 def main():
-    scm = {}
-    SCM_design(param,scm)
-    write_verilog_file(param,scm)
-    write_tcl(param,scm)
+	scm = {}
+	#A = A2DFFQN_X0P5M_A12TR('d22')
+	
+	SCM_design(param,scm)
+	write_verilog_file(param,scm)
+	write_tcl(param,scm)
+	#print(A)
+	#print(A.pin_names())
 
+	print('\n========================================')
+	print(sc['NAND2'])
+	print(sc['NAND2']['component'])
+	print(sc['NAND2']['component'].pin_names())
+	print(sc['NAND2']['component'].get_component_dimensions()[0])
+	print(sc['NAND2']['component'].get_pin('A'))
 
 ################################################################
 ########################   SCM design   ########################
@@ -149,9 +160,15 @@ def SCM_design_components_instances_TOP(param, scm):
 
 	for i in range(param['DATA_WIDTH']):
 		ycoord = 0.0
+				
 		if (i%param['WELLTAP']) == 0:
+			if (i%2) == 1:
+				xcoord += sc['well_tap']['width']								
 			TOP.add_component(welltap_stripe, welltap_stripe_name%(i//param['WELLTAP']), xcoord, ycoord)
-			xcoord += sc['well_tap']['width']
+			if (i%2) == 0:	
+				xcoord += sc['well_tap']['width']
+			else:
+				xcoord += sc['well_tap']['width']+0.4
 		# rwlBuff_strips
 		K_RWL = param['DATA_WIDTH']//param['RWL_NUM']	# how many rwl buffer will be
 		ycoord += sc['site']
@@ -224,10 +241,6 @@ def SCM_design_components_instances_TOP(param, scm):
 			TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)), xcoord, ycoord+sc['site'])
 			xcoord += sc['buffer']['width']	
 
-		if (ADDR_WIDTH%2)==0:
-			t_xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
-		else:
-			t_xcoord = (sc['latch']['width']+sc['buffer']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
 		
 		ycoord = 0.0
 		pin = 'DIN'+str([i])
@@ -240,7 +253,12 @@ def SCM_design_components_instances_TOP(param, scm):
 			
 		pin = 'DOUT'+str([i])
 		TOP.set_pin_position(pin, xcoord+3.7, ycoord, 'TOP', 2)
-		
+
+		if (ADDR_WIDTH%2)==0:
+			t_xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
+		else:
+			t_xcoord = (sc['latch']['width']+sc['buffer']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
+			
 		bitslice_width = sc['flipflop']['width']+t_xcoord	# need to write better
 		xcoord += bitslice_width	
 		
