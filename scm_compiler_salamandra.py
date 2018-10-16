@@ -14,20 +14,9 @@ from standard_cell import *
 ################################################################
 def main():
 	scm = {}
-	#A = A2DFFQN_X0P5M_A12TR('d22')
-	
 	SCM_design(param,scm)
 	write_verilog_file(param,scm)
 	write_tcl(param,scm)
-	#print(A)
-	#print(A.pin_names())
-
-	print('\n========================================')
-	print(sc['NAND2'])
-	print(sc['NAND2']['component'])
-	print(sc['NAND2']['component'].pin_names())
-	print(sc['NAND2']['component'].get_component_dimensions()[0])
-	print(sc['NAND2']['component'].get_pin('A'))
 
 ################################################################
 ########################   SCM design   ########################
@@ -35,7 +24,7 @@ def main():
 def SCM_design(param, scm):
 	SCM_design_define_components(param, scm)        # define each component itself
 	SCM_design_components_instances(param, scm)     # add components, internal nets and connectivity to modules
-	#scm['TOP'].uniq()
+	scm['TOP'].uniq()
 	for module in sorted(scm['TOP'].get_subcomponents_dict().keys()):
 		print(module +'\t->\t'+ str(scm['TOP'].get_subcomponents_dict()[module]))
 	#print(scm['TOP'].get_subcomponents_dict())
@@ -710,11 +699,11 @@ def write_verilog_file(param,scm):
 
     #for line in scm['TOP'].write_verilog():
     #        verilog_file.write(line+"\n")
-    #for module in sorted(scm['TOP'].get_subcomponents_dict().keys()):
-    for module in scm.values():
-        #for line in scm['TOP'].get_subcomponents_dict()[module].write_verilog():
-        for line in module.write_verilog():
-            verilog_file.write(line+"\n")
+    for module in scm['TOP'].get_subcomponents_recursive(inclusive=True):
+        if not module.get_dont_write_verilog():
+            for line in module.write_verilog():
+                #for line in module.write_verilog():
+                verilog_file.write(line+"\n")
     
     verilog_file.close()
     

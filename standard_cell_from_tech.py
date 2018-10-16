@@ -10,7 +10,8 @@ class A2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X1M_A12TR'
 
@@ -21,7 +22,8 @@ class A2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X2M_A12TR'
 
@@ -32,7 +34,8 @@ class A2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X3M_A12TR'
 
@@ -43,7 +46,8 @@ class A2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X0P5M_A12TR'
 
@@ -54,7 +58,8 @@ class A2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X1M_A12TR'
 
@@ -65,7 +70,8 @@ class A2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X2M_A12TR'
 
@@ -76,7 +82,8 @@ class A2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X3M_A12TR'
 
@@ -87,7 +94,8 @@ class A2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X4M_A12TR'
 
@@ -98,7 +106,8 @@ class A2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X0P5M_A12TR'
 
@@ -111,7 +120,8 @@ class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X1M_A12TR'
 
@@ -124,7 +134,8 @@ class A2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X2M_A12TR'
 
@@ -137,7 +148,8 @@ class A2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X3M_A12TR'
 
@@ -150,7 +162,8 @@ class A2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X0P5M_A12TR'
 
@@ -163,7 +176,8 @@ class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X1M_A12TR'
 
@@ -176,7 +190,8 @@ class A2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X2M_A12TR'
 
@@ -189,7 +204,8 @@ class A2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X3M_A12TR'
 
@@ -202,7 +218,8 @@ class A2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X4M_A12TR'
 
@@ -215,7 +232,8 @@ class A2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1M_A12TR'
 
@@ -227,7 +245,8 @@ class ADDFCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1P4M_A12TR'
 
@@ -239,7 +258,8 @@ class ADDFCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X2M_A12TR'
 
@@ -251,7 +271,8 @@ class ADDFCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1M_A12TR'
 
@@ -263,7 +284,8 @@ class ADDFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1P4M_A12TR'
 
@@ -275,7 +297,8 @@ class ADDFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X2M_A12TR'
 
@@ -287,7 +310,8 @@ class ADDFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1M_A12TR'
 
@@ -299,7 +323,8 @@ class ADDF_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1P4M_A12TR'
 
@@ -311,7 +336,8 @@ class ADDF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X2M_A12TR'
 
@@ -323,7 +349,8 @@ class ADDF_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1M_A12TR'
 
@@ -334,7 +361,8 @@ class ADDH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1P4M_A12TR'
 
@@ -345,7 +373,8 @@ class ADDH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X2M_A12TR'
 
@@ -356,7 +385,8 @@ class ADDH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P5M_A12TR'
 
@@ -366,7 +396,8 @@ class AND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P7M_A12TR'
 
@@ -376,7 +407,8 @@ class AND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X11M_A12TR'
 
@@ -386,7 +418,8 @@ class AND2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1M_A12TR'
 
@@ -396,7 +429,8 @@ class AND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1P4M_A12TR'
 
@@ -406,7 +440,8 @@ class AND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X2M_A12TR'
 
@@ -416,7 +451,8 @@ class AND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X3M_A12TR'
 
@@ -426,7 +462,8 @@ class AND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X4M_A12TR'
 
@@ -436,7 +473,8 @@ class AND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X6M_A12TR'
 
@@ -446,7 +484,8 @@ class AND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X8M_A12TR'
 
@@ -456,7 +495,8 @@ class AND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P5M_A12TR'
 
@@ -467,7 +507,8 @@ class AND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P7M_A12TR'
 
@@ -478,7 +519,8 @@ class AND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X11M_A12TR'
 
@@ -489,7 +531,8 @@ class AND3_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1M_A12TR'
 
@@ -500,7 +543,8 @@ class AND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1P4M_A12TR'
 
@@ -511,7 +555,8 @@ class AND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X2M_A12TR'
 
@@ -522,7 +567,8 @@ class AND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X3M_A12TR'
 
@@ -533,7 +579,8 @@ class AND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X4M_A12TR'
 
@@ -544,7 +591,8 @@ class AND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X6M_A12TR'
 
@@ -555,7 +603,8 @@ class AND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X8M_A12TR'
 
@@ -566,7 +615,8 @@ class AND3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P5M_A12TR'
 
@@ -578,7 +628,8 @@ class AND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P7M_A12TR'
 
@@ -590,7 +641,8 @@ class AND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1M_A12TR'
 
@@ -602,7 +654,8 @@ class AND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1P4M_A12TR'
 
@@ -614,7 +667,8 @@ class AND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X2M_A12TR'
 
@@ -626,7 +680,8 @@ class AND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X3M_A12TR'
 
@@ -638,7 +693,8 @@ class AND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X4M_A12TR'
 
@@ -650,7 +706,8 @@ class AND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X6M_A12TR'
 
@@ -662,7 +719,8 @@ class AND4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X8M_A12TR'
 
@@ -674,7 +732,8 @@ class AND4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ANTENNA2_A12TR(ComponentXY):
 	__defaultName = 'ANTENNA2_A12TR'
 
@@ -683,7 +742,8 @@ class ANTENNA2_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P5M_A12TR'
 
@@ -694,7 +754,8 @@ class AO1B2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P7M_A12TR'
 
@@ -705,7 +766,8 @@ class AO1B2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1M_A12TR'
 
@@ -716,7 +778,8 @@ class AO1B2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1P4M_A12TR'
 
@@ -727,7 +790,8 @@ class AO1B2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X2M_A12TR'
 
@@ -738,7 +802,8 @@ class AO1B2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X3M_A12TR'
 
@@ -749,7 +814,8 @@ class AO1B2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X4M_A12TR'
 
@@ -760,7 +826,8 @@ class AO1B2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X6M_A12TR'
 
@@ -771,7 +838,8 @@ class AO1B2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P5M_A12TR'
 
@@ -782,7 +850,8 @@ class AO21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P7M_A12TR'
 
@@ -793,7 +862,8 @@ class AO21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1M_A12TR'
 
@@ -804,7 +874,8 @@ class AO21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1P4M_A12TR'
 
@@ -815,7 +886,8 @@ class AO21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X2M_A12TR'
 
@@ -826,7 +898,8 @@ class AO21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X3M_A12TR'
 
@@ -837,7 +910,8 @@ class AO21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X4M_A12TR'
 
@@ -848,7 +922,8 @@ class AO21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X6M_A12TR'
 
@@ -859,7 +934,8 @@ class AO21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P5M_A12TR'
 
@@ -870,7 +946,8 @@ class AO21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P7M_A12TR'
 
@@ -881,7 +958,8 @@ class AO21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1M_A12TR'
 
@@ -892,7 +970,8 @@ class AO21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1P4M_A12TR'
 
@@ -903,7 +982,8 @@ class AO21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X2M_A12TR'
 
@@ -914,7 +994,8 @@ class AO21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X3M_A12TR'
 
@@ -925,7 +1006,8 @@ class AO21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X4M_A12TR'
 
@@ -936,7 +1018,8 @@ class AO21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X6M_A12TR'
 
@@ -947,7 +1030,8 @@ class AO21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P5M_A12TR'
 
@@ -959,7 +1043,8 @@ class AO22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P7M_A12TR'
 
@@ -971,7 +1056,8 @@ class AO22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1M_A12TR'
 
@@ -983,7 +1069,8 @@ class AO22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1P4M_A12TR'
 
@@ -995,7 +1082,8 @@ class AO22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X2M_A12TR'
 
@@ -1007,7 +1095,8 @@ class AO22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X3M_A12TR'
 
@@ -1019,7 +1108,8 @@ class AO22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X4M_A12TR'
 
@@ -1031,7 +1121,8 @@ class AO22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X6M_A12TR'
 
@@ -1043,7 +1134,8 @@ class AO22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P5M_A12TR'
 
@@ -1055,7 +1147,8 @@ class AOI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P7M_A12TR'
 
@@ -1067,7 +1160,8 @@ class AOI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1M_A12TR'
 
@@ -1079,7 +1173,8 @@ class AOI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1P4M_A12TR'
 
@@ -1091,7 +1186,8 @@ class AOI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X2M_A12TR'
 
@@ -1103,7 +1199,8 @@ class AOI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X3M_A12TR'
 
@@ -1115,7 +1212,8 @@ class AOI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X4M_A12TR'
 
@@ -1127,7 +1225,8 @@ class AOI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P5M_A12TR'
 
@@ -1138,7 +1237,8 @@ class AOI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P7M_A12TR'
 
@@ -1149,7 +1249,8 @@ class AOI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1M_A12TR'
 
@@ -1160,7 +1261,8 @@ class AOI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1P4M_A12TR'
 
@@ -1171,7 +1273,8 @@ class AOI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X2M_A12TR'
 
@@ -1182,7 +1285,8 @@ class AOI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X3M_A12TR'
 
@@ -1193,7 +1297,8 @@ class AOI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X4M_A12TR'
 
@@ -1204,7 +1309,8 @@ class AOI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X6M_A12TR'
 
@@ -1215,7 +1321,8 @@ class AOI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X8M_A12TR'
 
@@ -1226,7 +1333,8 @@ class AOI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P5M_A12TR'
 
@@ -1237,7 +1345,8 @@ class AOI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P7M_A12TR'
 
@@ -1248,7 +1357,8 @@ class AOI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1M_A12TR'
 
@@ -1259,7 +1369,8 @@ class AOI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1P4M_A12TR'
 
@@ -1270,7 +1381,8 @@ class AOI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X2M_A12TR'
 
@@ -1281,7 +1393,8 @@ class AOI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X3M_A12TR'
 
@@ -1292,7 +1405,8 @@ class AOI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X4M_A12TR'
 
@@ -1303,7 +1417,8 @@ class AOI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X6M_A12TR'
 
@@ -1314,7 +1429,8 @@ class AOI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X8M_A12TR'
 
@@ -1325,7 +1441,8 @@ class AOI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P5M_A12TR'
 
@@ -1338,7 +1455,8 @@ class AOI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P7M_A12TR'
 
@@ -1351,7 +1469,8 @@ class AOI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1M_A12TR'
 
@@ -1364,7 +1483,8 @@ class AOI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1P4M_A12TR'
 
@@ -1377,7 +1497,8 @@ class AOI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X2M_A12TR'
 
@@ -1390,7 +1511,8 @@ class AOI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X3M_A12TR'
 
@@ -1403,7 +1525,8 @@ class AOI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X4M_A12TR'
 
@@ -1416,7 +1539,8 @@ class AOI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P5M_A12TR'
 
@@ -1430,7 +1554,8 @@ class AOI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P7M_A12TR'
 
@@ -1444,7 +1569,8 @@ class AOI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1M_A12TR'
 
@@ -1458,7 +1584,8 @@ class AOI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1P4M_A12TR'
 
@@ -1472,7 +1599,8 @@ class AOI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X2M_A12TR'
 
@@ -1486,7 +1614,8 @@ class AOI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X3M_A12TR'
 
@@ -1500,7 +1629,8 @@ class AOI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X4M_A12TR'
 
@@ -1514,7 +1644,8 @@ class AOI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P5M_A12TR'
 
@@ -1526,7 +1657,8 @@ class AOI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P7M_A12TR'
 
@@ -1538,7 +1670,8 @@ class AOI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1M_A12TR'
 
@@ -1550,7 +1683,8 @@ class AOI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1P4M_A12TR'
 
@@ -1562,7 +1696,8 @@ class AOI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X2M_A12TR'
 
@@ -1574,7 +1709,8 @@ class AOI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X3M_A12TR'
 
@@ -1586,7 +1722,8 @@ class AOI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X4M_A12TR'
 
@@ -1598,7 +1735,8 @@ class AOI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X6M_A12TR'
 
@@ -1610,7 +1748,8 @@ class AOI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X8M_A12TR'
 
@@ -1622,7 +1761,8 @@ class AOI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P5M_A12TR'
 
@@ -1633,7 +1773,8 @@ class AOI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P7M_A12TR'
 
@@ -1644,7 +1785,8 @@ class AOI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1M_A12TR'
 
@@ -1655,7 +1797,8 @@ class AOI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1P4M_A12TR'
 
@@ -1666,7 +1809,8 @@ class AOI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X2M_A12TR'
 
@@ -1677,7 +1821,8 @@ class AOI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X3M_A12TR'
 
@@ -1688,7 +1833,8 @@ class AOI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X4M_A12TR'
 
@@ -1699,7 +1845,8 @@ class AOI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X6M_A12TR'
 
@@ -1710,7 +1857,8 @@ class AOI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X8M_A12TR'
 
@@ -1721,7 +1869,8 @@ class AOI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P5M_A12TR'
 
@@ -1733,7 +1882,8 @@ class AOI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P7M_A12TR'
 
@@ -1745,7 +1895,8 @@ class AOI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1M_A12TR'
 
@@ -1757,7 +1908,8 @@ class AOI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1P4M_A12TR'
 
@@ -1769,7 +1921,8 @@ class AOI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X2M_A12TR'
 
@@ -1781,7 +1934,8 @@ class AOI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X3M_A12TR'
 
@@ -1793,7 +1947,8 @@ class AOI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X4M_A12TR'
 
@@ -1805,7 +1960,8 @@ class AOI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X6M_A12TR'
 
@@ -1817,7 +1973,8 @@ class AOI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P5M_A12TR'
 
@@ -1830,7 +1987,8 @@ class AOI32_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P7M_A12TR'
 
@@ -1843,7 +2001,8 @@ class AOI32_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1M_A12TR'
 
@@ -1856,7 +2015,8 @@ class AOI32_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1P4M_A12TR'
 
@@ -1869,7 +2029,8 @@ class AOI32_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X2M_A12TR'
 
@@ -1882,7 +2043,8 @@ class AOI32_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X3M_A12TR'
 
@@ -1895,7 +2057,8 @@ class AOI32_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X4M_A12TR'
 
@@ -1908,7 +2071,8 @@ class AOI32_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X6M_A12TR'
 
@@ -1921,7 +2085,8 @@ class AOI32_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X11M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X11M_A12TR'
 
@@ -1934,7 +2099,8 @@ class BENC_X11M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(15.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X16M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X16M_A12TR'
 
@@ -1947,7 +2113,8 @@ class BENC_X16M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(21.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X2M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X2M_A12TR'
 
@@ -1960,7 +2127,8 @@ class BENC_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X3M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X3M_A12TR'
 
@@ -1973,7 +2141,8 @@ class BENC_X3M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X4M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X4M_A12TR'
 
@@ -1986,7 +2155,8 @@ class BENC_X4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X6M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X6M_A12TR'
 
@@ -1999,7 +2169,8 @@ class BENC_X6M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(11, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X8M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X8M_A12TR'
 
@@ -2012,7 +2183,8 @@ class BENC_X8M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(12.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X0P7M_A12TR'
 
@@ -2025,7 +2197,8 @@ class BMXIT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1M_A12TR'
 
@@ -2038,7 +2211,8 @@ class BMXIT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1P4M_A12TR'
 
@@ -2051,7 +2225,8 @@ class BMXIT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X2M_A12TR'
 
@@ -2064,7 +2239,8 @@ class BMXIT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X0P7M_A12TR'
 
@@ -2077,7 +2253,8 @@ class BMXT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1M_A12TR'
 
@@ -2090,7 +2267,8 @@ class BMXT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1P4M_A12TR'
 
@@ -2103,7 +2281,8 @@ class BMXT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X2M_A12TR'
 
@@ -2116,7 +2295,8 @@ class BMXT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P7M_A12TR'
 
@@ -2125,7 +2305,8 @@ class BUFH_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P8M_A12TR'
 
@@ -2134,7 +2315,8 @@ class BUFH_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X11M_A12TR'
 
@@ -2143,7 +2325,8 @@ class BUFH_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X13M_A12TR'
 
@@ -2152,7 +2335,8 @@ class BUFH_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X16M_A12TR'
 
@@ -2161,7 +2345,8 @@ class BUFH_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1M_A12TR'
 
@@ -2170,7 +2355,8 @@ class BUFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P2M_A12TR'
 
@@ -2179,7 +2365,8 @@ class BUFH_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P4M_A12TR'
 
@@ -2188,7 +2375,8 @@ class BUFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P7M_A12TR'
 
@@ -2197,7 +2385,8 @@ class BUFH_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2M_A12TR'
 
@@ -2206,7 +2395,8 @@ class BUFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2P5M_A12TR'
 
@@ -2215,7 +2405,8 @@ class BUFH_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3M_A12TR'
 
@@ -2224,7 +2415,8 @@ class BUFH_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3P5M_A12TR'
 
@@ -2233,7 +2425,8 @@ class BUFH_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X4M_A12TR'
 
@@ -2242,7 +2435,8 @@ class BUFH_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X5M_A12TR'
 
@@ -2251,7 +2445,8 @@ class BUFH_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X6M_A12TR'
 
@@ -2260,7 +2455,8 @@ class BUFH_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X7P5M_A12TR'
 
@@ -2269,7 +2465,8 @@ class BUFH_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X9M_A12TR'
 
@@ -2278,7 +2475,8 @@ class BUFH_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X11M_A12TR'
 
@@ -2288,7 +2486,8 @@ class BUFZ_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X16M_A12TR'
 
@@ -2298,7 +2497,8 @@ class BUFZ_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1M_A12TR'
 
@@ -2308,7 +2508,8 @@ class BUFZ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1P4M_A12TR'
 
@@ -2318,7 +2519,8 @@ class BUFZ_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X2M_A12TR'
 
@@ -2328,7 +2530,8 @@ class BUFZ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X3M_A12TR'
 
@@ -2338,7 +2541,8 @@ class BUFZ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X4M_A12TR'
 
@@ -2348,7 +2552,8 @@ class BUFZ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X6M_A12TR'
 
@@ -2358,7 +2563,8 @@ class BUFZ_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X8M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X8M_A12TR'
 
@@ -2368,7 +2574,8 @@ class BUFZ_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7B_A12TR'
 
@@ -2377,7 +2584,8 @@ class BUF_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7M_A12TR'
 
@@ -2386,7 +2594,8 @@ class BUF_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8B_A12TR'
 
@@ -2395,7 +2604,8 @@ class BUF_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8M_A12TR'
 
@@ -2404,7 +2614,8 @@ class BUF_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11B_A12TR'
 
@@ -2413,7 +2624,8 @@ class BUF_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11M_A12TR'
 
@@ -2422,7 +2634,8 @@ class BUF_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13B_A12TR'
 
@@ -2431,7 +2644,8 @@ class BUF_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13M_A12TR'
 
@@ -2440,7 +2654,8 @@ class BUF_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16B_A12TR'
 
@@ -2449,7 +2664,8 @@ class BUF_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16M_A12TR'
 
@@ -2458,7 +2674,8 @@ class BUF_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1B_A12TR'
 
@@ -2467,7 +2684,8 @@ class BUF_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1M_A12TR'
 
@@ -2476,7 +2694,8 @@ class BUF_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2B_A12TR'
 
@@ -2485,7 +2704,8 @@ class BUF_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2M_A12TR'
 
@@ -2494,7 +2714,8 @@ class BUF_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4B_A12TR'
 
@@ -2503,7 +2724,8 @@ class BUF_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4M_A12TR'
 
@@ -2512,7 +2734,8 @@ class BUF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7B_A12TR'
 
@@ -2521,7 +2744,8 @@ class BUF_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7M_A12TR'
 
@@ -2530,7 +2754,8 @@ class BUF_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2B_A12TR'
 
@@ -2539,7 +2764,8 @@ class BUF_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2M_A12TR'
 
@@ -2548,7 +2774,8 @@ class BUF_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5B_A12TR'
 
@@ -2557,7 +2784,8 @@ class BUF_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5M_A12TR'
 
@@ -2566,7 +2794,8 @@ class BUF_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3B_A12TR'
 
@@ -2575,7 +2804,8 @@ class BUF_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3M_A12TR'
 
@@ -2584,7 +2814,8 @@ class BUF_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5B_A12TR'
 
@@ -2593,7 +2824,8 @@ class BUF_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5M_A12TR'
 
@@ -2602,7 +2834,8 @@ class BUF_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4B_A12TR'
 
@@ -2611,7 +2844,8 @@ class BUF_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4M_A12TR'
 
@@ -2620,7 +2854,8 @@ class BUF_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5B_A12TR'
 
@@ -2629,7 +2864,8 @@ class BUF_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5M_A12TR'
 
@@ -2638,7 +2874,8 @@ class BUF_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6B_A12TR'
 
@@ -2647,7 +2884,8 @@ class BUF_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6M_A12TR'
 
@@ -2656,7 +2894,8 @@ class BUF_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5B_A12TR'
 
@@ -2665,7 +2904,8 @@ class BUF_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5M_A12TR'
 
@@ -2674,7 +2914,8 @@ class BUF_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9B_A12TR'
 
@@ -2683,7 +2924,8 @@ class BUF_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9M_A12TR'
 
@@ -2692,7 +2934,8 @@ class BUF_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1M_A12TR'
 
@@ -2703,7 +2946,8 @@ class CGENCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1P4M_A12TR'
 
@@ -2714,7 +2958,8 @@ class CGENCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X2M_A12TR'
 
@@ -2725,7 +2970,8 @@ class CGENCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1M_A12TR'
 
@@ -2736,7 +2982,8 @@ class CGENCON_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1P4M_A12TR'
 
@@ -2747,7 +2994,8 @@ class CGENCON_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X2M_A12TR'
 
@@ -2758,7 +3006,8 @@ class CGENCON_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1M_A12TR'
 
@@ -2769,7 +3018,8 @@ class CGENI_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1P4M_A12TR'
 
@@ -2780,7 +3030,8 @@ class CGENI_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X2M_A12TR'
 
@@ -2791,7 +3042,8 @@ class CGENI_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1M_A12TR'
 
@@ -2802,7 +3054,8 @@ class CGEN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1P4M_A12TR'
 
@@ -2813,7 +3066,8 @@ class CGEN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X2M_A12TR'
 
@@ -2824,7 +3078,8 @@ class CGEN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1M_A12TR'
 
@@ -2839,7 +3094,8 @@ class CMPR42_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1P4M_A12TR'
 
@@ -2854,7 +3110,8 @@ class CMPR42_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X2M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X2M_A12TR'
 
@@ -2869,7 +3126,8 @@ class CMPR42_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X1M_A12TR'
 
@@ -2879,7 +3137,8 @@ class DFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X2M_A12TR'
 
@@ -2889,7 +3148,8 @@ class DFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X3M_A12TR'
 
@@ -2899,7 +3159,8 @@ class DFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X1M_A12TR'
 
@@ -2910,7 +3171,8 @@ class DFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X2M_A12TR'
 
@@ -2921,7 +3183,8 @@ class DFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X3M_A12TR'
 
@@ -2932,7 +3195,8 @@ class DFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X1M_A12TR'
 
@@ -2943,7 +3207,8 @@ class DFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X2M_A12TR'
 
@@ -2954,7 +3219,8 @@ class DFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X3M_A12TR'
 
@@ -2965,7 +3231,8 @@ class DFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X1M_A12TR'
 
@@ -2977,7 +3244,8 @@ class DFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X2M_A12TR'
 
@@ -2989,7 +3257,8 @@ class DFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X3M_A12TR'
 
@@ -3001,7 +3270,8 @@ class DFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X0P5M_A12TR'
 
@@ -3011,7 +3281,8 @@ class DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X1M_A12TR'
 
@@ -3021,7 +3292,8 @@ class DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X2M_A12TR'
 
@@ -3031,7 +3303,8 @@ class DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X3M_A12TR'
 
@@ -3041,7 +3314,8 @@ class DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X0P5M_A12TR'
 
@@ -3051,7 +3325,8 @@ class DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X1M_A12TR'
 
@@ -3061,7 +3336,8 @@ class DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X2M_A12TR'
 
@@ -3071,7 +3347,8 @@ class DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X3M_A12TR'
 
@@ -3081,7 +3358,8 @@ class DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X4M_A12TR'
 
@@ -3091,7 +3369,8 @@ class DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X0P5M_A12TR'
 
@@ -3102,7 +3381,8 @@ class DFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X1M_A12TR'
 
@@ -3113,7 +3393,8 @@ class DFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X2M_A12TR'
 
@@ -3124,7 +3405,8 @@ class DFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X3M_A12TR'
 
@@ -3135,7 +3417,8 @@ class DFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X0P5M_A12TR'
 
@@ -3146,7 +3429,8 @@ class DFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X1M_A12TR'
 
@@ -3157,7 +3441,8 @@ class DFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X2M_A12TR'
 
@@ -3168,7 +3453,8 @@ class DFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X3M_A12TR'
 
@@ -3179,7 +3465,8 @@ class DFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X4M_A12TR'
 
@@ -3190,7 +3477,8 @@ class DFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X0P5M_A12TR'
 
@@ -3201,7 +3489,8 @@ class DFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X1M_A12TR'
 
@@ -3212,7 +3501,8 @@ class DFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X2M_A12TR'
 
@@ -3223,7 +3513,8 @@ class DFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X3M_A12TR'
 
@@ -3234,7 +3525,8 @@ class DFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X0P5M_A12TR'
 
@@ -3245,7 +3537,8 @@ class DFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X1M_A12TR'
 
@@ -3256,7 +3549,8 @@ class DFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X2M_A12TR'
 
@@ -3267,7 +3561,8 @@ class DFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X3M_A12TR'
 
@@ -3278,7 +3573,8 @@ class DFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X4M_A12TR'
 
@@ -3289,7 +3585,8 @@ class DFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X0P5M_A12TR'
 
@@ -3301,7 +3598,8 @@ class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X1M_A12TR'
 
@@ -3313,7 +3611,8 @@ class DFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X2M_A12TR'
 
@@ -3325,7 +3624,8 @@ class DFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X3M_A12TR'
 
@@ -3337,7 +3637,8 @@ class DFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X4M_A12TR'
 
@@ -3349,7 +3650,8 @@ class DFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X1M_A12TR'
 
@@ -3359,7 +3661,8 @@ class DFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X2M_A12TR'
 
@@ -3369,7 +3672,8 @@ class DFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X3M_A12TR'
 
@@ -3379,7 +3683,8 @@ class DFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X4M_A12TR'
 
@@ -3389,7 +3694,8 @@ class DFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X0P5M_A12TR'
 
@@ -3398,7 +3704,8 @@ class DLY2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X1M_A12TR'
 
@@ -3407,7 +3714,8 @@ class DLY2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X2M_A12TR'
 
@@ -3416,7 +3724,8 @@ class DLY2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X4M_A12TR'
 
@@ -3425,7 +3734,8 @@ class DLY2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X0P5M_A12TR'
 
@@ -3434,7 +3744,8 @@ class DLY4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X1M_A12TR'
 
@@ -3443,7 +3754,8 @@ class DLY4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X2M_A12TR'
 
@@ -3452,7 +3764,8 @@ class DLY4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X4M_A12TR'
 
@@ -3461,7 +3774,8 @@ class DLY4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X0P5M_A12TR'
 
@@ -3472,7 +3786,8 @@ class EDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X1M_A12TR'
 
@@ -3483,7 +3798,8 @@ class EDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X2M_A12TR'
 
@@ -3494,7 +3810,8 @@ class EDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X3M_A12TR'
 
@@ -3505,7 +3822,8 @@ class EDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X0P5M_A12TR'
 
@@ -3516,7 +3834,8 @@ class EDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X1M_A12TR'
 
@@ -3527,7 +3846,8 @@ class EDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X2M_A12TR'
 
@@ -3538,7 +3858,8 @@ class EDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X3M_A12TR'
 
@@ -3549,7 +3870,8 @@ class EDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ENDCAPTIE2_A12TR(ComponentXY):
 	__defaultName = 'ENDCAPTIE2_A12TR'
 
@@ -3566,7 +3888,8 @@ class ESDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X1M_A12TR'
 
@@ -3579,7 +3902,8 @@ class ESDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X2M_A12TR'
 
@@ -3592,7 +3916,8 @@ class ESDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X3M_A12TR'
 
@@ -3605,7 +3930,8 @@ class ESDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X0P5M_A12TR'
 
@@ -3618,7 +3944,8 @@ class ESDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X1M_A12TR'
 
@@ -3631,7 +3958,8 @@ class ESDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X2M_A12TR'
 
@@ -3644,7 +3972,8 @@ class ESDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X3M_A12TR'
 
@@ -3657,7 +3986,8 @@ class ESDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FILL128_A12TR(ComponentXY):
 	__defaultName = 'FILL128_A12TR'
 
@@ -3818,7 +4148,8 @@ class FRICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P6B_A12TR'
 
@@ -3827,7 +4158,8 @@ class FRICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P7B_A12TR'
 
@@ -3836,7 +4168,8 @@ class FRICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P8B_A12TR'
 
@@ -3845,7 +4178,8 @@ class FRICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X11B_A12TR'
 
@@ -3854,7 +4188,8 @@ class FRICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X13B_A12TR'
 
@@ -3863,7 +4198,8 @@ class FRICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X16B_A12TR'
 
@@ -3872,7 +4208,8 @@ class FRICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1B_A12TR'
 
@@ -3881,7 +4218,8 @@ class FRICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P2B_A12TR'
 
@@ -3890,7 +4228,8 @@ class FRICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P4B_A12TR'
 
@@ -3899,7 +4238,8 @@ class FRICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P7B_A12TR'
 
@@ -3908,7 +4248,8 @@ class FRICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2B_A12TR'
 
@@ -3917,7 +4258,8 @@ class FRICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2P5B_A12TR'
 
@@ -3926,7 +4268,8 @@ class FRICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3B_A12TR'
 
@@ -3935,7 +4278,8 @@ class FRICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3P5B_A12TR'
 
@@ -3944,7 +4288,8 @@ class FRICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X4B_A12TR'
 
@@ -3953,7 +4298,8 @@ class FRICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X5B_A12TR'
 
@@ -3962,7 +4308,8 @@ class FRICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X6B_A12TR'
 
@@ -3971,7 +4318,8 @@ class FRICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X7P5B_A12TR'
 
@@ -3980,7 +4328,8 @@ class FRICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X9B_A12TR'
 
@@ -3989,7 +4338,8 @@ class FRICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5B_A12TR'
 
@@ -3998,7 +4348,8 @@ class INV_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5M_A12TR'
 
@@ -4007,7 +4358,8 @@ class INV_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6B_A12TR'
 
@@ -4016,7 +4368,8 @@ class INV_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6M_A12TR'
 
@@ -4025,7 +4378,8 @@ class INV_X0P6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7B_A12TR'
 
@@ -4034,7 +4388,8 @@ class INV_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7M_A12TR'
 
@@ -4043,7 +4398,8 @@ class INV_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8B_A12TR'
 
@@ -4052,7 +4408,8 @@ class INV_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8M_A12TR'
 
@@ -4061,7 +4418,8 @@ class INV_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11B_A12TR(ComponentXY):
 	__defaultName = 'INV_X11B_A12TR'
 
@@ -4070,7 +4428,8 @@ class INV_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11M_A12TR(ComponentXY):
 	__defaultName = 'INV_X11M_A12TR'
 
@@ -4079,7 +4438,8 @@ class INV_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13B_A12TR(ComponentXY):
 	__defaultName = 'INV_X13B_A12TR'
 
@@ -4088,7 +4448,8 @@ class INV_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13M_A12TR(ComponentXY):
 	__defaultName = 'INV_X13M_A12TR'
 
@@ -4097,7 +4458,8 @@ class INV_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16B_A12TR(ComponentXY):
 	__defaultName = 'INV_X16B_A12TR'
 
@@ -4106,7 +4468,8 @@ class INV_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16M_A12TR(ComponentXY):
 	__defaultName = 'INV_X16M_A12TR'
 
@@ -4115,7 +4478,8 @@ class INV_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1B_A12TR'
 
@@ -4124,7 +4488,8 @@ class INV_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1M_A12TR'
 
@@ -4133,7 +4498,8 @@ class INV_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2B_A12TR'
 
@@ -4142,7 +4508,8 @@ class INV_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2M_A12TR'
 
@@ -4151,7 +4518,8 @@ class INV_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4B_A12TR'
 
@@ -4160,7 +4528,8 @@ class INV_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4M_A12TR'
 
@@ -4169,7 +4538,8 @@ class INV_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7B_A12TR'
 
@@ -4178,7 +4548,8 @@ class INV_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7M_A12TR'
 
@@ -4187,7 +4558,8 @@ class INV_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2B_A12TR'
 
@@ -4196,7 +4568,8 @@ class INV_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2M_A12TR'
 
@@ -4205,7 +4578,8 @@ class INV_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5B_A12TR'
 
@@ -4214,7 +4588,8 @@ class INV_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5M_A12TR'
 
@@ -4223,7 +4598,8 @@ class INV_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3B_A12TR'
 
@@ -4232,7 +4608,8 @@ class INV_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3M_A12TR'
 
@@ -4241,7 +4618,8 @@ class INV_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5B_A12TR'
 
@@ -4250,7 +4628,8 @@ class INV_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5M_A12TR'
 
@@ -4259,7 +4638,8 @@ class INV_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X4B_A12TR'
 
@@ -4268,7 +4648,8 @@ class INV_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X4M_A12TR'
 
@@ -4277,7 +4658,8 @@ class INV_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X5B_A12TR'
 
@@ -4286,7 +4668,8 @@ class INV_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X5M_A12TR'
 
@@ -4295,7 +4678,8 @@ class INV_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X6B_A12TR'
 
@@ -4304,7 +4688,8 @@ class INV_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X6M_A12TR'
 
@@ -4313,7 +4698,8 @@ class INV_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5B_A12TR'
 
@@ -4322,7 +4708,8 @@ class INV_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5M_A12TR'
 
@@ -4331,7 +4718,8 @@ class INV_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9B_A12TR(ComponentXY):
 	__defaultName = 'INV_X9B_A12TR'
 
@@ -4340,7 +4728,8 @@ class INV_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9M_A12TR(ComponentXY):
 	__defaultName = 'INV_X9M_A12TR'
 
@@ -4349,7 +4738,8 @@ class INV_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X0P5M_A12TR'
 
@@ -4359,7 +4749,8 @@ class LATNQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X1M_A12TR'
 
@@ -4369,7 +4760,8 @@ class LATNQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X2M_A12TR'
 
@@ -4379,7 +4771,8 @@ class LATNQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X3M_A12TR'
 
@@ -4389,7 +4782,8 @@ class LATNQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X4M_A12TR'
 
@@ -4399,7 +4793,8 @@ class LATNQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X0P5M_A12TR'
 
@@ -4409,7 +4804,8 @@ class LATNQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X1M_A12TR'
 
@@ -4419,7 +4815,8 @@ class LATNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X2M_A12TR'
 
@@ -4429,7 +4826,8 @@ class LATNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X3M_A12TR'
 
@@ -4439,7 +4837,8 @@ class LATNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X0P5M_A12TR'
 
@@ -4450,7 +4849,8 @@ class LATNRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X1M_A12TR'
 
@@ -4461,7 +4861,8 @@ class LATNRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X2M_A12TR'
 
@@ -4472,7 +4873,8 @@ class LATNRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X3M_A12TR'
 
@@ -4483,7 +4885,8 @@ class LATNRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X4M_A12TR'
 
@@ -4494,7 +4897,8 @@ class LATNRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X0P5M_A12TR'
 
@@ -4505,7 +4909,8 @@ class LATNRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X1M_A12TR'
 
@@ -4516,7 +4921,8 @@ class LATNRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X2M_A12TR'
 
@@ -4527,7 +4933,8 @@ class LATNRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X3M_A12TR'
 
@@ -4538,7 +4945,8 @@ class LATNRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X0P5M_A12TR'
 
@@ -4549,7 +4957,8 @@ class LATNSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X1M_A12TR'
 
@@ -4560,7 +4969,8 @@ class LATNSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X2M_A12TR'
 
@@ -4571,7 +4981,8 @@ class LATNSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X3M_A12TR'
 
@@ -4582,7 +4993,8 @@ class LATNSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X0P5M_A12TR'
 
@@ -4593,7 +5005,8 @@ class LATNSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X1M_A12TR'
 
@@ -4604,7 +5017,8 @@ class LATNSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X2M_A12TR'
 
@@ -4615,7 +5029,8 @@ class LATNSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X3M_A12TR'
 
@@ -4626,7 +5041,8 @@ class LATNSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X4M_A12TR'
 
@@ -4637,7 +5053,8 @@ class LATNSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X0P5M_A12TR'
 
@@ -4647,7 +5064,8 @@ class LATQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X1M_A12TR'
 
@@ -4657,7 +5075,8 @@ class LATQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X2M_A12TR'
 
@@ -4667,7 +5086,8 @@ class LATQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X3M_A12TR'
 
@@ -4677,7 +5097,8 @@ class LATQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X4M_A12TR'
 
@@ -4687,7 +5108,8 @@ class LATQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X0P5M_A12TR'
 
@@ -4697,7 +5119,8 @@ class LATQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X1M_A12TR'
 
@@ -4707,7 +5130,8 @@ class LATQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X2M_A12TR'
 
@@ -4717,7 +5141,8 @@ class LATQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X3M_A12TR'
 
@@ -4727,7 +5152,8 @@ class LATQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X0P5M_A12TR'
 
@@ -4738,7 +5164,8 @@ class LATRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X1M_A12TR'
 
@@ -4749,7 +5176,8 @@ class LATRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X2M_A12TR'
 
@@ -4760,7 +5188,8 @@ class LATRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X3M_A12TR'
 
@@ -4771,7 +5200,8 @@ class LATRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X4M_A12TR'
 
@@ -4782,7 +5212,8 @@ class LATRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X0P5M_A12TR'
 
@@ -4793,7 +5224,8 @@ class LATRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X1M_A12TR'
 
@@ -4804,7 +5236,8 @@ class LATRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X2M_A12TR'
 
@@ -4815,7 +5248,8 @@ class LATRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X3M_A12TR'
 
@@ -4826,7 +5260,8 @@ class LATRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X0P5M_A12TR'
 
@@ -4837,7 +5272,8 @@ class LATSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X1M_A12TR'
 
@@ -4848,7 +5284,8 @@ class LATSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X2M_A12TR'
 
@@ -4859,7 +5296,8 @@ class LATSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X3M_A12TR'
 
@@ -4870,7 +5308,8 @@ class LATSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X0P5M_A12TR'
 
@@ -4881,7 +5320,8 @@ class LATSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X1M_A12TR'
 
@@ -4892,7 +5332,8 @@ class LATSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X2M_A12TR'
 
@@ -4903,7 +5344,8 @@ class LATSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X3M_A12TR'
 
@@ -4914,7 +5356,8 @@ class LATSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X4M_A12TR'
 
@@ -4925,7 +5368,8 @@ class LATSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X0P5M_A12TR'
 
@@ -4937,7 +5381,8 @@ class M2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X1M_A12TR'
 
@@ -4949,7 +5394,8 @@ class M2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X2M_A12TR'
 
@@ -4961,7 +5407,8 @@ class M2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X3M_A12TR'
 
@@ -4973,7 +5420,8 @@ class M2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X0P5M_A12TR'
 
@@ -4985,7 +5433,8 @@ class M2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X1M_A12TR'
 
@@ -4997,7 +5446,8 @@ class M2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X2M_A12TR'
 
@@ -5009,7 +5459,8 @@ class M2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X3M_A12TR'
 
@@ -5021,7 +5472,8 @@ class M2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X4M_A12TR'
 
@@ -5033,7 +5485,8 @@ class M2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X0P5M_A12TR'
 
@@ -5047,7 +5500,8 @@ class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X1M_A12TR'
 
@@ -5061,7 +5515,8 @@ class M2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X2M_A12TR'
 
@@ -5075,7 +5530,8 @@ class M2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X3M_A12TR'
 
@@ -5089,7 +5545,8 @@ class M2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X0P5M_A12TR'
 
@@ -5103,7 +5560,8 @@ class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X1M_A12TR'
 
@@ -5117,7 +5575,8 @@ class M2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X2M_A12TR'
 
@@ -5131,7 +5590,8 @@ class M2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X3M_A12TR'
 
@@ -5145,7 +5605,8 @@ class M2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X4M_A12TR'
 
@@ -5159,7 +5620,8 @@ class M2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5B_A12TR'
 
@@ -5170,7 +5632,8 @@ class MX2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5M_A12TR'
 
@@ -5181,7 +5644,8 @@ class MX2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7B_A12TR'
 
@@ -5192,7 +5656,8 @@ class MX2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7M_A12TR'
 
@@ -5203,7 +5668,8 @@ class MX2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1B_A12TR'
 
@@ -5214,7 +5680,8 @@ class MX2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1M_A12TR'
 
@@ -5225,7 +5692,8 @@ class MX2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4B_A12TR'
 
@@ -5236,7 +5704,8 @@ class MX2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4M_A12TR'
 
@@ -5247,7 +5716,8 @@ class MX2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2B_A12TR'
 
@@ -5258,7 +5728,8 @@ class MX2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2M_A12TR'
 
@@ -5269,7 +5740,8 @@ class MX2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3B_A12TR'
 
@@ -5280,7 +5752,8 @@ class MX2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3M_A12TR'
 
@@ -5291,7 +5764,8 @@ class MX2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4B_A12TR'
 
@@ -5302,7 +5776,8 @@ class MX2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4M_A12TR'
 
@@ -5313,7 +5788,8 @@ class MX2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6B_A12TR'
 
@@ -5324,7 +5800,8 @@ class MX2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6M_A12TR'
 
@@ -5335,7 +5812,8 @@ class MX2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X8B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X8B_A12TR'
 
@@ -5346,7 +5824,8 @@ class MX2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P5M_A12TR'
 
@@ -5357,7 +5836,8 @@ class MXIT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P7M_A12TR'
 
@@ -5368,7 +5848,8 @@ class MXIT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1M_A12TR'
 
@@ -5379,7 +5860,8 @@ class MXIT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1P4M_A12TR'
 
@@ -5390,7 +5872,8 @@ class MXIT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X2M_A12TR'
 
@@ -5401,7 +5884,8 @@ class MXIT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X3M_A12TR'
 
@@ -5412,7 +5896,8 @@ class MXIT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X4M_A12TR'
 
@@ -5423,7 +5908,8 @@ class MXIT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P5M_A12TR'
 
@@ -5437,7 +5923,8 @@ class MXIT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P7M_A12TR'
 
@@ -5451,7 +5938,8 @@ class MXIT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1M_A12TR'
 
@@ -5465,7 +5953,8 @@ class MXIT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1P4M_A12TR'
 
@@ -5479,7 +5968,8 @@ class MXIT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X2M_A12TR'
 
@@ -5493,7 +5983,8 @@ class MXIT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X3M_A12TR'
 
@@ -5507,7 +5998,8 @@ class MXIT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P5M_A12TR'
 
@@ -5518,7 +6010,8 @@ class MXT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P7M_A12TR'
 
@@ -5529,7 +6022,8 @@ class MXT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1M_A12TR'
 
@@ -5540,7 +6034,8 @@ class MXT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1P4M_A12TR'
 
@@ -5551,7 +6046,8 @@ class MXT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X2M_A12TR'
 
@@ -5562,7 +6058,8 @@ class MXT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X3M_A12TR'
 
@@ -5573,7 +6070,8 @@ class MXT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X4M_A12TR'
 
@@ -5584,7 +6082,8 @@ class MXT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X6M_A12TR'
 
@@ -5595,7 +6094,8 @@ class MXT2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P5M_A12TR'
 
@@ -5609,7 +6109,8 @@ class MXT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P7M_A12TR'
 
@@ -5623,7 +6124,8 @@ class MXT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1M_A12TR'
 
@@ -5637,7 +6139,8 @@ class MXT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1P4M_A12TR'
 
@@ -5651,7 +6154,8 @@ class MXT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X2M_A12TR'
 
@@ -5665,7 +6169,8 @@ class MXT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X3M_A12TR'
 
@@ -5679,7 +6184,8 @@ class MXT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P5M_A12TR'
 
@@ -5689,7 +6195,8 @@ class NAND2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P7M_A12TR'
 
@@ -5699,7 +6206,8 @@ class NAND2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1M_A12TR'
 
@@ -5709,7 +6217,8 @@ class NAND2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1P4M_A12TR'
 
@@ -5719,7 +6228,8 @@ class NAND2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X2M_A12TR'
 
@@ -5729,7 +6239,8 @@ class NAND2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X3M_A12TR'
 
@@ -5739,7 +6250,8 @@ class NAND2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X4M_A12TR'
 
@@ -5749,7 +6261,8 @@ class NAND2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X6M_A12TR'
 
@@ -5759,7 +6272,8 @@ class NAND2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X8M_A12TR'
 
@@ -5769,7 +6283,8 @@ class NAND2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P5M_A12TR'
 
@@ -5779,7 +6294,8 @@ class NAND2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P7M_A12TR'
 
@@ -5789,7 +6305,8 @@ class NAND2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1M_A12TR'
 
@@ -5799,7 +6316,8 @@ class NAND2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1P4M_A12TR'
 
@@ -5809,7 +6327,8 @@ class NAND2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X2M_A12TR'
 
@@ -5819,7 +6338,8 @@ class NAND2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X3M_A12TR'
 
@@ -5829,7 +6349,8 @@ class NAND2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X4M_A12TR'
 
@@ -5839,7 +6360,8 @@ class NAND2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X6M_A12TR'
 
@@ -5849,7 +6371,8 @@ class NAND2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X8M_A12TR'
 
@@ -5859,7 +6382,8 @@ class NAND2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5A_A12TR'
 
@@ -5869,7 +6393,8 @@ class NAND2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5B_A12TR'
 
@@ -5879,7 +6404,8 @@ class NAND2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5M_A12TR'
 
@@ -5889,7 +6415,8 @@ class NAND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7A_A12TR'
 
@@ -5899,7 +6426,8 @@ class NAND2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7B_A12TR'
 
@@ -5909,7 +6437,8 @@ class NAND2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7M_A12TR'
 
@@ -5919,7 +6448,8 @@ class NAND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1A_A12TR'
 
@@ -5929,10 +6459,8 @@ class NAND2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-		self.in1 = in1
-		self.in2 = in2
-		self.out1 = out1
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1B_A12TR'
 
@@ -5942,7 +6470,8 @@ class NAND2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1M_A12TR'
 
@@ -5952,7 +6481,8 @@ class NAND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4A_A12TR'
 
@@ -5962,7 +6492,8 @@ class NAND2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4B_A12TR'
 
@@ -5972,7 +6503,8 @@ class NAND2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4M_A12TR'
 
@@ -5982,7 +6514,8 @@ class NAND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2A_A12TR'
 
@@ -5992,7 +6525,8 @@ class NAND2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2B_A12TR'
 
@@ -6002,7 +6536,8 @@ class NAND2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2M_A12TR'
 
@@ -6012,7 +6547,8 @@ class NAND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3A_A12TR'
 
@@ -6022,7 +6558,8 @@ class NAND2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3B_A12TR'
 
@@ -6032,7 +6569,8 @@ class NAND2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3M_A12TR'
 
@@ -6042,7 +6580,8 @@ class NAND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4A_A12TR'
 
@@ -6052,7 +6591,8 @@ class NAND2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4B_A12TR'
 
@@ -6062,7 +6602,8 @@ class NAND2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4M_A12TR'
 
@@ -6072,7 +6613,8 @@ class NAND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6A_A12TR'
 
@@ -6082,7 +6624,8 @@ class NAND2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6B_A12TR'
 
@@ -6092,7 +6635,8 @@ class NAND2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6M_A12TR'
 
@@ -6102,7 +6646,8 @@ class NAND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8A_A12TR'
 
@@ -6112,7 +6657,8 @@ class NAND2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8B_A12TR'
 
@@ -6122,7 +6668,8 @@ class NAND2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8M_A12TR'
 
@@ -6132,7 +6679,8 @@ class NAND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P5M_A12TR'
 
@@ -6143,7 +6691,8 @@ class NAND3B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P7M_A12TR'
 
@@ -6154,7 +6703,8 @@ class NAND3B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1M_A12TR'
 
@@ -6165,7 +6715,8 @@ class NAND3B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1P4M_A12TR'
 
@@ -6176,7 +6727,8 @@ class NAND3B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X2M_A12TR'
 
@@ -6187,7 +6739,8 @@ class NAND3B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X3M_A12TR'
 
@@ -6198,7 +6751,8 @@ class NAND3B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X4M_A12TR'
 
@@ -6209,7 +6763,8 @@ class NAND3B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X6M_A12TR'
 
@@ -6220,7 +6775,8 @@ class NAND3B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P5M_A12TR'
 
@@ -6231,7 +6787,8 @@ class NAND3XXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P7M_A12TR'
 
@@ -6242,7 +6799,8 @@ class NAND3XXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1M_A12TR'
 
@@ -6253,7 +6811,8 @@ class NAND3XXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1P4M_A12TR'
 
@@ -6264,7 +6823,8 @@ class NAND3XXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X2M_A12TR'
 
@@ -6275,7 +6835,8 @@ class NAND3XXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X3M_A12TR'
 
@@ -6286,7 +6847,8 @@ class NAND3XXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X4M_A12TR'
 
@@ -6297,7 +6859,8 @@ class NAND3XXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X6M_A12TR'
 
@@ -6308,7 +6871,8 @@ class NAND3XXB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5A_A12TR'
 
@@ -6319,7 +6883,8 @@ class NAND3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5M_A12TR'
 
@@ -6330,7 +6895,8 @@ class NAND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7A_A12TR'
 
@@ -6341,7 +6907,8 @@ class NAND3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7M_A12TR'
 
@@ -6352,7 +6919,8 @@ class NAND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1A_A12TR'
 
@@ -6363,7 +6931,8 @@ class NAND3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1M_A12TR'
 
@@ -6374,7 +6943,8 @@ class NAND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4A_A12TR'
 
@@ -6385,7 +6955,8 @@ class NAND3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4M_A12TR'
 
@@ -6396,7 +6967,8 @@ class NAND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2A_A12TR'
 
@@ -6407,7 +6979,8 @@ class NAND3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2M_A12TR'
 
@@ -6418,7 +6991,8 @@ class NAND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3A_A12TR'
 
@@ -6429,7 +7003,8 @@ class NAND3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3M_A12TR'
 
@@ -6440,7 +7015,8 @@ class NAND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4A_A12TR'
 
@@ -6451,7 +7027,8 @@ class NAND3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4M_A12TR'
 
@@ -6462,7 +7039,8 @@ class NAND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6A_A12TR'
 
@@ -6473,7 +7051,8 @@ class NAND3_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6M_A12TR'
 
@@ -6484,7 +7063,8 @@ class NAND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P5M_A12TR'
 
@@ -6496,7 +7076,8 @@ class NAND4B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P7M_A12TR'
 
@@ -6508,7 +7089,8 @@ class NAND4B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1M_A12TR'
 
@@ -6520,7 +7102,8 @@ class NAND4B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1P4M_A12TR'
 
@@ -6532,7 +7115,8 @@ class NAND4B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X2M_A12TR'
 
@@ -6544,7 +7128,8 @@ class NAND4B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X3M_A12TR'
 
@@ -6556,7 +7141,8 @@ class NAND4B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X4M_A12TR'
 
@@ -6568,7 +7154,8 @@ class NAND4B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P5M_A12TR'
 
@@ -6580,7 +7167,8 @@ class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P7M_A12TR'
 
@@ -6592,7 +7180,8 @@ class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1M_A12TR'
 
@@ -6604,7 +7193,8 @@ class NAND4XXXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1P4M_A12TR'
 
@@ -6616,7 +7206,8 @@ class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X2M_A12TR'
 
@@ -6628,7 +7219,8 @@ class NAND4XXXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X3M_A12TR'
 
@@ -6640,7 +7232,8 @@ class NAND4XXXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X4M_A12TR'
 
@@ -6652,7 +7245,8 @@ class NAND4XXXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5A_A12TR'
 
@@ -6664,7 +7258,8 @@ class NAND4_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5M_A12TR'
 
@@ -6676,7 +7271,8 @@ class NAND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7A_A12TR'
 
@@ -6688,7 +7284,8 @@ class NAND4_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7M_A12TR'
 
@@ -6700,7 +7297,8 @@ class NAND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1A_A12TR'
 
@@ -6712,7 +7310,8 @@ class NAND4_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1M_A12TR'
 
@@ -6724,7 +7323,8 @@ class NAND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4A_A12TR'
 
@@ -6736,7 +7336,8 @@ class NAND4_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4M_A12TR'
 
@@ -6748,7 +7349,8 @@ class NAND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2A_A12TR'
 
@@ -6760,7 +7362,8 @@ class NAND4_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2M_A12TR'
 
@@ -6772,7 +7375,8 @@ class NAND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3A_A12TR'
 
@@ -6784,7 +7388,8 @@ class NAND4_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3M_A12TR'
 
@@ -6796,7 +7401,8 @@ class NAND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4A_A12TR'
 
@@ -6808,7 +7414,8 @@ class NAND4_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4M_A12TR'
 
@@ -6820,7 +7427,8 @@ class NAND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P5M_A12TR'
 
@@ -6830,7 +7438,8 @@ class NOR2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P7M_A12TR'
 
@@ -6840,7 +7449,8 @@ class NOR2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1M_A12TR'
 
@@ -6850,7 +7460,8 @@ class NOR2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1P4M_A12TR'
 
@@ -6860,7 +7471,8 @@ class NOR2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X2M_A12TR'
 
@@ -6870,7 +7482,8 @@ class NOR2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X3M_A12TR'
 
@@ -6880,7 +7493,8 @@ class NOR2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X4M_A12TR'
 
@@ -6890,7 +7504,8 @@ class NOR2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X6M_A12TR'
 
@@ -6900,7 +7515,8 @@ class NOR2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X8M_A12TR'
 
@@ -6910,7 +7526,8 @@ class NOR2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P5M_A12TR'
 
@@ -6920,7 +7537,8 @@ class NOR2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P7M_A12TR'
 
@@ -6930,7 +7548,8 @@ class NOR2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1M_A12TR'
 
@@ -6940,7 +7559,8 @@ class NOR2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1P4M_A12TR'
 
@@ -6950,7 +7570,8 @@ class NOR2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X2M_A12TR'
 
@@ -6960,7 +7581,8 @@ class NOR2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X3M_A12TR'
 
@@ -6970,7 +7592,8 @@ class NOR2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X4M_A12TR'
 
@@ -6980,7 +7603,8 @@ class NOR2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X6M_A12TR'
 
@@ -6990,7 +7614,8 @@ class NOR2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X8M_A12TR'
 
@@ -7000,7 +7625,8 @@ class NOR2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5A_A12TR'
 
@@ -7010,7 +7636,8 @@ class NOR2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5B_A12TR'
 
@@ -7020,7 +7647,8 @@ class NOR2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5M_A12TR'
 
@@ -7030,7 +7658,8 @@ class NOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7A_A12TR'
 
@@ -7040,7 +7669,8 @@ class NOR2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7B_A12TR'
 
@@ -7050,7 +7680,8 @@ class NOR2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7M_A12TR'
 
@@ -7060,7 +7691,8 @@ class NOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1A_A12TR'
 
@@ -7070,7 +7702,8 @@ class NOR2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1B_A12TR'
 
@@ -7080,7 +7713,8 @@ class NOR2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1M_A12TR'
 
@@ -7090,7 +7724,8 @@ class NOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4A_A12TR'
 
@@ -7100,7 +7735,8 @@ class NOR2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4B_A12TR'
 
@@ -7110,7 +7746,8 @@ class NOR2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4M_A12TR'
 
@@ -7120,7 +7757,8 @@ class NOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2A_A12TR'
 
@@ -7130,7 +7768,8 @@ class NOR2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2B_A12TR'
 
@@ -7140,7 +7779,8 @@ class NOR2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2M_A12TR'
 
@@ -7150,7 +7790,8 @@ class NOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3A_A12TR'
 
@@ -7160,7 +7801,8 @@ class NOR2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3B_A12TR'
 
@@ -7170,7 +7812,8 @@ class NOR2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3M_A12TR'
 
@@ -7180,7 +7823,8 @@ class NOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4A_A12TR'
 
@@ -7190,7 +7834,8 @@ class NOR2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4B_A12TR'
 
@@ -7200,7 +7845,8 @@ class NOR2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4M_A12TR'
 
@@ -7210,7 +7856,8 @@ class NOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6A_A12TR'
 
@@ -7220,7 +7867,8 @@ class NOR2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6B_A12TR'
 
@@ -7230,7 +7878,8 @@ class NOR2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6M_A12TR'
 
@@ -7240,7 +7889,8 @@ class NOR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8A_A12TR'
 
@@ -7250,7 +7900,8 @@ class NOR2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8B_A12TR'
 
@@ -7260,7 +7911,8 @@ class NOR2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8M_A12TR'
 
@@ -7270,7 +7922,8 @@ class NOR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5A_A12TR'
 
@@ -7281,7 +7934,8 @@ class NOR3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5M_A12TR'
 
@@ -7292,7 +7946,8 @@ class NOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7A_A12TR'
 
@@ -7303,7 +7958,8 @@ class NOR3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7M_A12TR'
 
@@ -7314,7 +7970,8 @@ class NOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1A_A12TR'
 
@@ -7325,7 +7982,8 @@ class NOR3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1M_A12TR'
 
@@ -7336,7 +7994,8 @@ class NOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4A_A12TR'
 
@@ -7347,7 +8006,8 @@ class NOR3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4M_A12TR'
 
@@ -7358,7 +8018,8 @@ class NOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2A_A12TR'
 
@@ -7369,7 +8030,8 @@ class NOR3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2M_A12TR'
 
@@ -7380,7 +8042,8 @@ class NOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3A_A12TR'
 
@@ -7391,7 +8054,8 @@ class NOR3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3M_A12TR'
 
@@ -7402,7 +8066,8 @@ class NOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4A_A12TR'
 
@@ -7413,7 +8078,8 @@ class NOR3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4M_A12TR'
 
@@ -7424,7 +8090,8 @@ class NOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P5M_A12TR'
 
@@ -7436,7 +8103,8 @@ class OA211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P7M_A12TR'
 
@@ -7448,7 +8116,8 @@ class OA211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1M_A12TR'
 
@@ -7460,7 +8129,8 @@ class OA211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1P4M_A12TR'
 
@@ -7472,7 +8142,8 @@ class OA211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X2M_A12TR'
 
@@ -7484,7 +8155,8 @@ class OA211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X3M_A12TR'
 
@@ -7496,7 +8168,8 @@ class OA211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X4M_A12TR'
 
@@ -7508,7 +8181,8 @@ class OA211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X6M_A12TR'
 
@@ -7520,7 +8194,8 @@ class OA211_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P5M_A12TR'
 
@@ -7531,7 +8206,8 @@ class OA21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P7M_A12TR'
 
@@ -7542,7 +8218,8 @@ class OA21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1M_A12TR'
 
@@ -7553,7 +8230,8 @@ class OA21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1P4M_A12TR'
 
@@ -7564,7 +8242,8 @@ class OA21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X2M_A12TR'
 
@@ -7575,7 +8254,8 @@ class OA21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X3M_A12TR'
 
@@ -7586,7 +8266,8 @@ class OA21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X4M_A12TR'
 
@@ -7597,7 +8278,8 @@ class OA21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X6M_A12TR'
 
@@ -7608,7 +8290,8 @@ class OA21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X8M_A12TR'
 
@@ -7619,7 +8302,8 @@ class OA21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P5M_A12TR'
 
@@ -7631,7 +8315,8 @@ class OA22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P7M_A12TR'
 
@@ -7643,7 +8328,8 @@ class OA22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1M_A12TR'
 
@@ -7655,7 +8341,8 @@ class OA22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1P4M_A12TR'
 
@@ -7667,7 +8354,8 @@ class OA22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X2M_A12TR'
 
@@ -7679,7 +8367,8 @@ class OA22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X3M_A12TR'
 
@@ -7691,7 +8380,8 @@ class OA22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X4M_A12TR'
 
@@ -7703,7 +8393,8 @@ class OA22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X6M_A12TR'
 
@@ -7715,7 +8406,8 @@ class OA22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X8M_A12TR'
 
@@ -7727,7 +8419,8 @@ class OA22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P5M_A12TR'
 
@@ -7739,7 +8432,8 @@ class OAI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P7M_A12TR'
 
@@ -7751,7 +8445,8 @@ class OAI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1M_A12TR'
 
@@ -7763,7 +8458,8 @@ class OAI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1P4M_A12TR'
 
@@ -7775,7 +8471,8 @@ class OAI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X2M_A12TR'
 
@@ -7787,7 +8484,8 @@ class OAI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X3M_A12TR'
 
@@ -7799,7 +8497,8 @@ class OAI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X4M_A12TR'
 
@@ -7811,7 +8510,8 @@ class OAI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P5M_A12TR'
 
@@ -7822,7 +8522,8 @@ class OAI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P7M_A12TR'
 
@@ -7833,7 +8534,8 @@ class OAI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1M_A12TR'
 
@@ -7844,7 +8546,8 @@ class OAI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1P4M_A12TR'
 
@@ -7855,7 +8558,8 @@ class OAI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X2M_A12TR'
 
@@ -7866,7 +8570,8 @@ class OAI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X3M_A12TR'
 
@@ -7877,7 +8582,8 @@ class OAI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X4M_A12TR'
 
@@ -7888,7 +8594,8 @@ class OAI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X6M_A12TR'
 
@@ -7899,7 +8606,8 @@ class OAI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X8M_A12TR'
 
@@ -7910,7 +8618,8 @@ class OAI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P5M_A12TR'
 
@@ -7921,7 +8630,8 @@ class OAI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P7M_A12TR'
 
@@ -7932,7 +8642,8 @@ class OAI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1M_A12TR'
 
@@ -7943,7 +8654,8 @@ class OAI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1P4M_A12TR'
 
@@ -7954,7 +8666,8 @@ class OAI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X2M_A12TR'
 
@@ -7965,7 +8678,8 @@ class OAI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X3M_A12TR'
 
@@ -7976,7 +8690,8 @@ class OAI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X4M_A12TR'
 
@@ -7987,7 +8702,8 @@ class OAI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X6M_A12TR'
 
@@ -7998,7 +8714,8 @@ class OAI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X8M_A12TR'
 
@@ -8009,7 +8726,8 @@ class OAI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P5M_A12TR'
 
@@ -8022,7 +8740,8 @@ class OAI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P7M_A12TR'
 
@@ -8035,7 +8754,8 @@ class OAI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1M_A12TR'
 
@@ -8048,7 +8768,8 @@ class OAI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1P4M_A12TR'
 
@@ -8061,7 +8782,8 @@ class OAI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X2M_A12TR'
 
@@ -8074,7 +8796,8 @@ class OAI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X3M_A12TR'
 
@@ -8087,7 +8810,8 @@ class OAI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X4M_A12TR'
 
@@ -8100,7 +8824,8 @@ class OAI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P5M_A12TR'
 
@@ -8114,7 +8839,8 @@ class OAI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P7M_A12TR'
 
@@ -8128,7 +8854,8 @@ class OAI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1M_A12TR'
 
@@ -8142,7 +8869,8 @@ class OAI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1P4M_A12TR'
 
@@ -8156,7 +8884,8 @@ class OAI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X2M_A12TR'
 
@@ -8170,7 +8899,8 @@ class OAI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X3M_A12TR'
 
@@ -8184,7 +8914,8 @@ class OAI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X4M_A12TR'
 
@@ -8198,7 +8929,8 @@ class OAI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P5M_A12TR'
 
@@ -8210,7 +8942,8 @@ class OAI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P7M_A12TR'
 
@@ -8222,7 +8955,8 @@ class OAI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1M_A12TR'
 
@@ -8234,7 +8968,8 @@ class OAI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1P4M_A12TR'
 
@@ -8246,7 +8981,8 @@ class OAI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X2M_A12TR'
 
@@ -8258,7 +8994,8 @@ class OAI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X3M_A12TR'
 
@@ -8270,7 +9007,8 @@ class OAI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X4M_A12TR'
 
@@ -8282,7 +9020,8 @@ class OAI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X6M_A12TR'
 
@@ -8294,7 +9033,8 @@ class OAI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X8M_A12TR'
 
@@ -8306,7 +9046,8 @@ class OAI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P5M_A12TR'
 
@@ -8317,7 +9058,8 @@ class OAI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P7M_A12TR'
 
@@ -8328,7 +9070,8 @@ class OAI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1M_A12TR'
 
@@ -8339,7 +9082,8 @@ class OAI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1P4M_A12TR'
 
@@ -8350,7 +9094,8 @@ class OAI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X2M_A12TR'
 
@@ -8361,7 +9106,8 @@ class OAI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X3M_A12TR'
 
@@ -8372,7 +9118,8 @@ class OAI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X4M_A12TR'
 
@@ -8383,7 +9130,8 @@ class OAI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X6M_A12TR'
 
@@ -8394,7 +9142,8 @@ class OAI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X8M_A12TR'
 
@@ -8405,7 +9154,8 @@ class OAI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P5M_A12TR'
 
@@ -8417,7 +9167,8 @@ class OAI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P7M_A12TR'
 
@@ -8429,7 +9180,8 @@ class OAI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1M_A12TR'
 
@@ -8441,7 +9193,8 @@ class OAI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1P4M_A12TR'
 
@@ -8453,7 +9206,8 @@ class OAI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X2M_A12TR'
 
@@ -8465,7 +9219,8 @@ class OAI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X3M_A12TR'
 
@@ -8477,7 +9232,8 @@ class OAI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X4M_A12TR'
 
@@ -8489,7 +9245,8 @@ class OAI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X6M_A12TR'
 
@@ -8501,7 +9258,8 @@ class OAI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P5M_A12TR'
 
@@ -8511,7 +9269,8 @@ class OR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P7M_A12TR'
 
@@ -8521,7 +9280,8 @@ class OR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X11M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X11M_A12TR'
 
@@ -8531,7 +9291,8 @@ class OR2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1M_A12TR'
 
@@ -8541,7 +9302,8 @@ class OR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1P4M_A12TR'
 
@@ -8551,7 +9313,8 @@ class OR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X2M_A12TR'
 
@@ -8561,7 +9324,8 @@ class OR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X3M_A12TR'
 
@@ -8571,7 +9335,8 @@ class OR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X4M_A12TR'
 
@@ -8581,7 +9346,8 @@ class OR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X6M_A12TR'
 
@@ -8591,7 +9357,8 @@ class OR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X8M_A12TR'
 
@@ -8601,7 +9368,8 @@ class OR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P5M_A12TR'
 
@@ -8612,7 +9380,8 @@ class OR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P7M_A12TR'
 
@@ -8623,7 +9392,8 @@ class OR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1M_A12TR'
 
@@ -8634,7 +9404,8 @@ class OR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1P4M_A12TR'
 
@@ -8645,7 +9416,8 @@ class OR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X2M_A12TR'
 
@@ -8656,7 +9428,8 @@ class OR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X3M_A12TR'
 
@@ -8667,7 +9440,8 @@ class OR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X4M_A12TR'
 
@@ -8678,7 +9452,8 @@ class OR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X6M_A12TR'
 
@@ -8689,7 +9464,8 @@ class OR3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X8M_A12TR'
 
@@ -8700,7 +9476,8 @@ class OR3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P5M_A12TR'
 
@@ -8712,7 +9489,8 @@ class OR4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P7M_A12TR'
 
@@ -8724,7 +9502,8 @@ class OR4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1M_A12TR'
 
@@ -8736,7 +9515,8 @@ class OR4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1P4M_A12TR'
 
@@ -8748,7 +9528,8 @@ class OR4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X2M_A12TR'
 
@@ -8760,7 +9541,8 @@ class OR4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X3M_A12TR'
 
@@ -8772,7 +9554,8 @@ class OR4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X4M_A12TR'
 
@@ -8784,7 +9567,8 @@ class OR4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X6M_A12TR'
 
@@ -8796,7 +9580,8 @@ class OR4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X8M_A12TR'
 
@@ -8808,7 +9593,8 @@ class OR4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P5M_A12TR'
 
@@ -8822,7 +9608,8 @@ class OR6_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P7M_A12TR'
 
@@ -8836,7 +9623,8 @@ class OR6_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1M_A12TR'
 
@@ -8850,7 +9638,8 @@ class OR6_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1P4M_A12TR'
 
@@ -8864,7 +9653,8 @@ class OR6_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X2M_A12TR'
 
@@ -8878,7 +9668,8 @@ class OR6_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X3M_A12TR'
 
@@ -8892,7 +9683,8 @@ class OR6_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X4M_A12TR'
 
@@ -8906,7 +9698,8 @@ class OR6_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X6M_A12TR'
 
@@ -8920,7 +9713,8 @@ class OR6_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(14.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P5B_A12TR'
 
@@ -8931,7 +9725,8 @@ class POSTICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P6B_A12TR'
 
@@ -8942,7 +9737,8 @@ class POSTICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P7B_A12TR'
 
@@ -8953,7 +9749,8 @@ class POSTICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P8B_A12TR'
 
@@ -8964,7 +9761,8 @@ class POSTICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X11B_A12TR'
 
@@ -8975,7 +9773,8 @@ class POSTICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X13B_A12TR'
 
@@ -8986,7 +9785,8 @@ class POSTICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X16B_A12TR'
 
@@ -8997,7 +9797,8 @@ class POSTICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1B_A12TR'
 
@@ -9008,7 +9809,8 @@ class POSTICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P2B_A12TR'
 
@@ -9019,7 +9821,8 @@ class POSTICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P4B_A12TR'
 
@@ -9030,7 +9833,8 @@ class POSTICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P7B_A12TR'
 
@@ -9041,7 +9845,8 @@ class POSTICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2B_A12TR'
 
@@ -9052,7 +9857,8 @@ class POSTICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2P5B_A12TR'
 
@@ -9063,7 +9869,8 @@ class POSTICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3B_A12TR'
 
@@ -9074,7 +9881,8 @@ class POSTICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3P5B_A12TR'
 
@@ -9085,7 +9893,8 @@ class POSTICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X4B_A12TR'
 
@@ -9096,7 +9905,8 @@ class POSTICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X5B_A12TR'
 
@@ -9107,7 +9917,8 @@ class POSTICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X6B_A12TR'
 
@@ -9118,7 +9929,8 @@ class POSTICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X7P5B_A12TR'
 
@@ -9129,7 +9941,8 @@ class POSTICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X9B_A12TR'
 
@@ -9140,7 +9953,8 @@ class POSTICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P5B_A12TR'
 
@@ -9151,7 +9965,8 @@ class PREICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P6B_A12TR'
 
@@ -9162,7 +9977,8 @@ class PREICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P7B_A12TR'
 
@@ -9173,7 +9989,8 @@ class PREICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P8B_A12TR'
 
@@ -9184,7 +10001,8 @@ class PREICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X11B_A12TR'
 
@@ -9195,7 +10013,8 @@ class PREICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X13B_A12TR'
 
@@ -9206,7 +10025,8 @@ class PREICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X16B_A12TR'
 
@@ -9217,7 +10037,8 @@ class PREICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1B_A12TR'
 
@@ -9228,7 +10049,8 @@ class PREICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P2B_A12TR'
 
@@ -9239,7 +10061,8 @@ class PREICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P4B_A12TR'
 
@@ -9250,7 +10073,8 @@ class PREICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P7B_A12TR'
 
@@ -9261,7 +10085,8 @@ class PREICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2B_A12TR'
 
@@ -9272,7 +10097,8 @@ class PREICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2P5B_A12TR'
 
@@ -9283,7 +10109,8 @@ class PREICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3B_A12TR'
 
@@ -9294,7 +10121,8 @@ class PREICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3P5B_A12TR'
 
@@ -9305,7 +10133,8 @@ class PREICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X4B_A12TR'
 
@@ -9316,7 +10145,8 @@ class PREICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X5B_A12TR'
 
@@ -9327,7 +10157,8 @@ class PREICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X6B_A12TR'
 
@@ -9338,7 +10169,8 @@ class PREICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X7P5B_A12TR'
 
@@ -9349,7 +10181,8 @@ class PREICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X9B_A12TR'
 
@@ -9360,7 +10193,8 @@ class PREICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1M_A12TR'
 
@@ -9371,7 +10205,8 @@ class RF1R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1P4M_A12TR'
 
@@ -9382,7 +10217,8 @@ class RF1R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X2M_A12TR'
 
@@ -9393,7 +10229,8 @@ class RF1R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1M_A12TR'
 
@@ -9406,7 +10243,8 @@ class RF1R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1P4M_A12TR'
 
@@ -9419,7 +10257,8 @@ class RF1R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X2M_A12TR'
 
@@ -9432,7 +10271,8 @@ class RF1R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1M_A12TR'
 
@@ -9445,7 +10285,8 @@ class RF2R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1P4M_A12TR'
 
@@ -9458,7 +10299,8 @@ class RF2R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X2M_A12TR'
 
@@ -9471,7 +10313,8 @@ class RF2R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1M_A12TR'
 
@@ -9486,7 +10329,8 @@ class RF2R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1P4M_A12TR'
 
@@ -9501,7 +10345,8 @@ class RF2R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X2M_A12TR'
 
@@ -9516,7 +10361,8 @@ class RF2R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X1M_A12TR'
 
@@ -9528,7 +10374,8 @@ class SDFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X2M_A12TR'
 
@@ -9540,7 +10387,8 @@ class SDFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X3M_A12TR'
 
@@ -9552,7 +10400,8 @@ class SDFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X1M_A12TR'
 
@@ -9565,7 +10414,8 @@ class SDFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X2M_A12TR'
 
@@ -9578,7 +10428,8 @@ class SDFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X3M_A12TR'
 
@@ -9591,7 +10442,8 @@ class SDFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X1M_A12TR'
 
@@ -9604,7 +10456,8 @@ class SDFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X2M_A12TR'
 
@@ -9617,7 +10470,8 @@ class SDFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X3M_A12TR'
 
@@ -9630,7 +10484,8 @@ class SDFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X1M_A12TR'
 
@@ -9644,7 +10499,8 @@ class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X2M_A12TR'
 
@@ -9658,7 +10514,8 @@ class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X3M_A12TR'
 
@@ -9672,7 +10529,8 @@ class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X0P5M_A12TR'
 
@@ -9684,7 +10542,8 @@ class SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X1M_A12TR'
 
@@ -9696,7 +10555,8 @@ class SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X2M_A12TR'
 
@@ -9708,7 +10568,8 @@ class SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X3M_A12TR'
 
@@ -9720,7 +10581,8 @@ class SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X0P5M_A12TR'
 
@@ -9732,7 +10594,8 @@ class SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X1M_A12TR'
 
@@ -9744,7 +10607,8 @@ class SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X2M_A12TR'
 
@@ -9756,7 +10620,8 @@ class SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X3M_A12TR'
 
@@ -9768,7 +10633,8 @@ class SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X4M_A12TR'
 
@@ -9780,7 +10646,8 @@ class SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X0P5M_A12TR'
 
@@ -9793,7 +10660,8 @@ class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X1M_A12TR'
 
@@ -9806,7 +10674,8 @@ class SDFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X2M_A12TR'
 
@@ -9819,7 +10688,8 @@ class SDFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X3M_A12TR'
 
@@ -9832,7 +10702,8 @@ class SDFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X0P5M_A12TR'
 
@@ -9845,7 +10716,8 @@ class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X1M_A12TR'
 
@@ -9858,7 +10730,8 @@ class SDFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X2M_A12TR'
 
@@ -9871,7 +10744,8 @@ class SDFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X3M_A12TR'
 
@@ -9884,7 +10758,8 @@ class SDFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X4M_A12TR'
 
@@ -9897,7 +10772,8 @@ class SDFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X0P5M_A12TR'
 
@@ -9910,7 +10786,8 @@ class SDFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X1M_A12TR'
 
@@ -9923,7 +10800,8 @@ class SDFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X2M_A12TR'
 
@@ -9936,7 +10814,8 @@ class SDFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X3M_A12TR'
 
@@ -9949,7 +10828,8 @@ class SDFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X0P5M_A12TR'
 
@@ -9962,7 +10842,8 @@ class SDFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X1M_A12TR'
 
@@ -9975,7 +10856,8 @@ class SDFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X2M_A12TR'
 
@@ -9988,7 +10870,8 @@ class SDFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X3M_A12TR'
 
@@ -10001,7 +10884,8 @@ class SDFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X4M_A12TR'
 
@@ -10014,7 +10898,8 @@ class SDFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X0P5M_A12TR'
 
@@ -10028,7 +10913,8 @@ class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X1M_A12TR'
 
@@ -10042,7 +10928,8 @@ class SDFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X2M_A12TR'
 
@@ -10056,7 +10943,8 @@ class SDFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X3M_A12TR'
 
@@ -10070,7 +10958,8 @@ class SDFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X4M_A12TR'
 
@@ -10084,7 +10973,8 @@ class SDFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X1M_A12TR'
 
@@ -10096,7 +10986,8 @@ class SDFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X2M_A12TR'
 
@@ -10108,7 +10999,8 @@ class SDFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X3M_A12TR'
 
@@ -10120,7 +11012,8 @@ class SDFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X4M_A12TR'
 
@@ -10132,7 +11025,8 @@ class SDFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class TIEHI_X1M_A12TR(ComponentXY):
 	__defaultName = 'TIEHI_X1M_A12TR'
 
@@ -10154,7 +11048,8 @@ class XNOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X0P7M_A12TR'
 
@@ -10164,7 +11059,8 @@ class XNOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1M_A12TR'
 
@@ -10174,7 +11070,8 @@ class XNOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1P4M_A12TR'
 
@@ -10184,7 +11081,8 @@ class XNOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X2M_A12TR'
 
@@ -10194,7 +11092,8 @@ class XNOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X3M_A12TR'
 
@@ -10204,7 +11103,8 @@ class XNOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X4M_A12TR'
 
@@ -10214,7 +11114,8 @@ class XNOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P5M_A12TR'
 
@@ -10225,7 +11126,8 @@ class XNOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P7M_A12TR'
 
@@ -10236,7 +11138,8 @@ class XNOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1M_A12TR'
 
@@ -10247,7 +11150,8 @@ class XNOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1P4M_A12TR'
 
@@ -10258,7 +11162,8 @@ class XNOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X2M_A12TR'
 
@@ -10269,7 +11174,8 @@ class XNOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X3M_A12TR'
 
@@ -10280,7 +11186,8 @@ class XNOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X4M_A12TR'
 
@@ -10291,7 +11198,8 @@ class XNOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P5M_A12TR'
 
@@ -10301,7 +11209,8 @@ class XOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P7M_A12TR'
 
@@ -10311,7 +11220,8 @@ class XOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1M_A12TR'
 
@@ -10321,7 +11231,8 @@ class XOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1P4M_A12TR'
 
@@ -10331,7 +11242,8 @@ class XOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X2M_A12TR'
 
@@ -10341,7 +11253,8 @@ class XOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X3M_A12TR'
 
@@ -10351,7 +11264,8 @@ class XOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X4M_A12TR'
 
@@ -10361,7 +11275,8 @@ class XOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P5M_A12TR'
 
@@ -10372,7 +11287,8 @@ class XOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P7M_A12TR'
 
@@ -10383,7 +11299,8 @@ class XOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1M_A12TR'
 
@@ -10394,7 +11311,8 @@ class XOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1P4M_A12TR'
 
@@ -10405,7 +11323,8 @@ class XOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X2M_A12TR'
 
@@ -10416,7 +11335,8 @@ class XOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X3M_A12TR'
 
@@ -10427,7 +11347,8 @@ class XOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X4M_A12TR'
 
@@ -10438,7 +11359,8 @@ class XOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X0P5M_A12TR'
 
@@ -10449,7 +11371,8 @@ class A2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X1M_A12TR'
 
@@ -10460,7 +11383,8 @@ class A2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X2M_A12TR'
 
@@ -10471,7 +11395,8 @@ class A2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X3M_A12TR'
 
@@ -10482,7 +11407,8 @@ class A2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X0P5M_A12TR'
 
@@ -10493,7 +11419,8 @@ class A2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X1M_A12TR'
 
@@ -10504,7 +11431,8 @@ class A2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X2M_A12TR'
 
@@ -10515,7 +11443,8 @@ class A2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X3M_A12TR'
 
@@ -10526,7 +11455,8 @@ class A2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X4M_A12TR'
 
@@ -10537,7 +11467,8 @@ class A2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X0P5M_A12TR'
 
@@ -10550,7 +11481,8 @@ class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X1M_A12TR'
 
@@ -10563,7 +11495,8 @@ class A2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X2M_A12TR'
 
@@ -10576,7 +11509,8 @@ class A2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X3M_A12TR'
 
@@ -10589,7 +11523,8 @@ class A2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X0P5M_A12TR'
 
@@ -10602,7 +11537,8 @@ class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X1M_A12TR'
 
@@ -10615,7 +11551,8 @@ class A2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X2M_A12TR'
 
@@ -10628,7 +11565,8 @@ class A2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X3M_A12TR'
 
@@ -10641,7 +11579,8 @@ class A2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X4M_A12TR'
 
@@ -10654,7 +11593,8 @@ class A2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1M_A12TR'
 
@@ -10666,7 +11606,8 @@ class ADDFCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1P4M_A12TR'
 
@@ -10678,7 +11619,8 @@ class ADDFCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X2M_A12TR'
 
@@ -10690,7 +11632,8 @@ class ADDFCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1M_A12TR'
 
@@ -10702,7 +11645,8 @@ class ADDFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1P4M_A12TR'
 
@@ -10714,7 +11658,8 @@ class ADDFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X2M_A12TR'
 
@@ -10726,7 +11671,8 @@ class ADDFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1M_A12TR'
 
@@ -10738,7 +11684,8 @@ class ADDF_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1P4M_A12TR'
 
@@ -10750,7 +11697,8 @@ class ADDF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X2M_A12TR'
 
@@ -10762,7 +11710,8 @@ class ADDF_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1M_A12TR'
 
@@ -10773,7 +11722,8 @@ class ADDH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1P4M_A12TR'
 
@@ -10784,7 +11734,8 @@ class ADDH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X2M_A12TR'
 
@@ -10795,7 +11746,8 @@ class ADDH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P5M_A12TR'
 
@@ -10805,7 +11757,8 @@ class AND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P7M_A12TR'
 
@@ -10815,7 +11768,8 @@ class AND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X11M_A12TR'
 
@@ -10825,7 +11779,8 @@ class AND2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1M_A12TR'
 
@@ -10835,7 +11790,8 @@ class AND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1P4M_A12TR'
 
@@ -10845,7 +11801,8 @@ class AND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X2M_A12TR'
 
@@ -10855,7 +11812,8 @@ class AND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X3M_A12TR'
 
@@ -10865,7 +11823,8 @@ class AND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X4M_A12TR'
 
@@ -10875,7 +11834,8 @@ class AND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X6M_A12TR'
 
@@ -10885,7 +11845,8 @@ class AND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X8M_A12TR'
 
@@ -10895,7 +11856,8 @@ class AND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P5M_A12TR'
 
@@ -10906,7 +11868,8 @@ class AND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P7M_A12TR'
 
@@ -10917,7 +11880,8 @@ class AND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X11M_A12TR'
 
@@ -10928,7 +11892,8 @@ class AND3_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1M_A12TR'
 
@@ -10939,7 +11904,8 @@ class AND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1P4M_A12TR'
 
@@ -10950,7 +11916,8 @@ class AND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X2M_A12TR'
 
@@ -10961,7 +11928,8 @@ class AND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X3M_A12TR'
 
@@ -10972,7 +11940,8 @@ class AND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X4M_A12TR'
 
@@ -10983,7 +11952,8 @@ class AND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X6M_A12TR'
 
@@ -10994,7 +11964,8 @@ class AND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X8M_A12TR'
 
@@ -11005,7 +11976,8 @@ class AND3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P5M_A12TR'
 
@@ -11017,7 +11989,8 @@ class AND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P7M_A12TR'
 
@@ -11029,7 +12002,8 @@ class AND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1M_A12TR'
 
@@ -11041,7 +12015,8 @@ class AND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1P4M_A12TR'
 
@@ -11053,7 +12028,8 @@ class AND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X2M_A12TR'
 
@@ -11065,7 +12041,8 @@ class AND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X3M_A12TR'
 
@@ -11077,7 +12054,8 @@ class AND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X4M_A12TR'
 
@@ -11089,7 +12067,8 @@ class AND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X6M_A12TR'
 
@@ -11101,7 +12080,8 @@ class AND4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X8M_A12TR'
 
@@ -11113,7 +12093,8 @@ class AND4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ANTENNA2_A12TR(ComponentXY):
 	__defaultName = 'ANTENNA2_A12TR'
 
@@ -11122,7 +12103,8 @@ class ANTENNA2_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P5M_A12TR'
 
@@ -11133,7 +12115,8 @@ class AO1B2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P7M_A12TR'
 
@@ -11144,7 +12127,8 @@ class AO1B2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1M_A12TR'
 
@@ -11155,7 +12139,8 @@ class AO1B2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1P4M_A12TR'
 
@@ -11166,7 +12151,8 @@ class AO1B2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X2M_A12TR'
 
@@ -11177,7 +12163,8 @@ class AO1B2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X3M_A12TR'
 
@@ -11188,7 +12175,8 @@ class AO1B2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X4M_A12TR'
 
@@ -11199,7 +12187,8 @@ class AO1B2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X6M_A12TR'
 
@@ -11210,7 +12199,8 @@ class AO1B2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P5M_A12TR'
 
@@ -11221,7 +12211,8 @@ class AO21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P7M_A12TR'
 
@@ -11232,7 +12223,8 @@ class AO21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1M_A12TR'
 
@@ -11243,7 +12235,8 @@ class AO21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1P4M_A12TR'
 
@@ -11254,7 +12247,8 @@ class AO21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X2M_A12TR'
 
@@ -11265,7 +12259,8 @@ class AO21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X3M_A12TR'
 
@@ -11276,7 +12271,8 @@ class AO21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X4M_A12TR'
 
@@ -11287,7 +12283,8 @@ class AO21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X6M_A12TR'
 
@@ -11298,7 +12295,8 @@ class AO21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P5M_A12TR'
 
@@ -11309,7 +12307,8 @@ class AO21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P7M_A12TR'
 
@@ -11320,7 +12319,8 @@ class AO21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1M_A12TR'
 
@@ -11331,7 +12331,8 @@ class AO21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1P4M_A12TR'
 
@@ -11342,7 +12343,8 @@ class AO21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X2M_A12TR'
 
@@ -11353,7 +12355,8 @@ class AO21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X3M_A12TR'
 
@@ -11364,7 +12367,8 @@ class AO21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X4M_A12TR'
 
@@ -11375,7 +12379,8 @@ class AO21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X6M_A12TR'
 
@@ -11386,7 +12391,8 @@ class AO21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P5M_A12TR'
 
@@ -11398,7 +12404,8 @@ class AO22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P7M_A12TR'
 
@@ -11410,7 +12417,8 @@ class AO22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1M_A12TR'
 
@@ -11422,7 +12430,8 @@ class AO22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1P4M_A12TR'
 
@@ -11434,7 +12443,8 @@ class AO22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X2M_A12TR'
 
@@ -11446,7 +12456,8 @@ class AO22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X3M_A12TR'
 
@@ -11458,7 +12469,8 @@ class AO22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X4M_A12TR'
 
@@ -11470,7 +12482,8 @@ class AO22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X6M_A12TR'
 
@@ -11482,7 +12495,8 @@ class AO22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P5M_A12TR'
 
@@ -11494,7 +12508,8 @@ class AOI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P7M_A12TR'
 
@@ -11506,7 +12521,8 @@ class AOI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1M_A12TR'
 
@@ -11518,7 +12534,8 @@ class AOI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1P4M_A12TR'
 
@@ -11530,7 +12547,8 @@ class AOI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X2M_A12TR'
 
@@ -11542,7 +12560,8 @@ class AOI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X3M_A12TR'
 
@@ -11554,7 +12573,8 @@ class AOI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X4M_A12TR'
 
@@ -11566,7 +12586,8 @@ class AOI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P5M_A12TR'
 
@@ -11577,7 +12598,8 @@ class AOI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P7M_A12TR'
 
@@ -11588,7 +12610,8 @@ class AOI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1M_A12TR'
 
@@ -11599,7 +12622,8 @@ class AOI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1P4M_A12TR'
 
@@ -11610,7 +12634,8 @@ class AOI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X2M_A12TR'
 
@@ -11621,7 +12646,8 @@ class AOI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X3M_A12TR'
 
@@ -11632,7 +12658,8 @@ class AOI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X4M_A12TR'
 
@@ -11643,7 +12670,8 @@ class AOI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X6M_A12TR'
 
@@ -11654,7 +12682,8 @@ class AOI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X8M_A12TR'
 
@@ -11665,7 +12694,8 @@ class AOI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P5M_A12TR'
 
@@ -11676,7 +12706,8 @@ class AOI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P7M_A12TR'
 
@@ -11687,7 +12718,8 @@ class AOI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1M_A12TR'
 
@@ -11698,7 +12730,8 @@ class AOI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1P4M_A12TR'
 
@@ -11709,7 +12742,8 @@ class AOI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X2M_A12TR'
 
@@ -11720,7 +12754,8 @@ class AOI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X3M_A12TR'
 
@@ -11731,7 +12766,8 @@ class AOI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X4M_A12TR'
 
@@ -11742,7 +12778,8 @@ class AOI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X6M_A12TR'
 
@@ -11753,7 +12790,8 @@ class AOI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X8M_A12TR'
 
@@ -11764,7 +12802,8 @@ class AOI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P5M_A12TR'
 
@@ -11777,7 +12816,8 @@ class AOI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P7M_A12TR'
 
@@ -11790,7 +12830,8 @@ class AOI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1M_A12TR'
 
@@ -11803,7 +12844,8 @@ class AOI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1P4M_A12TR'
 
@@ -11816,7 +12858,8 @@ class AOI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X2M_A12TR'
 
@@ -11829,7 +12872,8 @@ class AOI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X3M_A12TR'
 
@@ -11842,7 +12886,8 @@ class AOI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X4M_A12TR'
 
@@ -11855,7 +12900,8 @@ class AOI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P5M_A12TR'
 
@@ -11869,7 +12915,8 @@ class AOI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P7M_A12TR'
 
@@ -11883,7 +12930,8 @@ class AOI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1M_A12TR'
 
@@ -11897,7 +12945,8 @@ class AOI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1P4M_A12TR'
 
@@ -11911,7 +12960,8 @@ class AOI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X2M_A12TR'
 
@@ -11925,7 +12975,8 @@ class AOI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X3M_A12TR'
 
@@ -11939,7 +12990,8 @@ class AOI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X4M_A12TR'
 
@@ -11953,7 +13005,8 @@ class AOI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P5M_A12TR'
 
@@ -11965,7 +13018,8 @@ class AOI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P7M_A12TR'
 
@@ -11977,7 +13031,8 @@ class AOI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1M_A12TR'
 
@@ -11989,7 +13044,8 @@ class AOI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1P4M_A12TR'
 
@@ -12001,7 +13057,8 @@ class AOI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X2M_A12TR'
 
@@ -12013,7 +13070,8 @@ class AOI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X3M_A12TR'
 
@@ -12025,7 +13083,8 @@ class AOI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X4M_A12TR'
 
@@ -12037,7 +13096,8 @@ class AOI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X6M_A12TR'
 
@@ -12049,7 +13109,8 @@ class AOI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X8M_A12TR'
 
@@ -12061,7 +13122,8 @@ class AOI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P5M_A12TR'
 
@@ -12072,7 +13134,8 @@ class AOI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P7M_A12TR'
 
@@ -12083,7 +13146,8 @@ class AOI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1M_A12TR'
 
@@ -12094,7 +13158,8 @@ class AOI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1P4M_A12TR'
 
@@ -12105,7 +13170,8 @@ class AOI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X2M_A12TR'
 
@@ -12116,7 +13182,8 @@ class AOI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X3M_A12TR'
 
@@ -12127,7 +13194,8 @@ class AOI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X4M_A12TR'
 
@@ -12138,7 +13206,8 @@ class AOI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X6M_A12TR'
 
@@ -12149,7 +13218,8 @@ class AOI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X8M_A12TR'
 
@@ -12160,7 +13230,8 @@ class AOI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P5M_A12TR'
 
@@ -12172,7 +13243,8 @@ class AOI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P7M_A12TR'
 
@@ -12184,7 +13256,8 @@ class AOI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1M_A12TR'
 
@@ -12196,7 +13269,8 @@ class AOI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1P4M_A12TR'
 
@@ -12208,7 +13282,8 @@ class AOI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X2M_A12TR'
 
@@ -12220,7 +13295,8 @@ class AOI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X3M_A12TR'
 
@@ -12232,7 +13308,8 @@ class AOI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X4M_A12TR'
 
@@ -12244,7 +13321,8 @@ class AOI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X6M_A12TR'
 
@@ -12256,7 +13334,8 @@ class AOI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P5M_A12TR'
 
@@ -12269,7 +13348,8 @@ class AOI32_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P7M_A12TR'
 
@@ -12282,7 +13362,8 @@ class AOI32_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1M_A12TR'
 
@@ -12295,7 +13376,8 @@ class AOI32_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1P4M_A12TR'
 
@@ -12308,7 +13390,8 @@ class AOI32_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X2M_A12TR'
 
@@ -12321,7 +13404,8 @@ class AOI32_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X3M_A12TR'
 
@@ -12334,7 +13418,8 @@ class AOI32_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X4M_A12TR'
 
@@ -12347,7 +13432,8 @@ class AOI32_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X6M_A12TR'
 
@@ -12360,7 +13446,8 @@ class AOI32_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X11M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X11M_A12TR'
 
@@ -12373,7 +13460,8 @@ class BENC_X11M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(15.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X16M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X16M_A12TR'
 
@@ -12386,7 +13474,8 @@ class BENC_X16M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(21.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X2M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X2M_A12TR'
 
@@ -12399,7 +13488,8 @@ class BENC_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X3M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X3M_A12TR'
 
@@ -12412,7 +13502,8 @@ class BENC_X3M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X4M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X4M_A12TR'
 
@@ -12425,7 +13516,8 @@ class BENC_X4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X6M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X6M_A12TR'
 
@@ -12438,7 +13530,8 @@ class BENC_X6M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(11, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X8M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X8M_A12TR'
 
@@ -12451,7 +13544,8 @@ class BENC_X8M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(12.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X0P7M_A12TR'
 
@@ -12464,7 +13558,8 @@ class BMXIT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1M_A12TR'
 
@@ -12477,7 +13572,8 @@ class BMXIT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1P4M_A12TR'
 
@@ -12490,7 +13586,8 @@ class BMXIT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X2M_A12TR'
 
@@ -12503,7 +13600,8 @@ class BMXIT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X0P7M_A12TR'
 
@@ -12516,7 +13614,8 @@ class BMXT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1M_A12TR'
 
@@ -12529,7 +13628,8 @@ class BMXT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1P4M_A12TR'
 
@@ -12542,7 +13642,8 @@ class BMXT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X2M_A12TR'
 
@@ -12555,7 +13656,8 @@ class BMXT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P7M_A12TR'
 
@@ -12564,7 +13666,8 @@ class BUFH_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P8M_A12TR'
 
@@ -12573,7 +13676,8 @@ class BUFH_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X11M_A12TR'
 
@@ -12582,7 +13686,8 @@ class BUFH_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X13M_A12TR'
 
@@ -12591,7 +13696,8 @@ class BUFH_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X16M_A12TR'
 
@@ -12600,7 +13706,8 @@ class BUFH_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1M_A12TR'
 
@@ -12609,7 +13716,8 @@ class BUFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P2M_A12TR'
 
@@ -12618,7 +13726,8 @@ class BUFH_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P4M_A12TR'
 
@@ -12627,7 +13736,8 @@ class BUFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P7M_A12TR'
 
@@ -12636,7 +13746,8 @@ class BUFH_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2M_A12TR'
 
@@ -12645,7 +13756,8 @@ class BUFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2P5M_A12TR'
 
@@ -12654,7 +13766,8 @@ class BUFH_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3M_A12TR'
 
@@ -12663,7 +13776,8 @@ class BUFH_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3P5M_A12TR'
 
@@ -12672,7 +13786,8 @@ class BUFH_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X4M_A12TR'
 
@@ -12681,7 +13796,8 @@ class BUFH_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X5M_A12TR'
 
@@ -12690,7 +13806,8 @@ class BUFH_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X6M_A12TR'
 
@@ -12699,7 +13816,8 @@ class BUFH_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X7P5M_A12TR'
 
@@ -12708,7 +13826,8 @@ class BUFH_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X9M_A12TR'
 
@@ -12717,7 +13836,8 @@ class BUFH_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X11M_A12TR'
 
@@ -12727,7 +13847,8 @@ class BUFZ_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X16M_A12TR'
 
@@ -12737,7 +13858,8 @@ class BUFZ_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1M_A12TR'
 
@@ -12747,7 +13869,8 @@ class BUFZ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1P4M_A12TR'
 
@@ -12757,7 +13880,8 @@ class BUFZ_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X2M_A12TR'
 
@@ -12767,7 +13891,8 @@ class BUFZ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X3M_A12TR'
 
@@ -12777,7 +13902,8 @@ class BUFZ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X4M_A12TR'
 
@@ -12787,7 +13913,8 @@ class BUFZ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X6M_A12TR'
 
@@ -12797,7 +13924,8 @@ class BUFZ_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X8M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X8M_A12TR'
 
@@ -12807,7 +13935,8 @@ class BUFZ_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7B_A12TR'
 
@@ -12816,7 +13945,8 @@ class BUF_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7M_A12TR'
 
@@ -12825,7 +13955,8 @@ class BUF_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8B_A12TR'
 
@@ -12834,7 +13965,8 @@ class BUF_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8M_A12TR'
 
@@ -12843,7 +13975,8 @@ class BUF_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11B_A12TR'
 
@@ -12852,7 +13985,8 @@ class BUF_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11M_A12TR'
 
@@ -12861,7 +13995,8 @@ class BUF_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13B_A12TR'
 
@@ -12870,7 +14005,8 @@ class BUF_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13M_A12TR'
 
@@ -12879,7 +14015,8 @@ class BUF_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16B_A12TR'
 
@@ -12888,7 +14025,8 @@ class BUF_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16M_A12TR'
 
@@ -12897,7 +14035,8 @@ class BUF_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1B_A12TR'
 
@@ -12906,7 +14045,8 @@ class BUF_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1M_A12TR'
 
@@ -12915,7 +14055,8 @@ class BUF_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2B_A12TR'
 
@@ -12924,7 +14065,8 @@ class BUF_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2M_A12TR'
 
@@ -12933,7 +14075,8 @@ class BUF_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4B_A12TR'
 
@@ -12942,7 +14085,8 @@ class BUF_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4M_A12TR'
 
@@ -12951,7 +14095,8 @@ class BUF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7B_A12TR'
 
@@ -12960,7 +14105,8 @@ class BUF_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7M_A12TR'
 
@@ -12969,7 +14115,8 @@ class BUF_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2B_A12TR'
 
@@ -12978,7 +14125,8 @@ class BUF_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2M_A12TR'
 
@@ -12987,7 +14135,8 @@ class BUF_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5B_A12TR'
 
@@ -12996,7 +14145,8 @@ class BUF_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5M_A12TR'
 
@@ -13005,7 +14155,8 @@ class BUF_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3B_A12TR'
 
@@ -13014,7 +14165,8 @@ class BUF_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3M_A12TR'
 
@@ -13023,7 +14175,8 @@ class BUF_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5B_A12TR'
 
@@ -13032,7 +14185,8 @@ class BUF_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5M_A12TR'
 
@@ -13041,7 +14195,8 @@ class BUF_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4B_A12TR'
 
@@ -13050,7 +14205,8 @@ class BUF_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4M_A12TR'
 
@@ -13059,7 +14215,8 @@ class BUF_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5B_A12TR'
 
@@ -13068,7 +14225,8 @@ class BUF_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5M_A12TR'
 
@@ -13077,7 +14235,8 @@ class BUF_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6B_A12TR'
 
@@ -13086,7 +14245,8 @@ class BUF_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6M_A12TR'
 
@@ -13095,7 +14255,8 @@ class BUF_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5B_A12TR'
 
@@ -13104,7 +14265,8 @@ class BUF_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5M_A12TR'
 
@@ -13113,7 +14275,8 @@ class BUF_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9B_A12TR'
 
@@ -13122,7 +14285,8 @@ class BUF_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9M_A12TR'
 
@@ -13131,7 +14295,8 @@ class BUF_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1M_A12TR'
 
@@ -13142,7 +14307,8 @@ class CGENCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1P4M_A12TR'
 
@@ -13153,7 +14319,8 @@ class CGENCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X2M_A12TR'
 
@@ -13164,7 +14331,8 @@ class CGENCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1M_A12TR'
 
@@ -13175,7 +14343,8 @@ class CGENCON_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1P4M_A12TR'
 
@@ -13186,7 +14355,8 @@ class CGENCON_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X2M_A12TR'
 
@@ -13197,7 +14367,8 @@ class CGENCON_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1M_A12TR'
 
@@ -13208,7 +14379,8 @@ class CGENI_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1P4M_A12TR'
 
@@ -13219,7 +14391,8 @@ class CGENI_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X2M_A12TR'
 
@@ -13230,7 +14403,8 @@ class CGENI_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1M_A12TR'
 
@@ -13241,7 +14415,8 @@ class CGEN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1P4M_A12TR'
 
@@ -13252,7 +14427,8 @@ class CGEN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X2M_A12TR'
 
@@ -13263,7 +14439,8 @@ class CGEN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1M_A12TR'
 
@@ -13278,7 +14455,8 @@ class CMPR42_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1P4M_A12TR'
 
@@ -13293,7 +14471,8 @@ class CMPR42_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X2M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X2M_A12TR'
 
@@ -13308,7 +14487,8 @@ class CMPR42_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X1M_A12TR'
 
@@ -13318,7 +14498,8 @@ class DFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X2M_A12TR'
 
@@ -13328,7 +14509,8 @@ class DFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X3M_A12TR'
 
@@ -13338,7 +14520,8 @@ class DFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X1M_A12TR'
 
@@ -13349,7 +14532,8 @@ class DFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X2M_A12TR'
 
@@ -13360,7 +14544,8 @@ class DFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X3M_A12TR'
 
@@ -13371,7 +14556,8 @@ class DFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X1M_A12TR'
 
@@ -13382,7 +14568,8 @@ class DFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X2M_A12TR'
 
@@ -13393,7 +14580,8 @@ class DFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X3M_A12TR'
 
@@ -13404,7 +14592,8 @@ class DFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X1M_A12TR'
 
@@ -13416,7 +14605,8 @@ class DFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X2M_A12TR'
 
@@ -13428,7 +14618,8 @@ class DFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X3M_A12TR'
 
@@ -13440,7 +14631,8 @@ class DFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X0P5M_A12TR'
 
@@ -13450,7 +14642,8 @@ class DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X1M_A12TR'
 
@@ -13460,7 +14653,8 @@ class DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X2M_A12TR'
 
@@ -13470,7 +14664,8 @@ class DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X3M_A12TR'
 
@@ -13480,7 +14675,8 @@ class DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X0P5M_A12TR'
 
@@ -13490,7 +14686,8 @@ class DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X1M_A12TR'
 
@@ -13500,7 +14697,8 @@ class DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X2M_A12TR'
 
@@ -13510,7 +14708,8 @@ class DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X3M_A12TR'
 
@@ -13520,7 +14719,8 @@ class DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X4M_A12TR'
 
@@ -13530,7 +14730,8 @@ class DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X0P5M_A12TR'
 
@@ -13541,7 +14742,8 @@ class DFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X1M_A12TR'
 
@@ -13552,7 +14754,8 @@ class DFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X2M_A12TR'
 
@@ -13563,7 +14766,8 @@ class DFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X3M_A12TR'
 
@@ -13574,7 +14778,8 @@ class DFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X0P5M_A12TR'
 
@@ -13585,7 +14790,8 @@ class DFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X1M_A12TR'
 
@@ -13596,7 +14802,8 @@ class DFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X2M_A12TR'
 
@@ -13607,7 +14814,8 @@ class DFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X3M_A12TR'
 
@@ -13618,7 +14826,8 @@ class DFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X4M_A12TR'
 
@@ -13629,7 +14838,8 @@ class DFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X0P5M_A12TR'
 
@@ -13640,7 +14850,8 @@ class DFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X1M_A12TR'
 
@@ -13651,7 +14862,8 @@ class DFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X2M_A12TR'
 
@@ -13662,7 +14874,8 @@ class DFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X3M_A12TR'
 
@@ -13673,7 +14886,8 @@ class DFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X0P5M_A12TR'
 
@@ -13684,7 +14898,8 @@ class DFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X1M_A12TR'
 
@@ -13695,7 +14910,8 @@ class DFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X2M_A12TR'
 
@@ -13706,7 +14922,8 @@ class DFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X3M_A12TR'
 
@@ -13717,7 +14934,8 @@ class DFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X4M_A12TR'
 
@@ -13728,7 +14946,8 @@ class DFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X0P5M_A12TR'
 
@@ -13740,7 +14959,8 @@ class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X1M_A12TR'
 
@@ -13752,7 +14972,8 @@ class DFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X2M_A12TR'
 
@@ -13764,7 +14985,8 @@ class DFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X3M_A12TR'
 
@@ -13776,7 +14998,8 @@ class DFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X4M_A12TR'
 
@@ -13788,7 +15011,8 @@ class DFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X1M_A12TR'
 
@@ -13798,7 +15022,8 @@ class DFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X2M_A12TR'
 
@@ -13808,7 +15033,8 @@ class DFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X3M_A12TR'
 
@@ -13818,7 +15044,8 @@ class DFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X4M_A12TR'
 
@@ -13828,7 +15055,8 @@ class DFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X0P5M_A12TR'
 
@@ -13837,7 +15065,8 @@ class DLY2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X1M_A12TR'
 
@@ -13846,7 +15075,8 @@ class DLY2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X2M_A12TR'
 
@@ -13855,7 +15085,8 @@ class DLY2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X4M_A12TR'
 
@@ -13864,7 +15095,8 @@ class DLY2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X0P5M_A12TR'
 
@@ -13873,7 +15105,8 @@ class DLY4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X1M_A12TR'
 
@@ -13882,7 +15115,8 @@ class DLY4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X2M_A12TR'
 
@@ -13891,7 +15125,8 @@ class DLY4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X4M_A12TR'
 
@@ -13900,7 +15135,8 @@ class DLY4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X0P5M_A12TR'
 
@@ -13911,7 +15147,8 @@ class EDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X1M_A12TR'
 
@@ -13922,7 +15159,8 @@ class EDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X2M_A12TR'
 
@@ -13933,7 +15171,8 @@ class EDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X3M_A12TR'
 
@@ -13944,7 +15183,8 @@ class EDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X0P5M_A12TR'
 
@@ -13955,7 +15195,8 @@ class EDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X1M_A12TR'
 
@@ -13966,7 +15207,8 @@ class EDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X2M_A12TR'
 
@@ -13977,7 +15219,8 @@ class EDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X3M_A12TR'
 
@@ -13988,7 +15231,8 @@ class EDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ENDCAPTIE2_A12TR(ComponentXY):
 	__defaultName = 'ENDCAPTIE2_A12TR'
 
@@ -14005,7 +15249,8 @@ class ESDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X1M_A12TR'
 
@@ -14018,7 +15263,8 @@ class ESDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X2M_A12TR'
 
@@ -14031,7 +15277,8 @@ class ESDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X3M_A12TR'
 
@@ -14044,7 +15291,8 @@ class ESDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X0P5M_A12TR'
 
@@ -14057,7 +15305,8 @@ class ESDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X1M_A12TR'
 
@@ -14070,7 +15319,8 @@ class ESDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X2M_A12TR'
 
@@ -14083,7 +15333,8 @@ class ESDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X3M_A12TR'
 
@@ -14096,7 +15347,8 @@ class ESDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FILL128_A12TR(ComponentXY):
 	__defaultName = 'FILL128_A12TR'
 
@@ -14257,7 +15509,8 @@ class FRICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P6B_A12TR'
 
@@ -14266,7 +15519,8 @@ class FRICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P7B_A12TR'
 
@@ -14275,7 +15529,8 @@ class FRICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P8B_A12TR'
 
@@ -14284,7 +15539,8 @@ class FRICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X11B_A12TR'
 
@@ -14293,7 +15549,8 @@ class FRICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X13B_A12TR'
 
@@ -14302,7 +15559,8 @@ class FRICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X16B_A12TR'
 
@@ -14311,7 +15569,8 @@ class FRICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1B_A12TR'
 
@@ -14320,7 +15579,8 @@ class FRICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P2B_A12TR'
 
@@ -14329,7 +15589,8 @@ class FRICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P4B_A12TR'
 
@@ -14338,7 +15599,8 @@ class FRICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P7B_A12TR'
 
@@ -14347,7 +15609,8 @@ class FRICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2B_A12TR'
 
@@ -14356,7 +15619,8 @@ class FRICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2P5B_A12TR'
 
@@ -14365,7 +15629,8 @@ class FRICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3B_A12TR'
 
@@ -14374,7 +15639,8 @@ class FRICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3P5B_A12TR'
 
@@ -14383,7 +15649,8 @@ class FRICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X4B_A12TR'
 
@@ -14392,7 +15659,8 @@ class FRICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X5B_A12TR'
 
@@ -14401,7 +15669,8 @@ class FRICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X6B_A12TR'
 
@@ -14410,7 +15679,8 @@ class FRICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X7P5B_A12TR'
 
@@ -14419,7 +15689,8 @@ class FRICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X9B_A12TR'
 
@@ -14428,7 +15699,8 @@ class FRICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5B_A12TR'
 
@@ -14437,7 +15709,8 @@ class INV_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5M_A12TR'
 
@@ -14446,7 +15719,8 @@ class INV_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6B_A12TR'
 
@@ -14455,7 +15729,8 @@ class INV_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6M_A12TR'
 
@@ -14464,7 +15739,8 @@ class INV_X0P6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7B_A12TR'
 
@@ -14473,7 +15749,8 @@ class INV_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7M_A12TR'
 
@@ -14482,7 +15759,8 @@ class INV_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8B_A12TR'
 
@@ -14491,7 +15769,8 @@ class INV_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8M_A12TR'
 
@@ -14500,7 +15779,8 @@ class INV_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11B_A12TR(ComponentXY):
 	__defaultName = 'INV_X11B_A12TR'
 
@@ -14509,7 +15789,8 @@ class INV_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11M_A12TR(ComponentXY):
 	__defaultName = 'INV_X11M_A12TR'
 
@@ -14518,7 +15799,8 @@ class INV_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13B_A12TR(ComponentXY):
 	__defaultName = 'INV_X13B_A12TR'
 
@@ -14527,7 +15809,8 @@ class INV_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13M_A12TR(ComponentXY):
 	__defaultName = 'INV_X13M_A12TR'
 
@@ -14536,7 +15819,8 @@ class INV_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16B_A12TR(ComponentXY):
 	__defaultName = 'INV_X16B_A12TR'
 
@@ -14545,7 +15829,8 @@ class INV_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16M_A12TR(ComponentXY):
 	__defaultName = 'INV_X16M_A12TR'
 
@@ -14554,7 +15839,8 @@ class INV_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1B_A12TR'
 
@@ -14563,7 +15849,8 @@ class INV_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1M_A12TR'
 
@@ -14572,7 +15859,8 @@ class INV_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2B_A12TR'
 
@@ -14581,7 +15869,8 @@ class INV_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2M_A12TR'
 
@@ -14590,7 +15879,8 @@ class INV_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4B_A12TR'
 
@@ -14599,7 +15889,8 @@ class INV_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4M_A12TR'
 
@@ -14608,7 +15899,8 @@ class INV_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7B_A12TR'
 
@@ -14617,7 +15909,8 @@ class INV_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7M_A12TR'
 
@@ -14626,7 +15919,8 @@ class INV_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2B_A12TR'
 
@@ -14635,7 +15929,8 @@ class INV_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2M_A12TR'
 
@@ -14644,7 +15939,8 @@ class INV_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5B_A12TR'
 
@@ -14653,7 +15949,8 @@ class INV_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5M_A12TR'
 
@@ -14662,7 +15959,8 @@ class INV_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3B_A12TR'
 
@@ -14671,7 +15969,8 @@ class INV_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3M_A12TR'
 
@@ -14680,7 +15979,8 @@ class INV_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5B_A12TR'
 
@@ -14689,7 +15989,8 @@ class INV_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5M_A12TR'
 
@@ -14698,7 +15999,8 @@ class INV_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X4B_A12TR'
 
@@ -14707,7 +16009,8 @@ class INV_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X4M_A12TR'
 
@@ -14716,7 +16019,8 @@ class INV_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X5B_A12TR'
 
@@ -14725,7 +16029,8 @@ class INV_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X5M_A12TR'
 
@@ -14734,7 +16039,8 @@ class INV_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X6B_A12TR'
 
@@ -14743,7 +16049,8 @@ class INV_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X6M_A12TR'
 
@@ -14752,7 +16059,8 @@ class INV_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5B_A12TR'
 
@@ -14761,7 +16069,8 @@ class INV_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5M_A12TR'
 
@@ -14770,7 +16079,8 @@ class INV_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9B_A12TR(ComponentXY):
 	__defaultName = 'INV_X9B_A12TR'
 
@@ -14779,7 +16089,8 @@ class INV_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9M_A12TR(ComponentXY):
 	__defaultName = 'INV_X9M_A12TR'
 
@@ -14788,7 +16099,8 @@ class INV_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X0P5M_A12TR'
 
@@ -14798,7 +16110,8 @@ class LATNQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X1M_A12TR'
 
@@ -14808,7 +16121,8 @@ class LATNQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X2M_A12TR'
 
@@ -14818,7 +16132,8 @@ class LATNQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X3M_A12TR'
 
@@ -14828,7 +16143,8 @@ class LATNQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X4M_A12TR'
 
@@ -14838,7 +16154,8 @@ class LATNQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X0P5M_A12TR'
 
@@ -14848,7 +16165,8 @@ class LATNQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X1M_A12TR'
 
@@ -14858,7 +16176,8 @@ class LATNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X2M_A12TR'
 
@@ -14868,7 +16187,8 @@ class LATNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X3M_A12TR'
 
@@ -14878,7 +16198,8 @@ class LATNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X0P5M_A12TR'
 
@@ -14889,7 +16210,8 @@ class LATNRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X1M_A12TR'
 
@@ -14900,7 +16222,8 @@ class LATNRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X2M_A12TR'
 
@@ -14911,7 +16234,8 @@ class LATNRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X3M_A12TR'
 
@@ -14922,7 +16246,8 @@ class LATNRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X4M_A12TR'
 
@@ -14933,7 +16258,8 @@ class LATNRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X0P5M_A12TR'
 
@@ -14944,7 +16270,8 @@ class LATNRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X1M_A12TR'
 
@@ -14955,7 +16282,8 @@ class LATNRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X2M_A12TR'
 
@@ -14966,7 +16294,8 @@ class LATNRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X3M_A12TR'
 
@@ -14977,7 +16306,8 @@ class LATNRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X0P5M_A12TR'
 
@@ -14988,7 +16318,8 @@ class LATNSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X1M_A12TR'
 
@@ -14999,7 +16330,8 @@ class LATNSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X2M_A12TR'
 
@@ -15010,7 +16342,8 @@ class LATNSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X3M_A12TR'
 
@@ -15021,7 +16354,8 @@ class LATNSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X0P5M_A12TR'
 
@@ -15032,7 +16366,8 @@ class LATNSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X1M_A12TR'
 
@@ -15043,7 +16378,8 @@ class LATNSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X2M_A12TR'
 
@@ -15054,7 +16390,8 @@ class LATNSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X3M_A12TR'
 
@@ -15065,7 +16402,8 @@ class LATNSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X4M_A12TR'
 
@@ -15076,7 +16414,8 @@ class LATNSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X0P5M_A12TR'
 
@@ -15086,7 +16425,8 @@ class LATQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X1M_A12TR'
 
@@ -15096,7 +16436,8 @@ class LATQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X2M_A12TR'
 
@@ -15106,7 +16447,8 @@ class LATQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X3M_A12TR'
 
@@ -15116,7 +16458,8 @@ class LATQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X4M_A12TR'
 
@@ -15126,7 +16469,8 @@ class LATQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X0P5M_A12TR'
 
@@ -15136,7 +16480,8 @@ class LATQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X1M_A12TR'
 
@@ -15146,7 +16491,8 @@ class LATQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X2M_A12TR'
 
@@ -15156,7 +16502,8 @@ class LATQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X3M_A12TR'
 
@@ -15166,7 +16513,8 @@ class LATQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X0P5M_A12TR'
 
@@ -15177,7 +16525,8 @@ class LATRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X1M_A12TR'
 
@@ -15188,7 +16537,8 @@ class LATRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X2M_A12TR'
 
@@ -15199,7 +16549,8 @@ class LATRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X3M_A12TR'
 
@@ -15210,7 +16561,8 @@ class LATRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X4M_A12TR'
 
@@ -15221,7 +16573,8 @@ class LATRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X0P5M_A12TR'
 
@@ -15232,7 +16585,8 @@ class LATRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X1M_A12TR'
 
@@ -15243,7 +16597,8 @@ class LATRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X2M_A12TR'
 
@@ -15254,7 +16609,8 @@ class LATRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X3M_A12TR'
 
@@ -15265,7 +16621,8 @@ class LATRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X0P5M_A12TR'
 
@@ -15276,7 +16633,8 @@ class LATSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X1M_A12TR'
 
@@ -15287,7 +16645,8 @@ class LATSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X2M_A12TR'
 
@@ -15298,7 +16657,8 @@ class LATSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X3M_A12TR'
 
@@ -15309,7 +16669,8 @@ class LATSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X0P5M_A12TR'
 
@@ -15320,7 +16681,8 @@ class LATSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X1M_A12TR'
 
@@ -15331,7 +16693,8 @@ class LATSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X2M_A12TR'
 
@@ -15342,7 +16705,8 @@ class LATSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X3M_A12TR'
 
@@ -15353,7 +16717,8 @@ class LATSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X4M_A12TR'
 
@@ -15364,7 +16729,8 @@ class LATSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X0P5M_A12TR'
 
@@ -15376,7 +16742,8 @@ class M2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X1M_A12TR'
 
@@ -15388,7 +16755,8 @@ class M2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X2M_A12TR'
 
@@ -15400,7 +16768,8 @@ class M2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X3M_A12TR'
 
@@ -15412,7 +16781,8 @@ class M2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X0P5M_A12TR'
 
@@ -15424,7 +16794,8 @@ class M2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X1M_A12TR'
 
@@ -15436,7 +16807,8 @@ class M2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X2M_A12TR'
 
@@ -15448,7 +16820,8 @@ class M2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X3M_A12TR'
 
@@ -15460,7 +16833,8 @@ class M2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X4M_A12TR'
 
@@ -15472,7 +16846,8 @@ class M2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X0P5M_A12TR'
 
@@ -15486,7 +16861,8 @@ class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X1M_A12TR'
 
@@ -15500,7 +16876,8 @@ class M2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X2M_A12TR'
 
@@ -15514,7 +16891,8 @@ class M2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X3M_A12TR'
 
@@ -15528,7 +16906,8 @@ class M2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X0P5M_A12TR'
 
@@ -15542,7 +16921,8 @@ class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X1M_A12TR'
 
@@ -15556,7 +16936,8 @@ class M2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X2M_A12TR'
 
@@ -15570,7 +16951,8 @@ class M2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X3M_A12TR'
 
@@ -15584,7 +16966,8 @@ class M2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X4M_A12TR'
 
@@ -15598,7 +16981,8 @@ class M2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5B_A12TR'
 
@@ -15609,7 +16993,8 @@ class MX2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5M_A12TR'
 
@@ -15620,7 +17005,8 @@ class MX2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7B_A12TR'
 
@@ -15631,7 +17017,8 @@ class MX2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7M_A12TR'
 
@@ -15642,7 +17029,8 @@ class MX2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1B_A12TR'
 
@@ -15653,7 +17041,8 @@ class MX2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1M_A12TR'
 
@@ -15664,7 +17053,8 @@ class MX2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4B_A12TR'
 
@@ -15675,7 +17065,8 @@ class MX2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4M_A12TR'
 
@@ -15686,7 +17077,8 @@ class MX2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2B_A12TR'
 
@@ -15697,7 +17089,8 @@ class MX2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2M_A12TR'
 
@@ -15708,7 +17101,8 @@ class MX2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3B_A12TR'
 
@@ -15719,7 +17113,8 @@ class MX2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3M_A12TR'
 
@@ -15730,7 +17125,8 @@ class MX2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4B_A12TR'
 
@@ -15741,7 +17137,8 @@ class MX2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4M_A12TR'
 
@@ -15752,7 +17149,8 @@ class MX2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6B_A12TR'
 
@@ -15763,7 +17161,8 @@ class MX2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6M_A12TR'
 
@@ -15774,7 +17173,8 @@ class MX2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X8B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X8B_A12TR'
 
@@ -15785,7 +17185,8 @@ class MX2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P5M_A12TR'
 
@@ -15796,7 +17197,8 @@ class MXIT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P7M_A12TR'
 
@@ -15807,7 +17209,8 @@ class MXIT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1M_A12TR'
 
@@ -15818,7 +17221,8 @@ class MXIT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1P4M_A12TR'
 
@@ -15829,7 +17233,8 @@ class MXIT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X2M_A12TR'
 
@@ -15840,7 +17245,8 @@ class MXIT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X3M_A12TR'
 
@@ -15851,7 +17257,8 @@ class MXIT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X4M_A12TR'
 
@@ -15862,7 +17269,8 @@ class MXIT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P5M_A12TR'
 
@@ -15876,7 +17284,8 @@ class MXIT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P7M_A12TR'
 
@@ -15890,7 +17299,8 @@ class MXIT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1M_A12TR'
 
@@ -15904,7 +17314,8 @@ class MXIT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1P4M_A12TR'
 
@@ -15918,7 +17329,8 @@ class MXIT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X2M_A12TR'
 
@@ -15932,7 +17344,8 @@ class MXIT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X3M_A12TR'
 
@@ -15946,7 +17359,8 @@ class MXIT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P5M_A12TR'
 
@@ -15957,7 +17371,8 @@ class MXT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P7M_A12TR'
 
@@ -15968,7 +17383,8 @@ class MXT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1M_A12TR'
 
@@ -15979,7 +17395,8 @@ class MXT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1P4M_A12TR'
 
@@ -15990,7 +17407,8 @@ class MXT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X2M_A12TR'
 
@@ -16001,7 +17419,8 @@ class MXT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X3M_A12TR'
 
@@ -16012,7 +17431,8 @@ class MXT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X4M_A12TR'
 
@@ -16023,7 +17443,8 @@ class MXT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X6M_A12TR'
 
@@ -16034,7 +17455,8 @@ class MXT2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P5M_A12TR'
 
@@ -16048,7 +17470,8 @@ class MXT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P7M_A12TR'
 
@@ -16062,7 +17485,8 @@ class MXT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1M_A12TR'
 
@@ -16076,7 +17500,8 @@ class MXT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1P4M_A12TR'
 
@@ -16090,7 +17515,8 @@ class MXT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X2M_A12TR'
 
@@ -16104,7 +17530,8 @@ class MXT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X3M_A12TR'
 
@@ -16118,7 +17545,8 @@ class MXT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P5M_A12TR'
 
@@ -16128,7 +17556,8 @@ class NAND2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P7M_A12TR'
 
@@ -16138,7 +17567,8 @@ class NAND2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1M_A12TR'
 
@@ -16148,7 +17578,8 @@ class NAND2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1P4M_A12TR'
 
@@ -16158,7 +17589,8 @@ class NAND2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X2M_A12TR'
 
@@ -16168,7 +17600,8 @@ class NAND2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X3M_A12TR'
 
@@ -16178,7 +17611,8 @@ class NAND2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X4M_A12TR'
 
@@ -16188,7 +17622,8 @@ class NAND2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X6M_A12TR'
 
@@ -16198,7 +17633,8 @@ class NAND2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X8M_A12TR'
 
@@ -16208,7 +17644,8 @@ class NAND2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P5M_A12TR'
 
@@ -16218,7 +17655,8 @@ class NAND2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P7M_A12TR'
 
@@ -16228,7 +17666,8 @@ class NAND2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1M_A12TR'
 
@@ -16238,7 +17677,8 @@ class NAND2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1P4M_A12TR'
 
@@ -16248,7 +17688,8 @@ class NAND2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X2M_A12TR'
 
@@ -16258,7 +17699,8 @@ class NAND2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X3M_A12TR'
 
@@ -16268,7 +17710,8 @@ class NAND2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X4M_A12TR'
 
@@ -16278,7 +17721,8 @@ class NAND2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X6M_A12TR'
 
@@ -16288,7 +17732,8 @@ class NAND2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X8M_A12TR'
 
@@ -16298,7 +17743,8 @@ class NAND2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5A_A12TR'
 
@@ -16308,7 +17754,8 @@ class NAND2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5B_A12TR'
 
@@ -16318,7 +17765,8 @@ class NAND2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5M_A12TR'
 
@@ -16328,7 +17776,8 @@ class NAND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7A_A12TR'
 
@@ -16338,7 +17787,8 @@ class NAND2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7B_A12TR'
 
@@ -16348,7 +17798,8 @@ class NAND2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7M_A12TR'
 
@@ -16358,7 +17809,8 @@ class NAND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1A_A12TR'
 
@@ -16368,7 +17820,8 @@ class NAND2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1B_A12TR'
 
@@ -16378,7 +17831,8 @@ class NAND2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1M_A12TR'
 
@@ -16388,7 +17842,8 @@ class NAND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4A_A12TR'
 
@@ -16398,7 +17853,8 @@ class NAND2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4B_A12TR'
 
@@ -16408,7 +17864,8 @@ class NAND2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4M_A12TR'
 
@@ -16418,7 +17875,8 @@ class NAND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2A_A12TR'
 
@@ -16428,7 +17886,8 @@ class NAND2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2B_A12TR'
 
@@ -16438,7 +17897,8 @@ class NAND2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2M_A12TR'
 
@@ -16448,7 +17908,8 @@ class NAND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3A_A12TR'
 
@@ -16458,7 +17919,8 @@ class NAND2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3B_A12TR'
 
@@ -16468,7 +17930,8 @@ class NAND2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3M_A12TR'
 
@@ -16478,7 +17941,8 @@ class NAND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4A_A12TR'
 
@@ -16488,7 +17952,8 @@ class NAND2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4B_A12TR'
 
@@ -16498,7 +17963,8 @@ class NAND2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4M_A12TR'
 
@@ -16508,7 +17974,8 @@ class NAND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6A_A12TR'
 
@@ -16518,7 +17985,8 @@ class NAND2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6B_A12TR'
 
@@ -16528,7 +17996,8 @@ class NAND2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6M_A12TR'
 
@@ -16538,7 +18007,8 @@ class NAND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8A_A12TR'
 
@@ -16548,7 +18018,8 @@ class NAND2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8B_A12TR'
 
@@ -16558,7 +18029,8 @@ class NAND2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8M_A12TR'
 
@@ -16568,7 +18040,8 @@ class NAND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P5M_A12TR'
 
@@ -16579,7 +18052,8 @@ class NAND3B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P7M_A12TR'
 
@@ -16590,7 +18064,8 @@ class NAND3B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1M_A12TR'
 
@@ -16601,7 +18076,8 @@ class NAND3B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1P4M_A12TR'
 
@@ -16612,7 +18088,8 @@ class NAND3B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X2M_A12TR'
 
@@ -16623,7 +18100,8 @@ class NAND3B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X3M_A12TR'
 
@@ -16634,7 +18112,8 @@ class NAND3B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X4M_A12TR'
 
@@ -16645,7 +18124,8 @@ class NAND3B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X6M_A12TR'
 
@@ -16656,7 +18136,8 @@ class NAND3B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P5M_A12TR'
 
@@ -16667,7 +18148,8 @@ class NAND3XXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P7M_A12TR'
 
@@ -16678,7 +18160,8 @@ class NAND3XXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1M_A12TR'
 
@@ -16689,7 +18172,8 @@ class NAND3XXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1P4M_A12TR'
 
@@ -16700,7 +18184,8 @@ class NAND3XXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X2M_A12TR'
 
@@ -16711,7 +18196,8 @@ class NAND3XXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X3M_A12TR'
 
@@ -16722,7 +18208,8 @@ class NAND3XXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X4M_A12TR'
 
@@ -16733,7 +18220,8 @@ class NAND3XXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X6M_A12TR'
 
@@ -16744,7 +18232,8 @@ class NAND3XXB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5A_A12TR'
 
@@ -16755,7 +18244,8 @@ class NAND3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5M_A12TR'
 
@@ -16766,7 +18256,8 @@ class NAND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7A_A12TR'
 
@@ -16777,7 +18268,8 @@ class NAND3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7M_A12TR'
 
@@ -16788,7 +18280,8 @@ class NAND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1A_A12TR'
 
@@ -16799,7 +18292,8 @@ class NAND3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1M_A12TR'
 
@@ -16810,7 +18304,8 @@ class NAND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4A_A12TR'
 
@@ -16821,7 +18316,8 @@ class NAND3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4M_A12TR'
 
@@ -16832,7 +18328,8 @@ class NAND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2A_A12TR'
 
@@ -16843,7 +18340,8 @@ class NAND3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2M_A12TR'
 
@@ -16854,7 +18352,8 @@ class NAND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3A_A12TR'
 
@@ -16865,7 +18364,8 @@ class NAND3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3M_A12TR'
 
@@ -16876,7 +18376,8 @@ class NAND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4A_A12TR'
 
@@ -16887,7 +18388,8 @@ class NAND3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4M_A12TR'
 
@@ -16898,7 +18400,8 @@ class NAND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6A_A12TR'
 
@@ -16909,7 +18412,8 @@ class NAND3_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6M_A12TR'
 
@@ -16920,7 +18424,8 @@ class NAND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P5M_A12TR'
 
@@ -16932,7 +18437,8 @@ class NAND4B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P7M_A12TR'
 
@@ -16944,7 +18450,8 @@ class NAND4B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1M_A12TR'
 
@@ -16956,7 +18463,8 @@ class NAND4B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1P4M_A12TR'
 
@@ -16968,7 +18476,8 @@ class NAND4B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X2M_A12TR'
 
@@ -16980,7 +18489,8 @@ class NAND4B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X3M_A12TR'
 
@@ -16992,7 +18502,8 @@ class NAND4B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X4M_A12TR'
 
@@ -17004,7 +18515,8 @@ class NAND4B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P5M_A12TR'
 
@@ -17016,7 +18528,8 @@ class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P7M_A12TR'
 
@@ -17028,7 +18541,8 @@ class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1M_A12TR'
 
@@ -17040,7 +18554,8 @@ class NAND4XXXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1P4M_A12TR'
 
@@ -17052,7 +18567,8 @@ class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X2M_A12TR'
 
@@ -17064,7 +18580,8 @@ class NAND4XXXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X3M_A12TR'
 
@@ -17076,7 +18593,8 @@ class NAND4XXXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X4M_A12TR'
 
@@ -17088,7 +18606,8 @@ class NAND4XXXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5A_A12TR'
 
@@ -17100,7 +18619,8 @@ class NAND4_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5M_A12TR'
 
@@ -17112,7 +18632,8 @@ class NAND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7A_A12TR'
 
@@ -17124,7 +18645,8 @@ class NAND4_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7M_A12TR'
 
@@ -17136,7 +18658,8 @@ class NAND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1A_A12TR'
 
@@ -17148,7 +18671,8 @@ class NAND4_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1M_A12TR'
 
@@ -17160,7 +18684,8 @@ class NAND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4A_A12TR'
 
@@ -17172,7 +18697,8 @@ class NAND4_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4M_A12TR'
 
@@ -17184,7 +18710,8 @@ class NAND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2A_A12TR'
 
@@ -17196,7 +18723,8 @@ class NAND4_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2M_A12TR'
 
@@ -17208,7 +18736,8 @@ class NAND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3A_A12TR'
 
@@ -17220,7 +18749,8 @@ class NAND4_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3M_A12TR'
 
@@ -17232,7 +18762,8 @@ class NAND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4A_A12TR'
 
@@ -17244,7 +18775,8 @@ class NAND4_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4M_A12TR'
 
@@ -17256,7 +18788,8 @@ class NAND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P5M_A12TR'
 
@@ -17266,7 +18799,8 @@ class NOR2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P7M_A12TR'
 
@@ -17276,7 +18810,8 @@ class NOR2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1M_A12TR'
 
@@ -17286,7 +18821,8 @@ class NOR2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1P4M_A12TR'
 
@@ -17296,7 +18832,8 @@ class NOR2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X2M_A12TR'
 
@@ -17306,7 +18843,8 @@ class NOR2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X3M_A12TR'
 
@@ -17316,7 +18854,8 @@ class NOR2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X4M_A12TR'
 
@@ -17326,7 +18865,8 @@ class NOR2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X6M_A12TR'
 
@@ -17336,7 +18876,8 @@ class NOR2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X8M_A12TR'
 
@@ -17346,7 +18887,8 @@ class NOR2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P5M_A12TR'
 
@@ -17356,7 +18898,8 @@ class NOR2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P7M_A12TR'
 
@@ -17366,7 +18909,8 @@ class NOR2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1M_A12TR'
 
@@ -17376,7 +18920,8 @@ class NOR2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1P4M_A12TR'
 
@@ -17386,7 +18931,8 @@ class NOR2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X2M_A12TR'
 
@@ -17396,7 +18942,8 @@ class NOR2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X3M_A12TR'
 
@@ -17406,7 +18953,8 @@ class NOR2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X4M_A12TR'
 
@@ -17416,7 +18964,8 @@ class NOR2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X6M_A12TR'
 
@@ -17426,7 +18975,8 @@ class NOR2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X8M_A12TR'
 
@@ -17436,7 +18986,8 @@ class NOR2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5A_A12TR'
 
@@ -17446,7 +18997,8 @@ class NOR2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5B_A12TR'
 
@@ -17456,7 +19008,8 @@ class NOR2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5M_A12TR'
 
@@ -17466,7 +19019,8 @@ class NOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7A_A12TR'
 
@@ -17476,7 +19030,8 @@ class NOR2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7B_A12TR'
 
@@ -17486,7 +19041,8 @@ class NOR2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7M_A12TR'
 
@@ -17496,7 +19052,8 @@ class NOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1A_A12TR'
 
@@ -17506,7 +19063,8 @@ class NOR2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1B_A12TR'
 
@@ -17516,7 +19074,8 @@ class NOR2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1M_A12TR'
 
@@ -17526,7 +19085,8 @@ class NOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4A_A12TR'
 
@@ -17536,7 +19096,8 @@ class NOR2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4B_A12TR'
 
@@ -17546,7 +19107,8 @@ class NOR2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4M_A12TR'
 
@@ -17556,7 +19118,8 @@ class NOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2A_A12TR'
 
@@ -17566,7 +19129,8 @@ class NOR2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2B_A12TR'
 
@@ -17576,7 +19140,8 @@ class NOR2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2M_A12TR'
 
@@ -17586,7 +19151,8 @@ class NOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3A_A12TR'
 
@@ -17596,7 +19162,8 @@ class NOR2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3B_A12TR'
 
@@ -17606,7 +19173,8 @@ class NOR2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3M_A12TR'
 
@@ -17616,7 +19184,8 @@ class NOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4A_A12TR'
 
@@ -17626,7 +19195,8 @@ class NOR2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4B_A12TR'
 
@@ -17636,7 +19206,8 @@ class NOR2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4M_A12TR'
 
@@ -17646,7 +19217,8 @@ class NOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6A_A12TR'
 
@@ -17656,7 +19228,8 @@ class NOR2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6B_A12TR'
 
@@ -17666,7 +19239,8 @@ class NOR2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6M_A12TR'
 
@@ -17676,7 +19250,8 @@ class NOR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8A_A12TR'
 
@@ -17686,7 +19261,8 @@ class NOR2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8B_A12TR'
 
@@ -17696,7 +19272,8 @@ class NOR2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8M_A12TR'
 
@@ -17706,7 +19283,8 @@ class NOR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5A_A12TR'
 
@@ -17717,7 +19295,8 @@ class NOR3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5M_A12TR'
 
@@ -17728,7 +19307,8 @@ class NOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7A_A12TR'
 
@@ -17739,7 +19319,8 @@ class NOR3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7M_A12TR'
 
@@ -17750,7 +19331,8 @@ class NOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1A_A12TR'
 
@@ -17761,7 +19343,8 @@ class NOR3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1M_A12TR'
 
@@ -17772,7 +19355,8 @@ class NOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4A_A12TR'
 
@@ -17783,7 +19367,8 @@ class NOR3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4M_A12TR'
 
@@ -17794,7 +19379,8 @@ class NOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2A_A12TR'
 
@@ -17805,7 +19391,8 @@ class NOR3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2M_A12TR'
 
@@ -17816,7 +19403,8 @@ class NOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3A_A12TR'
 
@@ -17827,7 +19415,8 @@ class NOR3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3M_A12TR'
 
@@ -17838,7 +19427,8 @@ class NOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4A_A12TR'
 
@@ -17849,7 +19439,8 @@ class NOR3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4M_A12TR'
 
@@ -17860,7 +19451,8 @@ class NOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P5M_A12TR'
 
@@ -17872,7 +19464,8 @@ class OA211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P7M_A12TR'
 
@@ -17884,7 +19477,8 @@ class OA211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1M_A12TR'
 
@@ -17896,7 +19490,8 @@ class OA211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1P4M_A12TR'
 
@@ -17908,7 +19503,8 @@ class OA211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X2M_A12TR'
 
@@ -17920,7 +19516,8 @@ class OA211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X3M_A12TR'
 
@@ -17932,7 +19529,8 @@ class OA211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X4M_A12TR'
 
@@ -17944,7 +19542,8 @@ class OA211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X6M_A12TR'
 
@@ -17956,7 +19555,8 @@ class OA211_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P5M_A12TR'
 
@@ -17967,7 +19567,8 @@ class OA21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P7M_A12TR'
 
@@ -17978,7 +19579,8 @@ class OA21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1M_A12TR'
 
@@ -17989,7 +19591,8 @@ class OA21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1P4M_A12TR'
 
@@ -18000,7 +19603,8 @@ class OA21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X2M_A12TR'
 
@@ -18011,7 +19615,8 @@ class OA21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X3M_A12TR'
 
@@ -18022,7 +19627,8 @@ class OA21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X4M_A12TR'
 
@@ -18033,7 +19639,8 @@ class OA21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X6M_A12TR'
 
@@ -18044,7 +19651,8 @@ class OA21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X8M_A12TR'
 
@@ -18055,7 +19663,8 @@ class OA21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P5M_A12TR'
 
@@ -18067,7 +19676,8 @@ class OA22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P7M_A12TR'
 
@@ -18079,7 +19689,8 @@ class OA22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1M_A12TR'
 
@@ -18091,7 +19702,8 @@ class OA22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1P4M_A12TR'
 
@@ -18103,7 +19715,8 @@ class OA22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X2M_A12TR'
 
@@ -18115,7 +19728,8 @@ class OA22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X3M_A12TR'
 
@@ -18127,7 +19741,8 @@ class OA22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X4M_A12TR'
 
@@ -18139,7 +19754,8 @@ class OA22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X6M_A12TR'
 
@@ -18151,7 +19767,8 @@ class OA22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X8M_A12TR'
 
@@ -18163,7 +19780,8 @@ class OA22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P5M_A12TR'
 
@@ -18175,7 +19793,8 @@ class OAI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P7M_A12TR'
 
@@ -18187,7 +19806,8 @@ class OAI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1M_A12TR'
 
@@ -18199,7 +19819,8 @@ class OAI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1P4M_A12TR'
 
@@ -18211,7 +19832,8 @@ class OAI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X2M_A12TR'
 
@@ -18223,7 +19845,8 @@ class OAI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X3M_A12TR'
 
@@ -18235,7 +19858,8 @@ class OAI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X4M_A12TR'
 
@@ -18247,7 +19871,8 @@ class OAI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P5M_A12TR'
 
@@ -18258,7 +19883,8 @@ class OAI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P7M_A12TR'
 
@@ -18269,7 +19895,8 @@ class OAI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1M_A12TR'
 
@@ -18280,7 +19907,8 @@ class OAI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1P4M_A12TR'
 
@@ -18291,7 +19919,8 @@ class OAI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X2M_A12TR'
 
@@ -18302,7 +19931,8 @@ class OAI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X3M_A12TR'
 
@@ -18313,7 +19943,8 @@ class OAI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X4M_A12TR'
 
@@ -18324,7 +19955,8 @@ class OAI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X6M_A12TR'
 
@@ -18335,7 +19967,8 @@ class OAI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X8M_A12TR'
 
@@ -18346,7 +19979,8 @@ class OAI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P5M_A12TR'
 
@@ -18357,7 +19991,8 @@ class OAI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P7M_A12TR'
 
@@ -18368,7 +20003,8 @@ class OAI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1M_A12TR'
 
@@ -18379,7 +20015,8 @@ class OAI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1P4M_A12TR'
 
@@ -18390,7 +20027,8 @@ class OAI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X2M_A12TR'
 
@@ -18401,7 +20039,8 @@ class OAI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X3M_A12TR'
 
@@ -18412,7 +20051,8 @@ class OAI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X4M_A12TR'
 
@@ -18423,7 +20063,8 @@ class OAI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X6M_A12TR'
 
@@ -18434,7 +20075,8 @@ class OAI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X8M_A12TR'
 
@@ -18445,7 +20087,8 @@ class OAI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P5M_A12TR'
 
@@ -18458,7 +20101,8 @@ class OAI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P7M_A12TR'
 
@@ -18471,7 +20115,8 @@ class OAI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1M_A12TR'
 
@@ -18484,7 +20129,8 @@ class OAI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1P4M_A12TR'
 
@@ -18497,7 +20143,8 @@ class OAI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X2M_A12TR'
 
@@ -18510,7 +20157,8 @@ class OAI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X3M_A12TR'
 
@@ -18523,7 +20171,8 @@ class OAI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X4M_A12TR'
 
@@ -18536,7 +20185,8 @@ class OAI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P5M_A12TR'
 
@@ -18550,7 +20200,8 @@ class OAI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P7M_A12TR'
 
@@ -18564,7 +20215,8 @@ class OAI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1M_A12TR'
 
@@ -18578,7 +20230,8 @@ class OAI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1P4M_A12TR'
 
@@ -18592,7 +20245,8 @@ class OAI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X2M_A12TR'
 
@@ -18606,7 +20260,8 @@ class OAI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X3M_A12TR'
 
@@ -18620,7 +20275,8 @@ class OAI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X4M_A12TR'
 
@@ -18634,7 +20290,8 @@ class OAI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P5M_A12TR'
 
@@ -18646,7 +20303,8 @@ class OAI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P7M_A12TR'
 
@@ -18658,7 +20316,8 @@ class OAI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1M_A12TR'
 
@@ -18670,7 +20329,8 @@ class OAI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1P4M_A12TR'
 
@@ -18682,7 +20342,8 @@ class OAI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X2M_A12TR'
 
@@ -18694,7 +20355,8 @@ class OAI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X3M_A12TR'
 
@@ -18706,7 +20368,8 @@ class OAI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X4M_A12TR'
 
@@ -18718,7 +20381,8 @@ class OAI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X6M_A12TR'
 
@@ -18730,7 +20394,8 @@ class OAI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X8M_A12TR'
 
@@ -18742,7 +20407,8 @@ class OAI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P5M_A12TR'
 
@@ -18753,7 +20419,8 @@ class OAI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P7M_A12TR'
 
@@ -18764,7 +20431,8 @@ class OAI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1M_A12TR'
 
@@ -18775,7 +20443,8 @@ class OAI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1P4M_A12TR'
 
@@ -18786,7 +20455,8 @@ class OAI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X2M_A12TR'
 
@@ -18797,7 +20467,8 @@ class OAI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X3M_A12TR'
 
@@ -18808,7 +20479,8 @@ class OAI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X4M_A12TR'
 
@@ -18819,7 +20491,8 @@ class OAI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X6M_A12TR'
 
@@ -18830,7 +20503,8 @@ class OAI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X8M_A12TR'
 
@@ -18841,7 +20515,8 @@ class OAI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P5M_A12TR'
 
@@ -18853,7 +20528,8 @@ class OAI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P7M_A12TR'
 
@@ -18865,7 +20541,8 @@ class OAI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1M_A12TR'
 
@@ -18877,7 +20554,8 @@ class OAI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1P4M_A12TR'
 
@@ -18889,7 +20567,8 @@ class OAI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X2M_A12TR'
 
@@ -18901,7 +20580,8 @@ class OAI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X3M_A12TR'
 
@@ -18913,7 +20593,8 @@ class OAI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X4M_A12TR'
 
@@ -18925,7 +20606,8 @@ class OAI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X6M_A12TR'
 
@@ -18937,7 +20619,8 @@ class OAI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P5M_A12TR'
 
@@ -18947,7 +20630,8 @@ class OR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P7M_A12TR'
 
@@ -18957,7 +20641,8 @@ class OR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X11M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X11M_A12TR'
 
@@ -18967,7 +20652,8 @@ class OR2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1M_A12TR'
 
@@ -18977,7 +20663,8 @@ class OR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1P4M_A12TR'
 
@@ -18987,7 +20674,8 @@ class OR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X2M_A12TR'
 
@@ -18997,7 +20685,8 @@ class OR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X3M_A12TR'
 
@@ -19007,7 +20696,8 @@ class OR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X4M_A12TR'
 
@@ -19017,7 +20707,8 @@ class OR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X6M_A12TR'
 
@@ -19027,7 +20718,8 @@ class OR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X8M_A12TR'
 
@@ -19037,7 +20729,8 @@ class OR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P5M_A12TR'
 
@@ -19048,7 +20741,8 @@ class OR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P7M_A12TR'
 
@@ -19059,7 +20753,8 @@ class OR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1M_A12TR'
 
@@ -19070,7 +20765,8 @@ class OR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1P4M_A12TR'
 
@@ -19081,7 +20777,8 @@ class OR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X2M_A12TR'
 
@@ -19092,7 +20789,8 @@ class OR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X3M_A12TR'
 
@@ -19103,7 +20801,8 @@ class OR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X4M_A12TR'
 
@@ -19114,7 +20813,8 @@ class OR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X6M_A12TR'
 
@@ -19125,7 +20825,8 @@ class OR3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X8M_A12TR'
 
@@ -19136,7 +20837,8 @@ class OR3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P5M_A12TR'
 
@@ -19148,7 +20850,8 @@ class OR4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P7M_A12TR'
 
@@ -19160,7 +20863,8 @@ class OR4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1M_A12TR'
 
@@ -19172,7 +20876,8 @@ class OR4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1P4M_A12TR'
 
@@ -19184,7 +20889,8 @@ class OR4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X2M_A12TR'
 
@@ -19196,7 +20902,8 @@ class OR4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X3M_A12TR'
 
@@ -19208,7 +20915,8 @@ class OR4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X4M_A12TR'
 
@@ -19220,7 +20928,8 @@ class OR4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X6M_A12TR'
 
@@ -19232,7 +20941,8 @@ class OR4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X8M_A12TR'
 
@@ -19244,7 +20954,8 @@ class OR4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P5M_A12TR'
 
@@ -19258,7 +20969,8 @@ class OR6_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P7M_A12TR'
 
@@ -19272,7 +20984,8 @@ class OR6_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1M_A12TR'
 
@@ -19286,7 +20999,8 @@ class OR6_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1P4M_A12TR'
 
@@ -19300,7 +21014,8 @@ class OR6_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X2M_A12TR'
 
@@ -19314,7 +21029,8 @@ class OR6_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X3M_A12TR'
 
@@ -19328,7 +21044,8 @@ class OR6_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X4M_A12TR'
 
@@ -19342,7 +21059,8 @@ class OR6_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X6M_A12TR'
 
@@ -19356,7 +21074,8 @@ class OR6_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(14.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P5B_A12TR'
 
@@ -19367,7 +21086,8 @@ class POSTICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P6B_A12TR'
 
@@ -19378,7 +21098,8 @@ class POSTICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P7B_A12TR'
 
@@ -19389,7 +21110,8 @@ class POSTICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P8B_A12TR'
 
@@ -19400,7 +21122,8 @@ class POSTICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X11B_A12TR'
 
@@ -19411,7 +21134,8 @@ class POSTICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X13B_A12TR'
 
@@ -19422,7 +21146,8 @@ class POSTICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X16B_A12TR'
 
@@ -19433,7 +21158,8 @@ class POSTICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1B_A12TR'
 
@@ -19444,7 +21170,8 @@ class POSTICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P2B_A12TR'
 
@@ -19455,7 +21182,8 @@ class POSTICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P4B_A12TR'
 
@@ -19466,7 +21194,8 @@ class POSTICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P7B_A12TR'
 
@@ -19477,7 +21206,8 @@ class POSTICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2B_A12TR'
 
@@ -19488,7 +21218,8 @@ class POSTICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2P5B_A12TR'
 
@@ -19499,7 +21230,8 @@ class POSTICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3B_A12TR'
 
@@ -19510,7 +21242,8 @@ class POSTICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3P5B_A12TR'
 
@@ -19521,7 +21254,8 @@ class POSTICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X4B_A12TR'
 
@@ -19532,7 +21266,8 @@ class POSTICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X5B_A12TR'
 
@@ -19543,7 +21278,8 @@ class POSTICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X6B_A12TR'
 
@@ -19554,7 +21290,8 @@ class POSTICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X7P5B_A12TR'
 
@@ -19565,7 +21302,8 @@ class POSTICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X9B_A12TR'
 
@@ -19576,7 +21314,8 @@ class POSTICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P5B_A12TR'
 
@@ -19587,7 +21326,8 @@ class PREICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P6B_A12TR'
 
@@ -19598,7 +21338,8 @@ class PREICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P7B_A12TR'
 
@@ -19609,7 +21350,8 @@ class PREICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P8B_A12TR'
 
@@ -19620,7 +21362,8 @@ class PREICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X11B_A12TR'
 
@@ -19631,7 +21374,8 @@ class PREICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X13B_A12TR'
 
@@ -19642,7 +21386,8 @@ class PREICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X16B_A12TR'
 
@@ -19653,7 +21398,8 @@ class PREICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1B_A12TR'
 
@@ -19664,7 +21410,8 @@ class PREICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P2B_A12TR'
 
@@ -19675,7 +21422,8 @@ class PREICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P4B_A12TR'
 
@@ -19686,7 +21434,8 @@ class PREICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P7B_A12TR'
 
@@ -19697,7 +21446,8 @@ class PREICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2B_A12TR'
 
@@ -19708,7 +21458,8 @@ class PREICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2P5B_A12TR'
 
@@ -19719,7 +21470,8 @@ class PREICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3B_A12TR'
 
@@ -19730,7 +21482,8 @@ class PREICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3P5B_A12TR'
 
@@ -19741,7 +21494,8 @@ class PREICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X4B_A12TR'
 
@@ -19752,7 +21506,8 @@ class PREICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X5B_A12TR'
 
@@ -19763,7 +21518,8 @@ class PREICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X6B_A12TR'
 
@@ -19774,7 +21530,8 @@ class PREICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X7P5B_A12TR'
 
@@ -19785,7 +21542,8 @@ class PREICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X9B_A12TR'
 
@@ -19796,7 +21554,8 @@ class PREICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1M_A12TR'
 
@@ -19807,7 +21566,8 @@ class RF1R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1P4M_A12TR'
 
@@ -19818,7 +21578,8 @@ class RF1R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X2M_A12TR'
 
@@ -19829,7 +21590,8 @@ class RF1R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1M_A12TR'
 
@@ -19842,7 +21604,8 @@ class RF1R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1P4M_A12TR'
 
@@ -19855,7 +21618,8 @@ class RF1R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X2M_A12TR'
 
@@ -19868,7 +21632,8 @@ class RF1R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1M_A12TR'
 
@@ -19881,7 +21646,8 @@ class RF2R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1P4M_A12TR'
 
@@ -19894,7 +21660,8 @@ class RF2R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X2M_A12TR'
 
@@ -19907,7 +21674,8 @@ class RF2R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1M_A12TR'
 
@@ -19922,7 +21690,8 @@ class RF2R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1P4M_A12TR'
 
@@ -19937,7 +21706,8 @@ class RF2R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X2M_A12TR'
 
@@ -19952,7 +21722,8 @@ class RF2R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X1M_A12TR'
 
@@ -19964,7 +21735,8 @@ class SDFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X2M_A12TR'
 
@@ -19976,7 +21748,8 @@ class SDFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X3M_A12TR'
 
@@ -19988,7 +21761,8 @@ class SDFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X1M_A12TR'
 
@@ -20001,7 +21775,8 @@ class SDFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X2M_A12TR'
 
@@ -20014,7 +21789,8 @@ class SDFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X3M_A12TR'
 
@@ -20027,7 +21803,8 @@ class SDFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X1M_A12TR'
 
@@ -20040,7 +21817,8 @@ class SDFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X2M_A12TR'
 
@@ -20053,7 +21831,8 @@ class SDFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X3M_A12TR'
 
@@ -20066,7 +21845,8 @@ class SDFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X1M_A12TR'
 
@@ -20080,7 +21860,8 @@ class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X2M_A12TR'
 
@@ -20094,7 +21875,8 @@ class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X3M_A12TR'
 
@@ -20108,7 +21890,8 @@ class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X0P5M_A12TR'
 
@@ -20120,7 +21903,8 @@ class SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X1M_A12TR'
 
@@ -20132,7 +21916,8 @@ class SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X2M_A12TR'
 
@@ -20144,7 +21929,8 @@ class SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X3M_A12TR'
 
@@ -20156,7 +21942,8 @@ class SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X0P5M_A12TR'
 
@@ -20168,7 +21955,8 @@ class SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X1M_A12TR'
 
@@ -20180,7 +21968,8 @@ class SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X2M_A12TR'
 
@@ -20192,7 +21981,8 @@ class SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X3M_A12TR'
 
@@ -20204,7 +21994,8 @@ class SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X4M_A12TR'
 
@@ -20216,7 +22007,8 @@ class SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X0P5M_A12TR'
 
@@ -20229,7 +22021,8 @@ class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X1M_A12TR'
 
@@ -20242,7 +22035,8 @@ class SDFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X2M_A12TR'
 
@@ -20255,7 +22049,8 @@ class SDFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X3M_A12TR'
 
@@ -20268,7 +22063,8 @@ class SDFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X0P5M_A12TR'
 
@@ -20281,7 +22077,8 @@ class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X1M_A12TR'
 
@@ -20294,7 +22091,8 @@ class SDFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X2M_A12TR'
 
@@ -20307,7 +22105,8 @@ class SDFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X3M_A12TR'
 
@@ -20320,7 +22119,8 @@ class SDFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X4M_A12TR'
 
@@ -20333,7 +22133,8 @@ class SDFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X0P5M_A12TR'
 
@@ -20346,7 +22147,8 @@ class SDFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X1M_A12TR'
 
@@ -20359,7 +22161,8 @@ class SDFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X2M_A12TR'
 
@@ -20372,7 +22175,8 @@ class SDFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X3M_A12TR'
 
@@ -20385,7 +22189,8 @@ class SDFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X0P5M_A12TR'
 
@@ -20398,7 +22203,8 @@ class SDFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X1M_A12TR'
 
@@ -20411,7 +22217,8 @@ class SDFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X2M_A12TR'
 
@@ -20424,7 +22231,8 @@ class SDFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X3M_A12TR'
 
@@ -20437,7 +22245,8 @@ class SDFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X4M_A12TR'
 
@@ -20450,7 +22259,8 @@ class SDFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X0P5M_A12TR'
 
@@ -20464,7 +22274,8 @@ class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X1M_A12TR'
 
@@ -20478,7 +22289,8 @@ class SDFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X2M_A12TR'
 
@@ -20492,7 +22304,8 @@ class SDFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X3M_A12TR'
 
@@ -20506,7 +22319,8 @@ class SDFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X4M_A12TR'
 
@@ -20520,7 +22334,8 @@ class SDFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X1M_A12TR'
 
@@ -20532,7 +22347,8 @@ class SDFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X2M_A12TR'
 
@@ -20544,7 +22360,8 @@ class SDFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X3M_A12TR'
 
@@ -20556,7 +22373,8 @@ class SDFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X4M_A12TR'
 
@@ -20568,7 +22386,8 @@ class SDFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class TIEHI_X1M_A12TR(ComponentXY):
 	__defaultName = 'TIEHI_X1M_A12TR'
 
@@ -20590,7 +22409,8 @@ class XNOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X0P7M_A12TR'
 
@@ -20600,7 +22420,8 @@ class XNOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1M_A12TR'
 
@@ -20610,7 +22431,8 @@ class XNOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1P4M_A12TR'
 
@@ -20620,7 +22442,8 @@ class XNOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X2M_A12TR'
 
@@ -20630,7 +22453,8 @@ class XNOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X3M_A12TR'
 
@@ -20640,7 +22464,8 @@ class XNOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X4M_A12TR'
 
@@ -20650,7 +22475,8 @@ class XNOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P5M_A12TR'
 
@@ -20661,7 +22487,8 @@ class XNOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P7M_A12TR'
 
@@ -20672,7 +22499,8 @@ class XNOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1M_A12TR'
 
@@ -20683,7 +22511,8 @@ class XNOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1P4M_A12TR'
 
@@ -20694,7 +22523,8 @@ class XNOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X2M_A12TR'
 
@@ -20705,7 +22535,8 @@ class XNOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X3M_A12TR'
 
@@ -20716,7 +22547,8 @@ class XNOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X4M_A12TR'
 
@@ -20727,7 +22559,8 @@ class XNOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P5M_A12TR'
 
@@ -20737,7 +22570,8 @@ class XOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P7M_A12TR'
 
@@ -20747,7 +22581,8 @@ class XOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1M_A12TR'
 
@@ -20757,7 +22592,8 @@ class XOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1P4M_A12TR'
 
@@ -20767,7 +22603,8 @@ class XOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X2M_A12TR'
 
@@ -20777,7 +22614,8 @@ class XOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X3M_A12TR'
 
@@ -20787,7 +22625,8 @@ class XOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X4M_A12TR'
 
@@ -20797,7 +22636,8 @@ class XOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P5M_A12TR'
 
@@ -20808,7 +22648,8 @@ class XOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P7M_A12TR'
 
@@ -20819,7 +22660,8 @@ class XOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1M_A12TR'
 
@@ -20830,7 +22672,8 @@ class XOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1P4M_A12TR'
 
@@ -20841,7 +22684,8 @@ class XOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X2M_A12TR'
 
@@ -20852,7 +22696,8 @@ class XOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X3M_A12TR'
 
@@ -20863,7 +22708,8 @@ class XOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X4M_A12TR'
 
@@ -20874,7 +22720,8 @@ class XOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X0P5M_A12TR'
 
@@ -20885,7 +22732,8 @@ class A2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X1M_A12TR'
 
@@ -20896,7 +22744,8 @@ class A2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X2M_A12TR'
 
@@ -20907,7 +22756,8 @@ class A2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQN_X3M_A12TR'
 
@@ -20918,7 +22768,8 @@ class A2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X0P5M_A12TR'
 
@@ -20929,7 +22780,8 @@ class A2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X1M_A12TR'
 
@@ -20940,7 +22792,8 @@ class A2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X2M_A12TR'
 
@@ -20951,7 +22804,8 @@ class A2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X3M_A12TR'
 
@@ -20962,7 +22816,8 @@ class A2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2DFFQ_X4M_A12TR'
 
@@ -20973,7 +22828,8 @@ class A2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X0P5M_A12TR'
 
@@ -20986,7 +22842,8 @@ class A2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X1M_A12TR'
 
@@ -20999,7 +22856,8 @@ class A2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X2M_A12TR'
 
@@ -21012,7 +22870,8 @@ class A2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQN_X3M_A12TR'
 
@@ -21025,7 +22884,8 @@ class A2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X0P5M_A12TR'
 
@@ -21038,7 +22898,8 @@ class A2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X1M_A12TR'
 
@@ -21051,7 +22912,8 @@ class A2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X2M_A12TR'
 
@@ -21064,7 +22926,8 @@ class A2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X3M_A12TR'
 
@@ -21077,7 +22940,8 @@ class A2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class A2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'A2SDFFQ_X4M_A12TR'
 
@@ -21090,7 +22954,8 @@ class A2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1M_A12TR'
 
@@ -21102,7 +22967,8 @@ class ADDFCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X1P4M_A12TR'
 
@@ -21114,7 +22980,8 @@ class ADDFCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFCIN_X2M_A12TR'
 
@@ -21126,7 +22993,8 @@ class ADDFCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1M_A12TR'
 
@@ -21138,7 +23006,8 @@ class ADDFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X1P4M_A12TR'
 
@@ -21150,7 +23019,8 @@ class ADDFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDFH_X2M_A12TR'
 
@@ -21162,7 +23032,8 @@ class ADDFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1M_A12TR'
 
@@ -21174,7 +23045,8 @@ class ADDF_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X1P4M_A12TR'
 
@@ -21186,7 +23058,8 @@ class ADDF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDF_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDF_X2M_A12TR'
 
@@ -21198,7 +23071,8 @@ class ADDF_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1M_A12TR'
 
@@ -21209,7 +23083,8 @@ class ADDH_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X1P4M_A12TR'
 
@@ -21220,7 +23095,8 @@ class ADDH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ADDH_X2M_A12TR(ComponentXY):
 	__defaultName = 'ADDH_X2M_A12TR'
 
@@ -21231,7 +23107,8 @@ class ADDH_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P5M_A12TR'
 
@@ -21241,7 +23118,8 @@ class AND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X0P7M_A12TR'
 
@@ -21251,7 +23129,8 @@ class AND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X11M_A12TR'
 
@@ -21261,7 +23140,8 @@ class AND2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1M_A12TR'
 
@@ -21271,7 +23151,8 @@ class AND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X1P4M_A12TR'
 
@@ -21281,7 +23162,8 @@ class AND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X2M_A12TR'
 
@@ -21291,7 +23173,8 @@ class AND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X3M_A12TR'
 
@@ -21301,7 +23184,8 @@ class AND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X4M_A12TR'
 
@@ -21311,7 +23195,8 @@ class AND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X6M_A12TR'
 
@@ -21321,7 +23206,8 @@ class AND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND2_X8M_A12TR'
 
@@ -21331,7 +23217,8 @@ class AND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P5M_A12TR'
 
@@ -21342,7 +23229,8 @@ class AND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X0P7M_A12TR'
 
@@ -21353,7 +23241,8 @@ class AND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X11M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X11M_A12TR'
 
@@ -21364,7 +23253,8 @@ class AND3_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1M_A12TR'
 
@@ -21375,7 +23265,8 @@ class AND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X1P4M_A12TR'
 
@@ -21386,7 +23277,8 @@ class AND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X2M_A12TR'
 
@@ -21397,7 +23289,8 @@ class AND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X3M_A12TR'
 
@@ -21408,7 +23301,8 @@ class AND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X4M_A12TR'
 
@@ -21419,7 +23313,8 @@ class AND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X6M_A12TR'
 
@@ -21430,7 +23325,8 @@ class AND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND3_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND3_X8M_A12TR'
 
@@ -21441,7 +23337,8 @@ class AND3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P5M_A12TR'
 
@@ -21453,7 +23350,8 @@ class AND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X0P7M_A12TR'
 
@@ -21465,7 +23363,8 @@ class AND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1M_A12TR'
 
@@ -21477,7 +23376,8 @@ class AND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X1P4M_A12TR'
 
@@ -21489,7 +23389,8 @@ class AND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X2M_A12TR'
 
@@ -21501,7 +23402,8 @@ class AND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X3M_A12TR'
 
@@ -21513,7 +23415,8 @@ class AND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X4M_A12TR'
 
@@ -21525,7 +23428,8 @@ class AND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X6M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X6M_A12TR'
 
@@ -21537,7 +23441,8 @@ class AND4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AND4_X8M_A12TR(ComponentXY):
 	__defaultName = 'AND4_X8M_A12TR'
 
@@ -21549,7 +23454,8 @@ class AND4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ANTENNA2_A12TR(ComponentXY):
 	__defaultName = 'ANTENNA2_A12TR'
 
@@ -21558,7 +23464,8 @@ class ANTENNA2_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P5M_A12TR'
 
@@ -21569,7 +23476,8 @@ class AO1B2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X0P7M_A12TR'
 
@@ -21580,7 +23488,8 @@ class AO1B2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1M_A12TR'
 
@@ -21591,7 +23500,8 @@ class AO1B2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X1P4M_A12TR'
 
@@ -21602,7 +23512,8 @@ class AO1B2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X2M_A12TR'
 
@@ -21613,7 +23524,8 @@ class AO1B2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X3M_A12TR'
 
@@ -21624,7 +23536,8 @@ class AO1B2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X4M_A12TR'
 
@@ -21635,7 +23548,8 @@ class AO1B2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO1B2_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO1B2_X6M_A12TR'
 
@@ -21646,7 +23560,8 @@ class AO1B2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P5M_A12TR'
 
@@ -21657,7 +23572,8 @@ class AO21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X0P7M_A12TR'
 
@@ -21668,7 +23584,8 @@ class AO21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1M_A12TR'
 
@@ -21679,7 +23596,8 @@ class AO21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X1P4M_A12TR'
 
@@ -21690,7 +23608,8 @@ class AO21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X2M_A12TR'
 
@@ -21701,7 +23620,8 @@ class AO21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X3M_A12TR'
 
@@ -21712,7 +23632,8 @@ class AO21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X4M_A12TR'
 
@@ -21723,7 +23644,8 @@ class AO21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21B_X6M_A12TR'
 
@@ -21734,7 +23656,8 @@ class AO21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P5M_A12TR'
 
@@ -21745,7 +23668,8 @@ class AO21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X0P7M_A12TR'
 
@@ -21756,7 +23680,8 @@ class AO21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1M_A12TR'
 
@@ -21767,7 +23692,8 @@ class AO21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X1P4M_A12TR'
 
@@ -21778,7 +23704,8 @@ class AO21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X2M_A12TR'
 
@@ -21789,7 +23716,8 @@ class AO21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X3M_A12TR'
 
@@ -21800,7 +23728,8 @@ class AO21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X4M_A12TR'
 
@@ -21811,7 +23740,8 @@ class AO21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO21_X6M_A12TR'
 
@@ -21822,7 +23752,8 @@ class AO21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P5M_A12TR'
 
@@ -21834,7 +23765,8 @@ class AO22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X0P7M_A12TR'
 
@@ -21846,7 +23778,8 @@ class AO22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1M_A12TR'
 
@@ -21858,7 +23791,8 @@ class AO22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X1P4M_A12TR'
 
@@ -21870,7 +23804,8 @@ class AO22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X2M_A12TR'
 
@@ -21882,7 +23817,8 @@ class AO22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X3M_A12TR'
 
@@ -21894,7 +23830,8 @@ class AO22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X4M_A12TR'
 
@@ -21906,7 +23843,8 @@ class AO22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AO22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AO22_X6M_A12TR'
 
@@ -21918,7 +23856,8 @@ class AO22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P5M_A12TR'
 
@@ -21930,7 +23869,8 @@ class AOI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X0P7M_A12TR'
 
@@ -21942,7 +23882,8 @@ class AOI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1M_A12TR'
 
@@ -21954,7 +23895,8 @@ class AOI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X1P4M_A12TR'
 
@@ -21966,7 +23908,8 @@ class AOI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X2M_A12TR'
 
@@ -21978,7 +23921,8 @@ class AOI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X3M_A12TR'
 
@@ -21990,7 +23934,8 @@ class AOI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI211_X4M_A12TR'
 
@@ -22002,7 +23947,8 @@ class AOI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P5M_A12TR'
 
@@ -22013,7 +23959,8 @@ class AOI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X0P7M_A12TR'
 
@@ -22024,7 +23971,8 @@ class AOI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1M_A12TR'
 
@@ -22035,7 +23983,8 @@ class AOI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X1P4M_A12TR'
 
@@ -22046,7 +23995,8 @@ class AOI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X2M_A12TR'
 
@@ -22057,7 +24007,8 @@ class AOI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X3M_A12TR'
 
@@ -22068,7 +24019,8 @@ class AOI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X4M_A12TR'
 
@@ -22079,7 +24031,8 @@ class AOI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X6M_A12TR'
 
@@ -22090,7 +24043,8 @@ class AOI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21B_X8M_A12TR'
 
@@ -22101,7 +24055,8 @@ class AOI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P5M_A12TR'
 
@@ -22112,7 +24067,8 @@ class AOI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X0P7M_A12TR'
 
@@ -22123,7 +24079,8 @@ class AOI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1M_A12TR'
 
@@ -22134,7 +24091,8 @@ class AOI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X1P4M_A12TR'
 
@@ -22145,7 +24103,8 @@ class AOI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X2M_A12TR'
 
@@ -22156,7 +24115,8 @@ class AOI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X3M_A12TR'
 
@@ -22167,7 +24127,8 @@ class AOI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X4M_A12TR'
 
@@ -22178,7 +24139,8 @@ class AOI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X6M_A12TR'
 
@@ -22189,7 +24151,8 @@ class AOI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI21_X8M_A12TR'
 
@@ -22200,7 +24163,8 @@ class AOI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P5M_A12TR'
 
@@ -22213,7 +24177,8 @@ class AOI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X0P7M_A12TR'
 
@@ -22226,7 +24191,8 @@ class AOI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1M_A12TR'
 
@@ -22239,7 +24205,8 @@ class AOI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X1P4M_A12TR'
 
@@ -22252,7 +24219,8 @@ class AOI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X2M_A12TR'
 
@@ -22265,7 +24233,8 @@ class AOI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X3M_A12TR'
 
@@ -22278,7 +24247,8 @@ class AOI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI221_X4M_A12TR'
 
@@ -22291,7 +24261,8 @@ class AOI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P5M_A12TR'
 
@@ -22305,7 +24276,8 @@ class AOI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X0P7M_A12TR'
 
@@ -22319,7 +24291,8 @@ class AOI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1M_A12TR'
 
@@ -22333,7 +24306,8 @@ class AOI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X1P4M_A12TR'
 
@@ -22347,7 +24321,8 @@ class AOI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X2M_A12TR'
 
@@ -22361,7 +24336,8 @@ class AOI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X3M_A12TR'
 
@@ -22375,7 +24351,8 @@ class AOI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI222_X4M_A12TR'
 
@@ -22389,7 +24366,8 @@ class AOI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P5M_A12TR'
 
@@ -22401,7 +24379,8 @@ class AOI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X0P7M_A12TR'
 
@@ -22413,7 +24392,8 @@ class AOI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1M_A12TR'
 
@@ -22425,7 +24405,8 @@ class AOI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X1P4M_A12TR'
 
@@ -22437,7 +24418,8 @@ class AOI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X2M_A12TR'
 
@@ -22449,7 +24431,8 @@ class AOI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X3M_A12TR'
 
@@ -22461,7 +24444,8 @@ class AOI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X4M_A12TR'
 
@@ -22473,7 +24457,8 @@ class AOI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X6M_A12TR'
 
@@ -22485,7 +24470,8 @@ class AOI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI22_X8M_A12TR'
 
@@ -22497,7 +24483,8 @@ class AOI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P5M_A12TR'
 
@@ -22508,7 +24495,8 @@ class AOI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X0P7M_A12TR'
 
@@ -22519,7 +24507,8 @@ class AOI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1M_A12TR'
 
@@ -22530,7 +24519,8 @@ class AOI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X1P4M_A12TR'
 
@@ -22541,7 +24531,8 @@ class AOI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X2M_A12TR'
 
@@ -22552,7 +24543,8 @@ class AOI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X3M_A12TR'
 
@@ -22563,7 +24555,8 @@ class AOI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X4M_A12TR'
 
@@ -22574,7 +24567,8 @@ class AOI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X6M_A12TR'
 
@@ -22585,7 +24579,8 @@ class AOI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'AOI2XB1_X8M_A12TR'
 
@@ -22596,7 +24591,8 @@ class AOI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P5M_A12TR'
 
@@ -22608,7 +24604,8 @@ class AOI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X0P7M_A12TR'
 
@@ -22620,7 +24617,8 @@ class AOI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1M_A12TR'
 
@@ -22632,7 +24630,8 @@ class AOI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X1P4M_A12TR'
 
@@ -22644,7 +24643,8 @@ class AOI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X2M_A12TR'
 
@@ -22656,7 +24656,8 @@ class AOI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X3M_A12TR'
 
@@ -22668,7 +24669,8 @@ class AOI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X4M_A12TR'
 
@@ -22680,7 +24682,8 @@ class AOI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI31_X6M_A12TR'
 
@@ -22692,7 +24695,8 @@ class AOI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P5M_A12TR'
 
@@ -22705,7 +24709,8 @@ class AOI32_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X0P7M_A12TR'
 
@@ -22718,7 +24723,8 @@ class AOI32_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1M_A12TR'
 
@@ -22731,7 +24737,8 @@ class AOI32_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X1P4M_A12TR'
 
@@ -22744,7 +24751,8 @@ class AOI32_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X2M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X2M_A12TR'
 
@@ -22757,7 +24765,8 @@ class AOI32_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X3M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X3M_A12TR'
 
@@ -22770,7 +24779,8 @@ class AOI32_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X4M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X4M_A12TR'
 
@@ -22783,7 +24793,8 @@ class AOI32_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class AOI32_X6M_A12TR(ComponentXY):
 	__defaultName = 'AOI32_X6M_A12TR'
 
@@ -22796,7 +24807,8 @@ class AOI32_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X11M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X11M_A12TR'
 
@@ -22809,7 +24821,8 @@ class BENC_X11M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(15.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X16M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X16M_A12TR'
 
@@ -22822,7 +24835,8 @@ class BENC_X16M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(21.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X2M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X2M_A12TR'
 
@@ -22835,7 +24849,8 @@ class BENC_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X3M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X3M_A12TR'
 
@@ -22848,7 +24863,8 @@ class BENC_X3M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X4M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X4M_A12TR'
 
@@ -22861,7 +24877,8 @@ class BENC_X4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X6M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X6M_A12TR'
 
@@ -22874,7 +24891,8 @@ class BENC_X6M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(11, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BENC_X8M_A12TR(ComponentXY):
 	__defaultName = 'BENC_X8M_A12TR'
 
@@ -22887,7 +24905,8 @@ class BENC_X8M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(12.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X0P7M_A12TR'
 
@@ -22900,7 +24919,8 @@ class BMXIT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1M_A12TR'
 
@@ -22913,7 +24933,8 @@ class BMXIT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X1P4M_A12TR'
 
@@ -22926,7 +24947,8 @@ class BMXIT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXIT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXIT_X2M_A12TR'
 
@@ -22939,7 +24961,8 @@ class BMXIT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X0P7M_A12TR'
 
@@ -22952,7 +24975,8 @@ class BMXT_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1M_A12TR'
 
@@ -22965,7 +24989,8 @@ class BMXT_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X1P4M_A12TR'
 
@@ -22978,7 +25003,8 @@ class BMXT_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BMXT_X2M_A12TR(ComponentXY):
 	__defaultName = 'BMXT_X2M_A12TR'
 
@@ -22991,7 +25017,8 @@ class BMXT_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P7M_A12TR'
 
@@ -23000,7 +25027,8 @@ class BUFH_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X0P8M_A12TR'
 
@@ -23009,7 +25037,8 @@ class BUFH_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X11M_A12TR'
 
@@ -23018,7 +25047,8 @@ class BUFH_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X13M_A12TR'
 
@@ -23027,7 +25057,8 @@ class BUFH_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X16M_A12TR'
 
@@ -23036,7 +25067,8 @@ class BUFH_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1M_A12TR'
 
@@ -23045,7 +25077,8 @@ class BUFH_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P2M_A12TR'
 
@@ -23054,7 +25087,8 @@ class BUFH_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P4M_A12TR'
 
@@ -23063,7 +25097,8 @@ class BUFH_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X1P7M_A12TR'
 
@@ -23072,7 +25107,8 @@ class BUFH_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2M_A12TR'
 
@@ -23081,7 +25117,8 @@ class BUFH_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X2P5M_A12TR'
 
@@ -23090,7 +25127,8 @@ class BUFH_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3M_A12TR'
 
@@ -23099,7 +25137,8 @@ class BUFH_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X3P5M_A12TR'
 
@@ -23108,7 +25147,8 @@ class BUFH_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X4M_A12TR'
 
@@ -23117,7 +25157,8 @@ class BUFH_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X5M_A12TR'
 
@@ -23126,7 +25167,8 @@ class BUFH_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X6M_A12TR'
 
@@ -23135,7 +25177,8 @@ class BUFH_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X7P5M_A12TR'
 
@@ -23144,7 +25187,8 @@ class BUFH_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFH_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUFH_X9M_A12TR'
 
@@ -23153,7 +25197,8 @@ class BUFH_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X11M_A12TR'
 
@@ -23163,7 +25208,8 @@ class BUFZ_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X16M_A12TR'
 
@@ -23173,7 +25219,8 @@ class BUFZ_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1M_A12TR'
 
@@ -23183,7 +25230,8 @@ class BUFZ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X1P4M_A12TR'
 
@@ -23193,7 +25241,8 @@ class BUFZ_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X2M_A12TR'
 
@@ -23203,7 +25252,8 @@ class BUFZ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X3M_A12TR'
 
@@ -23213,7 +25263,8 @@ class BUFZ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X4M_A12TR'
 
@@ -23223,7 +25274,8 @@ class BUFZ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X6M_A12TR'
 
@@ -23233,7 +25285,8 @@ class BUFZ_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUFZ_X8M_A12TR(ComponentXY):
 	__defaultName = 'BUFZ_X8M_A12TR'
 
@@ -23243,7 +25296,8 @@ class BUFZ_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7B_A12TR'
 
@@ -23252,7 +25306,8 @@ class BUF_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P7M_A12TR'
 
@@ -23261,7 +25316,8 @@ class BUF_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8B_A12TR'
 
@@ -23270,7 +25326,8 @@ class BUF_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X0P8M_A12TR'
 
@@ -23279,7 +25336,8 @@ class BUF_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11B_A12TR'
 
@@ -23288,7 +25346,8 @@ class BUF_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X11M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X11M_A12TR'
 
@@ -23297,7 +25356,8 @@ class BUF_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13B_A12TR'
 
@@ -23306,7 +25366,8 @@ class BUF_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X13M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X13M_A12TR'
 
@@ -23315,7 +25376,8 @@ class BUF_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16B_A12TR'
 
@@ -23324,7 +25386,8 @@ class BUF_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X16M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X16M_A12TR'
 
@@ -23333,7 +25396,8 @@ class BUF_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1B_A12TR'
 
@@ -23342,7 +25406,8 @@ class BUF_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1M_A12TR'
 
@@ -23351,7 +25416,8 @@ class BUF_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2B_A12TR'
 
@@ -23360,7 +25426,8 @@ class BUF_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P2M_A12TR'
 
@@ -23369,7 +25436,8 @@ class BUF_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4B_A12TR'
 
@@ -23378,7 +25446,8 @@ class BUF_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P4M_A12TR'
 
@@ -23387,7 +25456,8 @@ class BUF_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7B_A12TR'
 
@@ -23396,7 +25466,8 @@ class BUF_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X1P7M_A12TR'
 
@@ -23405,7 +25476,8 @@ class BUF_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2B_A12TR'
 
@@ -23414,7 +25486,8 @@ class BUF_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2M_A12TR'
 
@@ -23423,7 +25496,8 @@ class BUF_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5B_A12TR'
 
@@ -23432,7 +25506,8 @@ class BUF_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X2P5M_A12TR'
 
@@ -23441,7 +25516,8 @@ class BUF_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3B_A12TR'
 
@@ -23450,7 +25526,8 @@ class BUF_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3M_A12TR'
 
@@ -23459,7 +25536,8 @@ class BUF_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5B_A12TR'
 
@@ -23468,7 +25546,8 @@ class BUF_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X3P5M_A12TR'
 
@@ -23477,7 +25556,8 @@ class BUF_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4B_A12TR'
 
@@ -23486,7 +25566,8 @@ class BUF_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X4M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X4M_A12TR'
 
@@ -23495,7 +25576,8 @@ class BUF_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5B_A12TR'
 
@@ -23504,7 +25586,8 @@ class BUF_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X5M_A12TR'
 
@@ -23513,7 +25596,8 @@ class BUF_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6B_A12TR'
 
@@ -23522,7 +25606,8 @@ class BUF_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X6M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X6M_A12TR'
 
@@ -23531,7 +25616,8 @@ class BUF_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5B_A12TR'
 
@@ -23540,7 +25626,8 @@ class BUF_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X7P5M_A12TR'
 
@@ -23549,7 +25636,8 @@ class BUF_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9B_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9B_A12TR'
 
@@ -23558,7 +25646,8 @@ class BUF_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class BUF_X9M_A12TR(ComponentXY):
 	__defaultName = 'BUF_X9M_A12TR'
 
@@ -23567,7 +25656,8 @@ class BUF_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1M_A12TR'
 
@@ -23578,7 +25668,8 @@ class CGENCIN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X1P4M_A12TR'
 
@@ -23589,7 +25680,8 @@ class CGENCIN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCIN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCIN_X2M_A12TR'
 
@@ -23600,7 +25692,8 @@ class CGENCIN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1M_A12TR'
 
@@ -23611,7 +25704,8 @@ class CGENCON_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X1P4M_A12TR'
 
@@ -23622,7 +25716,8 @@ class CGENCON_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENCON_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENCON_X2M_A12TR'
 
@@ -23633,7 +25728,8 @@ class CGENCON_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1M_A12TR'
 
@@ -23644,7 +25740,8 @@ class CGENI_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X1P4M_A12TR'
 
@@ -23655,7 +25752,8 @@ class CGENI_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGENI_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGENI_X2M_A12TR'
 
@@ -23666,7 +25764,8 @@ class CGENI_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1M_A12TR'
 
@@ -23677,7 +25776,8 @@ class CGEN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X1P4M_A12TR'
 
@@ -23688,7 +25788,8 @@ class CGEN_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CGEN_X2M_A12TR(ComponentXY):
 	__defaultName = 'CGEN_X2M_A12TR'
 
@@ -23699,7 +25800,8 @@ class CGEN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1M_A12TR'
 
@@ -23714,7 +25816,8 @@ class CMPR42_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X1P4M_A12TR'
 
@@ -23729,7 +25832,8 @@ class CMPR42_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class CMPR42_X2M_A12TR(ComponentXY):
 	__defaultName = 'CMPR42_X2M_A12TR'
 
@@ -23744,7 +25848,8 @@ class CMPR42_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out2) )
 		self.add_pin(Output(out3) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X1M_A12TR'
 
@@ -23754,7 +25859,8 @@ class DFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X2M_A12TR'
 
@@ -23764,7 +25870,8 @@ class DFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNQ_X3M_A12TR'
 
@@ -23774,7 +25881,8 @@ class DFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X1M_A12TR'
 
@@ -23785,7 +25893,8 @@ class DFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X2M_A12TR'
 
@@ -23796,7 +25905,8 @@ class DFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNRPQ_X3M_A12TR'
 
@@ -23807,7 +25917,8 @@ class DFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X1M_A12TR'
 
@@ -23818,7 +25929,8 @@ class DFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X2M_A12TR'
 
@@ -23829,7 +25941,8 @@ class DFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSQ_X3M_A12TR'
 
@@ -23840,7 +25953,8 @@ class DFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X1M_A12TR'
 
@@ -23852,7 +25966,8 @@ class DFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X2M_A12TR'
 
@@ -23864,7 +25979,8 @@ class DFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFNSRPQ_X3M_A12TR'
 
@@ -23876,7 +25992,8 @@ class DFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X0P5M_A12TR'
 
@@ -23886,7 +26003,8 @@ class DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X1M_A12TR'
 
@@ -23896,7 +26014,8 @@ class DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X2M_A12TR'
 
@@ -23906,7 +26025,8 @@ class DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQN_X3M_A12TR'
 
@@ -23916,7 +26036,8 @@ class DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X0P5M_A12TR'
 
@@ -23926,7 +26047,8 @@ class DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X1M_A12TR'
 
@@ -23936,7 +26058,8 @@ class DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X2M_A12TR'
 
@@ -23946,7 +26069,8 @@ class DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X3M_A12TR'
 
@@ -23956,7 +26080,8 @@ class DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFQ_X4M_A12TR'
 
@@ -23966,7 +26091,8 @@ class DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X0P5M_A12TR'
 
@@ -23977,7 +26103,8 @@ class DFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X1M_A12TR'
 
@@ -23988,7 +26115,8 @@ class DFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X2M_A12TR'
 
@@ -23999,7 +26127,8 @@ class DFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQN_X3M_A12TR'
 
@@ -24010,7 +26139,8 @@ class DFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X0P5M_A12TR'
 
@@ -24021,7 +26151,8 @@ class DFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X1M_A12TR'
 
@@ -24032,7 +26163,8 @@ class DFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X2M_A12TR'
 
@@ -24043,7 +26175,8 @@ class DFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X3M_A12TR'
 
@@ -24054,7 +26187,8 @@ class DFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFRPQ_X4M_A12TR'
 
@@ -24065,7 +26199,8 @@ class DFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X0P5M_A12TR'
 
@@ -24076,7 +26211,8 @@ class DFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X1M_A12TR'
 
@@ -24087,7 +26223,8 @@ class DFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X2M_A12TR'
 
@@ -24098,7 +26235,8 @@ class DFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQN_X3M_A12TR'
 
@@ -24109,7 +26247,8 @@ class DFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X0P5M_A12TR'
 
@@ -24120,7 +26259,8 @@ class DFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X1M_A12TR'
 
@@ -24131,7 +26271,8 @@ class DFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X2M_A12TR'
 
@@ -24142,7 +26283,8 @@ class DFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X3M_A12TR'
 
@@ -24153,7 +26295,8 @@ class DFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSQ_X4M_A12TR'
 
@@ -24164,7 +26307,8 @@ class DFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X0P5M_A12TR'
 
@@ -24176,7 +26320,8 @@ class DFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X1M_A12TR'
 
@@ -24188,7 +26333,8 @@ class DFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X2M_A12TR'
 
@@ -24200,7 +26346,8 @@ class DFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X3M_A12TR'
 
@@ -24212,7 +26359,8 @@ class DFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFSRPQ_X4M_A12TR'
 
@@ -24224,7 +26372,8 @@ class DFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X1M_A12TR'
 
@@ -24234,7 +26383,8 @@ class DFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X2M_A12TR'
 
@@ -24244,7 +26394,8 @@ class DFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X3M_A12TR'
 
@@ -24254,7 +26405,8 @@ class DFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'DFFYQ_X4M_A12TR'
 
@@ -24264,7 +26416,8 @@ class DFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X0P5M_A12TR'
 
@@ -24273,7 +26426,8 @@ class DLY2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X1M_A12TR'
 
@@ -24282,7 +26436,8 @@ class DLY2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X2M_A12TR'
 
@@ -24291,7 +26446,8 @@ class DLY2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY2_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY2_X4M_A12TR'
 
@@ -24300,7 +26456,8 @@ class DLY2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X0P5M_A12TR'
 
@@ -24309,7 +26466,8 @@ class DLY4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X1M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X1M_A12TR'
 
@@ -24318,7 +26476,8 @@ class DLY4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X2M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X2M_A12TR'
 
@@ -24327,7 +26486,8 @@ class DLY4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class DLY4_X4M_A12TR(ComponentXY):
 	__defaultName = 'DLY4_X4M_A12TR'
 
@@ -24336,7 +26496,8 @@ class DLY4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X0P5M_A12TR'
 
@@ -24347,7 +26508,8 @@ class EDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X1M_A12TR'
 
@@ -24358,7 +26520,8 @@ class EDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X2M_A12TR'
 
@@ -24369,7 +26532,8 @@ class EDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQN_X3M_A12TR'
 
@@ -24380,7 +26544,8 @@ class EDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X0P5M_A12TR'
 
@@ -24391,7 +26556,8 @@ class EDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X1M_A12TR'
 
@@ -24402,7 +26568,8 @@ class EDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X2M_A12TR'
 
@@ -24413,7 +26580,8 @@ class EDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class EDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'EDFFQ_X3M_A12TR'
 
@@ -24424,7 +26592,8 @@ class EDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ENDCAPTIE2_A12TR(ComponentXY):
 	__defaultName = 'ENDCAPTIE2_A12TR'
 
@@ -24441,7 +26610,8 @@ class ESDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X1M_A12TR'
 
@@ -24454,7 +26624,8 @@ class ESDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X2M_A12TR'
 
@@ -24467,7 +26638,8 @@ class ESDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQN_X3M_A12TR'
 
@@ -24480,7 +26652,8 @@ class ESDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X0P5M_A12TR'
 
@@ -24493,7 +26666,8 @@ class ESDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X1M_A12TR'
 
@@ -24506,7 +26680,8 @@ class ESDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X2M_A12TR'
 
@@ -24519,7 +26694,8 @@ class ESDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class ESDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'ESDFFQ_X3M_A12TR'
 
@@ -24532,7 +26708,8 @@ class ESDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FILL128_A12TR(ComponentXY):
 	__defaultName = 'FILL128_A12TR'
 
@@ -24693,7 +26870,8 @@ class FRICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P6B_A12TR'
 
@@ -24702,7 +26880,8 @@ class FRICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P7B_A12TR'
 
@@ -24711,7 +26890,8 @@ class FRICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X0P8B_A12TR'
 
@@ -24720,7 +26900,8 @@ class FRICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X11B_A12TR'
 
@@ -24729,7 +26910,8 @@ class FRICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X13B_A12TR'
 
@@ -24738,7 +26920,8 @@ class FRICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X16B_A12TR'
 
@@ -24747,7 +26930,8 @@ class FRICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1B_A12TR'
 
@@ -24756,7 +26940,8 @@ class FRICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P2B_A12TR'
 
@@ -24765,7 +26950,8 @@ class FRICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P4B_A12TR'
 
@@ -24774,7 +26960,8 @@ class FRICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X1P7B_A12TR'
 
@@ -24783,7 +26970,8 @@ class FRICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2B_A12TR'
 
@@ -24792,7 +26980,8 @@ class FRICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X2P5B_A12TR'
 
@@ -24801,7 +26990,8 @@ class FRICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3B_A12TR'
 
@@ -24810,7 +27000,8 @@ class FRICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X3P5B_A12TR'
 
@@ -24819,7 +27010,8 @@ class FRICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X4B_A12TR'
 
@@ -24828,7 +27020,8 @@ class FRICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X5B_A12TR'
 
@@ -24837,7 +27030,8 @@ class FRICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X6B_A12TR'
 
@@ -24846,7 +27040,8 @@ class FRICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X7P5B_A12TR'
 
@@ -24855,7 +27050,8 @@ class FRICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class FRICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'FRICG_X9B_A12TR'
 
@@ -24864,7 +27060,8 @@ class FRICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5B_A12TR'
 
@@ -24873,7 +27070,8 @@ class INV_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P5M_A12TR'
 
@@ -24882,7 +27080,8 @@ class INV_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6B_A12TR'
 
@@ -24891,7 +27090,8 @@ class INV_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P6M_A12TR'
 
@@ -24900,7 +27100,8 @@ class INV_X0P6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7B_A12TR'
 
@@ -24909,7 +27110,8 @@ class INV_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P7M_A12TR'
 
@@ -24918,7 +27120,8 @@ class INV_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8B_A12TR'
 
@@ -24927,7 +27130,8 @@ class INV_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X0P8M_A12TR(ComponentXY):
 	__defaultName = 'INV_X0P8M_A12TR'
 
@@ -24936,7 +27140,8 @@ class INV_X0P8M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11B_A12TR(ComponentXY):
 	__defaultName = 'INV_X11B_A12TR'
 
@@ -24945,7 +27150,8 @@ class INV_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X11M_A12TR(ComponentXY):
 	__defaultName = 'INV_X11M_A12TR'
 
@@ -24954,7 +27160,8 @@ class INV_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13B_A12TR(ComponentXY):
 	__defaultName = 'INV_X13B_A12TR'
 
@@ -24963,7 +27170,8 @@ class INV_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X13M_A12TR(ComponentXY):
 	__defaultName = 'INV_X13M_A12TR'
 
@@ -24972,7 +27180,8 @@ class INV_X13M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16B_A12TR(ComponentXY):
 	__defaultName = 'INV_X16B_A12TR'
 
@@ -24981,7 +27190,8 @@ class INV_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X16M_A12TR(ComponentXY):
 	__defaultName = 'INV_X16M_A12TR'
 
@@ -24990,7 +27200,8 @@ class INV_X16M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1B_A12TR'
 
@@ -24999,7 +27210,8 @@ class INV_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1M_A12TR'
 
@@ -25008,7 +27220,8 @@ class INV_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2B_A12TR'
 
@@ -25017,7 +27230,8 @@ class INV_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P2M_A12TR'
 
@@ -25026,7 +27240,8 @@ class INV_X1P2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4B_A12TR'
 
@@ -25035,7 +27250,8 @@ class INV_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P4M_A12TR'
 
@@ -25044,7 +27260,8 @@ class INV_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7B_A12TR'
 
@@ -25053,7 +27270,8 @@ class INV_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X1P7M_A12TR(ComponentXY):
 	__defaultName = 'INV_X1P7M_A12TR'
 
@@ -25062,7 +27280,8 @@ class INV_X1P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2B_A12TR'
 
@@ -25071,7 +27290,8 @@ class INV_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2M_A12TR'
 
@@ -25080,7 +27300,8 @@ class INV_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5B_A12TR'
 
@@ -25089,7 +27310,8 @@ class INV_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X2P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X2P5M_A12TR'
 
@@ -25098,7 +27320,8 @@ class INV_X2P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3B_A12TR'
 
@@ -25107,7 +27330,8 @@ class INV_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3M_A12TR'
 
@@ -25116,7 +27340,8 @@ class INV_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5B_A12TR'
 
@@ -25125,7 +27350,8 @@ class INV_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X3P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X3P5M_A12TR'
 
@@ -25134,7 +27360,8 @@ class INV_X3P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4B_A12TR(ComponentXY):
 	__defaultName = 'INV_X4B_A12TR'
 
@@ -25143,7 +27370,8 @@ class INV_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X4M_A12TR(ComponentXY):
 	__defaultName = 'INV_X4M_A12TR'
 
@@ -25152,7 +27380,8 @@ class INV_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X5B_A12TR'
 
@@ -25161,7 +27390,8 @@ class INV_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X5M_A12TR'
 
@@ -25170,7 +27400,8 @@ class INV_X5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6B_A12TR(ComponentXY):
 	__defaultName = 'INV_X6B_A12TR'
 
@@ -25179,7 +27410,8 @@ class INV_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X6M_A12TR(ComponentXY):
 	__defaultName = 'INV_X6M_A12TR'
 
@@ -25188,7 +27420,8 @@ class INV_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5B_A12TR'
 
@@ -25197,7 +27430,8 @@ class INV_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X7P5M_A12TR(ComponentXY):
 	__defaultName = 'INV_X7P5M_A12TR'
 
@@ -25206,7 +27440,8 @@ class INV_X7P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9B_A12TR(ComponentXY):
 	__defaultName = 'INV_X9B_A12TR'
 
@@ -25215,7 +27450,8 @@ class INV_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class INV_X9M_A12TR(ComponentXY):
 	__defaultName = 'INV_X9M_A12TR'
 
@@ -25224,7 +27460,8 @@ class INV_X9M_A12TR(ComponentXY):
 		self.add_pin(Input(in1) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X0P5M_A12TR'
 
@@ -25234,7 +27471,8 @@ class LATNQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X1M_A12TR'
 
@@ -25244,7 +27482,8 @@ class LATNQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X2M_A12TR'
 
@@ -25254,7 +27493,8 @@ class LATNQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X3M_A12TR'
 
@@ -25264,7 +27504,8 @@ class LATNQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNQN_X4M_A12TR'
 
@@ -25274,7 +27515,8 @@ class LATNQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X0P5M_A12TR'
 
@@ -25284,7 +27526,8 @@ class LATNQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X1M_A12TR'
 
@@ -25294,7 +27537,8 @@ class LATNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X2M_A12TR'
 
@@ -25304,7 +27548,8 @@ class LATNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNQ_X3M_A12TR'
 
@@ -25314,7 +27559,8 @@ class LATNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X0P5M_A12TR'
 
@@ -25325,7 +27571,8 @@ class LATNRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X1M_A12TR'
 
@@ -25336,7 +27583,8 @@ class LATNRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X2M_A12TR'
 
@@ -25347,7 +27595,8 @@ class LATNRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X3M_A12TR'
 
@@ -25358,7 +27607,8 @@ class LATNRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNRPQN_X4M_A12TR'
 
@@ -25369,7 +27619,8 @@ class LATNRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X0P5M_A12TR'
 
@@ -25380,7 +27631,8 @@ class LATNRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X1M_A12TR'
 
@@ -25391,7 +27643,8 @@ class LATNRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X2M_A12TR'
 
@@ -25402,7 +27655,8 @@ class LATNRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNRQ_X3M_A12TR'
 
@@ -25413,7 +27667,8 @@ class LATNRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X0P5M_A12TR'
 
@@ -25424,7 +27679,8 @@ class LATNSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X1M_A12TR'
 
@@ -25435,7 +27691,8 @@ class LATNSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X2M_A12TR'
 
@@ -25446,7 +27703,8 @@ class LATNSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSPQ_X3M_A12TR'
 
@@ -25457,7 +27715,8 @@ class LATNSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X0P5M_A12TR'
 
@@ -25468,7 +27727,8 @@ class LATNSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X1M_A12TR'
 
@@ -25479,7 +27739,8 @@ class LATNSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X2M_A12TR'
 
@@ -25490,7 +27751,8 @@ class LATNSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X3M_A12TR'
 
@@ -25501,7 +27763,8 @@ class LATNSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATNSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATNSQN_X4M_A12TR'
 
@@ -25512,7 +27775,8 @@ class LATNSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X0P5M_A12TR'
 
@@ -25522,7 +27786,8 @@ class LATQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X1M_A12TR'
 
@@ -25532,7 +27797,8 @@ class LATQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X2M_A12TR'
 
@@ -25542,7 +27808,8 @@ class LATQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X3M_A12TR'
 
@@ -25552,7 +27819,8 @@ class LATQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATQN_X4M_A12TR'
 
@@ -25562,7 +27830,8 @@ class LATQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X0P5M_A12TR'
 
@@ -25572,7 +27841,8 @@ class LATQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X1M_A12TR'
 
@@ -25582,7 +27852,8 @@ class LATQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X2M_A12TR'
 
@@ -25592,7 +27863,8 @@ class LATQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATQ_X3M_A12TR'
 
@@ -25602,7 +27874,8 @@ class LATQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X0P5M_A12TR'
 
@@ -25613,7 +27886,8 @@ class LATRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X1M_A12TR'
 
@@ -25624,7 +27898,8 @@ class LATRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X2M_A12TR'
 
@@ -25635,7 +27910,8 @@ class LATRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X3M_A12TR'
 
@@ -25646,7 +27922,8 @@ class LATRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRPQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATRPQN_X4M_A12TR'
 
@@ -25657,7 +27934,8 @@ class LATRPQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X0P5M_A12TR'
 
@@ -25668,7 +27946,8 @@ class LATRQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X1M_A12TR'
 
@@ -25679,7 +27958,8 @@ class LATRQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X2M_A12TR'
 
@@ -25690,7 +27970,8 @@ class LATRQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATRQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATRQ_X3M_A12TR'
 
@@ -25701,7 +27982,8 @@ class LATRQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X0P5M_A12TR'
 
@@ -25712,7 +27994,8 @@ class LATSPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X1M_A12TR'
 
@@ -25723,7 +28006,8 @@ class LATSPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X2M_A12TR'
 
@@ -25734,7 +28018,8 @@ class LATSPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSPQ_X3M_A12TR'
 
@@ -25745,7 +28030,8 @@ class LATSPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X0P5M_A12TR'
 
@@ -25756,7 +28042,8 @@ class LATSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X1M_A12TR'
 
@@ -25767,7 +28054,8 @@ class LATSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X2M_A12TR'
 
@@ -25778,7 +28066,8 @@ class LATSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X3M_A12TR'
 
@@ -25789,7 +28078,8 @@ class LATSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class LATSQN_X4M_A12TR(ComponentXY):
 	__defaultName = 'LATSQN_X4M_A12TR'
 
@@ -25800,7 +28090,8 @@ class LATSQN_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X0P5M_A12TR'
 
@@ -25812,7 +28103,8 @@ class M2DFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X1M_A12TR'
 
@@ -25824,7 +28116,8 @@ class M2DFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X2M_A12TR'
 
@@ -25836,7 +28129,8 @@ class M2DFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQN_X3M_A12TR'
 
@@ -25848,7 +28142,8 @@ class M2DFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X0P5M_A12TR'
 
@@ -25860,7 +28155,8 @@ class M2DFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X1M_A12TR'
 
@@ -25872,7 +28168,8 @@ class M2DFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X2M_A12TR'
 
@@ -25884,7 +28181,8 @@ class M2DFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X3M_A12TR'
 
@@ -25896,7 +28194,8 @@ class M2DFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2DFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2DFFQ_X4M_A12TR'
 
@@ -25908,7 +28207,8 @@ class M2DFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X0P5M_A12TR'
 
@@ -25922,7 +28222,8 @@ class M2SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X1M_A12TR'
 
@@ -25936,7 +28237,8 @@ class M2SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X2M_A12TR'
 
@@ -25950,7 +28252,8 @@ class M2SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQN_X3M_A12TR'
 
@@ -25964,7 +28267,8 @@ class M2SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X0P5M_A12TR'
 
@@ -25978,7 +28282,8 @@ class M2SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X1M_A12TR'
 
@@ -25992,7 +28297,8 @@ class M2SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X2M_A12TR'
 
@@ -26006,7 +28312,8 @@ class M2SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X3M_A12TR'
 
@@ -26020,7 +28327,8 @@ class M2SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class M2SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'M2SDFFQ_X4M_A12TR'
 
@@ -26034,7 +28342,8 @@ class M2SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5B_A12TR'
 
@@ -26045,7 +28354,8 @@ class MX2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P5M_A12TR'
 
@@ -26056,7 +28366,8 @@ class MX2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7B_A12TR'
 
@@ -26067,7 +28378,8 @@ class MX2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X0P7M_A12TR'
 
@@ -26078,7 +28390,8 @@ class MX2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1B_A12TR'
 
@@ -26089,7 +28402,8 @@ class MX2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1M_A12TR'
 
@@ -26100,7 +28414,8 @@ class MX2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4B_A12TR'
 
@@ -26111,7 +28426,8 @@ class MX2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X1P4M_A12TR'
 
@@ -26122,7 +28438,8 @@ class MX2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2B_A12TR'
 
@@ -26133,7 +28450,8 @@ class MX2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X2M_A12TR'
 
@@ -26144,7 +28462,8 @@ class MX2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3B_A12TR'
 
@@ -26155,7 +28474,8 @@ class MX2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X3M_A12TR'
 
@@ -26166,7 +28486,8 @@ class MX2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4B_A12TR'
 
@@ -26177,7 +28498,8 @@ class MX2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X4M_A12TR'
 
@@ -26188,7 +28510,8 @@ class MX2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6B_A12TR'
 
@@ -26199,7 +28522,8 @@ class MX2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MX2_X6M_A12TR'
 
@@ -26210,7 +28534,8 @@ class MX2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MX2_X8B_A12TR(ComponentXY):
 	__defaultName = 'MX2_X8B_A12TR'
 
@@ -26221,7 +28546,8 @@ class MX2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P5M_A12TR'
 
@@ -26232,7 +28558,8 @@ class MXIT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X0P7M_A12TR'
 
@@ -26243,7 +28570,8 @@ class MXIT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1M_A12TR'
 
@@ -26254,7 +28582,8 @@ class MXIT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X1P4M_A12TR'
 
@@ -26265,7 +28594,8 @@ class MXIT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X2M_A12TR'
 
@@ -26276,7 +28606,8 @@ class MXIT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X3M_A12TR'
 
@@ -26287,7 +28618,8 @@ class MXIT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT2_X4M_A12TR'
 
@@ -26298,7 +28630,8 @@ class MXIT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P5M_A12TR'
 
@@ -26312,7 +28645,8 @@ class MXIT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X0P7M_A12TR'
 
@@ -26326,7 +28660,8 @@ class MXIT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1M_A12TR'
 
@@ -26340,7 +28675,8 @@ class MXIT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X1P4M_A12TR'
 
@@ -26354,7 +28690,8 @@ class MXIT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X2M_A12TR'
 
@@ -26368,7 +28705,8 @@ class MXIT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXIT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXIT4_X3M_A12TR'
 
@@ -26382,7 +28720,8 @@ class MXIT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P5M_A12TR'
 
@@ -26393,7 +28732,8 @@ class MXT2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X0P7M_A12TR'
 
@@ -26404,7 +28744,8 @@ class MXT2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1M_A12TR'
 
@@ -26415,7 +28756,8 @@ class MXT2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X1P4M_A12TR'
 
@@ -26426,7 +28768,8 @@ class MXT2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X2M_A12TR'
 
@@ -26437,7 +28780,8 @@ class MXT2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X3M_A12TR'
 
@@ -26448,7 +28792,8 @@ class MXT2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X4M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X4M_A12TR'
 
@@ -26459,7 +28804,8 @@ class MXT2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT2_X6M_A12TR(ComponentXY):
 	__defaultName = 'MXT2_X6M_A12TR'
 
@@ -26470,7 +28816,8 @@ class MXT2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P5M_A12TR'
 
@@ -26484,7 +28831,8 @@ class MXT4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X0P7M_A12TR'
 
@@ -26498,7 +28846,8 @@ class MXT4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1M_A12TR'
 
@@ -26512,7 +28861,8 @@ class MXT4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X1P4M_A12TR'
 
@@ -26526,7 +28876,8 @@ class MXT4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X2M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X2M_A12TR'
 
@@ -26540,7 +28891,8 @@ class MXT4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class MXT4_X3M_A12TR(ComponentXY):
 	__defaultName = 'MXT4_X3M_A12TR'
 
@@ -26554,7 +28906,8 @@ class MXT4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P5M_A12TR'
 
@@ -26564,7 +28917,8 @@ class NAND2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X0P7M_A12TR'
 
@@ -26574,7 +28928,8 @@ class NAND2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1M_A12TR'
 
@@ -26584,7 +28939,8 @@ class NAND2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X1P4M_A12TR'
 
@@ -26594,7 +28950,8 @@ class NAND2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X2M_A12TR'
 
@@ -26604,7 +28961,8 @@ class NAND2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X3M_A12TR'
 
@@ -26614,7 +28972,8 @@ class NAND2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X4M_A12TR'
 
@@ -26624,7 +28983,8 @@ class NAND2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X6M_A12TR'
 
@@ -26634,7 +28994,8 @@ class NAND2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2B_X8M_A12TR'
 
@@ -26644,7 +29005,8 @@ class NAND2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P5M_A12TR'
 
@@ -26654,7 +29016,8 @@ class NAND2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X0P7M_A12TR'
 
@@ -26664,7 +29027,8 @@ class NAND2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1M_A12TR'
 
@@ -26674,7 +29038,8 @@ class NAND2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X1P4M_A12TR'
 
@@ -26684,7 +29049,8 @@ class NAND2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X2M_A12TR'
 
@@ -26694,7 +29060,8 @@ class NAND2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X3M_A12TR'
 
@@ -26704,7 +29071,8 @@ class NAND2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X4M_A12TR'
 
@@ -26714,7 +29082,8 @@ class NAND2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X6M_A12TR'
 
@@ -26724,7 +29093,8 @@ class NAND2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2XB_X8M_A12TR'
 
@@ -26734,7 +29104,8 @@ class NAND2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5A_A12TR'
 
@@ -26744,7 +29115,8 @@ class NAND2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5B_A12TR'
 
@@ -26754,7 +29126,8 @@ class NAND2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P5M_A12TR'
 
@@ -26764,7 +29137,8 @@ class NAND2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7A_A12TR'
 
@@ -26774,7 +29148,8 @@ class NAND2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7B_A12TR'
 
@@ -26784,7 +29159,8 @@ class NAND2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X0P7M_A12TR'
 
@@ -26794,7 +29170,8 @@ class NAND2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1A_A12TR'
 
@@ -26804,7 +29181,8 @@ class NAND2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1B_A12TR'
 
@@ -26814,7 +29192,8 @@ class NAND2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1M_A12TR'
 
@@ -26824,7 +29203,8 @@ class NAND2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4A_A12TR'
 
@@ -26834,7 +29214,8 @@ class NAND2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4B_A12TR'
 
@@ -26844,7 +29225,8 @@ class NAND2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X1P4M_A12TR'
 
@@ -26854,7 +29236,8 @@ class NAND2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2A_A12TR'
 
@@ -26864,7 +29247,8 @@ class NAND2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2B_A12TR'
 
@@ -26874,7 +29258,8 @@ class NAND2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X2M_A12TR'
 
@@ -26884,7 +29269,8 @@ class NAND2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3A_A12TR'
 
@@ -26894,7 +29280,8 @@ class NAND2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3B_A12TR'
 
@@ -26904,7 +29291,8 @@ class NAND2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X3M_A12TR'
 
@@ -26914,7 +29302,8 @@ class NAND2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4A_A12TR'
 
@@ -26924,7 +29313,8 @@ class NAND2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4B_A12TR'
 
@@ -26934,7 +29324,8 @@ class NAND2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X4M_A12TR'
 
@@ -26944,7 +29335,8 @@ class NAND2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6A_A12TR'
 
@@ -26954,7 +29346,8 @@ class NAND2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6B_A12TR'
 
@@ -26964,7 +29357,8 @@ class NAND2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X6M_A12TR'
 
@@ -26974,7 +29368,8 @@ class NAND2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8A_A12TR'
 
@@ -26984,7 +29379,8 @@ class NAND2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8B_A12TR'
 
@@ -26994,7 +29390,8 @@ class NAND2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NAND2_X8M_A12TR'
 
@@ -27004,7 +29401,8 @@ class NAND2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P5M_A12TR'
 
@@ -27015,7 +29413,8 @@ class NAND3B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X0P7M_A12TR'
 
@@ -27026,7 +29425,8 @@ class NAND3B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1M_A12TR'
 
@@ -27037,7 +29437,8 @@ class NAND3B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X1P4M_A12TR'
 
@@ -27048,7 +29449,8 @@ class NAND3B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X2M_A12TR'
 
@@ -27059,7 +29461,8 @@ class NAND3B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X3M_A12TR'
 
@@ -27070,7 +29473,8 @@ class NAND3B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X4M_A12TR'
 
@@ -27081,7 +29485,8 @@ class NAND3B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3B_X6M_A12TR'
 
@@ -27092,7 +29497,8 @@ class NAND3B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P5M_A12TR'
 
@@ -27103,7 +29509,8 @@ class NAND3XXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X0P7M_A12TR'
 
@@ -27114,7 +29521,8 @@ class NAND3XXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1M_A12TR'
 
@@ -27125,7 +29533,8 @@ class NAND3XXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X1P4M_A12TR'
 
@@ -27136,7 +29545,8 @@ class NAND3XXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X2M_A12TR'
 
@@ -27147,7 +29557,8 @@ class NAND3XXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X3M_A12TR'
 
@@ -27158,7 +29569,8 @@ class NAND3XXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X4M_A12TR'
 
@@ -27169,7 +29581,8 @@ class NAND3XXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3XXB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3XXB_X6M_A12TR'
 
@@ -27180,7 +29593,8 @@ class NAND3XXB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5A_A12TR'
 
@@ -27191,7 +29605,8 @@ class NAND3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P5M_A12TR'
 
@@ -27202,7 +29617,8 @@ class NAND3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7A_A12TR'
 
@@ -27213,7 +29629,8 @@ class NAND3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X0P7M_A12TR'
 
@@ -27224,7 +29641,8 @@ class NAND3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1A_A12TR'
 
@@ -27235,7 +29653,8 @@ class NAND3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1M_A12TR'
 
@@ -27246,7 +29665,8 @@ class NAND3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4A_A12TR'
 
@@ -27257,7 +29677,8 @@ class NAND3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X1P4M_A12TR'
 
@@ -27268,7 +29689,8 @@ class NAND3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2A_A12TR'
 
@@ -27279,7 +29701,8 @@ class NAND3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X2M_A12TR'
 
@@ -27290,7 +29713,8 @@ class NAND3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3A_A12TR'
 
@@ -27301,7 +29725,8 @@ class NAND3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X3M_A12TR'
 
@@ -27312,7 +29737,8 @@ class NAND3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4A_A12TR'
 
@@ -27323,7 +29749,8 @@ class NAND3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X4M_A12TR'
 
@@ -27334,7 +29761,8 @@ class NAND3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6A_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6A_A12TR'
 
@@ -27345,7 +29773,8 @@ class NAND3_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND3_X6M_A12TR(ComponentXY):
 	__defaultName = 'NAND3_X6M_A12TR'
 
@@ -27356,7 +29785,8 @@ class NAND3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P5M_A12TR'
 
@@ -27368,7 +29798,8 @@ class NAND4B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X0P7M_A12TR'
 
@@ -27380,7 +29811,8 @@ class NAND4B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1M_A12TR'
 
@@ -27392,7 +29824,8 @@ class NAND4B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X1P4M_A12TR'
 
@@ -27404,7 +29837,8 @@ class NAND4B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X2M_A12TR'
 
@@ -27416,7 +29850,8 @@ class NAND4B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X3M_A12TR'
 
@@ -27428,7 +29863,8 @@ class NAND4B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4B_X4M_A12TR'
 
@@ -27440,7 +29876,8 @@ class NAND4B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P5M_A12TR'
 
@@ -27452,7 +29889,8 @@ class NAND4XXXB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X0P7M_A12TR'
 
@@ -27464,7 +29902,8 @@ class NAND4XXXB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1M_A12TR'
 
@@ -27476,7 +29915,8 @@ class NAND4XXXB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X1P4M_A12TR'
 
@@ -27488,7 +29928,8 @@ class NAND4XXXB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X2M_A12TR'
 
@@ -27500,7 +29941,8 @@ class NAND4XXXB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X3M_A12TR'
 
@@ -27512,7 +29954,8 @@ class NAND4XXXB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4XXXB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4XXXB_X4M_A12TR'
 
@@ -27524,7 +29967,8 @@ class NAND4XXXB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5A_A12TR'
 
@@ -27536,7 +29980,8 @@ class NAND4_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P5M_A12TR'
 
@@ -27548,7 +29993,8 @@ class NAND4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7A_A12TR'
 
@@ -27560,7 +30006,8 @@ class NAND4_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X0P7M_A12TR'
 
@@ -27572,7 +30019,8 @@ class NAND4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1A_A12TR'
 
@@ -27584,7 +30032,8 @@ class NAND4_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1M_A12TR'
 
@@ -27596,7 +30045,8 @@ class NAND4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4A_A12TR'
 
@@ -27608,7 +30058,8 @@ class NAND4_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X1P4M_A12TR'
 
@@ -27620,7 +30071,8 @@ class NAND4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2A_A12TR'
 
@@ -27632,7 +30084,8 @@ class NAND4_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X2M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X2M_A12TR'
 
@@ -27644,7 +30097,8 @@ class NAND4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3A_A12TR'
 
@@ -27656,7 +30110,8 @@ class NAND4_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X3M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X3M_A12TR'
 
@@ -27668,7 +30123,8 @@ class NAND4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4A_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4A_A12TR'
 
@@ -27680,7 +30136,8 @@ class NAND4_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NAND4_X4M_A12TR(ComponentXY):
 	__defaultName = 'NAND4_X4M_A12TR'
 
@@ -27692,7 +30149,8 @@ class NAND4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P5M_A12TR'
 
@@ -27702,7 +30160,8 @@ class NOR2B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X0P7M_A12TR'
 
@@ -27712,7 +30171,8 @@ class NOR2B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1M_A12TR'
 
@@ -27722,7 +30182,8 @@ class NOR2B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X1P4M_A12TR'
 
@@ -27732,7 +30193,8 @@ class NOR2B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X2M_A12TR'
 
@@ -27742,7 +30204,8 @@ class NOR2B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X3M_A12TR'
 
@@ -27752,7 +30215,8 @@ class NOR2B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X4M_A12TR'
 
@@ -27762,7 +30226,8 @@ class NOR2B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X6M_A12TR'
 
@@ -27772,7 +30237,8 @@ class NOR2B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2B_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2B_X8M_A12TR'
 
@@ -27782,7 +30248,8 @@ class NOR2B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P5M_A12TR'
 
@@ -27792,7 +30259,8 @@ class NOR2XB_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X0P7M_A12TR'
 
@@ -27802,7 +30270,8 @@ class NOR2XB_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1M_A12TR'
 
@@ -27812,7 +30281,8 @@ class NOR2XB_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X1P4M_A12TR'
 
@@ -27822,7 +30292,8 @@ class NOR2XB_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X2M_A12TR'
 
@@ -27832,7 +30303,8 @@ class NOR2XB_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X3M_A12TR'
 
@@ -27842,7 +30314,8 @@ class NOR2XB_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X4M_A12TR'
 
@@ -27852,7 +30325,8 @@ class NOR2XB_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X6M_A12TR'
 
@@ -27862,7 +30336,8 @@ class NOR2XB_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2XB_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2XB_X8M_A12TR'
 
@@ -27872,7 +30347,8 @@ class NOR2XB_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5A_A12TR'
 
@@ -27882,7 +30358,8 @@ class NOR2_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5B_A12TR'
 
@@ -27892,7 +30369,8 @@ class NOR2_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P5M_A12TR'
 
@@ -27902,7 +30380,8 @@ class NOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7A_A12TR'
 
@@ -27912,7 +30391,8 @@ class NOR2_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7B_A12TR'
 
@@ -27922,7 +30402,8 @@ class NOR2_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X0P7M_A12TR'
 
@@ -27932,7 +30413,8 @@ class NOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1A_A12TR'
 
@@ -27942,7 +30424,8 @@ class NOR2_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1B_A12TR'
 
@@ -27952,7 +30435,8 @@ class NOR2_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1M_A12TR'
 
@@ -27962,7 +30446,8 @@ class NOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(0.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4A_A12TR'
 
@@ -27972,7 +30457,8 @@ class NOR2_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4B_A12TR'
 
@@ -27982,7 +30468,8 @@ class NOR2_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X1P4M_A12TR'
 
@@ -27992,7 +30479,8 @@ class NOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2A_A12TR'
 
@@ -28002,7 +30490,8 @@ class NOR2_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2B_A12TR'
 
@@ -28012,7 +30501,8 @@ class NOR2_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X2M_A12TR'
 
@@ -28022,7 +30512,8 @@ class NOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3A_A12TR'
 
@@ -28032,7 +30523,8 @@ class NOR2_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3B_A12TR'
 
@@ -28042,7 +30534,8 @@ class NOR2_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X3M_A12TR'
 
@@ -28052,7 +30545,8 @@ class NOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4A_A12TR'
 
@@ -28062,7 +30556,8 @@ class NOR2_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4B_A12TR'
 
@@ -28072,7 +30567,8 @@ class NOR2_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X4M_A12TR'
 
@@ -28082,7 +30578,8 @@ class NOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6A_A12TR'
 
@@ -28092,7 +30589,8 @@ class NOR2_X6A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6B_A12TR'
 
@@ -28102,7 +30600,8 @@ class NOR2_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X6M_A12TR'
 
@@ -28112,7 +30611,8 @@ class NOR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8A_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8A_A12TR'
 
@@ -28122,7 +30622,8 @@ class NOR2_X8A_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8B_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8B_A12TR'
 
@@ -28132,7 +30633,8 @@ class NOR2_X8B_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'NOR2_X8M_A12TR'
 
@@ -28142,7 +30644,8 @@ class NOR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5A_A12TR'
 
@@ -28153,7 +30656,8 @@ class NOR3_X0P5A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P5M_A12TR'
 
@@ -28164,7 +30668,8 @@ class NOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7A_A12TR'
 
@@ -28175,7 +30680,8 @@ class NOR3_X0P7A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X0P7M_A12TR'
 
@@ -28186,7 +30692,8 @@ class NOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1A_A12TR'
 
@@ -28197,7 +30704,8 @@ class NOR3_X1A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1M_A12TR'
 
@@ -28208,7 +30716,8 @@ class NOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4A_A12TR'
 
@@ -28219,7 +30728,8 @@ class NOR3_X1P4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X1P4M_A12TR'
 
@@ -28230,7 +30740,8 @@ class NOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2A_A12TR'
 
@@ -28241,7 +30752,8 @@ class NOR3_X2A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X2M_A12TR'
 
@@ -28252,7 +30764,8 @@ class NOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3A_A12TR'
 
@@ -28263,7 +30776,8 @@ class NOR3_X3A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X3M_A12TR'
 
@@ -28274,7 +30788,8 @@ class NOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4A_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4A_A12TR'
 
@@ -28285,7 +30800,8 @@ class NOR3_X4A_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class NOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'NOR3_X4M_A12TR'
 
@@ -28296,7 +30812,8 @@ class NOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P5M_A12TR'
 
@@ -28308,7 +30825,8 @@ class OA211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X0P7M_A12TR'
 
@@ -28320,7 +30838,8 @@ class OA211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1M_A12TR'
 
@@ -28332,7 +30851,8 @@ class OA211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X1P4M_A12TR'
 
@@ -28344,7 +30864,8 @@ class OA211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X2M_A12TR'
 
@@ -28356,7 +30877,8 @@ class OA211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X3M_A12TR'
 
@@ -28368,7 +30890,8 @@ class OA211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X4M_A12TR'
 
@@ -28380,7 +30903,8 @@ class OA211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA211_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA211_X6M_A12TR'
 
@@ -28392,7 +30916,8 @@ class OA211_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P5M_A12TR'
 
@@ -28403,7 +30928,8 @@ class OA21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X0P7M_A12TR'
 
@@ -28414,7 +30940,8 @@ class OA21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1M_A12TR'
 
@@ -28425,7 +30952,8 @@ class OA21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X1P4M_A12TR'
 
@@ -28436,7 +30964,8 @@ class OA21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X2M_A12TR'
 
@@ -28447,7 +30976,8 @@ class OA21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X3M_A12TR'
 
@@ -28458,7 +30988,8 @@ class OA21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X4M_A12TR'
 
@@ -28469,7 +31000,8 @@ class OA21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X6M_A12TR'
 
@@ -28480,7 +31012,8 @@ class OA21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA21_X8M_A12TR'
 
@@ -28491,7 +31024,8 @@ class OA21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P5M_A12TR'
 
@@ -28503,7 +31037,8 @@ class OA22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X0P7M_A12TR'
 
@@ -28515,7 +31050,8 @@ class OA22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1M_A12TR'
 
@@ -28527,7 +31063,8 @@ class OA22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X1P4M_A12TR'
 
@@ -28539,7 +31076,8 @@ class OA22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X2M_A12TR'
 
@@ -28551,7 +31089,8 @@ class OA22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X3M_A12TR'
 
@@ -28563,7 +31102,8 @@ class OA22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X4M_A12TR'
 
@@ -28575,7 +31115,8 @@ class OA22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X6M_A12TR'
 
@@ -28587,7 +31128,8 @@ class OA22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OA22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OA22_X8M_A12TR'
 
@@ -28599,7 +31141,8 @@ class OA22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P5M_A12TR'
 
@@ -28611,7 +31154,8 @@ class OAI211_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X0P7M_A12TR'
 
@@ -28623,7 +31167,8 @@ class OAI211_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1M_A12TR'
 
@@ -28635,7 +31180,8 @@ class OAI211_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X1P4M_A12TR'
 
@@ -28647,7 +31193,8 @@ class OAI211_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X2M_A12TR'
 
@@ -28659,7 +31206,8 @@ class OAI211_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X3M_A12TR'
 
@@ -28671,7 +31219,8 @@ class OAI211_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI211_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI211_X4M_A12TR'
 
@@ -28683,7 +31232,8 @@ class OAI211_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P5M_A12TR'
 
@@ -28694,7 +31244,8 @@ class OAI21B_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X0P7M_A12TR'
 
@@ -28705,7 +31256,8 @@ class OAI21B_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1M_A12TR'
 
@@ -28716,7 +31268,8 @@ class OAI21B_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X1P4M_A12TR'
 
@@ -28727,7 +31280,8 @@ class OAI21B_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X2M_A12TR'
 
@@ -28738,7 +31292,8 @@ class OAI21B_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X3M_A12TR'
 
@@ -28749,7 +31304,8 @@ class OAI21B_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X4M_A12TR'
 
@@ -28760,7 +31316,8 @@ class OAI21B_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X6M_A12TR'
 
@@ -28771,7 +31328,8 @@ class OAI21B_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21B_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21B_X8M_A12TR'
 
@@ -28782,7 +31340,8 @@ class OAI21B_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P5M_A12TR'
 
@@ -28793,7 +31352,8 @@ class OAI21_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X0P7M_A12TR'
 
@@ -28804,7 +31364,8 @@ class OAI21_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1M_A12TR'
 
@@ -28815,7 +31376,8 @@ class OAI21_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X1P4M_A12TR'
 
@@ -28826,7 +31388,8 @@ class OAI21_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X2M_A12TR'
 
@@ -28837,7 +31400,8 @@ class OAI21_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X3M_A12TR'
 
@@ -28848,7 +31412,8 @@ class OAI21_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X4M_A12TR'
 
@@ -28859,7 +31424,8 @@ class OAI21_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X6M_A12TR'
 
@@ -28870,7 +31436,8 @@ class OAI21_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI21_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI21_X8M_A12TR'
 
@@ -28881,7 +31448,8 @@ class OAI21_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P5M_A12TR'
 
@@ -28894,7 +31462,8 @@ class OAI221_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X0P7M_A12TR'
 
@@ -28907,7 +31476,8 @@ class OAI221_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1M_A12TR'
 
@@ -28920,7 +31490,8 @@ class OAI221_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X1P4M_A12TR'
 
@@ -28933,7 +31504,8 @@ class OAI221_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X2M_A12TR'
 
@@ -28946,7 +31518,8 @@ class OAI221_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X3M_A12TR'
 
@@ -28959,7 +31532,8 @@ class OAI221_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI221_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI221_X4M_A12TR'
 
@@ -28972,7 +31546,8 @@ class OAI221_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P5M_A12TR'
 
@@ -28986,7 +31561,8 @@ class OAI222_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X0P7M_A12TR'
 
@@ -29000,7 +31576,8 @@ class OAI222_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1M_A12TR'
 
@@ -29014,7 +31591,8 @@ class OAI222_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X1P4M_A12TR'
 
@@ -29028,7 +31606,8 @@ class OAI222_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X2M_A12TR'
 
@@ -29042,7 +31621,8 @@ class OAI222_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X3M_A12TR'
 
@@ -29056,7 +31636,8 @@ class OAI222_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI222_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI222_X4M_A12TR'
 
@@ -29070,7 +31651,8 @@ class OAI222_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P5M_A12TR'
 
@@ -29082,7 +31664,8 @@ class OAI22_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X0P7M_A12TR'
 
@@ -29094,7 +31677,8 @@ class OAI22_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1M_A12TR'
 
@@ -29106,7 +31690,8 @@ class OAI22_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X1P4M_A12TR'
 
@@ -29118,7 +31703,8 @@ class OAI22_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X2M_A12TR'
 
@@ -29130,7 +31716,8 @@ class OAI22_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X3M_A12TR'
 
@@ -29142,7 +31729,8 @@ class OAI22_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X4M_A12TR'
 
@@ -29154,7 +31742,8 @@ class OAI22_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X6M_A12TR'
 
@@ -29166,7 +31755,8 @@ class OAI22_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI22_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI22_X8M_A12TR'
 
@@ -29178,7 +31768,8 @@ class OAI22_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P5M_A12TR'
 
@@ -29189,7 +31780,8 @@ class OAI2XB1_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X0P7M_A12TR'
 
@@ -29200,7 +31792,8 @@ class OAI2XB1_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1M_A12TR'
 
@@ -29211,7 +31804,8 @@ class OAI2XB1_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X1P4M_A12TR'
 
@@ -29222,7 +31816,8 @@ class OAI2XB1_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X2M_A12TR'
 
@@ -29233,7 +31828,8 @@ class OAI2XB1_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X3M_A12TR'
 
@@ -29244,7 +31840,8 @@ class OAI2XB1_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X4M_A12TR'
 
@@ -29255,7 +31852,8 @@ class OAI2XB1_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X6M_A12TR'
 
@@ -29266,7 +31864,8 @@ class OAI2XB1_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI2XB1_X8M_A12TR(ComponentXY):
 	__defaultName = 'OAI2XB1_X8M_A12TR'
 
@@ -29277,7 +31876,8 @@ class OAI2XB1_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P5M_A12TR'
 
@@ -29289,7 +31889,8 @@ class OAI31_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X0P7M_A12TR'
 
@@ -29301,7 +31902,8 @@ class OAI31_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1M_A12TR'
 
@@ -29313,7 +31915,8 @@ class OAI31_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X1P4M_A12TR'
 
@@ -29325,7 +31928,8 @@ class OAI31_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X2M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X2M_A12TR'
 
@@ -29337,7 +31941,8 @@ class OAI31_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X3M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X3M_A12TR'
 
@@ -29349,7 +31954,8 @@ class OAI31_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X4M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X4M_A12TR'
 
@@ -29361,7 +31967,8 @@ class OAI31_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OAI31_X6M_A12TR(ComponentXY):
 	__defaultName = 'OAI31_X6M_A12TR'
 
@@ -29373,7 +31980,8 @@ class OAI31_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P5M_A12TR'
 
@@ -29383,7 +31991,8 @@ class OR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X0P7M_A12TR'
 
@@ -29393,7 +32002,8 @@ class OR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X11M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X11M_A12TR'
 
@@ -29403,7 +32013,8 @@ class OR2_X11M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1M_A12TR'
 
@@ -29413,7 +32024,8 @@ class OR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X1P4M_A12TR'
 
@@ -29423,7 +32035,8 @@ class OR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X2M_A12TR'
 
@@ -29433,7 +32046,8 @@ class OR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X3M_A12TR'
 
@@ -29443,7 +32057,8 @@ class OR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X4M_A12TR'
 
@@ -29453,7 +32068,8 @@ class OR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X6M_A12TR'
 
@@ -29463,7 +32079,8 @@ class OR2_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR2_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR2_X8M_A12TR'
 
@@ -29473,7 +32090,8 @@ class OR2_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P5M_A12TR'
 
@@ -29484,7 +32102,8 @@ class OR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X0P7M_A12TR'
 
@@ -29495,7 +32114,8 @@ class OR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1M_A12TR'
 
@@ -29506,7 +32126,8 @@ class OR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X1P4M_A12TR'
 
@@ -29517,7 +32138,8 @@ class OR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X2M_A12TR'
 
@@ -29528,7 +32150,8 @@ class OR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X3M_A12TR'
 
@@ -29539,7 +32162,8 @@ class OR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X4M_A12TR'
 
@@ -29550,7 +32174,8 @@ class OR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X6M_A12TR'
 
@@ -29561,7 +32186,8 @@ class OR3_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR3_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR3_X8M_A12TR'
 
@@ -29572,7 +32198,8 @@ class OR3_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P5M_A12TR'
 
@@ -29584,7 +32211,8 @@ class OR4_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X0P7M_A12TR'
 
@@ -29596,7 +32224,8 @@ class OR4_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1M_A12TR'
 
@@ -29608,7 +32237,8 @@ class OR4_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X1P4M_A12TR'
 
@@ -29620,7 +32250,8 @@ class OR4_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X2M_A12TR'
 
@@ -29632,7 +32263,8 @@ class OR4_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X3M_A12TR'
 
@@ -29644,7 +32276,8 @@ class OR4_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X4M_A12TR'
 
@@ -29656,7 +32289,8 @@ class OR4_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X6M_A12TR'
 
@@ -29668,7 +32302,8 @@ class OR4_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR4_X8M_A12TR(ComponentXY):
 	__defaultName = 'OR4_X8M_A12TR'
 
@@ -29680,7 +32315,8 @@ class OR4_X8M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P5M_A12TR'
 
@@ -29694,7 +32330,8 @@ class OR6_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X0P7M_A12TR'
 
@@ -29708,7 +32345,8 @@ class OR6_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1M_A12TR'
 
@@ -29722,7 +32360,8 @@ class OR6_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X1P4M_A12TR'
 
@@ -29736,7 +32375,8 @@ class OR6_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X2M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X2M_A12TR'
 
@@ -29750,7 +32390,8 @@ class OR6_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X3M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X3M_A12TR'
 
@@ -29764,7 +32405,8 @@ class OR6_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X4M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X4M_A12TR'
 
@@ -29778,7 +32420,8 @@ class OR6_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class OR6_X6M_A12TR(ComponentXY):
 	__defaultName = 'OR6_X6M_A12TR'
 
@@ -29792,7 +32435,8 @@ class OR6_X6M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(14.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P5B_A12TR'
 
@@ -29803,7 +32447,8 @@ class POSTICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P6B_A12TR'
 
@@ -29814,7 +32459,8 @@ class POSTICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P7B_A12TR'
 
@@ -29825,7 +32471,8 @@ class POSTICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X0P8B_A12TR'
 
@@ -29836,7 +32483,8 @@ class POSTICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X11B_A12TR'
 
@@ -29847,7 +32495,8 @@ class POSTICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X13B_A12TR'
 
@@ -29858,7 +32507,8 @@ class POSTICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X16B_A12TR'
 
@@ -29869,7 +32519,8 @@ class POSTICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1B_A12TR'
 
@@ -29880,7 +32531,8 @@ class POSTICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P2B_A12TR'
 
@@ -29891,7 +32543,8 @@ class POSTICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P4B_A12TR'
 
@@ -29902,7 +32555,8 @@ class POSTICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X1P7B_A12TR'
 
@@ -29913,7 +32567,8 @@ class POSTICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2B_A12TR'
 
@@ -29924,7 +32579,8 @@ class POSTICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X2P5B_A12TR'
 
@@ -29935,7 +32591,8 @@ class POSTICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3B_A12TR'
 
@@ -29946,7 +32603,8 @@ class POSTICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X3P5B_A12TR'
 
@@ -29957,7 +32615,8 @@ class POSTICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X4B_A12TR'
 
@@ -29968,7 +32627,8 @@ class POSTICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X5B_A12TR'
 
@@ -29979,7 +32639,8 @@ class POSTICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X6B_A12TR'
 
@@ -29990,7 +32651,8 @@ class POSTICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X7P5B_A12TR'
 
@@ -30001,7 +32663,8 @@ class POSTICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class POSTICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'POSTICG_X9B_A12TR'
 
@@ -30012,7 +32675,8 @@ class POSTICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P5B_A12TR'
 
@@ -30023,7 +32687,8 @@ class PREICG_X0P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P6B_A12TR'
 
@@ -30034,7 +32699,8 @@ class PREICG_X0P6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P7B_A12TR'
 
@@ -30045,7 +32711,8 @@ class PREICG_X0P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X0P8B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X0P8B_A12TR'
 
@@ -30056,7 +32723,8 @@ class PREICG_X0P8B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X11B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X11B_A12TR'
 
@@ -30067,7 +32735,8 @@ class PREICG_X11B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X13B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X13B_A12TR'
 
@@ -30078,7 +32747,8 @@ class PREICG_X13B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(9.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X16B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X16B_A12TR'
 
@@ -30089,7 +32759,8 @@ class PREICG_X16B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(10.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1B_A12TR'
 
@@ -30100,7 +32771,8 @@ class PREICG_X1B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P2B_A12TR'
 
@@ -30111,7 +32783,8 @@ class PREICG_X1P2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P4B_A12TR'
 
@@ -30122,7 +32795,8 @@ class PREICG_X1P4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X1P7B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X1P7B_A12TR'
 
@@ -30133,7 +32807,8 @@ class PREICG_X1P7B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2B_A12TR'
 
@@ -30144,7 +32819,8 @@ class PREICG_X2B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X2P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X2P5B_A12TR'
 
@@ -30155,7 +32831,8 @@ class PREICG_X2P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3B_A12TR'
 
@@ -30166,7 +32843,8 @@ class PREICG_X3B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X3P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X3P5B_A12TR'
 
@@ -30177,7 +32855,8 @@ class PREICG_X3P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X4B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X4B_A12TR'
 
@@ -30188,7 +32867,8 @@ class PREICG_X4B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X5B_A12TR'
 
@@ -30199,7 +32879,8 @@ class PREICG_X5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X6B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X6B_A12TR'
 
@@ -30210,7 +32891,8 @@ class PREICG_X6B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X7P5B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X7P5B_A12TR'
 
@@ -30221,7 +32903,8 @@ class PREICG_X7P5B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class PREICG_X9B_A12TR(ComponentXY):
 	__defaultName = 'PREICG_X9B_A12TR'
 
@@ -30232,7 +32915,8 @@ class PREICG_X9B_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1M_A12TR'
 
@@ -30243,7 +32927,8 @@ class RF1R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X1P4M_A12TR'
 
@@ -30254,7 +32939,8 @@ class RF1R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R1WS_X2M_A12TR'
 
@@ -30265,7 +32951,8 @@ class RF1R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1M_A12TR'
 
@@ -30278,7 +32965,8 @@ class RF1R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X1P4M_A12TR'
 
@@ -30291,7 +32979,8 @@ class RF1R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF1R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF1R2WS_X2M_A12TR'
 
@@ -30304,7 +32993,8 @@ class RF1R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1M_A12TR'
 
@@ -30317,7 +33007,8 @@ class RF2R1WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X1P4M_A12TR'
 
@@ -30330,7 +33021,8 @@ class RF2R1WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R1WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R1WS_X2M_A12TR'
 
@@ -30343,7 +33035,8 @@ class RF2R1WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1M_A12TR'
 
@@ -30358,7 +33051,8 @@ class RF2R2WS_X1M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X1P4M_A12TR'
 
@@ -30373,7 +33067,8 @@ class RF2R2WS_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class RF2R2WS_X2M_A12TR(ComponentXY):
 	__defaultName = 'RF2R2WS_X2M_A12TR'
 
@@ -30388,7 +33083,8 @@ class RF2R2WS_X2M_A12TR(ComponentXY):
 		self.add_pin(Output(out1) )
 		self.add_pin(Output(out2) )
 		self.set_component_dimensions(8.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X1M_A12TR'
 
@@ -30400,7 +33096,8 @@ class SDFFNQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X2M_A12TR'
 
@@ -30412,7 +33109,8 @@ class SDFFNQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNQ_X3M_A12TR'
 
@@ -30424,7 +33122,8 @@ class SDFFNQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X1M_A12TR'
 
@@ -30437,7 +33136,8 @@ class SDFFNRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X2M_A12TR'
 
@@ -30450,7 +33150,8 @@ class SDFFNRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNRPQ_X3M_A12TR'
 
@@ -30463,7 +33164,8 @@ class SDFFNRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X1M_A12TR'
 
@@ -30476,7 +33178,8 @@ class SDFFNSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X2M_A12TR'
 
@@ -30489,7 +33192,8 @@ class SDFFNSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSQ_X3M_A12TR'
 
@@ -30502,7 +33206,8 @@ class SDFFNSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X1M_A12TR'
 
@@ -30516,7 +33221,8 @@ class SDFFNSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X2M_A12TR'
 
@@ -30530,7 +33236,8 @@ class SDFFNSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFNSRPQ_X3M_A12TR'
 
@@ -30544,7 +33251,8 @@ class SDFFNSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X0P5M_A12TR'
 
@@ -30556,7 +33264,8 @@ class SDFFQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X1M_A12TR'
 
@@ -30568,7 +33277,8 @@ class SDFFQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X2M_A12TR'
 
@@ -30580,7 +33290,8 @@ class SDFFQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQN_X3M_A12TR'
 
@@ -30592,7 +33303,8 @@ class SDFFQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X0P5M_A12TR'
 
@@ -30604,7 +33316,8 @@ class SDFFQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X1M_A12TR'
 
@@ -30616,7 +33329,8 @@ class SDFFQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X2M_A12TR'
 
@@ -30628,7 +33342,8 @@ class SDFFQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X3M_A12TR'
 
@@ -30640,7 +33355,8 @@ class SDFFQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFQ_X4M_A12TR'
 
@@ -30652,7 +33368,8 @@ class SDFFQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X0P5M_A12TR'
 
@@ -30665,7 +33382,8 @@ class SDFFRPQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X1M_A12TR'
 
@@ -30678,7 +33396,8 @@ class SDFFRPQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X2M_A12TR'
 
@@ -30691,7 +33410,8 @@ class SDFFRPQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQN_X3M_A12TR'
 
@@ -30704,7 +33424,8 @@ class SDFFRPQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X0P5M_A12TR'
 
@@ -30717,7 +33438,8 @@ class SDFFRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X1M_A12TR'
 
@@ -30730,7 +33452,8 @@ class SDFFRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X2M_A12TR'
 
@@ -30743,7 +33466,8 @@ class SDFFRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X3M_A12TR'
 
@@ -30756,7 +33480,8 @@ class SDFFRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFRPQ_X4M_A12TR'
 
@@ -30769,7 +33494,8 @@ class SDFFRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X0P5M_A12TR'
 
@@ -30782,7 +33508,8 @@ class SDFFSQN_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X1M_A12TR'
 
@@ -30795,7 +33522,8 @@ class SDFFSQN_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X2M_A12TR'
 
@@ -30808,7 +33536,8 @@ class SDFFSQN_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQN_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQN_X3M_A12TR'
 
@@ -30821,7 +33550,8 @@ class SDFFSQN_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X0P5M_A12TR'
 
@@ -30834,7 +33564,8 @@ class SDFFSQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X1M_A12TR'
 
@@ -30847,7 +33578,8 @@ class SDFFSQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X2M_A12TR'
 
@@ -30860,7 +33592,8 @@ class SDFFSQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X3M_A12TR'
 
@@ -30873,7 +33606,8 @@ class SDFFSQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSQ_X4M_A12TR'
 
@@ -30886,7 +33620,8 @@ class SDFFSQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in5) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X0P5M_A12TR'
 
@@ -30900,7 +33635,8 @@ class SDFFSRPQ_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X1M_A12TR'
 
@@ -30914,7 +33650,8 @@ class SDFFSRPQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X2M_A12TR'
 
@@ -30928,7 +33665,8 @@ class SDFFSRPQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X3M_A12TR'
 
@@ -30942,7 +33680,8 @@ class SDFFSRPQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFSRPQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFSRPQ_X4M_A12TR'
 
@@ -30956,7 +33695,8 @@ class SDFFSRPQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in6) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X1M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X1M_A12TR'
 
@@ -30968,7 +33708,8 @@ class SDFFYQ_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X2M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X2M_A12TR'
 
@@ -30980,7 +33721,8 @@ class SDFFYQ_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X3M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X3M_A12TR'
 
@@ -30992,7 +33734,8 @@ class SDFFYQ_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class SDFFYQ_X4M_A12TR(ComponentXY):
 	__defaultName = 'SDFFYQ_X4M_A12TR'
 
@@ -31004,7 +33747,8 @@ class SDFFYQ_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in4) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(6.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class TIEHI_X1M_A12TR(ComponentXY):
 	__defaultName = 'TIEHI_X1M_A12TR'
 
@@ -31026,7 +33770,8 @@ class XNOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X0P7M_A12TR'
 
@@ -31036,7 +33781,8 @@ class XNOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1M_A12TR'
 
@@ -31046,7 +33792,8 @@ class XNOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X1P4M_A12TR'
 
@@ -31056,7 +33803,8 @@ class XNOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X2M_A12TR'
 
@@ -31066,7 +33814,8 @@ class XNOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.4, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X3M_A12TR'
 
@@ -31076,7 +33825,8 @@ class XNOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR2_X4M_A12TR'
 
@@ -31086,7 +33836,8 @@ class XNOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P5M_A12TR'
 
@@ -31097,7 +33848,8 @@ class XNOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X0P7M_A12TR'
 
@@ -31108,7 +33860,8 @@ class XNOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1M_A12TR'
 
@@ -31119,7 +33872,8 @@ class XNOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X1P4M_A12TR'
 
@@ -31130,7 +33884,8 @@ class XNOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X2M_A12TR'
 
@@ -31141,7 +33896,8 @@ class XNOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X3M_A12TR'
 
@@ -31152,7 +33908,8 @@ class XNOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XNOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XNOR3_X4M_A12TR'
 
@@ -31163,7 +33920,8 @@ class XNOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P5M_A12TR'
 
@@ -31173,7 +33931,8 @@ class XOR2_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(1.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X0P7M_A12TR'
 
@@ -31183,7 +33942,8 @@ class XOR2_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1M_A12TR'
 
@@ -31193,7 +33953,8 @@ class XOR2_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X1P4M_A12TR'
 
@@ -31203,7 +33964,8 @@ class XOR2_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X2M_A12TR'
 
@@ -31213,7 +33975,8 @@ class XOR2_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X3M_A12TR'
 
@@ -31223,7 +33986,8 @@ class XOR2_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(4.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR2_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR2_X4M_A12TR'
 
@@ -31233,7 +33997,8 @@ class XOR2_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in2) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P5M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P5M_A12TR'
 
@@ -31244,7 +34009,8 @@ class XOR3_X0P5M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X0P7M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X0P7M_A12TR'
 
@@ -31255,7 +34021,8 @@ class XOR3_X0P7M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1M_A12TR'
 
@@ -31266,7 +34033,8 @@ class XOR3_X1M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(3.8, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X1P4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X1P4M_A12TR'
 
@@ -31277,7 +34045,8 @@ class XOR3_X1P4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X2M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X2M_A12TR'
 
@@ -31288,7 +34057,8 @@ class XOR3_X2M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(5.6, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X3M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X3M_A12TR'
 
@@ -31299,7 +34069,8 @@ class XOR3_X3M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(7, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
 class XOR3_X4M_A12TR(ComponentXY):
 	__defaultName = 'XOR3_X4M_A12TR'
 
@@ -31310,4 +34081,5 @@ class XOR3_X4M_A12TR(ComponentXY):
 		self.add_pin(Input(in3) )
 		self.add_pin(Output(out1) )
 		self.set_component_dimensions(8.2, 2.4)
-
+		self.set_dont_uniq(True)
+		self.set_dont_write_verilog(True)
