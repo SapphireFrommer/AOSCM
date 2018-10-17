@@ -84,7 +84,7 @@ if param['technology'] == 'tsmc65':
 	sc['well_tap']['width'] = 0.4
 	sc['well_tap']['component'].set_component_dimensions(sc['well_tap']['width'], sc['site'])
 	sc['well_tap']['component'].set_dont_uniq(True)
-	#sc['well_tap']['component'].set_dont_write_verilog(True)
+	sc['well_tap']['component'].set_dont_write_verilog(True)
 
 	sc['latch_clock_gate'] = {}
 	sc['latch_clock_gate']['component'] = str_to_class('PREICG_X0P5B_A'+TRACKS+'TR')()
