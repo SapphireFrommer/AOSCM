@@ -1,11 +1,19 @@
 ####################### define parameter #######################
-param = {}
-param['TOPLEVEL'] = "scm65"
-param['DATA_WIDTH'] = 16
-param['ADDR_WIDTH'] = 4		# Number of words (rows) is 2**ADDR_WIDTH 
+params = {}
+params['DATA_WIDTH'] = 16
+params['ADDR_WIDTH'] = 4		# Number of words (rows) is 2**ADDR_WIDTH 
 
-param['RWL_NUM'] = 8	# how many rwl buffer will be
-param['WELLTAP'] = 5	# after how many bitslice will be welltap (and VDD GND stripes)
-param['technology'] = 'tsmc65'
-param['TRACKS'] = '12'
+params['RWL_NUM'] = 8	# how many rwl buffer will be
+params['WELLTAP'] = 8	# after how many bitslice will be welltap (and VDD GND stripes)
+
+params['technology'] = 'tsmc65'
+#params['technology'] = 'Synopsys28'
+
+
+if params['technology'] == 'tsmc65':
+    params['TOPLEVEL'] = "scm65_"+str(params['DATA_WIDTH'])+"x"+str(2**params['ADDR_WIDTH'])
+if params['technology'] == 'Synopsys28':
+    params['TOPLEVEL'] = "scm28_"+str(params['DATA_WIDTH'])+"x"+str(2**params['ADDR_WIDTH'])
+
+params['TRACKS'] = '12'
 
