@@ -200,6 +200,9 @@ def SCM_design_components_instances_TOP(params, scm):
                 #xcoord += sc['latch_clock_gate']['width']
             #xcoord -= 3*(sc['latch_clock_gate']['width'])
             ycoord = 0.0
+            TOP.add_component(latch_clock_gate, 'GRCLK_gate', xcoord+t_xcoord , ycoord, 1)
+            for FF in range(ADDR_WIDTH):
+                TOP.add_component(sc['flipflop']['component'], 'RADDR_reg_'+str(FF), xcoord+t_xcoord , ycoord, 1)
 
             pin = 'RE'
             TOP.set_pin_position(pin, xcoord+1, ycoord, 'BOTTOM', 2)
@@ -274,22 +277,28 @@ def SCM_design_components_instances_TOP(params, scm):
 
     # first level clock gates
 
-    #for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:    
-    for gate in ['GDINCLK_gate', 'GWCLK_gate']:
+    for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:    
+    #for gate in ['GDINCLK_gate', 'GWCLK_gate']:
         TOP.connect('CLK', gate+'.CK')
         TOP.connect('SE', gate+'.SE')
 
     TOP.connect('WE', 'GDINCLK_gate.'+sc['latch_clock_gate']['E'])
     TOP.connect('WE', 'GWCLK_gate.'+sc['latch_clock_gate']['E'])
-    #TOP.connect('RE', 'GRCLK_gate.E')
+    TOP.connect('RE', 'GRCLK_gate.'+sc['latch_clock_gate']['E'])
 
 
     TOP.add_net(Net('GDINCLK'))
     TOP.add_net(Net('GWCLK'))
-    #TOP.add_net(Net('GRCLK'))
+    TOP.add_net(Net('GRCLK'))
     TOP.connect('GDINCLK', 'GDINCLK_gate.'+sc['latch_clock_gate']['out'])
     TOP.connect('GWCLK', 'GWCLK_gate.'+sc['latch_clock_gate']['out'])
-    #TOP.connect('GRCLK', 'GRCLK_gate.ECK')
+    TOP.connect('GRCLK', 'GRCLK_gate.'+sc['latch_clock_gate']['out'])
+
+    TOP.add_netbus(Bus(Net, 'RADDR_reg_out', ADDR_WIDTH))
+    for ADDR in range(ADDR_WIDTH):
+        TOP.connect('GRCLK', 'RADDR_reg_'+str(ADDR)+'.'+sc['flipflop']['clk'])
+        TOP.connect('RADDR'+str([ADDR]), 'RADDR_reg_'+str(ADDR)+'.'+sc['flipflop']['in'])
+        TOP.connect('RADDR_reg_out'+str([ADDR]), 'RADDR_reg_'+str(ADDR)+'.'+sc['flipflop']['out'])
 
     TOP.add_netbus(Bus(Net, 'decoder_write_out', 2**ADDR_WIDTH))
 
@@ -359,7 +368,7 @@ def SCM_design_components_instances_TOP(params, scm):
         TOP.connect('decoder_write_out'+str([row]), 'write_decoder''.decoder_out'+str([row]))
 
     for ADDR in range(ADDR_WIDTH):
-        TOP.connect('RADDR'+str([ADDR]), 'read_decoder''.decoder_in'+str([ADDR]))
+        TOP.connect('RADDR_reg_out'+str([ADDR]), 'read_decoder''.decoder_in'+str([ADDR]))
         TOP.connect('WADDR'+str([ADDR]), 'write_decoder''.decoder_in'+str([ADDR]))
 
 
