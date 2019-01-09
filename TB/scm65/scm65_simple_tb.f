@@ -5,7 +5,7 @@
 
 ../../verilog_modules/scm65/scm65.v
 
-../../verilog_modules/bitslice/bitslice.v
+../../verilog_modules/bitslice_evn/bitslice_evn.v
 ../../verilog_modules/bitslice_odd/bitslice_odd.v
 
 ../../verilog_modules/PreDecoder_2_4/PreDecoder_2_4.v

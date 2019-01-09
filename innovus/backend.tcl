@@ -10,6 +10,8 @@ setDesignMode -process 65
 
 # Set up specific defines for this run
 source ${ScriptDir}/${TOPLEVEL}.defines
+set design(salamandra_netlist) "$design(export_dir)/${TOPLEVEL}_57x64.post_py.v"
+
 # Set up the "paths" and "tech_files" variables to describe the installation information
 source ${ScriptDir}/libraries.tcl
 
@@ -42,6 +44,7 @@ init_design
 
 #To speed up the pin assign:
 setPinAssignMode -pinEditInBatch true  
+set design(salamandra_tcl) "$design(export_dir)/${TOPLEVEL}_57x64_cells_position.tcl"
 source $design(salamandra_tcl)
 setPinAssignMode -pinEditInBatch false
 
