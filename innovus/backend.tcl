@@ -59,6 +59,7 @@ sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
 
 refinePlace
 
+report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net 
 
 
 
@@ -83,6 +84,9 @@ getDrawView
 loadWorkspace -name Physical
 win
 fit
+
+# set_db [get_db insts *] .place_status fixed
+set_db [get_db insts *] .dont_touch size_ok
 
 # place
 # CTS
@@ -114,3 +118,20 @@ verifyProcessAntenna
 exit
 
 # freeDesign # to delete the whole design at innovus 17.1
+#
+#
+#
+# report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net 
+# set_db [get_db insts *] .place_status fixed
+# place_design
+# set_db [get_db insts *] .place_status placed
+# set_db [get_db insts *] .dont_touch size_ok
+# optDesign -postCTS
+#
+# dbGet [dbGetInstByName bitslice_35/MemoryLatch_reg_56].pStatus                                              
+#
+# report_timing -to [all_outputs ] -machine_readable > dout.tarpt
+# get_ports
+#
+#
+#

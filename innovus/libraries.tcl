@@ -1,8 +1,8 @@
 set METAL_STACK 1p9m_6x2z
 set IO_METAL_STACK 9lm
 
-set TRACKS 12
-set FE_OR_BE "FE"
+set TRACKS 9
+set FE_OR_BE "BE"
 
 set paths(PDK_ROOT) /data/tsmc/65LP/
 
