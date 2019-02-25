@@ -49,6 +49,8 @@ source $design(salamandra_tcl)
 setPinAssignMode -pinEditInBatch false
 
 #suspend
+#place_design
+#place_opt_design
 
 
 sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
@@ -127,6 +129,8 @@ exit
 # set_db [get_db insts *] .place_status placed
 # set_db [get_db insts *] .dont_touch size_ok
 # optDesign -postCTS
+#
+# optDesign -postRoute
 #
 # dbGet [dbGetInstByName bitslice_35/MemoryLatch_reg_56].pStatus                                              
 #

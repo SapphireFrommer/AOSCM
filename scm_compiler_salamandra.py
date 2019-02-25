@@ -208,7 +208,8 @@ def SCM_design_components_instances_TOP(params, scm):
                 pin = 'RADDR'+str([index])
                 TOP.set_pin_position(pin, xcoord+0.2+(0.4*index), ycoord, 'BOTTOM', 2) 
             xcoord += row_decoder_width
-
+            Pre_Dec_Buffers_width = sc['NAND3_X6']['width']
+            xcoord += 1*Pre_Dec_Buffers_width+0.8
             t_xcoord = sc['buffer']['width']
 
             #for gate in ['GDINCLK_gate', 'GWCLK_gate', 'GRCLK_gate']:
@@ -219,6 +220,9 @@ def SCM_design_components_instances_TOP(params, scm):
             TOP.add_component(latch_clock_gate, 'GRCLK_gate', xcoord+t_xcoord , ycoord, 1)
             for FF in range(ADDR_WIDTH):
                 TOP.add_component(sc['flipflop_X4']['component'], 'RADDR_reg_'+str(FF), xcoord+t_xcoord , ycoord, 1)
+                if params['add_RADDR_out_BUF'] == 1:    # in case of adding RADDR_out_BUF
+                    TOP.add_component(sc['buffer_X6']['component'], 'RADDR_BUF_'+str(FF), xcoord+t_xcoord , ycoord, 1)
+
 
             pin = 'RE'
             TOP.set_pin_position(pin, xcoord+1, ycoord, 'BOTTOM', 2)
@@ -226,6 +230,8 @@ def SCM_design_components_instances_TOP(params, scm):
             TOP.set_pin_position(pin, xcoord+2, ycoord, 'BOTTOM', 2)
 
             ycoord += 2*sc['site']
+            
+            
             TOP.add_component(MidGap_DGWCLK, 'MidGap_DGWCLK', xcoord, ycoord)
             MidGap_DGWCLK_width = sc['buffer']['width']+ sc['latch_clock_gate']['width']+sc['buffer']['width']	# need to write better
             pin = 'CLK'
@@ -234,6 +240,7 @@ def SCM_design_components_instances_TOP(params, scm):
             TOP.set_pin_position(pin, xcoord+3.7, ycoord, 'TOP', 2)
 
             xcoord += MidGap_DGWCLK_width
+            
             
             
             ycoord = 0.0
@@ -375,8 +382,17 @@ def SCM_design_components_instances_TOP(params, scm):
         TOP.connect('decoder_read_out'+str([row]), 'read_decoder''.decoder_out'+str([row]))
         TOP.connect('decoder_write_out'+str([row]), 'write_decoder''.decoder_out'+str([row]))
 
+    if params['add_RADDR_out_BUF'] == 1:    # in case of adding RADDR_out_BUF
+        TOP.add_netbus(Bus(Net, 'RADDR_BUF_out', ADDR_WIDTH))
+
     for ADDR in range(ADDR_WIDTH):
-        TOP.connect('RADDR_reg_out'+str([ADDR]), 'read_decoder''.decoder_in'+str([ADDR]))
+        if params['add_RADDR_out_BUF'] == 1:    # in case of adding RADDR_out_BUF
+            TOP.connect('RADDR_reg_out'+str([ADDR]), 'RADDR_BUF_'+str(ADDR)+'.'+sc['buffer']['in'])
+            TOP.connect('RADDR_BUF_out'+str([ADDR]), 'RADDR_BUF_'+str(ADDR)+'.'+sc['buffer']['out'])
+            TOP.connect('RADDR_BUF_out'+str([ADDR]), 'read_decoder''.decoder_in'+str([ADDR]))
+        elif params['add_RADDR_out_BUF'] == 0:
+            TOP.connect('RADDR_reg_out'+str([ADDR]), 'read_decoder''.decoder_in'+str([ADDR]))
+
         TOP.connect('WADDR'+str([ADDR]), 'write_decoder''.decoder_in'+str([ADDR]))
 
 
@@ -402,6 +418,14 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
     bitslice.add_net(Net('GDIN'))
     bitslice.connect('GDIN', 'GDIN_reg.'+sc['flipflop']['out'])
     bitslice.connect('clk', 'GDIN_reg.'+sc['flipflop']['clk'])
+
+    if params['add_GDIN_out_BUF'] == 1:      # in case of adding GDIN_out_BUF
+        bitslice.add_component(sc['buffer_X9']['component'], 'GDIN_BUF', xcoord, ycoord+sc['site'])
+        bitslice.connect('GDIN', 'GDIN_BUF.'+sc['buffer']['in'])
+        bitslice.add_net(Net('GDIN_BUF_out'))
+        bitslice.connect('GDIN_BUF_out', 'GDIN_BUF.'+sc['buffer']['out'])
+
+
     xcoord = sc['latch']['width']
     ycoord += 2*sc['site']
     bitslice.add_component(read_mux, 'read_mux', xcoord, ycoord)
@@ -416,7 +440,11 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
         ycoord += sc['site']
         #for net in ['MemoryLatch']:
             #bitslice.add_net(Net(net+str([i])))
-        bitslice.connect('GDIN', MemoryLatch_reg_name%(i)+'.'+sc['latch']['in'])         
+        if params['add_GDIN_out_BUF'] == 1:      # in case of adding GDIN_out_BUF
+            bitslice.connect('GDIN_BUF_out', MemoryLatch_reg_name%(i)+'.'+sc['latch']['in'])
+        elif params['add_GDIN_out_BUF'] == 0:
+            bitslice.connect('GDIN', MemoryLatch_reg_name%(i)+'.'+sc['latch']['in'])
+
         for net in [('MemoryLatch',sc['latch']['out']), ('DGWCLK', sc['latch']['clk'])]:
             bitslice.connect(net[0]+str([i]), MemoryLatch_reg_name%(i)+'.'+net[1]) #conectivty to MemoryLatch_reg
         for net in ['MemoryLatch', 'RWL']:
@@ -428,6 +456,8 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
     if b_name == 'bitslice_odd':
         xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
         scm[b_name].set_position('GDIN_reg', xcoord, sc['site'])
+        scm[b_name].set_position('GDIN_BUF', xcoord, 0.0)
+
 ##########################################################
 # add components to read_mux module
 ##########################################################
@@ -578,7 +608,7 @@ def SCM_design_components_instances_Decoder_x_x(params, scm):
         PreDecoder.add_netbus(Bus(Net, 'in_not', ADDR_W)) 
         for i in range(ADDR_W):
             PreDecoder.add_component(INV, 'in_'+str(i)+'_not', xcoord, ycoord, 1)
-            xcoord += sc['inverter_X6']['width']
+            #xcoord += sc['inverter_X6']['width']
             PreDecoder.connect('decoder_in'+str([i]), 'in_'+str(i)+'_not.' + sc['inverter']['in'])
             PreDecoder.connect('in_not'+str([i]), 'in_'+str(i)+'_not.' + sc['inverter']['out'])
             
@@ -587,7 +617,7 @@ def SCM_design_components_instances_Decoder_x_x(params, scm):
         for n in range(2**ADDR_W):		# ---> this creates every NAND
             nn = 2**ADDR_W-n
             PreDecoder.add_component(sc['NAND'+str(ADDR_W)+'_X6']['component'], 'NAND'+str(ADDR_W)+'_'+str(n), xcoord, ycoord, 1)
-            xcoord += sc['NAND'+str(ADDR_W)+'_X6']['width']
+            #xcoord += sc['NAND'+str(ADDR_W)+'_X6']['width']
             PreDecoder.connect('decoder_out'+str([n]), 'NAND'+str(ADDR_W)+'_'+str(n)+'.' + sc['NAND'+str(ADDR_W)]['out'])
         
             for a in range(ADDR_W):		# ----> this connects each input of the nand to this nand			
@@ -663,22 +693,23 @@ def SCM_design_components_instances_row_decoder(params, scm):
         row_decoder.add_component(sc['NOR'+str(NUM_PREDECS)+'_X3']['component'], 'PostDec_%02d'%(row), xcoord, ycoord)
         ycoord += sc['site']
         row_decoder.connect('decoder_out'+str([row]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['out'])
-        if row == (2**ADDR_WIDTH)//2:
-            t_ycoord = 2*sc['site']
-            temp_dec_out_port = 0    
-            for BUF in range(NUM_PREDECS):
-                for k in range(2**PreDec_list[BUF]):
-                    row_decoder.add_component(sc['buffer_X6']['component'], 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP', xcoord, ycoord-t_ycoord, 1)
-                    row_decoder.add_component(sc['buffer_X6']['component'], 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN', xcoord, ycoord-t_ycoord, 1)
-                    # connecting UP Buffres
-                    row_decoder.connect('PreDec_out'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP''.'+sc['buffer']['in'])
-                    row_decoder.connect('PreDec_out_BUF_UP'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP''.'+sc['buffer']['out'])
-                    # connecting DOWN Buffres
-                    row_decoder.connect('PreDec_out'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN''.'+sc['buffer']['in'])
-                    row_decoder.connect('PreDec_out_BUF_DOWN'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN''.'+sc['buffer']['out'])
 
+        if params['add_PreDec_out_BUF'] == 1:   # in case of adding PreDec_out_BUF
+            if row == (2**ADDR_WIDTH)//2:
+                t_ycoord = 2*sc['site']
+                temp_dec_out_port = 0    
+                for BUF in range(NUM_PREDECS):
+                    for k in range(2**PreDec_list[BUF]):
+                        row_decoder.add_component(sc['buffer_X6']['component'], 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP', xcoord, ycoord-t_ycoord, 1)
+                        row_decoder.add_component(sc['buffer_X6']['component'], 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN', xcoord, ycoord-t_ycoord, 1)
+                        # connecting UP Buffres
+                        row_decoder.connect('PreDec_out'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP''.'+sc['buffer']['in'])
+                        row_decoder.connect('PreDec_out_BUF_UP'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_UP''.'+sc['buffer']['out'])
+                        # connecting DOWN Buffres
+                        row_decoder.connect('PreDec_out'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN''.'+sc['buffer']['in'])
+                        row_decoder.connect('PreDec_out_BUF_DOWN'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN''.'+sc['buffer']['out'])
 
-                temp_dec_out_port += k+1
+                    temp_dec_out_port += k+1
                     
     
     NUM_LOWER_BITS = 0
@@ -690,21 +721,30 @@ def SCM_design_components_instances_row_decoder(params, scm):
         for row in range(2**ADDR_WIDTH):
             if NUM_LOWER_BITS == 0:
                 WHICH_PREDEC_OUT = ((row >> NUM_LOWER_BITS) % (2**NUM_CURRENT_BITS))
-                print('if')
+                print('if NUM_LOWER_BITS == 0: WHICH_PREDEC_OUT = '+str(WHICH_PREDEC_OUT))
             else:
                 WHICH_PREDEC_OUT = (((row >> NUM_LOWER_BITS) % (2**NUM_CURRENT_BITS))+((NUM_LOWER_BITS_OUT)))				
-                print('else')
-            if row < (2**ADDR_WIDTH)//2:
-                UP_or_DOWN = 'DOWN'
-            else:
-                UP_or_DOWN = 'UP'
-            if predec_num == NUM_PREDECS-1:
-                if row%((2**ADDR_WIDTH)//(2**(NUM_PREDECS+1))) < ((2**ADDR_WIDTH)//(2**(NUM_PREDECS+1)))//2:
+                print('else WHICH_PREDEC_OUT = '+str(WHICH_PREDEC_OUT))
+
+            # PreDec_out_BUF polarity
+            if params['add_PreDec_out_BUF'] == 1:   # in case of adding PreDec_out_BUF
+                if row < (2**ADDR_WIDTH)//2:
                     UP_or_DOWN = 'DOWN'
                 else:
                     UP_or_DOWN = 'UP'
-            row_decoder.connect('PreDec_out_BUF_'+UP_or_DOWN+str([WHICH_PREDEC_OUT]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['in_'+str(predec_num+1)])
-            print(WHICH_PREDEC_OUT,row)
+                if predec_num == NUM_PREDECS-1:
+                    if row%((2**ADDR_WIDTH)//(2**(NUM_PREDECS+1))) < ((2**ADDR_WIDTH)//(2**(NUM_PREDECS+1)))//2:
+                        UP_or_DOWN = 'DOWN'
+                    else:
+                        UP_or_DOWN = 'UP'
+                row_decoder.connect('PreDec_out_BUF_'+UP_or_DOWN+str([WHICH_PREDEC_OUT]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['in_'+str(predec_num+1)])
+            elif params['add_PreDec_out_BUF'] == 0:     # in case of not adding PreDec_out_BUF
+                row_decoder.connect('PreDec_out'+str([WHICH_PREDEC_OUT]), 'PostDec_%02d'%(row)+'.' + sc['NOR'+str(NUM_PREDECS)]['in_'+str(predec_num+1)])
+
+
+
+
+            print('WHICH_PREDEC_OUT = '+str(WHICH_PREDEC_OUT)+' | row = '+str(row))
         print('===========  End of connecting PreDec: '+str(predec_num)+'  ============')
         NUM_LOWER_BITS_OUT += 2**NUM_CURRENT_BITS
         

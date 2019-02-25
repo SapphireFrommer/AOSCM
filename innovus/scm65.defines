@@ -2,7 +2,7 @@
 set design(FULLCHIP_OR_MACRO) "MACRO"
 set design(IO_MODULE) "pads"
 set design(CLK_PORT) "CLK"
-set design(CLK_PERIOD) 3.0
+set design(CLK_PERIOD) 2.2
 set design(CLK_NAME) "clk"
 
 

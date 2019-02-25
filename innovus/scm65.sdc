@@ -32,21 +32,21 @@ set_multicycle_path -setup -through [get_pins */MemoryLatch_reg*/Q*] -to [get_po
 set_multicycle_path -hold -through [get_pins */MemoryLatch_reg*/Q*] -to [get_ports DOUT*] 1
 
 # Dont touch instantiated cells
-set dont_touch_modules [list \
-    *mux \
-    *CLK*_gate  ]
-foreach module $dont_touch_modules {
-    set_dont_touch [get_cells -hier $module]
-}
-
-if {$runtype == "pnr"} {
-    set dont_touch_nets [list \
-        */*DGWClkRightNet* \
-        */*DGWClkLeftNet* ]
-#        */*DGWClkNetToBuff* ]
-    foreach net $dont_touch_nets {
-        set_dont_touch $net
-    }
-}
-
-
+#set dont_touch_modules [list \
+#    *mux \
+#    *CLK*_gate  ]
+#foreach module $dont_touch_modules {
+#    set_dont_touch [get_cells -hier $module]
+#}
+#
+#if {$runtype == "pnr"} {
+#    set dont_touch_nets [list \
+#        */*DGWClkRightNet* \
+#        */*DGWClkLeftNet* ]
+##        */*DGWClkNetToBuff* ]
+#    foreach net $dont_touch_nets {
+#        set_dont_touch $net
+#    }
+#}
+#
+#
