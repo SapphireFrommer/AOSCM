@@ -48,10 +48,22 @@ set design(salamandra_tcl) "$design(export_dir)/${TOPLEVEL}_57x64_cells_position
 source $design(salamandra_tcl)
 setPinAssignMode -pinEditInBatch false
 
+
+# createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 $scmParams(start_of_mid_gap) $scmParams(array_height) -type hard  
+# createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 50 50 -type hard  
+createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 155.4 118.8 -type hard
+createPlaceBlockage -name "temporary_placement_blockage_right" -box 176.6 0 340.8 118.8 -type hard
+
 #suspend
-#place_design
+place_design
+set_db [get_db insts *] .dont_touch size_ok
 #place_opt_design
 
+# "Removing blockage on the array"
+deselectAll
+selectObstruct temporary_placement_blockage_left
+selectObstruct temporary_placement_blockage_right   
+deleteSelectedFromFPlan
 
 sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
     -layerChangeRange { M1(1) AP(8) } \
@@ -138,4 +150,4 @@ exit
 # get_ports
 #
 #
-#
+

@@ -14,8 +14,11 @@ params['add_RADDR_out_BUF'] = 1        # 1 to adding RADDR_out_BUF OR 0 to not a
 
 params['TRACKS'] = '9'
 
-params['technology'] = 'tsmc65_'+params['TRACKS']+'TR'
-#params['technology'] = 'Synopsys28'
+#params['technology'] = 'tsmc65_'+params['TRACKS']+'TR'
+params['technology'] = 'Synopsys28'
+
+#params['TCL_tool'] = 'Cadence'
+params['TCL_tool'] = 'Synopsys'
 
 
 if params['technology'] == 'tsmc65_'+params['TRACKS']+'TR':

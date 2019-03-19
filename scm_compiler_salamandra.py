@@ -169,11 +169,11 @@ def SCM_design_components_instances_TOP(params, scm):
 
     #row_decoder.calc_component_dimensions()
     #row_decoder_width = row_decoder.get_component_dimensions()[0] # thw width "X" of row_decoder component
-    if	ADDR_WIDTH==4 or ADDR_WIDTH==5 or ADDR_WIDTH==8:
-        row_decoder_width = sc['NOR2_X2']['width']
-    else:
-        row_decoder_width = sc['NOR3_X2']['width']
- 
+    Post_Decoder_width = sc['NOR'+str(len(params['PreDec_list']))+'_X3']['width']
+
+    bitslice.calc_component_dimensions()
+    bitslice_width = bitslice.get_component_dimensions()[0] # thw width "X" of bitslice component
+
     #########################################################
     #		components										#
     #########################################################
@@ -207,7 +207,7 @@ def SCM_design_components_instances_TOP(params, scm):
             for index in range(ADDR_WIDTH):
                 pin = 'RADDR'+str([index])
                 TOP.set_pin_position(pin, xcoord+0.2+(0.4*index), ycoord, 'BOTTOM', 2) 
-            xcoord += row_decoder_width
+            xcoord += Post_Decoder_width
             Pre_Dec_Buffers_width = sc['NAND3_X6']['width']
             xcoord += 1*Pre_Dec_Buffers_width+0.8
             t_xcoord = sc['buffer']['width']
@@ -242,13 +242,12 @@ def SCM_design_components_instances_TOP(params, scm):
             xcoord += MidGap_DGWCLK_width
             
             
-            
             ycoord = 0.0
             TOP.add_component(row_decoder, 'write_decoder', xcoord, ycoord)
             for index in range(ADDR_WIDTH):
                 pin = 'WADDR'+str([index])
                 TOP.set_pin_position(pin, xcoord+0.2+(0.4*index), ycoord, 'BOTTOM', 2)
-            xcoord += row_decoder_width
+            xcoord += Post_Decoder_width
 
             ycoord += sc['site']
             TOP.add_component(rwlBuff_stripe_middle, rwlBuff_stripe_name%((i//K_RWL)), xcoord, ycoord+sc['site'])
@@ -261,7 +260,7 @@ def SCM_design_components_instances_TOP(params, scm):
             else:
                 TOP.add_component(rwlBuff_stripe, rwlBuff_stripe_name%((i//K_RWL)), xcoord, ycoord+sc['site'])
                 xcoord += rwlBuff_stripe_width
-            
+
 
         
         ycoord = 0.0
@@ -276,8 +275,6 @@ def SCM_design_components_instances_TOP(params, scm):
         pin = 'DOUT'+str([i])
         TOP.set_pin_position(pin, xcoord+3.7, ycoord, 'TOP', 2)
 
-        bitslice.calc_component_dimensions()
-        bitslice_width = bitslice.get_component_dimensions()[0] # thw width "X" of bitslice component
         xcoord += bitslice_width
 
     # last welltap strip:
@@ -420,7 +417,7 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
     bitslice.connect('clk', 'GDIN_reg.'+sc['flipflop']['clk'])
 
     if params['add_GDIN_out_BUF'] == 1:      # in case of adding GDIN_out_BUF
-        bitslice.add_component(sc['buffer_X9']['component'], 'GDIN_BUF', xcoord, ycoord+sc['site'])
+        bitslice.add_component(sc['buffer_X6']['component'], 'GDIN_BUF', xcoord, ycoord+sc['site'])
         bitslice.connect('GDIN', 'GDIN_BUF.'+sc['buffer']['in'])
         bitslice.add_net(Net('GDIN_BUF_out'))
         bitslice.connect('GDIN_BUF_out', 'GDIN_BUF.'+sc['buffer']['out'])
@@ -438,6 +435,7 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
            ycoord += sc['site']*params['middle_horizontal_gap']         	
         bitslice.add_component(MemoryLatch_reg, MemoryLatch_reg_name%(i), xcoord, ycoord)
         ycoord += sc['site']
+        
         #for net in ['MemoryLatch']:
             #bitslice.add_net(Net(net+str([i])))
         if params['add_GDIN_out_BUF'] == 1:      # in case of adding GDIN_out_BUF
@@ -456,7 +454,8 @@ def SCM_design_components_instances_bitslice(params, scm, b_name):
     if b_name == 'bitslice_odd':
         xcoord = (sc['latch']['width']+sc['NAND2']['width']+sc['NAND2']['width'])-sc['flipflop']['width']
         scm[b_name].set_position('GDIN_reg', xcoord, sc['site'])
-        scm[b_name].set_position('GDIN_BUF', xcoord, 0.0)
+        if params['add_GDIN_out_BUF'] == 1:      # in case of adding GDIN_out_BUF
+            scm[b_name].set_position('GDIN_BUF', xcoord, 0.0)
 
 ##########################################################
 # add components to read_mux module
@@ -527,7 +526,7 @@ def SCM_design_components_instances_read_mux(params, scm):
                 if i == ((2**ADDR_WIDTH)>>(level-1))//2:    # gap for DIN buffers
                     ycoord += sc['site']*params['middle_horizontal_gap']
                 read_mux.add_component(sc['NAND2_X3']['component'], level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
-                ycoord += gap_Between_Gates*sc['site']                             
+                ycoord += gap_Between_Gates*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
                 for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
                     read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])     
@@ -645,25 +644,27 @@ def SCM_design_components_instances_row_decoder(params, scm):
 
     ###########         PreDecoders instances         ############
     ##############################################################	
-    PreDec_list = []	# lookup table
+    params['PreDec_list'] = []  
+    PreDec_list = params['PreDec_list']     # lookup table
     if (ADDR_WIDTH == 4):
-        PreDec_list = [2,2]
+        PreDec_list.extend([2,2])
     elif (ADDR_WIDTH == 5):
-        PreDec_list = [2,3]
+        PreDec_list.extend([2,3])
     elif (ADDR_WIDTH == 6):
-        PreDec_list = [3,3]
+        PreDec_list.extend([3,3])
     elif (ADDR_WIDTH == 7):
-        PreDec_list = [2,2,3]
+        PreDec_list.extend([2,2,3])
     elif (ADDR_WIDTH == 8):
-        PreDec_list = [4,2,2]		
+        PreDec_list.extend([4,2,2])
     
     NUM_PREDECS = len(PreDec_list)
     Num_PreDec_out_wires = 0
     for i in PreDec_list:
         Num_PreDec_out_wires += 2**i
     row_decoder.add_netbus(Bus(Net, 'PreDec_out', Num_PreDec_out_wires))
-    row_decoder.add_netbus(Bus(Net, 'PreDec_out_BUF_UP', Num_PreDec_out_wires))
-    row_decoder.add_netbus(Bus(Net, 'PreDec_out_BUF_DOWN', Num_PreDec_out_wires))
+    if params['add_PreDec_out_BUF'] == 1:   # in case of adding PreDec_out_BUF
+        row_decoder.add_netbus(Bus(Net, 'PreDec_out_BUF_UP', Num_PreDec_out_wires))
+        row_decoder.add_netbus(Bus(Net, 'PreDec_out_BUF_DOWN', Num_PreDec_out_wires))
     
     xcoord = 0.0
     ycoord = 0.0
@@ -710,7 +711,7 @@ def SCM_design_components_instances_row_decoder(params, scm):
                         row_decoder.connect('PreDec_out_BUF_DOWN'+str([k+temp_dec_out_port]), 'PreDec_'+str(BUF)+'_OUT_BUF_'+str(k)+'_DOWN''.'+sc['buffer']['out'])
 
                     temp_dec_out_port += k+1
-                    
+        
     
     NUM_LOWER_BITS = 0
     NUM_LOWER_BITS_OUT = 0	
@@ -904,16 +905,17 @@ def write_tcl(params,scm):
     
     #for module in scm.values():
     for module in [scm['TOP']]:
-        tcl_file.write('######' + str(module) + '\n')
-        tcl_file.write('set floorPlan_margin_x 10.0\n')
+        tcl_file.write('###### module: ' + str(module) + '\n')
+        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')        
+        tcl_file.write('set floorPlan_margin_x 0.0\n')
         tcl_file.write('# y_coordinate must be product of site\n')        
-        tcl_file.write('set floorPlan_margin_y 10.0\n')
+        tcl_file.write('set floorPlan_margin_y 0.0\n')
         tcl_file.write(module.write_floorPlan_tcl_commands('sc'+params['TRACKS']+'_cln65lp') + '\n\n')
         
         tcl_file.write('set x_coordinate 0.0\n')
         tcl_file.write('# y_coordinate must be product of site\n')
         tcl_file.write('set y_coordinate 0.0\n\n')        
-        for line in module.write_tcl_placement_commands():	# standatd cells placement
+        for line in module.write_tcl_placement_commands(params['TCL_tool']):	# standatd cells placement
             tcl_file.write(line + '\n')
         tcl_file.write('\n\n\n')
         for line in module.write_pin_tcl_placement_commands():	# pin placement
