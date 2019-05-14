@@ -822,7 +822,11 @@ def write_verilog_file(params,scm):
     if not os.path.exists(export_folder):
         os.makedirs(export_folder)
 
-    verilog_file_name = export_folder + '/' + params['TOPLEVEL'] + '.post_py.v'
+    export_design_folder = export_folder+'/'+params['TOPLEVEL']
+    if not os.path.exists(export_design_folder):
+        os.makedirs(export_design_folder)
+
+    verilog_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '.post_py.v'
     
     header_comment_text = []
     module_scm_text = scm['TOP'].write_verilog()
@@ -849,7 +853,7 @@ def write_verilog_file(params,scm):
     verilog_files_folder = 'verilog_modules'
     if not os.path.exists(verilog_files_folder):
         os.makedirs(verilog_files_folder)
-    
+
     for module_name in scm.values():
         verilog_module_folder = verilog_files_folder+'/'+str(module_name)
         if not os.path.exists(verilog_module_folder):
@@ -898,32 +902,51 @@ def write_tcl(params,scm):
     export_folder = 'export'
     if not os.path.exists(export_folder):
         os.makedirs(export_folder)
-
-    tcl_file_name = export_folder + '/' + params['TOPLEVEL'] + '_cells_position.tcl'
     
-    tcl_file=open(tcl_file_name,'w')
+    export_design_folder = export_folder+'/'+params['TOPLEVEL']
+    if not os.path.exists(export_design_folder):
+        os.makedirs(export_design_folder)
+        
+    tcl_FloorPlan_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_FloorPlan_command.tcl'
+    tcl_cells_position_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_cells_position.tcl'
+    tcl_pin_position_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_pin_position.tcl'
+    tcl_addStripe_commands_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_addStripe_commands.tcl'
+    
     
     #for module in scm.values():
     for module in [scm['TOP']]:
+        tcl_file=open(tcl_FloorPlan_file_name,'w')
         tcl_file.write('###### module: ' + str(module) + '\n')
-        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')        
+        tcl_file.write('###### TCL commands tool: '+params['TCL_tool']+'\n###### File: '+tcl_FloorPlan_file_name+'\n\n')     
         tcl_file.write('set floorPlan_margin_x 0.0\n')
         tcl_file.write('# y_coordinate must be product of site\n')        
         tcl_file.write('set floorPlan_margin_y 0.0\n')
-        tcl_file.write(module.write_floorPlan_tcl_commands('sc'+params['TRACKS']+'_cln65lp') + '\n\n')
-        
+        tcl_file.write(module.write_floorPlan_tcl_commands('sc'+params['TRACKS']+'_cln65lp') + '\n\n')  # FloorPlan
+        tcl_file.close()
+
+        tcl_file=open(tcl_cells_position_file_name,'w')
+        tcl_file.write('###### module: ' + str(module) + '\n')
+        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')                
         tcl_file.write('set x_coordinate 0.0\n')
         tcl_file.write('# y_coordinate must be product of site\n')
         tcl_file.write('set y_coordinate 0.0\n\n')        
         for line in module.write_tcl_placement_commands(params['TCL_tool']):	# standatd cells placement
             tcl_file.write(line + '\n')
-        tcl_file.write('\n\n\n')
+        tcl_file.close()
+
+        tcl_file=open(tcl_pin_position_file_name,'w')
+        tcl_file.write('###### module: ' + str(module) + '\n')
+        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')                
         for line in module.write_pin_tcl_placement_commands():	# pin placement
             tcl_file.write(line + '\n')
-        tcl_file.write('\n\n\n')
+        tcl_file.close()
 
+        tcl_file=open(tcl_addStripe_commands_file_name,'w')
+        tcl_file.write('###### module: ' + str(module) + '\n')
+        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')                
         for line in module.write_addStripe_tcl_commands():	# addStripe commands
             tcl_file.write(line + '\n')
+        tcl_file.close()
 
 
 
