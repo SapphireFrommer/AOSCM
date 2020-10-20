@@ -28,7 +28,7 @@ if params['technology'] == 'tsmc65_'+TRACKS+'TR':
     ##########  latch  ##########
     sc['latch'] = {}
     sc['latch']['in'] = 'D'
-    sc['latch']['clk'] = 'G'     
+    sc['latch']['clk'] = 'G'  
     sc['latch']['out'] = 'Q'      
 
     for i in ['1','2','3']:

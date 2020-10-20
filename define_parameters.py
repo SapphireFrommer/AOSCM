@@ -1,7 +1,7 @@
 ####################### define parameter #######################
 params = {}
-params['DATA_WIDTH'] = 57
-params['ADDR_WIDTH'] = 6		# Number of words (rows) is 2**ADDR_WIDTH 
+params['DATA_WIDTH'] = 32
+params['ADDR_WIDTH'] = 5		# Number of words (rows) is 2**ADDR_WIDTH 
 
 params['RWL_NUM'] = 4	    # how many rwl buffer will be
 params['WELLTAP'] = 8	    # after how many bitslice will be welltap (and VDD GND stripes)
@@ -14,11 +14,11 @@ params['add_RADDR_out_BUF'] = 1        # 1 to adding RADDR_out_BUF OR 0 to not a
 
 params['TRACKS'] = '9'
 
-#params['technology'] = 'tsmc65_'+params['TRACKS']+'TR'
-params['technology'] = 'Synopsys28'
+params['technology'] = 'tsmc65_'+params['TRACKS']+'TR'
+#params['technology'] = 'Synopsys28'
 
-#params['TCL_tool'] = 'Cadence'
-params['TCL_tool'] = 'Synopsys'
+params['TCL_tool'] = 'Cadence'
+#params['TCL_tool'] = 'Synopsys'
 
 
 if params['technology'] == 'tsmc65_'+params['TRACKS']+'TR':

@@ -1,5 +1,6 @@
 set runtype "pnr"
 set TOPLEVEL "scm65"
+set TOPLEVEL_SIZE "32x32"
 set debugState 1
 set ScriptDir "../../innovus"
 
@@ -10,7 +11,7 @@ setDesignMode -process 65
 
 # Set up specific defines for this run
 source ${ScriptDir}/${TOPLEVEL}.defines
-set design(salamandra_netlist) "$design(export_dir)/${TOPLEVEL}_57x64.post_py.v"
+set design(salamandra_netlist) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}.post_py.v"
 
 # Set up the "paths" and "tech_files" variables to describe the installation information
 source ${ScriptDir}/libraries.tcl
@@ -42,28 +43,25 @@ set init_design_uniquify 1
 
 init_design
 
+
+set design(salamandra_tcl_FloorPlan) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}_FloorPlan_command.tcl"
+source $design(salamandra_tcl_FloorPlan)
+
 #To speed up the pin assign:
 setPinAssignMode -pinEditInBatch true  
-set design(salamandra_tcl) "$design(export_dir)/${TOPLEVEL}_57x64_cells_position.tcl"
-source $design(salamandra_tcl)
+set design(salamandra_tcl_pin_position) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}_pin_position.tcl"
+source $design(salamandra_tcl_pin_position)
 setPinAssignMode -pinEditInBatch false
 
+set design(salamandra_tcl_cells_position) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}_cells_position.tcl"
+source $design(salamandra_tcl_cells_position)
 
-# createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 $scmParams(start_of_mid_gap) $scmParams(array_height) -type hard  
-# createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 50 50 -type hard  
-createPlaceBlockage -name "temporary_placement_blockage_left" -box 0 0 155.4 118.8 -type hard
-createPlaceBlockage -name "temporary_placement_blockage_right" -box 176.6 0 340.8 118.8 -type hard
 
-#suspend
 place_design
-set_db [get_db insts *] .dont_touch size_ok
-#place_opt_design
 
-# "Removing blockage on the array"
-deselectAll
-selectObstruct temporary_placement_blockage_left
-selectObstruct temporary_placement_blockage_right   
-deleteSelectedFromFPlan
+set_db [get_db insts *] .dont_touch size_ok
+# place_opt_design
+
 
 sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
     -layerChangeRange { M1(1) AP(8) } \
