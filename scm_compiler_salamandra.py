@@ -93,9 +93,14 @@ def SCM_design_components_instances_TOP(params, scm):
 
     
     TOP.add_component(bitslice, 'bitslice', xcoord, ycoord)
-    TOP.set_pin_position('DIN', xcoord+3.5, ycoord, 'BOTTOM', 2)
-        
+
+    TOP.set_pin_position('DIN', xcoord+3.5, ycoord, 'BOTTOM', 2)     
+    TOP.set_pin_position('clk', xcoord+2.5, ycoord, 'BOTTOM', 2)     
     TOP.set_pin_position('DOUT', xcoord+3.7, ycoord, 'TOP', 2)
+    for row in range(2**ADDR_WIDTH):
+        TOP.set_pin_position('DGWCLK'+str([row]), xcoord+(row*sc['site']), ycoord, 'LEFT', 2)
+        TOP.set_pin_position('RWL'+str([row]), xcoord+3.7, ycoord, 'LEFT', 2)
+
 
     #########################################################
     #		connectivity									#
@@ -352,7 +357,6 @@ def write_tcl(params,scm):
     tcl_FloorPlan_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_FloorPlan_command.tcl'
     tcl_cells_position_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_cells_position.tcl'
     tcl_pin_position_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_pin_position.tcl'
-    tcl_addStripe_commands_file_name = export_design_folder + '/' + params['TOPLEVEL'] + '_addStripe_commands.tcl'
     
     
     #for module in scm.values():
@@ -372,7 +376,7 @@ def write_tcl(params,scm):
         tcl_file.write('set x_coordinate 0.0\n')
         tcl_file.write('# y_coordinate must be product of site\n')
         tcl_file.write('set y_coordinate 0.0\n\n')        
-        for line in module.write_tcl_placement_commands(params['TCL_tool']):	# standatd cells placement
+        for line in module.write_tcl_placement_commands(params['TCL_tool'])[0]:	# standatd cells placement
             tcl_file.write(str(line) + '\n')
         tcl_file.close()
 
@@ -382,14 +386,6 @@ def write_tcl(params,scm):
         for line in module.write_pin_tcl_placement_commands():	# pin placement
             tcl_file.write(str(line) + '\n')
         tcl_file.close()
-
-        tcl_file=open(tcl_addStripe_commands_file_name,'w')
-        tcl_file.write('###### module: ' + str(module) + '\n')
-        tcl_file.write('###### TCL commands: '+params['TCL_tool']+' ######\n\n')                
-        for line in module.write_addStripe_tcl_commands():	# addStripe commands
-            tcl_file.write(str(line) + '\n')
-        tcl_file.close()
-
 
 
 if __name__ == '__main__':
