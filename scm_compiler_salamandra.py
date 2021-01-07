@@ -177,10 +177,11 @@ def SCM_design_components_instances_read_mux(params, scm):
     # aliases:
     ADDR_WIDTH = params['ADDR_WIDTH']
     read_mux = scm['read_mux']
-    NAND2 = sc['NAND2']['component']
-    NOR2 = sc['NOR2']['component']
-    INV_OUT_GATE = sc['inverter_X4']['component']
-    buffer = sc['buffer_X4']['component']
+    #NAND2 = sc['NAND2']['component']
+    #NOR2 = sc['NOR2']['component']
+    #INV_OUT_GATE = sc['inverter_X4']['component']
+    #buffer = sc['buffer_X4']['component']
+    MUX_DRIVE_STRENGTH = params['MUX_DRIVE_STRENGTH']
 
     # instances names:
     level_first_name = 'level_%0'+str(len(str(ADDR_WIDTH+1)))+'d'
@@ -200,6 +201,8 @@ def SCM_design_components_instances_read_mux(params, scm):
             ycoord += initial_Offset*sc['site']            
 
         if level == 1:      # add and connect level_1 NAND2
+            NAND2_str = 'NAND2_X'+str(MUX_DRIVE_STRENGTH[level-1])
+            NAND2 = sc[NAND2_str]['component']
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), 2**ADDR_WIDTH))
             for i in range(2**ADDR_WIDTH):
                 if i == (2**ADDR_WIDTH)//2: # gap for DIN buffers
@@ -207,11 +210,13 @@ def SCM_design_components_instances_read_mux(params, scm):
                 read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
-                for pin in [('MemoryLatch', sc['NAND2']['in_1']), ('RWL', sc['NAND2']['in_2']), ('w'+str(level-1), sc['NAND2']['out'])]:
+                for pin in [('MemoryLatch', sc[NAND2_str]['in_1']), ('RWL', sc[NAND2_str]['in_2']), ('w'+str(level-1), sc[NAND2_str]['out'])]:
                     read_mux.connect(pin[0]+str([i]), level_first_name%(level)+level_second_name%(i)+'.'+pin[1])
 
         if level == 2:      # add and connect level_2 NAND2
-            xcoord += sc['NAND2']['width']
+            xcoord += sc['NAND2_X'+str(MUX_DRIVE_STRENGTH[0])]['width']
+            NAND2_str = 'NAND2_X'+str(MUX_DRIVE_STRENGTH[level-1])
+            NAND2 = sc[NAND2_str]['component']
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>1))
             for i in range((2**ADDR_WIDTH)>>1):
                 if i == ((2**ADDR_WIDTH)>>1)//2:    # gap for DIN buffers
@@ -219,29 +224,35 @@ def SCM_design_components_instances_read_mux(params, scm):
                 read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
-                for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
+                for pin in [('w'+str(level-2)+str([2*i]), sc[NAND2_str]['in_1']), ('w'+str(level-2)+str([2*i+1]), sc[NAND2_str]['in_2']), ('w'+str(level-1)+str([i]), sc[NAND2_str]['out'])]:
                     read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])
 
+        # if (level%2) and (level != 1):
+
         if (level%2) & (level != 1):        # add and connect levels 3,5,7..... -> in odd levels there are NOR2 gates
+            NOR2_str = 'NOR2_X'+str(MUX_DRIVE_STRENGTH[level-1])
+            NOR2 = sc[NOR2_str]['component']
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>(level-1)))   
             for i in range((2**ADDR_WIDTH)>>(level-1)):
-                read_mux.add_component(sc['NOR2_X3']['component'], level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
+                read_mux.add_component(NOR2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']
                 if i == (((2**ADDR_WIDTH)>>(level-1))//2)-1:    # gap for DIN buffers
                     ycoord += sc['site']*params['middle_horizontal_gap']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
-                for pin in [('w'+str(level-2)+str([2*i]), sc['NOR2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NOR2']['in_2']), ('w'+str(level-1)+str([i]), sc['NOR2']['out'])]:
+                for pin in [('w'+str(level-2)+str([2*i]), sc[NOR2_str]['in_1']), ('w'+str(level-2)+str([2*i+1]), sc[NOR2_str]['in_2']), ('w'+str(level-1)+str([i]), sc[NOR2_str]['out'])]:
                     read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])            
 
         if (level%2 == 0) & (level != 2):       # add and connect levels 4,6,8..... -> in even levels there are NAND2 gates
+            NAND2_str = 'NAND2_X'+str(MUX_DRIVE_STRENGTH[level-1])
+            NAND2 = sc[NAND2_str]['component']
             read_mux.add_netbus(Bus(Net, 'w'+str(level-1), (2**ADDR_WIDTH)>>(level-1)))
             for i in range((2**ADDR_WIDTH)>>(level-1)):
                 if i == ((2**ADDR_WIDTH)>>(level-1))//2:    # gap for DIN buffers
                     ycoord += sc['site']*params['middle_horizontal_gap']
-                read_mux.add_component(sc['NAND2_X3']['component'], level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
+                read_mux.add_component(NAND2, level_first_name%(level)+level_second_name%(i), xcoord, ycoord)
                 ycoord += gap_Between_Gates*sc['site']
                 #read_mux.add_net(Net('w'+str(level-1)+str([i])))
-                for pin in [('w'+str(level-2)+str([2*i]), sc['NAND2']['in_1']), ('w'+str(level-2)+str([2*i+1]), sc['NAND2']['in_2']), ('w'+str(level-1)+str([i]), sc['NAND2']['out'])]:
+                for pin in [('w'+str(level-2)+str([2*i]), sc[NAND2_str]['in_1']), ('w'+str(level-2)+str([2*i+1]), sc[NAND2_str]['in_2']), ('w'+str(level-1)+str([i]), sc[NAND2_str]['out'])]:
                     read_mux.connect(pin[0], level_first_name%(level)+level_second_name%(i)+'.'+pin[1])     
     
     # last inverter or buffer
@@ -251,12 +262,16 @@ def SCM_design_components_instances_read_mux(params, scm):
     ycoord += (initial_Offset+params['middle_horizontal_gap'])*sc['site']            
 
     if ((ADDR_WIDTH+1)%2 == 1):     
+        INV_OUT_GATE_str = 'inverter_X'+str(MUX_DRIVE_STRENGTH[-1])
+        INV_OUT_GATE = sc[INV_OUT_GATE_str]['component']
         read_mux.add_component(INV_OUT_GATE, 'inv_out', xcoord, ycoord)
-        for pin in [('w'+str(ADDR_WIDTH)+'[0]', sc['inverter']['in']), ('DOUT', sc['inverter']['out'])]:
+        for pin in [('w'+str(ADDR_WIDTH)+'[0]', sc[INV_OUT_GATE_str]['in']), ('DOUT', sc[INV_OUT_GATE_str]['out'])]:
             read_mux.connect(pin[0], 'inv_out.'+pin[1])
     elif ((ADDR_WIDTH+1)%2 == 0):
+        buffer_str = 'buffer_X'+str(MUX_DRIVE_STRENGTH[-1])
+        buffer = sc[buffer_str]['component']
         read_mux.add_component(buffer, 'buffer_out', xcoord, ycoord)
-        for pin in [('w'+str(ADDR_WIDTH)+'[0]', sc['buffer']['in']), ('DOUT', sc['buffer']['out'])]:
+        for pin in [('w'+str(ADDR_WIDTH)+'[0]', sc[buffer_str]['in']), ('DOUT', sc[buffer_str]['out'])]:
             read_mux.connect(pin[0], 'buffer_out.'+pin[1])
 
 
