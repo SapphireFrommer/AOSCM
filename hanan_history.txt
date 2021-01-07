@@ -1,0 +1,12 @@
+[frommes@enicsm02 scm_compiler_sf]$ cd workspace/innovus/
+[frommes@enicsm02 innovus]$ qinnovus &
+[1] 15647
+[frommes@enicsm02 innovus]$ Warning: Tried to connect to session manager, Could not open network socket
+
+[1]    Done                          ( setenv DISPLAY enicsm02:30.0; qrsh -V -cwd xterm -e innovus )
+[frommes@enicsm02 innovus]$ 
+[frommes@enicsm02 innovus]$ 
+[frommes@enicsm02 innovus]$ pwd
+/project/test_project/users/frommes/ws/scm_compiler_sf/workspace/innovus
+[frommes@enicsm02 innovus]$ qinnovus &
+[frommes@enicsm02 innovus]$ 
