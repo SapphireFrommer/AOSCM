@@ -97,6 +97,7 @@ def SCM_design_components_instances_TOP(params, scm):
     TOP.set_pin_position('DIN', xcoord+3.5, ycoord, 'BOTTOM', 2)     
     TOP.set_pin_position('clk', xcoord+2.5, ycoord, 'BOTTOM', 2)     
     TOP.set_pin_position('DOUT', xcoord+3.7, ycoord, 'TOP', 2)
+    ycoord = 2*sc['site']
     for row in range(2**ADDR_WIDTH):
         TOP.set_pin_position('RWL'+str([row]), xcoord, ycoord + 0.65, 'LEFT', 2)
         TOP.set_pin_position('DGWCLK'+str([row]), xcoord, ycoord + 1.15, 'LEFT', 2)
@@ -172,7 +173,7 @@ def SCM_design_components_instances_bitslice(params, scm):
             bitslice.connect(net+str([i]), 'read_mux.'+net+str([i]))    #conectivty to read_mux
     
     xcoord = 0.0
-    ycoord = 0.0
+    ycoord = 2*sc['site']
     for row in range(2**ADDR_WIDTH):
         bitslice.set_pin_position('RWL'+str([row]), xcoord, ycoord + 0.65, 'LEFT', 2)
         bitslice.set_pin_position('DGWCLK'+str([row]), xcoord, ycoord + 1.15, 'LEFT', 2)
