@@ -1,0 +1,2 @@
+site height = 1.8
+half vdd = 0.15
