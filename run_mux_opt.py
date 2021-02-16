@@ -4,9 +4,9 @@ import os, fileinput, datetime, math
 MY_VNC = 93
 
 #LEVELS_DRIVE_STRENGTH_LIST = [1,2,3,4,6,8]
-LEVELS_DRIVE_STRENGTH_LIST = [2,3]
+LEVELS_DRIVE_STRENGTH_LIST = [3]
 #BUFFER_DRIVE_STRENGTH_LIST = [1,2,3,4,5,6,9,11,13,16]
-BUFFER_DRIVE_STRENGTH_LIST = [1,2]
+BUFFER_DRIVE_STRENGTH_LIST = [1]
 
 NUM_LEVLS = 7
 
@@ -27,7 +27,7 @@ runTimes=dict()
 # ---- Run Paths ---- #
 runPaths=dict()
 #runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
-runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
+runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compiler_sf/"
 
 # ---- Run Commands ---- #
 runCommands['SGE']='qrsh -V -cwd \' '
@@ -63,11 +63,34 @@ for L1 in LEVELS_DRIVE_STRENGTH_LIST:
               ###################################################################################
               ##                                RUN SALAMANDRA                                 ##
               ###################################################################################
+              print ('START <RUN SALAMANDRA> STAGE')
 
-              runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 mpscm_compiler_salamandra.py \''
+              runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
               os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
 
+              print ('END <RUN SALAMANDRA> STAGE')
+            
+              ###################################################################################
+              ##                         modify RUN_ID tcl file                                ##
+              ###################################################################################
 
+
+
+            
+              ###################################################################################
+              ##                                RUN INNOVUS                                    ##
+              ###################################################################################
+              print ('START <RUN INNOVUS> STAGE')
+
+              runPaths['workspace'] = runPaths['home'] + 'workspace/'
+              runPaths['PLACEANDROUTE'] = runPaths['workspace'] + "innovus/"
+              runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
+              
+              os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
+              print ('END <RUN INNOVUS> STAGE')
+
+              
+              
 exit()
 
     
