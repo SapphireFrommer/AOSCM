@@ -47,6 +47,14 @@ init_design
 set design(salamandra_tcl_FloorPlan) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}_FloorPlan_command.tcl"
 source $design(salamandra_tcl_FloorPlan)
 
+sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
+    -layerChangeRange { M1(1) AP(8) } \
+    -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } \
+    -allowJogging 1 -crossoverViaLayerRange { M1(1) AP(8) } -allowLayerChange 1 \
+    -targetViaLayerRange { M1(1) AP(8) }
+
+
+
 #To speed up the pin assign:
 setPinAssignMode -pinEditInBatch true  
 set design(salamandra_tcl_pin_position) "$design(export_dir)/${TOPLEVEL}_${TOPLEVEL_SIZE}/${TOPLEVEL}_${TOPLEVEL_SIZE}_pin_position.tcl"
@@ -59,19 +67,20 @@ source $design(salamandra_tcl_cells_position)
 
 place_design
 
-set_db [get_db insts *] .dont_touch size_ok
+#set_db [get_db insts *] .dont_touch size_ok
 # place_opt_design
 
 
-sroute -connect { corePin }  -nets "$design(digital_vdd) $design(digital_gnd)" \
-    -layerChangeRange { M1(1) AP(8) } \
-    -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } \
-    -allowJogging 1 -crossoverViaLayerRange { M1(1) AP(8) } -allowLayerChange 1 \
-    -targetViaLayerRange { M1(1) AP(8) }
 
-refinePlace
+set floorPlan_x_new [expr ($floorPlan_x+1)]
 
-report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net 
+set FP_stipe_end_x [expr ($floorPlan_x_new+0.4)]
+addStripe -nets {gnd vdd} -layer M2 -direction vertical -width "0.15 0.15" -spacing 0.1 -number_of_sets 1 -area "$floorPlan_x_new 0.0 $FP_stipe_end_x $floorPlan_y" -start_offset 0
+
+
+#refinePlace
+
+#report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net 
 
 
 
@@ -90,22 +99,23 @@ globalNetConnect $design(digital_gnd) -type tielo -pin $tech_files(STANDARD_CELL
 
 
 
-fit
+#fit
 
-getDrawView
-loadWorkspace -name Physical
-win
-fit
+#getDrawView
+#loadWorkspace -name Physical
+#win
+#fit
 
 # set_db [get_db insts *] .place_status fixed
-set_db [get_db insts *] .dont_touch size_ok
+#set_db [get_db insts *] .dont_touch size_ok
 
 # place
 # CTS
 routeDesign
 
-
-
+# source MUX_DRIVE_STRENGTH_sizes.tcl
+set timing_report_file timing_report_x1_x3_x4_x1.rpt
+report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net > $design(reports_dir)/timing_reports/$timing_report_file
 
 saveDesign $design(export_dir)/${TOPLEVEL}.post_route.enc -relativePath
 write_sdf  -precision 4 -min_period_edges posedge -recompute_parallel_arcs \
