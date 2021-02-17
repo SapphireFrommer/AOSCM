@@ -1,0 +1,1 @@
+set timing_report_file timing_report_id.rpt
