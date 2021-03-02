@@ -32,6 +32,93 @@ runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compi
 # ---- Run Commands ---- #
 runCommands['SGE']='qrsh -V -cwd \' '
 
+###################################################################################
+##                               ALL THE OPTIONS                                 ##
+###################################################################################
+l = params['ADDR_WIDTH'] + 1 ###################### +2
+i = 0
+limit = pow(6,l)######6**l
+for i in range(limit)
+  power = "]"
+  temp = i
+  #calculate the first l levels power
+  for(temp)
+    current = temp % 6
+    power = str(current) + power
+    temp = temp / 6
+    if (not temp)
+      power = "," + power
+  for j in BUFFER_DRIVE_STRENGTH_LIST
+    power = "[" + str(j) + power
+    ###################################################################################
+    ##  First, modify "params['MUX_DRIVE_STRENGTH']" in the define_parameters file.  ##
+    ###################################################################################
+    fin = open("./ID.py", "r")
+    new_file_lines = []
+    for line in fin:
+      if ('params[\'MUX_DRIVE_STRENGTH\']' in line):
+        new_file_lines.append('params[\'MUX_DRIVE_STRENGTH\'] = ' + power + '\n')
+      else:
+        new_file_lines.append(line)
+
+    fin.close()
+    fout = open("./ID.py", "w")
+    for line in new_file_lines:
+      fout.write(line)
+    fout.close()
+
+    ###################################################################################
+    ##                                RUN SALAMANDRA                                 ##
+    ###################################################################################
+    print ('START <RUN SALAMANDRA> STAGE')
+
+    runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
+    os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
+
+    print ('END <RUN SALAMANDRA> STAGE')
+            
+    ###################################################################################
+    ##                         modify RUN_ID tcl file                                ##
+    ###################################################################################
+    RUN_ID_NAME = ''
+    for layer in RUN_ID
+      RUN_ID_NAME += ('X'+str(RUN_ID[layer]))
+    fin = open("./RUN_ID_NAME.tcl", "r")
+    new_file_lines = []
+    for line in fin:
+      if ('set timing_report_file' in line):
+        new_file_lines.append('set timing_report_file timing_report_'+str(RUN_ID_NAME)+'\n')
+      else:
+        new_file_lines.append(line)
+
+    fin.close()
+    fout = open("./RUN_ID_NAME.tcl", "w")
+    for line in new_file_lines:
+        fout.write(line)
+    fout.close()
+
+            
+    ###################################################################################
+    ##                                RUN INNOVUS                                    ##
+    ###################################################################################
+    print ('START <RUN INNOVUS> STAGE')
+
+    runPaths['workspace'] = runPaths['home'] + 'workspace/'
+    runPaths['PLACEANDROUTE'] = runPaths['workspace'] + "innovus/"
+    runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
+              
+    os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
+    print ('END <RUN INNOVUS> STAGE')
+
+
+
+
+
+
+
+
+
+'''
 
 for L1 in LEVELS_DRIVE_STRENGTH_LIST:
   for L2 in LEVELS_DRIVE_STRENGTH_LIST:
@@ -73,8 +160,22 @@ for L1 in LEVELS_DRIVE_STRENGTH_LIST:
               ###################################################################################
               ##                         modify RUN_ID tcl file                                ##
               ###################################################################################
+              RUN_ID_NAME = ''
+              for layer in RUN_ID
+                RUN_ID_NAME += ('X'+str(RUN_ID[layer]))
+              fin = open("./RUN_ID_NAME.tcl", "r")
+              new_file_lines = []
+              for line in fin:
+                if ('set timing_report_file' in line):
+                  new_file_lines.append('set timing_report_file timing_report_'+str(RUN_ID_NAME)+'\n')
+                else:
+                  new_file_lines.append(line)
 
-
+              fin.close()
+              fout = open("./RUN_ID_NAME.tcl", "w")
+              for line in new_file_lines:
+                  fout.write(line)
+              fout.close()
 
             
               ###################################################################################
@@ -89,7 +190,7 @@ for L1 in LEVELS_DRIVE_STRENGTH_LIST:
               os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
               print ('END <RUN INNOVUS> STAGE')
 
-              
+'''             
               
 exit()
 
