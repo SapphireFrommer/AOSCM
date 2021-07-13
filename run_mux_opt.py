@@ -35,21 +35,33 @@ runCommands['SGE']='qrsh -V -cwd \' '
 ###################################################################################
 ##                               ALL THE OPTIONS                                 ##
 ###################################################################################
-l = params['ADDR_WIDTH'] + 1 ###################### +2
-i = 0
-limit = pow(6,l)######6**l
-for i in range(limit)
-  power = "]"
+l = params['ADDR_WIDTH'] + 1
+for i in range(6**l)
+  power = ""
   temp = i
   #calculate the first l levels power
-  for(temp)
+  for(temp > 1)
+    power = "," + power
     current = temp % 6
     power = str(current) + power
     temp = temp / 6
-    if (not temp)
-      power = "," + power
   for j in BUFFER_DRIVE_STRENGTH_LIST
-    power = "[" + str(j) + power
+    power = "[" + power + str(j) + "]"
+
+
+
+""" for i in range(20)
+  power = ""
+  temp = i
+  #calculate the first l levels power
+  for(temp > 1)
+    power = "," + power
+    current = temp % 6
+    power = str(current) + power
+    temp = temp / 6
+  for j in [1,2,3]
+    power = "[" + power + str(j) + "]"
+    print(power) """
     ###################################################################################
     ##  First, modify "params['MUX_DRIVE_STRENGTH']" in the define_parameters file.  ##
     ###################################################################################
@@ -70,12 +82,9 @@ for i in range(limit)
     ###################################################################################
     ##                                RUN SALAMANDRA                                 ##
     ###################################################################################
-    print ('START <RUN SALAMANDRA> STAGE')
-
+    
     runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
     os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
-
-    print ('END <RUN SALAMANDRA> STAGE')
             
     ###################################################################################
     ##                         modify RUN_ID tcl file                                ##
@@ -101,96 +110,13 @@ for i in range(limit)
     ###################################################################################
     ##                                RUN INNOVUS                                    ##
     ###################################################################################
-    print ('START <RUN INNOVUS> STAGE')
 
     runPaths['workspace'] = runPaths['home'] + 'workspace/'
     runPaths['PLACEANDROUTE'] = runPaths['workspace'] + "innovus/"
     runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
               
     os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
-    print ('END <RUN INNOVUS> STAGE')
-
-
-
-
-
-
-
-
-
-'''
-
-for L1 in LEVELS_DRIVE_STRENGTH_LIST:
-  for L2 in LEVELS_DRIVE_STRENGTH_LIST:
-    for L3 in LEVELS_DRIVE_STRENGTH_LIST:
-      for L4 in LEVELS_DRIVE_STRENGTH_LIST:
-        for L5 in LEVELS_DRIVE_STRENGTH_LIST:
-          for L6 in LEVELS_DRIVE_STRENGTH_LIST:
-            for L7 in BUFFER_DRIVE_STRENGTH_LIST: # Last BUFFER
-              print (str(L1)+' '+str(L2)+' '+str(L3)+' '+str(L4)+' '+str(L5)+' '+str(L6)+' '+str(L7))
-              RUN_ID = [L1,L2,L3,L4,L5,L6,L7]
-              
-              ###################################################################################
-              ##  First, modify "params['MUX_DRIVE_STRENGTH']" in the define_parameters file.  ##
-              ###################################################################################
-              fin = open("./define_parameters.py", "r")
-              new_file_lines = []
-              for line in fin:
-                if ('params[\'MUX_DRIVE_STRENGTH\']' in line):
-                  new_file_lines.append('params[\'MUX_DRIVE_STRENGTH\'] = ['+str(L1)+','+str(L2)+','+str(L3)+','+str(L4)+','+str(L5)+','+str(L6)+','+str(L7)+']\n')
-                else:
-                  new_file_lines.append(line)
-
-              fin.close()
-              fout = open("./define_parameters.py", "w")
-              for line in new_file_lines:
-                  fout.write(line)
-              fout.close()
-
-              ###################################################################################
-              ##                                RUN SALAMANDRA                                 ##
-              ###################################################################################
-              print ('START <RUN SALAMANDRA> STAGE')
-
-              runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
-              os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
-
-              print ('END <RUN SALAMANDRA> STAGE')
             
-              ###################################################################################
-              ##                         modify RUN_ID tcl file                                ##
-              ###################################################################################
-              RUN_ID_NAME = ''
-              for layer in RUN_ID
-                RUN_ID_NAME += ('X'+str(RUN_ID[layer]))
-              fin = open("./RUN_ID_NAME.tcl", "r")
-              new_file_lines = []
-              for line in fin:
-                if ('set timing_report_file' in line):
-                  new_file_lines.append('set timing_report_file timing_report_'+str(RUN_ID_NAME)+'\n')
-                else:
-                  new_file_lines.append(line)
-
-              fin.close()
-              fout = open("./RUN_ID_NAME.tcl", "w")
-              for line in new_file_lines:
-                  fout.write(line)
-              fout.close()
-
-            
-              ###################################################################################
-              ##                                RUN INNOVUS                                    ##
-              ###################################################################################
-              print ('START <RUN INNOVUS> STAGE')
-
-              runPaths['workspace'] = runPaths['home'] + 'workspace/'
-              runPaths['PLACEANDROUTE'] = runPaths['workspace'] + "innovus/"
-              runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
-              
-              os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
-              print ('END <RUN INNOVUS> STAGE')
-
-'''             
               
 exit()
 
