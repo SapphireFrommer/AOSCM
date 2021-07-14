@@ -30,11 +30,13 @@ def get_next_data(sock) :
      return msg_from_socket
 
 def send_msg(sock,msg_to_socket) :
-   try:
-     sock.sendall(msg_to_socket)
-   except (socket.error, ex):
-     print ('Socket Error while sending%s' % ex)
-     exit()           
+    sock.sendall(msg_to_socket)
+# def send_msg(sock,msg_to_socket) :
+#    try:
+#      sock.sendall(msg_to_socket)
+#    except (socket.error, ex):
+#      print ('Socket Error while sending%s' % ex)
+#      exit()           
 
 def req_msg(sock,msg_to_socket) :
      print ('tclpy> Request to remote TCL: %s' % msg_to_socket)
