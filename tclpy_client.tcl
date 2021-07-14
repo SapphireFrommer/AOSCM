@@ -21,6 +21,8 @@ while {1} {
     set rsp_msg "done"   
     puts "tclpy> Sending response message: $rsp_msg"
     puts $my_socket "$rsp_msg"
+    puts "did we get here or did we crash at line 23?"
     puts ""      
+    puts "did we get here or did we crash at line 24?"
 }
 
