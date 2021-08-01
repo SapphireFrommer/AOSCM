@@ -35,18 +35,19 @@ runCommands['SGE']='qrsh -V -cwd \' '
 ###################################################################################
 ##                               ALL THE OPTIONS                                 ##
 ###################################################################################
-level = params['ADDR_WIDTH'] + 1
+#level = params['ADDR_WIDTH'] + 1
+level = NUM_LEVLS - 1
 level_var = len(LEVELS_DRIVE_STRENGTH_LIST)
-for i in range(level_var**level)
+for i in range(level_var**level):
   power = ""
   temp = i
   #calculate the first l levels power
-  for(temp > 1)
+  while(temp > 1):
     power = "," + power
     current = temp % 6
     power = str(current) + power
     temp = temp / 6
-  for j in BUFFER_DRIVE_STRENGTH_LIST
+  for j in BUFFER_DRIVE_STRENGTH_LIST:
     power = "[" + power + str(j) + "]"
 
 
@@ -80,8 +81,8 @@ for i in range(level_var**level)
     ##                         modify RUN_ID tcl file                                ##
     ###################################################################################
     RUN_ID_NAME = ''
-    for layer in RUN_ID
-      RUN_ID_NAME += ('X'+str(RUN_ID[layer]))
+    for layer in power:
+      RUN_ID_NAME += ('X'+str(layer))
     fin = open("./RUN_ID_NAME.tcl", "r")
     new_file_lines = []
     for line in fin:
