@@ -1,3 +1,4 @@
+from define_parameters import *
 params['MUX_DRIVE_STRENGTH'] = [1,1,4,8,1,1,1]
 
 # NAND2 and NOR2 "x" options = 1,2,3,4,6,8

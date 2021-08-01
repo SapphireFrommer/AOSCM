@@ -3,7 +3,7 @@ import datetime
 sys.path.append(os.path.abspath('submodules/salamandra'))
 from salamandra import *
 from define_parameters import *
-
+from ID import *
 from standard_cell import *
 
 
@@ -69,6 +69,7 @@ def SCM_design_components_instances(params, scm):
     SCM_design_components_instances_read_mux(params, scm)
     SCM_design_components_instances_bitslice(params, scm)
     SCM_design_components_instances_TOP(params, scm)
+    
 
 
 ##########################################################
@@ -393,6 +394,10 @@ def write_tcl(params,scm):
         tcl_file.write('# y_coordinate must be product of site\n')        
         tcl_file.write('set floorPlan_margin_y 0.0\n')
         tcl_file.write(module.write_floorPlan_tcl_commands('sc'+params['TRACKS']+'_cln65lp') + '\n\n')  # FloorPlan
+        scm['TOP'].calc_component_dimensions()
+        (top_x,top_y) = scm['TOP'].get_component_dimensions()
+        tcl_file.write('#FloorPlan width = '+str(top_x))
+        tcl_file.write('#FloorPlan hight = '+str(top_y))
         tcl_file.close()
 
         tcl_file=open(tcl_cells_position_file_name,'w')

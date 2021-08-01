@@ -4,7 +4,7 @@ import os, fileinput, datetime, math
 MY_VNC = 93
 
 #LEVELS_DRIVE_STRENGTH_LIST = [1,2,3,4,6,8]
-LEVELS_DRIVE_STRENGTH_LIST = [3]
+LEVELS_DRIVE_STRENGTH_LIST = [1,3]
 #BUFFER_DRIVE_STRENGTH_LIST = [1,2,3,4,5,6,9,11,13,16]
 BUFFER_DRIVE_STRENGTH_LIST = [1]
 
@@ -35,8 +35,9 @@ runCommands['SGE']='qrsh -V -cwd \' '
 ###################################################################################
 ##                               ALL THE OPTIONS                                 ##
 ###################################################################################
-l = params['ADDR_WIDTH'] + 1
-for i in range(6**l)
+level = params['ADDR_WIDTH'] + 1
+level_var = len(LEVELS_DRIVE_STRENGTH_LIST)
+for i in range(level_var**level)
   power = ""
   temp = i
   #calculate the first l levels power
@@ -50,18 +51,6 @@ for i in range(6**l)
 
 
 
-""" for i in range(20)
-  power = ""
-  temp = i
-  #calculate the first l levels power
-  for(temp > 1)
-    power = "," + power
-    current = temp % 6
-    power = str(current) + power
-    temp = temp / 6
-  for j in [1,2,3]
-    power = "[" + power + str(j) + "]"
-    print(power) """
     ###################################################################################
     ##  First, modify "params['MUX_DRIVE_STRENGTH']" in the define_parameters file.  ##
     ###################################################################################
@@ -85,6 +74,7 @@ for i in range(6**l)
     
     runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
     os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
+    
             
     ###################################################################################
     ##                         modify RUN_ID tcl file                                ##
@@ -117,7 +107,33 @@ for i in range(6**l)
               
     os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
             
-              
+    ###################################################################################
+    ##                          add data to summery file                             ##
+    ###################################################################################
+    
+    # ###check if an old version exists, and if so, overwrite.
+    # existed = 0
+
+    # summery_data = str(RUN_ID_NAME)+' @  Total delay: '+'timing report name'+' @ Width: '+'tcl_FloorPlan_file_name'+'\n'
+    # fin = open("./summery.rpt", "r")
+    # new_file_lines = []
+    # for line in fin:
+    #   if (str(RUN_ID_NAME) in line):
+    #     existed = 1
+    #     new_file_lines.append(summery_data)
+    #   else:
+    #     new_file_lines.append(line)
+    # if(not existed)
+    #   new_file_lines.append(summery_data)
+
+    # fin.close()
+    # fout = open("./summery.rpt", "w")
+    # for line in new_file_lines:
+    #     fout.write(line)
+    # fout.close()
+
+
+#         
 exit()
 
     

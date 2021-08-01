@@ -113,9 +113,10 @@ globalNetConnect $design(digital_gnd) -type tielo -pin $tech_files(STANDARD_CELL
 # CTS
 routeDesign
 
-# source MUX_DRIVE_STRENGTH_sizes.tcl
-set timing_report_file timing_report_x1_x3_x4_x1.rpt
+source RUN_ID_NAME.tcl
+#############example: set timing_report_file timing_report_x1_x3_x4_x1.rpt
 report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net > $design(reports_dir)/timing_reports/$timing_report_file
+
 
 saveDesign $design(export_dir)/${TOPLEVEL}.post_route.enc -relativePath
 write_sdf  -precision 4 -min_period_edges posedge -recompute_parallel_arcs \
@@ -129,6 +130,18 @@ reportWire -detail $design(reports_dir)/reportWireLength.post_route.txt
 verifyGeometry -report $design(reports_dir)/verifyGeometry.post_route.txt
 verifyConnectivity -report $design(reports_dir)/verifyConnectivity.post_route.txt
 
+###########################################################hanan's from zoom
+set rpt [report_timing -to [all_outputs] -path_type full_clock -tcl_list]
+set insertion_delay [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt end] end] end] end] 1] end] end-1]
+set end_point [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt end] end] end] end] end] end] 1]
+set arrival_time [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt end] end] end] end] end] end] end-1]
+set total_delay [expr $arrival_time - $insertion_delay]
+set f [open "$design(innovus_report_dir)/timing_summary.rpt" w]
+puts $f "End point: $end_point"
+puts $f "Insertion delay: $insertion_delay"
+puts $f "Arrival time: $arrival_time"
+puts $f "Total delay: $total_delay"
+close $f
 
 #####################
 # lef and lib
