@@ -81,14 +81,17 @@ for i in range(level_var**level):
     ###################################################################################
     ##                         modify RUN_ID tcl file                                ##
     ###################################################################################
-    RUN_ID_NAME = ''
-    for layer in power:
-      RUN_ID_NAME += ('X'+str(layer))
+    # RUN_ID_NAME = ''
+    # for layer in power:
+    #   RUN_ID_NAME += ('X'+str(layer))
+    power.rstrip(']')
+    power.replace(',','X')
+    power.replace('[',X)
     fin = open("./RUN_ID_NAME.tcl", "r")
     new_file_lines = []
     for line in fin:
       if ('set timing_report_file' in line):
-        new_file_lines.append('set timing_report_file timing_report_'+str(RUN_ID_NAME)+'\n')
+        new_file_lines.append('set timing_report_file timing_report_'+str(power)+'\n')
       else:
         new_file_lines.append(line)
 
