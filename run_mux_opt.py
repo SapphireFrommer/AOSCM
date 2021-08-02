@@ -42,11 +42,12 @@ for i in range(level_var**level):
   power = ""
   temp = i
   #calculate the first l levels power
-  while(temp > 1):
+  for k in range(level):
     power = "," + power
-    current = temp % 6
-    power = str(current) + power
-    temp = temp / 6
+    current = int(temp % 6)
+    gamba = LEVELS_DRIVE_STRENGTH_LIST[current]
+    power = str(gamba) + power
+    temp = int(temp / 6)
   for j in BUFFER_DRIVE_STRENGTH_LIST:
     power = "[" + power + str(j) + "]"
 
