@@ -84,9 +84,9 @@ for i in range(level_var**level):
     # RUN_ID_NAME = ''
     # for layer in power:
     #   RUN_ID_NAME += ('X'+str(layer))
-    power.rstrip(']')
-    power.replace(',','X')
-    power.replace('[',X)
+    power = power.rstrip(']')
+    power = power.replace(',','X')
+    power = power.replace('[','X')
     fin = open("./RUN_ID_NAME.tcl", "r")
     new_file_lines = []
     for line in fin:
