@@ -42,7 +42,7 @@ for i in range(level_var**level):
   power = ""
   temp = i
   #calculate the first l levels power
-  for k in range(level):
+  for k in range(level-1):
     power = "," + power
     current = int(temp % 6)
     gamba = LEVELS_DRIVE_STRENGTH_LIST[current]
