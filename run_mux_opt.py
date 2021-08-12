@@ -76,7 +76,7 @@ for i in range(level_var**level):
     
     runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
     os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
-    
+    print('DONE - Salamandra "python3 scm_compiler_salamandra.py"\n')
             
     ###################################################################################
     ##                         modify RUN_ID tcl file                                ##
@@ -100,6 +100,7 @@ for i in range(level_var**level):
     for line in new_file_lines:
         fout.write(line)
     fout.close()
+    print('DONE - modify RUN_ID tcl file \n')
 
             
     ###################################################################################
@@ -111,6 +112,7 @@ for i in range(level_var**level):
     runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
               
     os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
+    print('DONE - RUN INNOVUS \n')
             
     ###################################################################################
     ##                          add data to summery file                             ##
