@@ -295,6 +295,7 @@ def write_verilog_file(params,scm):
     if not os.path.exists(export_folder):
         os.makedirs(export_folder)
 
+
     export_design_folder = export_folder+'/'+params['TOPLEVEL']
     if not os.path.exists(export_design_folder):
         os.makedirs(export_design_folder)
@@ -304,8 +305,10 @@ def write_verilog_file(params,scm):
     header_comment_text = []
     module_scm_text = scm['TOP'].write_verilog()
 
-    header_comment(header_comment_text, params, module_scm_text)    
+    header_comment(header_comment_text, params, module_scm_text)
     
+    print(verilog_file_name + '\n')
+    open(verilog_file_name,'x')
     verilog_file=open(verilog_file_name,'w')
 
     for line in header_comment_text:

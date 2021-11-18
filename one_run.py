@@ -27,8 +27,8 @@ runCommands=dict()
 runTimes=dict()
 # ---- Run Paths ---- #
 runPaths=dict()
-#runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
-runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compiler_sf/"
+runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
+#runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compiler_sf/"
 
 # ---- Run Commands ---- #
 runCommands['SGE']='qrsh -V -cwd \' '
@@ -104,11 +104,14 @@ print('DONE - modify RUN_ID tcl file \n')
     ###################################################################################
     ##                                RUN INNOVUS                                    ##
     ###################################################################################
+print("DON'T START INNOVUS - SUCCESS SO FAR \n")
 
 runPaths['workspace'] = runPaths['home'] + 'workspace/'
 runPaths['PLACEANDROUTE'] = runPaths['workspace'] + "innovus/"
-runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'xterm -e innovus -files ../../innovus/backend.tcl \''
+#runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'xterm -e innovus -files ../../innovus/backend.tcl \''
 #runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'qinnovus -files ../../innovus/backend.tcl \''
+runCommands['PLACEANDROUTE'] = runCommands['SGE'] + 'innovus -files ../../innovus/backend.tcl \''
+print(runCommands['PLACEANDROUTE'])
               
 os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
 print('showing:' + power + '\n')

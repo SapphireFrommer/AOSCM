@@ -113,9 +113,12 @@ globalNetConnect $design(digital_gnd) -type tielo -pin $tech_files(STANDARD_CELL
 # CTS
 routeDesign
 
-source RUN_ID_NAME.tcl
+#### source RUN_ID_NAME.tcl
 #############example: set timing_report_file timing_report_x1_x3_x4_x1.rpt
-report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net > $design(reports_dir)/timing_reports/$timing_report_file
+####### report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net > $design(reports_dir)/timing_reports/$timing_report_file
+
+report_timing -to [all_outputs ] -format "hpin cell fanout load pin_load wire_load delay slew arrival" -net 
+
 
 
 saveDesign $design(export_dir)/${TOPLEVEL}.post_route.enc -relativePath
@@ -136,7 +139,7 @@ set insertion_delay [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt
 set end_point [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt end] end] end] end] end] end] 1]
 set arrival_time [lindex [lindex [lindex [lindex [lindex [lindex [lindex $rpt end] end] end] end] end] end] end-1]
 set total_delay [expr $arrival_time - $insertion_delay]
-set f [open "$design(innovus_report_dir)/timing_summary.rpt" w]
+set f [open "$design(reports_dir)/timing_summary.rpt" w]
 puts $f "End point: $end_point"
 puts $f "Insertion delay: $insertion_delay"
 puts $f "Arrival time: $arrival_time"

@@ -12,9 +12,13 @@ from standard_cell import *
 ################################################################
 def main():
     scm = {}
+	print('DONE - SCM \n')
     SCM_design(params,scm)
+	print('DONE - SCM_design \n')
     write_verilog_file(params,scm)
+	print('DONE - write verilog \n')
     write_tcl(params,scm)
+	print('DONE - write tcl \n')
 
 ################################################################
 ########################   SCM design   ########################

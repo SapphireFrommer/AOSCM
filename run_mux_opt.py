@@ -26,8 +26,8 @@ runCommands=dict()
 runTimes=dict()
 # ---- Run Paths ---- #
 runPaths=dict()
-#runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
-runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compiler_sf/"
+runPaths['home'] = "/project/test_project/users/frommes/ws/scm_compiler_sf/"
+#runPaths['home'] = "/project/test_project/users/marinbh/ws/zevel/sapir/scm_compiler_sf/"
 
 # ---- Run Commands ---- #
 runCommands['SGE']='qrsh -V -cwd \' '
@@ -50,6 +50,8 @@ for i in range(level_var**level):
     temp = int(temp / 6)
   for j in BUFFER_DRIVE_STRENGTH_LIST:
     power = "[" + power + str(j) + "]"
+    #print ('power= ' + power + '\n')
+
 
 
 
@@ -73,7 +75,7 @@ for i in range(level_var**level):
     ###################################################################################
     ##                                RUN SALAMANDRA                                 ##
     ###################################################################################
-    
+    print('START - Salamandra "python3 scm_compiler_salamandra.py"\n')
     runCommands['SALAMANDRA']  = runCommands['SGE']+'python3 scm_compiler_salamandra.py \''
     os.system("cd " + runPaths['home'] + " && "+ runCommands['SALAMANDRA'])
     print('DONE - Salamandra "python3 scm_compiler_salamandra.py"\n')
