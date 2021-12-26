@@ -99,8 +99,6 @@ for line in new_file_lines:
     fout.write(line)
 fout.close()
 print('DONE - modify RUN_ID tcl file \n')
-
-            
     ###################################################################################
     ##                                RUN INNOVUS                                    ##
     ###################################################################################
@@ -116,6 +114,54 @@ print(runCommands['PLACEANDROUTE'])
 os.system("cd " + runPaths['PLACEANDROUTE'] + " && "+ runCommands['PLACEANDROUTE'])
 print('showing:' + power + '\n')
 print('DONE - RUN INNOVUS \n')
+
+###################################################################################
+    ##                          	ADD CURRENT RUN INFO TO SUMMERY                                ##
+    ###################################################################################
+#id name = str(power)
+#width from width.rpt
+fin = open("./width.rpt","r")
+width = fin.readline()
+fin.close()
+#width = 7 #for now
+#delay time = from reports/timing_summary.rpt
+fin = open("./reports/timing_summary.rpt","r")
+delay = fin.readline()
+fin.close()
+#delay = 5 #for now
+
+found = False
+fin = open("./summary.rpt", "r")
+new_file_lines = []
+for line in fin:
+  if (str(power) in line):
+    new_file_lines.append('ID: '+str(power)+'\n')
+    new_file_lines.append('WIDTH: '+str(width)+'\n')
+    new_file_lines.append(str(delay)+'\n')
+    #mark as found
+    found = True
+    #skip the other two lines we override
+    line = next(fin)
+    line = next(fin)
+  else:
+    new_file_lines.append(line)
+    line = next(fin)
+    new_file_lines.append(line)
+    line = next(fin)
+    new_file_lines.append(line)
+#if wasn't found in the file, add it
+if not found:
+  new_file_lines.append('ID: '+str(power)+'\n')
+  new_file_lines.append('WIDTH: '+str(width)+'\n')
+  new_file_lines.append('DELAY TIME: '+str(delay)+'\n')
+      
+
+fin.close()
+fout = open("./summary.rpt", "w")
+for line in new_file_lines:
+    fout.write(line)
+fout.close() 
             
  
 exit()
+
